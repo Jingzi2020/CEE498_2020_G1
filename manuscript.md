@@ -45,8 +45,6 @@ header-includes: '<!--
 
   <meta name="citation_author_orcid" content="86-13522264917" />
 
-  <meta name="twitter:creator" content="@NaN" />
-
   <meta name="citation_author" content="Jane Roe" />
 
   <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
@@ -67,11 +65,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/410dec6c346126e95dd3ca2ed7dbc6cf38d430e6/" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/3e0c6dc79d11752086eb1a68cf32dd979902db5f/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/410dec6c346126e95dd3ca2ed7dbc6cf38d430e6/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/3e0c6dc79d11752086eb1a68cf32dd979902db5f/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/410dec6c346126e95dd3ca2ed7dbc6cf38d430e6/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/3e0c6dc79d11752086eb1a68cf32dd979902db5f/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -103,9 +101,9 @@ title: The Models of London Bike Sharing Prediction
 
 <small><em>
 This manuscript
-([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/410dec6c346126e95dd3ca2ed7dbc6cf38d430e6/))
+([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/3e0c6dc79d11752086eb1a68cf32dd979902db5f/))
 was automatically generated
-from [Jingzi2020/CEE498_2020_G1@410dec6](https://github.com/Jingzi2020/CEE498_2020_G1/tree/410dec6c346126e95dd3ca2ed7dbc6cf38d430e6)
+from [Jingzi2020/CEE498_2020_G1@3e0c6dc](https://github.com/Jingzi2020/CEE498_2020_G1/tree/3e0c6dc79d11752086eb1a68cf32dd979902db5f)
 on November 23, 2020.
 </em></small>
 
@@ -117,9 +115,7 @@ on November 23, 2020.
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [86-13522264917](https://orcid.org/86-13522264917)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [Jingzi2020](https://github.com/Jingzi2020)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
-    [NaN](https://twitter.com/NaN)<br>
+    [Jingzi2020](https://github.com/Jingzi2020)<br>
   <small>
      Grainger College of Engineering, University of Illinois at Urbana-Champaign
   </small>
