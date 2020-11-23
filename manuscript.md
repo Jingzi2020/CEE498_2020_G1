@@ -1,6 +1,6 @@
 ---
 author-meta:
-- John Doe
+- A
 - Jane Roe
 bibliography:
 - content/manual-references.json
@@ -39,7 +39,7 @@ header-includes: '<!--
 
   <meta name="citation_technical_report_institution" content="Manubot" />
 
-  <meta name="citation_author" content="John Doe" />
+  <meta name="citation_author" content="A" />
 
   <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
 
@@ -67,11 +67,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/4c4fb251c2a61ed925040c90e96fda482e0fed83/" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/5d8f6ddfe4728f560ebe8b3626fd40c49534575b/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/4c4fb251c2a61ed925040c90e96fda482e0fed83/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/5d8f6ddfe4728f560ebe8b3626fd40c49534575b/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/4c4fb251c2a61ed925040c90e96fda482e0fed83/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/5d8f6ddfe4728f560ebe8b3626fd40c49534575b/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -103,9 +103,9 @@ title: Temp Title
 
 <small><em>
 This manuscript
-([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/4c4fb251c2a61ed925040c90e96fda482e0fed83/))
+([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/5d8f6ddfe4728f560ebe8b3626fd40c49534575b/))
 was automatically generated
-from [Jingzi2020/CEE498_2020_G1@4c4fb25](https://github.com/Jingzi2020/CEE498_2020_G1/tree/4c4fb251c2a61ed925040c90e96fda482e0fed83)
+from [Jingzi2020/CEE498_2020_G1@5d8f6dd](https://github.com/Jingzi2020/CEE498_2020_G1/tree/5d8f6ddfe4728f560ebe8b3626fd40c49534575b)
 on November 23, 2020.
 </em></small>
 
@@ -113,11 +113,11 @@ on November 23, 2020.
 
 
 
-+ **John Doe**<br>
++ **A**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [johndoe](https://github.com/johndoe)
+    [A](https://github.com/A)
     · ![Twitter icon](images/twitter.svg){.inline_icon}
     [johndoe](https://twitter.com/johndoe)<br>
   <small>
