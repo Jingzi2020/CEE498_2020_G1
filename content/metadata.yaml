@@ -1,21 +1,20 @@
 ---
-title: "Temp Title"
+title: "The Models of London Bike Sharing Prediction"
 keywords:
-  - markdown
-  - publishing
-  - manubot
+  - Neural Network
+  - Transportation
+  - Bike Sharing
 lang: en-US
 authors:
-  - github: A
-    name: A
-    initials: A
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
-    email: john.doe@something.com
+  - github: Jingzi2020
+    name: Jingzi Chen
+    initials: Jingzi2020
+    orcid: 86-13522264917
+    twitter: NaN
+    email: jingzic2@illinois.edu
     affiliations:
-      - Department of Something, University of Whatever
-    funders:
-      - Grant XXXXXXXX
+      - Grainger College of Engineering, University of Illinois at Urbana-Champaign
+
   - github: janeroe
     name: Jane Roe
     initials: JR
