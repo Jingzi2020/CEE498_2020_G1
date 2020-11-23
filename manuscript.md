@@ -1,6 +1,6 @@
 ---
 author-meta:
-- A
+- Jingzi Chen
 - Jane Roe
 bibliography:
 - content/manual-references.json
@@ -15,13 +15,13 @@ header-includes: '<!--
 
   <meta name="dc.format" content="text/html" />
 
-  <meta name="dc.title" content="Temp Title" />
+  <meta name="dc.title" content="The Models of London Bike Sharing Prediction" />
 
-  <meta name="citation_title" content="Temp Title" />
+  <meta name="citation_title" content="The Models of London Bike Sharing Prediction" />
 
-  <meta property="og:title" content="Temp Title" />
+  <meta property="og:title" content="The Models of London Bike Sharing Prediction" />
 
-  <meta property="twitter:title" content="Temp Title" />
+  <meta property="twitter:title" content="The Models of London Bike Sharing Prediction" />
 
   <meta name="dc.date" content="2020-11-23" />
 
@@ -39,13 +39,13 @@ header-includes: '<!--
 
   <meta name="citation_technical_report_institution" content="Manubot" />
 
-  <meta name="citation_author" content="A" />
+  <meta name="citation_author" content="Jingzi Chen" />
 
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
+  <meta name="citation_author_institution" content="Grainger College of Engineering, University of Illinois at Urbana-Champaign" />
 
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author_orcid" content="86-13522264917" />
 
-  <meta name="twitter:creator" content="@johndoe" />
+  <meta name="twitter:creator" content="@NaN" />
 
   <meta name="citation_author" content="Jane Roe" />
 
@@ -67,11 +67,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/5d8f6ddfe4728f560ebe8b3626fd40c49534575b/" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/5173a846d3a4904206030492c0ed23a6ed1dee47/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/5d8f6ddfe4728f560ebe8b3626fd40c49534575b/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/5173a846d3a4904206030492c0ed23a6ed1dee47/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/5d8f6ddfe4728f560ebe8b3626fd40c49534575b/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/5173a846d3a4904206030492c0ed23a6ed1dee47/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -85,15 +85,15 @@ header-includes: '<!--
 
   <!-- end Manubot generated metadata -->'
 keywords:
-- markdown
-- publishing
-- manubot
+- Neural Network
+- Transportation
+- Bike Sharing
 lang: en-US
 manubot-clear-requests-cache: false
 manubot-output-bibliography: output/references.json
 manubot-output-citekeys: output/citations.tsv
 manubot-requests-cache-path: ci/cache/requests-cache
-title: Temp Title
+title: The Models of London Bike Sharing Prediction
 ...
 
 
@@ -103,9 +103,9 @@ title: Temp Title
 
 <small><em>
 This manuscript
-([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/5d8f6ddfe4728f560ebe8b3626fd40c49534575b/))
+([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/5173a846d3a4904206030492c0ed23a6ed1dee47/))
 was automatically generated
-from [Jingzi2020/CEE498_2020_G1@5d8f6dd](https://github.com/Jingzi2020/CEE498_2020_G1/tree/5d8f6ddfe4728f560ebe8b3626fd40c49534575b)
+from [Jingzi2020/CEE498_2020_G1@5173a84](https://github.com/Jingzi2020/CEE498_2020_G1/tree/5173a846d3a4904206030492c0ed23a6ed1dee47)
 on November 23, 2020.
 </em></small>
 
@@ -113,16 +113,15 @@ on November 23, 2020.
 
 
 
-+ **A**<br>
++ **Jingzi Chen**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    [86-13522264917](https://orcid.org/86-13522264917)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [A](https://github.com/A)
+    [Jingzi2020](https://github.com/Jingzi2020)
     · ![Twitter icon](images/twitter.svg){.inline_icon}
-    [johndoe](https://twitter.com/johndoe)<br>
+    [NaN](https://twitter.com/NaN)<br>
   <small>
-     Department of Something, University of Whatever
-     · Funded by Grant XXXXXXXX
+     Grainger College of Engineering, University of Illinois at Urbana-Champaign
   </small>
 
 + **Jane Roe**<br>
