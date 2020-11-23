@@ -15,13 +15,13 @@ header-includes: '<!--
 
   <meta name="dc.format" content="text/html" />
 
-  <meta name="dc.title" content="Manuscript Title" />
+  <meta name="dc.title" content="Temp Title" />
 
-  <meta name="citation_title" content="Manuscript Title" />
+  <meta name="citation_title" content="Temp Title" />
 
-  <meta property="og:title" content="Manuscript Title" />
+  <meta property="og:title" content="Temp Title" />
 
-  <meta property="twitter:title" content="Manuscript Title" />
+  <meta property="twitter:title" content="Temp Title" />
 
   <meta name="dc.date" content="2020-11-23" />
 
@@ -67,11 +67,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/97b294802ffcd39071b6e5b8ab59f60faf4be118/" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/4c4fb251c2a61ed925040c90e96fda482e0fed83/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/97b294802ffcd39071b6e5b8ab59f60faf4be118/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/4c4fb251c2a61ed925040c90e96fda482e0fed83/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/97b294802ffcd39071b6e5b8ab59f60faf4be118/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/4c4fb251c2a61ed925040c90e96fda482e0fed83/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -93,7 +93,7 @@ manubot-clear-requests-cache: false
 manubot-output-bibliography: output/references.json
 manubot-output-citekeys: output/citations.tsv
 manubot-requests-cache-path: ci/cache/requests-cache
-title: Manuscript Title
+title: Temp Title
 ...
 
 
@@ -103,9 +103,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/97b294802ffcd39071b6e5b8ab59f60faf4be118/))
+([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/4c4fb251c2a61ed925040c90e96fda482e0fed83/))
 was automatically generated
-from [Jingzi2020/CEE498_2020_G1@97b2948](https://github.com/Jingzi2020/CEE498_2020_G1/tree/97b294802ffcd39071b6e5b8ab59f60faf4be118)
+from [Jingzi2020/CEE498_2020_G1@4c4fb25](https://github.com/Jingzi2020/CEE498_2020_G1/tree/4c4fb251c2a61ed925040c90e96fda482e0fed83)
 on November 23, 2020.
 </em></small>
 
