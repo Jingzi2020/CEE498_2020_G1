@@ -65,11 +65,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/3e0c6dc79d11752086eb1a68cf32dd979902db5f/" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/6743dc905cc40139e08cc22d731a041e15bac0be/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/3e0c6dc79d11752086eb1a68cf32dd979902db5f/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/6743dc905cc40139e08cc22d731a041e15bac0be/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/3e0c6dc79d11752086eb1a68cf32dd979902db5f/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/6743dc905cc40139e08cc22d731a041e15bac0be/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -101,9 +101,9 @@ title: The Models of London Bike Sharing Prediction
 
 <small><em>
 This manuscript
-([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/3e0c6dc79d11752086eb1a68cf32dd979902db5f/))
+([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/6743dc905cc40139e08cc22d731a041e15bac0be/))
 was automatically generated
-from [Jingzi2020/CEE498_2020_G1@3e0c6dc](https://github.com/Jingzi2020/CEE498_2020_G1/tree/3e0c6dc79d11752086eb1a68cf32dd979902db5f)
+from [Jingzi2020/CEE498_2020_G1@6743dc9](https://github.com/Jingzi2020/CEE498_2020_G1/tree/6743dc905cc40139e08cc22d731a041e15bac0be)
 on November 23, 2020.
 </em></small>
 
@@ -142,7 +142,7 @@ Use this template as a starting point for your manuscript.
 The rest of this document is a full list of formatting elements/features supported by Manubot.
 Compare the input (`.md` files in the `/content` directory) to the output you see below.
 
-## Data Processing
+## Introduction
 
 **Bold** __text__
 
@@ -189,13 +189,7 @@ Putting each sentence on its own line has numerous benefits with regard to [edit
 Line break without starting a new paragraph by putting  
 two spaces at end of line.
 
-## Document organization
 
-Document section headings:
-
-# Heading 1
-
-## Heading 2
 
 ### Heading 3
 
@@ -211,15 +205,13 @@ Document section headings:
 
 Horizontal rule:
 
----
 
-`Heading 1`'s are recommended to be reserved for the title of the manuscript.
 
 `Heading 2`'s are recommended for broad sections such as *Abstract*, *Methods*, *Conclusion*, etc.
 
 `Heading 3`'s and `Heading 4`'s are recommended for sub-sections.
 
-## Links
+### Links
 
 Bare URL link: <https://manubot.org>
 
@@ -233,7 +225,7 @@ Bare URL link: <https://manubot.org>
 
 [Manubot Homepage]: https://manubot.org
 
-## Citations
+### Citations
 
 Citation by DOI [@doi:10.7554/eLife.32822].
 
@@ -256,7 +248,7 @@ Citation tags (i.e. aliases) can be defined in their own paragraphs using Markdo
 
 [@deep-review]: doi:10.1098/rsif.2017.0387
 
-## Referencing figures, tables, equations
+### Referencing figures, tables, equations
 
 Figure @fig:square-image
 
@@ -272,7 +264,7 @@ Equation @eq:regular-equation
 
 Equation @eq:long-equation
 
-## Quotes and code
+### Quotes and code
 
 > Quoted text
 
@@ -303,7 +295,7 @@ Exporting DOCX manuscript
 Exporting PDF manuscript
 ```
 
-## Figures
+### Figures
 
 ![
 **A square image at actual size and with a bottom caption.**
@@ -326,7 +318,7 @@ The parameter `sanitize=true` is necessary to properly load SVGs hosted via GitH
 White background specified to serve as a backdrop for transparent sections of the image.
 ](https://raw.githubusercontent.com/manubot/resources/master/test/vector.svg?sanitize=true "Vector image"){#fig:vector-image height=2.5in .white}
 
-## Tables
+### Tables
 
 | *Bowling Scores* | Jane          | John          | Alice         | Bob           |
 |:-----------------|:-------------:|:-------------:|:-------------:|:-------------:|
@@ -354,7 +346,7 @@ Table: A table too wide to fit within page.
 Table: A table with merged cells using the `attributes` plugin.
 {#tbl: merged-cells}
 
-## Equations
+### Equations
 
 A LaTeX equation:
 
@@ -364,7 +356,7 @@ An equation too long to fit within page:
 
 $$x = a + b + c + d + e + f + g + h + i + j + k + l + m + n + o + p + q + r + s + t + u + v + w + x + y + z + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9$$ {#eq:long-equation}
 
-## Special
+### Special
 
 <i class="fas fa-exclamation-triangle"></i> [WARNING]{.semibold} _The following features are only supported and intended for `.html` and `.pdf` exports._
 _Journals are not likely to support them, and they may not display correctly when converted to other formats such as `.docx`._
