@@ -67,11 +67,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/5173a846d3a4904206030492c0ed23a6ed1dee47/" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/410dec6c346126e95dd3ca2ed7dbc6cf38d430e6/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/5173a846d3a4904206030492c0ed23a6ed1dee47/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/410dec6c346126e95dd3ca2ed7dbc6cf38d430e6/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/5173a846d3a4904206030492c0ed23a6ed1dee47/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/410dec6c346126e95dd3ca2ed7dbc6cf38d430e6/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -103,9 +103,9 @@ title: The Models of London Bike Sharing Prediction
 
 <small><em>
 This manuscript
-([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/5173a846d3a4904206030492c0ed23a6ed1dee47/))
+([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/410dec6c346126e95dd3ca2ed7dbc6cf38d430e6/))
 was automatically generated
-from [Jingzi2020/CEE498_2020_G1@5173a84](https://github.com/Jingzi2020/CEE498_2020_G1/tree/5173a846d3a4904206030492c0ed23a6ed1dee47)
+from [Jingzi2020/CEE498_2020_G1@410dec6](https://github.com/Jingzi2020/CEE498_2020_G1/tree/410dec6c346126e95dd3ca2ed7dbc6cf38d430e6)
 on November 23, 2020.
 </em></small>
 
@@ -146,7 +146,7 @@ Use this template as a starting point for your manuscript.
 The rest of this document is a full list of formatting elements/features supported by Manubot.
 Compare the input (`.md` files in the `/content` directory) to the output you see below.
 
-## Basic formatting
+## Data Processing
 
 **Bold** __text__
 
