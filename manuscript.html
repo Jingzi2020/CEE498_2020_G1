@@ -5,8 +5,9 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Jingzi Chen" />
+  <meta name="author" content="Anye Wang" />
   <meta name="author" content="Jane Roe" />
-  <meta name="dcterms.date" content="2020-11-23" />
+  <meta name="dcterms.date" content="2020-12-05" />
   <meta name="keywords" content="Neural Network, Transportation, Bike Sharing" />
   <title>The Models of London Bike Sharing Prediction</title>
   <style>
@@ -91,8 +92,8 @@
   <meta name="citation_title" content="The Models of London Bike Sharing Prediction" />
   <meta property="og:title" content="The Models of London Bike Sharing Prediction" />
   <meta property="twitter:title" content="The Models of London Bike Sharing Prediction" />
-  <meta name="dc.date" content="2020-11-23" />
-  <meta name="citation_publication_date" content="2020-11-23" />
+  <meta name="dc.date" content="2020-12-05" />
+  <meta name="citation_publication_date" content="2020-12-05" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -102,6 +103,9 @@
   <meta name="citation_author" content="Jingzi Chen" />
   <meta name="citation_author_institution" content="Grainger College of Engineering, University of Illinois at Urbana-Champaign" />
   <meta name="citation_author_orcid" content="86-13522264917" />
+  <meta name="citation_author" content="Anye Wang" />
+  <meta name="citation_author_institution" content="Grainger College of Engineering, University of Illinois at Urbana-Champaign, Civil Engineering - Construction Management" />
+  <meta name="citation_author_orcid" content="15409980880" />
   <meta name="citation_author" content="Jane Roe" />
   <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
   <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
@@ -112,9 +116,9 @@
   <meta name="citation_fulltext_html_url" content="https://Jingzi2020.github.io/CEE498_2020_G1/" />
   <meta name="citation_pdf_url" content="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/f9006c8937b7cdfd17ae75dd0c4c8a2915bbc882/" />
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/f9006c8937b7cdfd17ae75dd0c4c8a2915bbc882/" />
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/f9006c8937b7cdfd17ae75dd0c4c8a2915bbc882/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/8de665112585ddf33372e670f8157dbf68427415/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/8de665112585ddf33372e670f8157dbf68427415/" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/8de665112585ddf33372e670f8157dbf68427415/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -135,10 +139,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://Jingzi2020.github.io/CEE498_2020_G1/v/f9006c8937b7cdfd17ae75dd0c4c8a2915bbc882/">permalink</a>)
+(<a href="https://Jingzi2020.github.io/CEE498_2020_G1/v/8de665112585ddf33372e670f8157dbf68427415/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/Jingzi2020/CEE498_2020_G1/tree/f9006c8937b7cdfd17ae75dd0c4c8a2915bbc882">Jingzi2020/CEE498_2020_G1@f9006c8</a>
-on November 23, 2020.
+from <a href="https://github.com/Jingzi2020/CEE498_2020_G1/tree/8de665112585ddf33372e670f8157dbf68427415">Jingzi2020/CEE498_2020_G1@8de6651</a>
+on December 5, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -149,6 +153,14 @@ on November 23, 2020.
 <a href="https://github.com/Jingzi2020">Jingzi2020</a><br>
 <small>
 Grainger College of Engineering, University of Illinois at Urbana-Champaign
+</small></p></li>
+<li><p><strong>Anye Wang</strong><br>
+<img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" />
+<a href="https://orcid.org/15409980880">15409980880</a>
+· <img src="images/github.svg" class="inline_icon" alt="GitHub icon" />
+<a href="https://github.com/wanganye123">wanganye123</a><br>
+<small>
+Grainger College of Engineering, University of Illinois at Urbana-Champaign, Civil Engineering - Construction Management
 </small></p></li>
 <li><p><strong>Jane Roe</strong><br>
 <img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" />
@@ -363,7 +375,7 @@ White background specified to serve as a backdrop for transparent sections of th
 </tbody>
 </table>
 </div>
-<div id="tbl:fe4a122c-d471-47eb-9593-9f2a075791e8" class="tablenos">
+<div id="tbl:c4ad4383-5b3b-4222-8e03-4670d3c8aa4e" class="tablenos">
 <table>
 <caption><span>Table 3:</span> A table with merged cells using the <code>attributes</code> plugin.
 </caption>
@@ -647,7 +659,7 @@ White background specified to serve as a backdrop for transparent sections of th
 </tbody>
 </table>
 </div>
-<div id="tbl:a690ccc9-c6ad-4d87-9e7f-08df7dd2f7b6" class="tablenos">
+<div id="tbl:2e97a887-b714-402e-a755-12a5eaae153d" class="tablenos">
 <table>
 <caption><span>Table 6:</span> A table with merged cells using the <code>attributes</code> plugin.
 </caption>
@@ -931,7 +943,7 @@ White background specified to serve as a backdrop for transparent sections of th
 </tbody>
 </table>
 </div>
-<div id="tbl:bc25b8f1-38fe-4cee-9772-d63c898c5a7d" class="tablenos">
+<div id="tbl:396d8471-6ac9-4084-adf7-2b55c87771ba" class="tablenos">
 <table>
 <caption><span>Table 9:</span> A table with merged cells using the <code>attributes</code> plugin.
 </caption>
@@ -1215,7 +1227,7 @@ White background specified to serve as a backdrop for transparent sections of th
 </tbody>
 </table>
 </div>
-<div id="tbl:1514ca37-e4be-48c4-a3dc-3e1be3efa513" class="tablenos">
+<div id="tbl:eef8a2bf-f2d9-471c-aa0b-a82c44cc1210" class="tablenos">
 <table>
 <caption><span>Table 12:</span> A table with merged cells using the <code>attributes</code> plugin.
 </caption>
@@ -1499,7 +1511,7 @@ White background specified to serve as a backdrop for transparent sections of th
 </tbody>
 </table>
 </div>
-<div id="tbl:0883c0f3-92da-4770-b497-c7b4b45ff795" class="tablenos">
+<div id="tbl:500e6137-1147-4ffc-8fc2-a17234fc9c35" class="tablenos">
 <table>
 <caption><span>Table 15:</span> A table with merged cells using the <code>attributes</code> plugin.
 </caption>
@@ -1783,7 +1795,7 @@ White background specified to serve as a backdrop for transparent sections of th
 </tbody>
 </table>
 </div>
-<div id="tbl:758d449d-0759-4f35-a6a9-2d9f9695cbf9" class="tablenos">
+<div id="tbl:b7e18263-592b-4322-8e7c-6a1a9b771bfc" class="tablenos">
 <table>
 <caption><span>Table 18:</span> A table with merged cells using the <code>attributes</code> plugin.
 </caption>

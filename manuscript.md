@@ -1,10 +1,11 @@
 ---
 author-meta:
 - Jingzi Chen
+- Anye Wang
 - Jane Roe
 bibliography:
 - content/manual-references.json
-date-meta: '2020-11-23'
+date-meta: '2020-12-05'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -23,9 +24,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="The Models of London Bike Sharing Prediction" />
 
-  <meta name="dc.date" content="2020-11-23" />
+  <meta name="dc.date" content="2020-12-05" />
 
-  <meta name="citation_publication_date" content="2020-11-23" />
+  <meta name="citation_publication_date" content="2020-12-05" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -44,6 +45,12 @@ header-includes: '<!--
   <meta name="citation_author_institution" content="Grainger College of Engineering, University of Illinois at Urbana-Champaign" />
 
   <meta name="citation_author_orcid" content="86-13522264917" />
+
+  <meta name="citation_author" content="Anye Wang" />
+
+  <meta name="citation_author_institution" content="Grainger College of Engineering, University of Illinois at Urbana-Champaign, Civil Engineering - Construction Management" />
+
+  <meta name="citation_author_orcid" content="15409980880" />
 
   <meta name="citation_author" content="Jane Roe" />
 
@@ -65,11 +72,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/f9006c8937b7cdfd17ae75dd0c4c8a2915bbc882/" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/8de665112585ddf33372e670f8157dbf68427415/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/f9006c8937b7cdfd17ae75dd0c4c8a2915bbc882/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/8de665112585ddf33372e670f8157dbf68427415/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/f9006c8937b7cdfd17ae75dd0c4c8a2915bbc882/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/8de665112585ddf33372e670f8157dbf68427415/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -101,10 +108,10 @@ title: The Models of London Bike Sharing Prediction
 
 <small><em>
 This manuscript
-([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/f9006c8937b7cdfd17ae75dd0c4c8a2915bbc882/))
+([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/8de665112585ddf33372e670f8157dbf68427415/))
 was automatically generated
-from [Jingzi2020/CEE498_2020_G1@f9006c8](https://github.com/Jingzi2020/CEE498_2020_G1/tree/f9006c8937b7cdfd17ae75dd0c4c8a2915bbc882)
-on November 23, 2020.
+from [Jingzi2020/CEE498_2020_G1@8de6651](https://github.com/Jingzi2020/CEE498_2020_G1/tree/8de665112585ddf33372e670f8157dbf68427415)
+on December 5, 2020.
 </em></small>
 
 ## Authors
@@ -118,6 +125,15 @@ on November 23, 2020.
     [Jingzi2020](https://github.com/Jingzi2020)<br>
   <small>
      Grainger College of Engineering, University of Illinois at Urbana-Champaign
+  </small>
+
++ **Anye Wang**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [15409980880](https://orcid.org/15409980880)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [wanganye123](https://github.com/wanganye123)<br>
+  <small>
+     Grainger College of Engineering, University of Illinois at Urbana-Champaign, Civil Engineering - Construction Management
   </small>
 
 + **Jane Roe**<br>
