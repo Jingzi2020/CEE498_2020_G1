@@ -70,11 +70,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/5c11e90111067b94e1969ab161f7ca627c9f8e1c/" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/57ee4e970e448045fcc656a510e76dd493ea56d8/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/5c11e90111067b94e1969ab161f7ca627c9f8e1c/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/57ee4e970e448045fcc656a510e76dd493ea56d8/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/5c11e90111067b94e1969ab161f7ca627c9f8e1c/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/57ee4e970e448045fcc656a510e76dd493ea56d8/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -106,9 +106,9 @@ title: The Models of London Bike Sharing Prediction
 
 <small><em>
 This manuscript
-([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/5c11e90111067b94e1969ab161f7ca627c9f8e1c/))
+([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/57ee4e970e448045fcc656a510e76dd493ea56d8/))
 was automatically generated
-from [Jingzi2020/CEE498_2020_G1@5c11e90](https://github.com/Jingzi2020/CEE498_2020_G1/tree/5c11e90111067b94e1969ab161f7ca627c9f8e1c)
+from [Jingzi2020/CEE498_2020_G1@57ee4e9](https://github.com/Jingzi2020/CEE498_2020_G1/tree/57ee4e970e448045fcc656a510e76dd493ea56d8)
 on December 6, 2020.
 </em></small>
 
@@ -355,6 +355,8 @@ We used different features, epochs, hidden layers, units and learning rates in t
 The evaluation of the models’ performances are based on the root mean squared error(RMSE) between the test data and predictions. The equation of RMSE is shown in equation @eq:rmse .
 
 $$ RMSE = \sqrt{\frac{1}{n}\Sigma_{i=1}^{n}{(observed_i - predicted_i)^2}}$$ {#eq:rmse}
+
+In equation @eq:rmse, “n” is the number of predictions. “observed_i” and “predicted_i” is the observed cnt and the predicted cnt at each group of features. Thus, RMSE represents the differences between observations and predictions.
 
 ### Sensitivity Analysis
 

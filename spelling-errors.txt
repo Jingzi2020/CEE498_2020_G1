@@ -4,7 +4,7 @@ aliquip
 amet
 anim
 Anyang
-anye
+Anye
 Anye’s
 APSO
 Ashqar
@@ -81,7 +81,7 @@ quis
 Rakha
 rebalancing
 reprehenderit
-RMSE
+rmse
 scatterplots
 sed
 sint
