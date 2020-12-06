@@ -46,84 +46,96 @@ content/04.Data Analysis.md:25:interdependencies
 content/04.Data Analysis.md:25:multicollinearity
 content/04.Data Analysis.md:28:EDA
 content/04.Data Analysis.md:30:Scatterplots
-content/04.Data Analysis.md:33:linearily
-content/04.Data Analysis.md:36:cnt
-content/04.Data Analysis.md:37:cnt
-content/04.Data Analysis.md:38:Cnt
-content/04.Data Analysis.md:39:Cnt
+content/04.Data Analysis.md:35:linearily
+content/04.Data Analysis.md:38:cnt
+content/04.Data Analysis.md:39:cnt
 content/04.Data Analysis.md:40:Cnt
 content/04.Data Analysis.md:41:Cnt
 content/04.Data Analysis.md:42:Cnt
-content/04.Data Analysis.md:43:cnt
+content/04.Data Analysis.md:43:Cnt
 content/04.Data Analysis.md:44:Cnt
-content/04.Data Analysis.md:46:EDA
-content/04.Data Analysis.md:46:hypthesis
-content/04.Data Analysis.md:48:Boxplots
-content/04.Data Analysis.md:51:boxplot
-content/04.Data Analysis.md:51:boxplot
-content/04.Data Analysis.md:51:cnt
-content/04.Data Analysis.md:51:ditribution
-content/04.Data Analysis.md:55:cnt
-content/04.Data Analysis.md:55:cnt
-content/04.Data Analysis.md:56:cnt
-content/04.Data Analysis.md:57:cnt
-content/04.Data Analysis.md:62:boxplots
-content/04.Data Analysis.md:106:adipiscing
-content/04.Data Analysis.md:106:aliqua
-content/04.Data Analysis.md:106:amet
-content/04.Data Analysis.md:106:consectetur
-content/04.Data Analysis.md:106:dolore
-content/04.Data Analysis.md:106:eiusmod
-content/04.Data Analysis.md:106:elit
-content/04.Data Analysis.md:106:incididunt
-content/04.Data Analysis.md:106:ipsum
-content/04.Data Analysis.md:106:labore
-content/04.Data Analysis.md:106:Lorem
-content/04.Data Analysis.md:106:magna
-content/04.Data Analysis.md:106:sed
-content/04.Data Analysis.md:106:tempor
-content/04.Data Analysis.md:107:aliquip
-content/04.Data Analysis.md:107:commodo
-content/04.Data Analysis.md:107:consequat
-content/04.Data Analysis.md:107:enim
-content/04.Data Analysis.md:107:exercitation
-content/04.Data Analysis.md:107:laboris
-content/04.Data Analysis.md:107:nisi
-content/04.Data Analysis.md:107:nostrud
-content/04.Data Analysis.md:107:quis
-content/04.Data Analysis.md:107:ullamco
-content/04.Data Analysis.md:107:veniam
-content/04.Data Analysis.md:108:aute
-content/04.Data Analysis.md:108:cillum
-content/04.Data Analysis.md:108:dolore
-content/04.Data Analysis.md:108:Duis
-content/04.Data Analysis.md:108:esse
-content/04.Data Analysis.md:108:fugiat
-content/04.Data Analysis.md:108:irure
-content/04.Data Analysis.md:108:nulla
-content/04.Data Analysis.md:108:pariatur
-content/04.Data Analysis.md:108:reprehenderit
-content/04.Data Analysis.md:108:velit
-content/04.Data Analysis.md:108:voluptate
-content/04.Data Analysis.md:109:anim
-content/04.Data Analysis.md:109:culpa
-content/04.Data Analysis.md:109:cupidatat
-content/04.Data Analysis.md:109:deserunt
-content/04.Data Analysis.md:109:Excepteur
-content/04.Data Analysis.md:109:laborum
-content/04.Data Analysis.md:109:mollit
-content/04.Data Analysis.md:109:occaecat
-content/04.Data Analysis.md:109:officia
-content/04.Data Analysis.md:109:proident
-content/04.Data Analysis.md:109:qui
-content/04.Data Analysis.md:109:sint
-content/04.Data Analysis.md:109:sunt
-content/04.Data Analysis.md:289:Pandoc's
-content/04.Data Analysis.md:299:Pandoc's
+content/04.Data Analysis.md:45:cnt
+content/04.Data Analysis.md:46:Cnt
+content/04.Data Analysis.md:48:EDA
+content/04.Data Analysis.md:48:hypthesis
+content/04.Data Analysis.md:50:Boxplots
+content/04.Data Analysis.md:55:Boxplots
+content/04.Data Analysis.md:55:Boxplots
+content/04.Data Analysis.md:58:boxplot
+content/04.Data Analysis.md:58:boxplot
+content/04.Data Analysis.md:58:cnt
+content/04.Data Analysis.md:58:ditribution
+content/04.Data Analysis.md:62:cnt
+content/04.Data Analysis.md:62:cnt
+content/04.Data Analysis.md:63:cnt
+content/04.Data Analysis.md:64:cnt
+content/04.Data Analysis.md:75:boxplots
+content/04.Data Analysis.md:87:cnt
+content/04.Data Analysis.md:87:cnt
+content/04.Data Analysis.md:87:datapoints
+content/04.Data Analysis.md:87:teh
+content/04.Data Analysis.md:98:cnt
+content/04.Data Analysis.md:99:cnt
+content/04.Data Analysis.md:100:cnt
+content/04.Data Analysis.md:108:cnt
+content/04.Data Analysis.md:111:boxplots
+content/04.Data Analysis.md:111:scatterplots
+content/04.Data Analysis.md:111:unimodal
+content/04.Data Analysis.md:153:adipiscing
+content/04.Data Analysis.md:153:aliqua
+content/04.Data Analysis.md:153:amet
+content/04.Data Analysis.md:153:consectetur
+content/04.Data Analysis.md:153:dolore
+content/04.Data Analysis.md:153:eiusmod
+content/04.Data Analysis.md:153:elit
+content/04.Data Analysis.md:153:incididunt
+content/04.Data Analysis.md:153:ipsum
+content/04.Data Analysis.md:153:labore
+content/04.Data Analysis.md:153:Lorem
+content/04.Data Analysis.md:153:magna
+content/04.Data Analysis.md:153:sed
+content/04.Data Analysis.md:153:tempor
+content/04.Data Analysis.md:154:aliquip
+content/04.Data Analysis.md:154:commodo
+content/04.Data Analysis.md:154:consequat
+content/04.Data Analysis.md:154:enim
+content/04.Data Analysis.md:154:exercitation
+content/04.Data Analysis.md:154:laboris
+content/04.Data Analysis.md:154:nisi
+content/04.Data Analysis.md:154:nostrud
+content/04.Data Analysis.md:154:quis
+content/04.Data Analysis.md:154:ullamco
+content/04.Data Analysis.md:154:veniam
+content/04.Data Analysis.md:155:aute
+content/04.Data Analysis.md:155:cillum
+content/04.Data Analysis.md:155:dolore
+content/04.Data Analysis.md:155:Duis
+content/04.Data Analysis.md:155:esse
+content/04.Data Analysis.md:155:fugiat
+content/04.Data Analysis.md:155:irure
+content/04.Data Analysis.md:155:nulla
+content/04.Data Analysis.md:155:pariatur
+content/04.Data Analysis.md:155:reprehenderit
+content/04.Data Analysis.md:155:velit
+content/04.Data Analysis.md:155:voluptate
+content/04.Data Analysis.md:156:anim
+content/04.Data Analysis.md:156:culpa
+content/04.Data Analysis.md:156:cupidatat
+content/04.Data Analysis.md:156:deserunt
+content/04.Data Analysis.md:156:Excepteur
+content/04.Data Analysis.md:156:laborum
+content/04.Data Analysis.md:156:mollit
+content/04.Data Analysis.md:156:occaecat
+content/04.Data Analysis.md:156:officia
+content/04.Data Analysis.md:156:proident
+content/04.Data Analysis.md:156:qui
+content/04.Data Analysis.md:156:sint
+content/04.Data Analysis.md:156:sunt
+content/04.Data Analysis.md:336:Pandoc's
+content/04.Data Analysis.md:346:Pandoc's
 content/05.Model.md:16:preprocessing
 content/05.Model.md:20:anye
 content/05.Model.md:20:jingzi
-content/05.Model.md:20:RMSE
 content/05.Model.md:22:jingzi
 content/05.Model.md:22:Jingzi
 content/05.Model.md:22:Jingzi
@@ -132,59 +144,64 @@ content/05.Model.md:24:anye
 content/05.Model.md:24:Anye
 content/05.Model.md:24:Anye
 content/05.Model.md:24:Anye’s
-content/05.Model.md:32:RMSE
-content/05.Model.md:69:adipiscing
-content/05.Model.md:69:aliqua
-content/05.Model.md:69:amet
-content/05.Model.md:69:consectetur
-content/05.Model.md:69:dolore
-content/05.Model.md:69:eiusmod
-content/05.Model.md:69:elit
-content/05.Model.md:69:incididunt
-content/05.Model.md:69:ipsum
-content/05.Model.md:69:labore
-content/05.Model.md:69:Lorem
-content/05.Model.md:69:magna
-content/05.Model.md:69:sed
-content/05.Model.md:69:tempor
-content/05.Model.md:70:aliquip
-content/05.Model.md:70:commodo
-content/05.Model.md:70:consequat
-content/05.Model.md:70:enim
-content/05.Model.md:70:exercitation
-content/05.Model.md:70:laboris
-content/05.Model.md:70:nisi
-content/05.Model.md:70:nostrud
-content/05.Model.md:70:quis
-content/05.Model.md:70:ullamco
-content/05.Model.md:70:veniam
-content/05.Model.md:71:aute
-content/05.Model.md:71:cillum
-content/05.Model.md:71:dolore
-content/05.Model.md:71:Duis
-content/05.Model.md:71:esse
-content/05.Model.md:71:fugiat
-content/05.Model.md:71:irure
-content/05.Model.md:71:nulla
-content/05.Model.md:71:pariatur
-content/05.Model.md:71:reprehenderit
-content/05.Model.md:71:velit
-content/05.Model.md:71:voluptate
-content/05.Model.md:72:anim
-content/05.Model.md:72:culpa
-content/05.Model.md:72:cupidatat
-content/05.Model.md:72:deserunt
-content/05.Model.md:72:Excepteur
-content/05.Model.md:72:laborum
-content/05.Model.md:72:mollit
-content/05.Model.md:72:occaecat
-content/05.Model.md:72:officia
-content/05.Model.md:72:proident
-content/05.Model.md:72:qui
-content/05.Model.md:72:sint
-content/05.Model.md:72:sunt
-content/05.Model.md:252:Pandoc's
-content/05.Model.md:262:Pandoc's
+content/05.Model.md:28:rmse
+content/05.Model.md:28:RMSE
+content/05.Model.md:28:RMSE
+content/05.Model.md:30:rmse
+content/05.Model.md:30:RMSE
+content/05.Model.md:36:RMSE
+content/05.Model.md:73:adipiscing
+content/05.Model.md:73:aliqua
+content/05.Model.md:73:amet
+content/05.Model.md:73:consectetur
+content/05.Model.md:73:dolore
+content/05.Model.md:73:eiusmod
+content/05.Model.md:73:elit
+content/05.Model.md:73:incididunt
+content/05.Model.md:73:ipsum
+content/05.Model.md:73:labore
+content/05.Model.md:73:Lorem
+content/05.Model.md:73:magna
+content/05.Model.md:73:sed
+content/05.Model.md:73:tempor
+content/05.Model.md:74:aliquip
+content/05.Model.md:74:commodo
+content/05.Model.md:74:consequat
+content/05.Model.md:74:enim
+content/05.Model.md:74:exercitation
+content/05.Model.md:74:laboris
+content/05.Model.md:74:nisi
+content/05.Model.md:74:nostrud
+content/05.Model.md:74:quis
+content/05.Model.md:74:ullamco
+content/05.Model.md:74:veniam
+content/05.Model.md:75:aute
+content/05.Model.md:75:cillum
+content/05.Model.md:75:dolore
+content/05.Model.md:75:Duis
+content/05.Model.md:75:esse
+content/05.Model.md:75:fugiat
+content/05.Model.md:75:irure
+content/05.Model.md:75:nulla
+content/05.Model.md:75:pariatur
+content/05.Model.md:75:reprehenderit
+content/05.Model.md:75:velit
+content/05.Model.md:75:voluptate
+content/05.Model.md:76:anim
+content/05.Model.md:76:culpa
+content/05.Model.md:76:cupidatat
+content/05.Model.md:76:deserunt
+content/05.Model.md:76:Excepteur
+content/05.Model.md:76:laborum
+content/05.Model.md:76:mollit
+content/05.Model.md:76:occaecat
+content/05.Model.md:76:officia
+content/05.Model.md:76:proident
+content/05.Model.md:76:qui
+content/05.Model.md:76:sint
+content/05.Model.md:76:sunt
+content/05.Model.md:256:Pandoc's
+content/05.Model.md:266:Pandoc's
 content/06.Experiment.md:44:adipiscing
 content/06.Experiment.md:44:aliqua
 content/06.Experiment.md:44:amet

@@ -4,7 +4,7 @@ aliquip
 amet
 anim
 Anyang
-anye
+Anye
 Anye’s
 APSO
 Ashqar
@@ -48,7 +48,7 @@ interdependencies
 ipsum
 irure
 Jiang
-Jingzi
+jingzi
 Jingzi’s
 Kang
 labore
@@ -82,14 +82,16 @@ Rakha
 rebalancing
 reprehenderit
 RMSE
-Scatterplots
+scatterplots
 sed
 sint
 skewness
 stepwise
 sunt
+teh
 tempor
 ullamco
+unimodal
 Urbana
 velit
 veniam

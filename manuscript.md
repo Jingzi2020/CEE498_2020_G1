@@ -70,11 +70,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/207d6e2cc6a6e2219db7b5daff341888d1d5b8da/" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/a43e0f4fdaa1bae1bc73b53965cb10e0df4e0a7e/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/207d6e2cc6a6e2219db7b5daff341888d1d5b8da/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/a43e0f4fdaa1bae1bc73b53965cb10e0df4e0a7e/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/207d6e2cc6a6e2219db7b5daff341888d1d5b8da/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/a43e0f4fdaa1bae1bc73b53965cb10e0df4e0a7e/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -106,9 +106,9 @@ title: The Models of London Bike Sharing Prediction
 
 <small><em>
 This manuscript
-([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/207d6e2cc6a6e2219db7b5daff341888d1d5b8da/))
+([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/a43e0f4fdaa1bae1bc73b53965cb10e0df4e0a7e/))
 was automatically generated
-from [Jingzi2020/CEE498_2020_G1@207d6e2](https://github.com/Jingzi2020/CEE498_2020_G1/tree/207d6e2cc6a6e2219db7b5daff341888d1d5b8da)
+from [Jingzi2020/CEE498_2020_G1@a43e0f4](https://github.com/Jingzi2020/CEE498_2020_G1/tree/a43e0f4fdaa1bae1bc73b53965cb10e0df4e0a7e)
 on December 6, 2020.
 </em></small>
 
@@ -224,9 +224,9 @@ The reason for using scatter plots is to observe relationships between each pair
 The reason for using box plots is to provide a visual summary of the data enabling us to visualize the median and range values, the dispersion of the data set, and any signs of skewness. So we can compare dispersion of new bike counts with respect to different values of a parameter. This tool will be used to explore certain relationships further than scatterplots, and not for all pairs of parameters. 
 A box plot includes five values: the minimum value, the 25th percentile (Q1), the median, the 75th percentile (Q3), and the maximum value. 
 
-**Multi-variable Point Plots** 
+**Multivariate Point Plots** 
 
-The reason multi-variable point plots are used is to shows us the effect of certain variables on the distribution of the new bike counts during the day. So we can obtain different plots depending on the other variable, so we can explore two variables interrelations. And we choose categorical variables to find how their different categories affect the change in new bike counts along a day. 
+The reason multivariate point plots are used is to shows us the effect of certain variables on the distribution of the new bike counts during the day. So we can obtain different plots depending on the other variable, so we can explore two variables interrelations. And we choose categorical variables to find how their different categories affect the change in new bike counts along a day. 
 
 **Statistical Values**
 
@@ -240,6 +240,8 @@ Correlation values range between -1 and 1., positive values indicate positive co
 ### Interpretation of EDA
 
 **Scatterplots** 
+
+<!-- I don't know if you wanna add plots here -->
 
 By looking at the plots we observe the following:
 - 1- t1 and t2 are linearily dependent, which is expected because temperature feel directly depends on temperature.
@@ -259,16 +261,27 @@ The observations above allow us to build hypthesis that can be explored further 
 
 **Boxplots**
 
-- Graph1 shows that: 
->  - 1- There seems to be a distribution of the median (middle line of the boxplot) and range (of the black line of each boxplot) of cnt with respect to month, it roughly follows a normal ditribution, peaking in July. 
->  - 2- For each month the distributions tends to be skewed to the right.
->  - 3- Months with lowest ranges are January, February, November and December. 
+![
+**An image too wide to fit within page at full size.**
+Loaded from a specific (hashed) version of the image on GitHub.
+](https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Boxplots.JPG "Boxplots"){#fig:wide-image}
+
+Graph1 shows that: 
+- 1- There seems to be a distribution of the median (middle line of the boxplot) and range (of the black line of each boxplot) of cnt with respect to month, it roughly follows a normal ditribution, peaking in July. 
+- 2- For each month the distributions tends to be skewed to the right.
+- 3- Months with lowest ranges are January, February, November and December. 
 - Graph2 shows that:
->  - 1- There is no clear distribution of median of cnt over the hours of the day, but the variation shows that cnt varies between different hours in the day, which seems to have two peaks, around 8 am then around 5 pm. 
->  - 2- During some hours, the shape of the distribution of cnt tends to be normal, while it's more skewed to the right for some other hours. 
->  - 3- As expected night hours have the lowest cnt. 
+- 1- There is no clear distribution of median of cnt over the hours of the day, but the variation shows that cnt varies between different hours in the day, which seems to have two peaks, around 8 am then around 5 pm. 
+- 2- During some hours, the shape of the distribution of cnt tends to be normal, while it's more skewed to the right for some other hours. 
+- 3- As expected night hours have the lowest cnt. 
 
 **Multi-variate Plots**
+
+![
+**An image too wide to fit within page at full size.**
+Loaded from a specific (hashed) version of the image on GitHub.
+](https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Multivariate%20Plots.JPG "Multivariate Plots"){#fig:wide-image}
+
 
 - Graph1 shows the general plot of new bike counts over the hours of the day. 
 - Graph2 provides interesting insight as it shows that the distribution of the counts during the day is different on a holiday is at peaks around 1 pm - 2pm, while during regular days, it has two peaks around 8 am and 5 pm, which follows the governing distribution and was shown in the boxplots as well. 
@@ -276,6 +289,40 @@ The observations above allow us to build hypthesis that can be explored further 
 - Graph 4 shows that the seasons order based on highest bike counts is summer, then fall and spring, and then winter, which validates more clearly previous results. 
 - Graph 5 shows high effect of weather in general, which is significant for codes 10 and 26 (10 = rain with thunderstorm, 26 = snowfall), implying no counts occur in such extreme cold weathers. 
 
+**Statistical Values**
+
+![
+**An image too wide to fit within page at full size.**
+Loaded from a specific (hashed) version of the image on GitHub.
+](https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Statistical%20Values%20Table.JPG "Statistical Values"){#fig:wide-image}
+
+This gives us general insight about the mean and range of each parameter but it's irrelevant for time parameters. The main outcomes is that the values of cnt in each hour over the two years of study, have a mean of 1138 and standard deviation of 1079, which is almost equivalent to the mean which means that there is significant difference between cnt values in certain hours than others. And this was indeed shown in the visualizations. We also notice that the maximum value is 7860, almost 7 times as big as the mean, which also means that there are very relatively few hours with such high values that they didn't affect the mean significantly. However this might be also affected by the fact that we the datapoints include records along the day including night time, were people are not using bikes or commuting at all. We notice the temperature values range between -1.5 and 34 degrees C, which might not be representative of others cities; same applies to teh humidity and wind speed. So it's important to highlight this factor when representing the predictive model at later stage. 
+
+**Correlation Matrix** 
+
+![
+**An image too wide to fit within page at full size.**
+Loaded from a specific (hashed) version of the image on GitHub.
+](https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Correlation%20Matrix.JPG "Correlation Matrix"){#fig:wide-image}
+
+We can follow the color map to find the variables of some correlation, which are the variables with correlation above roughly above 0.3, which are colored by red or lighter shade of color or less than -0.3, which are colored in black . As expected t1 and t2 have high correlation which means only variable might be included in the predictive model at most. 
+
+  - cnt shows correlation to t1 & t2 & humidity and hour of the day. 
+  - t1 and t2 show correlation to cnt, humidity, and month of the year. 
+  - humidity shows correlation to cnt, t1 & t2, and weather code
+  - wind speed shows correlation to slightly to humidity 
+  - weather code shows correlation to humidity 
+  - holidays binary doesn't show correlation to any other parameter
+  - weekend binary doesn't show correlation to any other parameter
+  - season shows correlation to t1 & t2, humidity
+  - month shows correlation to t1 & t2
+  - day of the month doesn't show correlation to any other parameter
+  - hour shows correlation to cnt and humidity
+
+
+To summarize the results and analysis.The scatterplots showed that t1 and t2 are directly related, and possible relationship between wind speed and t2, t1 and humidity, humidity and bike counts, bike counts and wind speed, bike counts and temperature, weather code and bike counts. It also shows that bike counts are higher during weekdays and non-holidays and for better weather conditions. Also, it shows that highest counts occur for summer. And no pattern was shown between counts and day of month. The boxplots showed that there seems to be a distribution of counts based on month, and that the counts are mostly skewed to the right. Also, that the distribution of counts over the hours of the day have two peaks, and within the hour the distribution is mostly normal but for some hours it is skewed to the right. Multi-variable point plots show interesting insights about the change of the variation of counts over the day from bi-modal, for regular days and weekdays, to unimodal for holidays and weekends. And it also showed that although summer has highest counts and winter has the lowest, fall and spring seem to have similar values. And the correlations showed that new counts are mainly correlated to temperature, humidity and hour of the day with no significance correlation to other parameters. And some of the other parameters are correlated as well especially weather attributes (humidity, temperature, wind speed..).
+
+We can derive several conclusions from the results of the exploratory data analysis. We explored which factors have a direct relationship with the new bike counts registered each hour, and the results show that the main factors affecting the range of new bike counts in an hour are temperature, humidity, and hour of the day, with some effect shown in visualizations by the weekdays, weather description, month and season. 
 
 
 ### delete later
@@ -578,13 +625,17 @@ There are 4 steps to build and train neural network, including:
 - Designing layers and parameters; 
 - Determining training methods. 
 
-We used different features, epochs, hidden layers, units and learning rates in this project. The evaluation of the models’ performances are based on the root mean squared error(RMSE) between the test data and predictions. The architectures of our models are shown in Figure @fig:jingzi-model, @fig:anye-model and @fig:dana-model.
+We used different features, epochs, hidden layers, units and learning rates in this project. The architectures of our models are shown in Figure @fig:jingzi-model, @fig:anye-model and @fig:dana-model.
 
 ![The Architecture of Jingzi’s Model](images/Jingzi Model.png "Wide image"){#fig:jingzi-model}
 
 ![The Architecture of Anye’s Model](images/Anye Model.png "Wide image"){#fig:anye-model}
 
 ![The Architecture of Dana’s Model](images/Dana Model.png "Wide image"){#fig:dana-model}
+
+The evaluation of the models’ performances are based on the root mean squared error(RMSE) between the test data and predictions. The equation of RMSE is shown in equation @eq:rmse .
+
+$$ RMSE = \sqrt{\frac{1}{n}\Sigma_{i=1}^{n}{\Big(\frac{d_i -f_i}{\sigma_i}\Big)^2}}$$ {#eq:rmse}
 
 ### Sensitivity Analysis
 
