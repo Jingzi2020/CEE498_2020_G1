@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/Jingzi2020/CEE498_2020_G1/tree/gh-pages) branch hosts the contents of this directory at <https://Jingzi2020.github.io/CEE498_2020_G1/>.
-The permalink for this webpage version is <https://Jingzi2020.github.io/CEE498_2020_G1/v/ab1eab84b6bf1e69f3d6ed424529284b219f57d7/>.
+The permalink for this webpage version is <https://Jingzi2020.github.io/CEE498_2020_G1/v/0a83d9f726ed226088523741a9541e58ebdfe268/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://Jingzi2020.github.io/CEE498_2020_G1/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`ab1eab84b6bf1e69f3d6ed424529284b219f57d7`](https://github.com/Jingzi2020/CEE498_2020_G1/commit/ab1eab84b6bf1e69f3d6ed424529284b219f57d7).
+[`0a83d9f726ed226088523741a9541e58ebdfe268`](https://github.com/Jingzi2020/CEE498_2020_G1/commit/0a83d9f726ed226088523741a9541e58ebdfe268).
