@@ -11,7 +11,7 @@ Ashqar
 ASPO
 aute
 boxplot
-Boxplots
+boxplots
 Champaign
 cillum
 Citi

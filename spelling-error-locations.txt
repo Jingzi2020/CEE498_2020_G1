@@ -95,29 +95,27 @@ content/05.Model.md:30:Jingzi
 content/05.Model.md:31:Anye
 content/05.Model.md:33:Jingzi
 content/05.Model.md:33:Jingzi’s
-content/05.Model.md:37:Jingzi
-content/05.Model.md:37:Jingzi’s
+content/05.Model.md:37:rmse
+content/05.Model.md:37:RMSE
+content/05.Model.md:37:RMSE
 content/05.Model.md:39:rmse
 content/05.Model.md:39:RMSE
-content/05.Model.md:39:RMSE
+content/05.Model.md:41:cnt
+content/05.Model.md:41:cnt
 content/05.Model.md:41:rmse
 content/05.Model.md:41:RMSE
-content/05.Model.md:43:cnt
-content/05.Model.md:43:cnt
-content/05.Model.md:43:rmse
-content/05.Model.md:43:RMSE
-content/05.Model.md:49:RMSE
+content/05.Model.md:47:RMSE
+content/05.Model.md:53:Jingzi
+content/05.Model.md:54:Jingzi
 content/05.Model.md:55:Jingzi
 content/05.Model.md:56:Jingzi
-content/05.Model.md:57:Jingzi
-content/05.Model.md:58:Jingzi
+content/05.Model.md:62:Jingzi
+content/05.Model.md:63:Jingzi
 content/05.Model.md:64:Jingzi
-content/05.Model.md:65:Jingzi
-content/05.Model.md:66:Jingzi
-content/05.Model.md:72:Jingzi
-content/05.Model.md:73:Jingzi
-content/05.Model.md:79:Jingzi
-content/05.Model.md:80:Anye
+content/05.Model.md:70:Jingzi
+content/05.Model.md:71:Jingzi
+content/05.Model.md:77:Jingzi
+content/05.Model.md:78:Anye
 content/06.Results of Modeling.md:44:adipiscing
 content/06.Results of Modeling.md:44:aliqua
 content/06.Results of Modeling.md:44:amet

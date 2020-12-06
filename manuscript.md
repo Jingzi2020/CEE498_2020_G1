@@ -70,11 +70,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/a5d8ed67634c7965f6d1b285187af3c8b5b69bfc/" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/425956e5f35de90a73fda2b6a7f184c11860ea3d/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/a5d8ed67634c7965f6d1b285187af3c8b5b69bfc/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/425956e5f35de90a73fda2b6a7f184c11860ea3d/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/a5d8ed67634c7965f6d1b285187af3c8b5b69bfc/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/425956e5f35de90a73fda2b6a7f184c11860ea3d/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -106,9 +106,9 @@ title: The Models of London Bike Sharing Prediction
 
 <small><em>
 This manuscript
-([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/a5d8ed67634c7965f6d1b285187af3c8b5b69bfc/))
+([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/425956e5f35de90a73fda2b6a7f184c11860ea3d/))
 was automatically generated
-from [Jingzi2020/CEE498_2020_G1@a5d8ed6](https://github.com/Jingzi2020/CEE498_2020_G1/tree/a5d8ed67634c7965f6d1b285187af3c8b5b69bfc)
+from [Jingzi2020/CEE498_2020_G1@425956e](https://github.com/Jingzi2020/CEE498_2020_G1/tree/425956e5f35de90a73fda2b6a7f184c11860ea3d)
 on December 6, 2020.
 </em></small>
 
@@ -330,7 +330,7 @@ There are 4 steps to build and train neural network, including:
 - Designing layers and parameters; 
 - Determining training methods. 
 
-We used different features, epochs, hidden layers, units and learning rates in this project. The architectures of our models are shown in Figure @fig:jingzi-model , @fig:anye-model and @fig:dana-model . The Main parameters of our models are shown in Table @tbl:our-models
+We used different features, epochs, hidden layers, units and learning rates in this project. The architectures of our models are shown in Figure @fig:jingzi-model , @fig:anye-model and @fig:dana-model . The main parameters of our models are shown in Table @tbl:our-models
 
 ![The Architecture of Jingzi’s Model](images/Jingzi Model.png "Wide image"){#fig:jingzi-model}
 
@@ -346,8 +346,6 @@ We used different features, epochs, hidden layers, units and learning rates in t
 |*Epochs in Jingzi’s model will be stopped when loss reached the minimum. <!-- $colspan="6" --> | | | | | |
 Table: The Overview of Our Models
 {#tbl:our-models}
-
-*Epochs in Jingzi’s model will be stopped when loss reached the minimum.
 
 The evaluation of the models’ performances are based on the root mean squared error(RMSE) between the test data and predictions. The equation of RMSE is shown in equation @eq:rmse .
 
