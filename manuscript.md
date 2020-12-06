@@ -70,11 +70,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/57ee4e970e448045fcc656a510e76dd493ea56d8/" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/e8ed03966c06654b2fc31f44777bfa26e26c03d9/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/57ee4e970e448045fcc656a510e76dd493ea56d8/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/e8ed03966c06654b2fc31f44777bfa26e26c03d9/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/57ee4e970e448045fcc656a510e76dd493ea56d8/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/e8ed03966c06654b2fc31f44777bfa26e26c03d9/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -106,9 +106,9 @@ title: The Models of London Bike Sharing Prediction
 
 <small><em>
 This manuscript
-([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/57ee4e970e448045fcc656a510e76dd493ea56d8/))
+([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/e8ed03966c06654b2fc31f44777bfa26e26c03d9/))
 was automatically generated
-from [Jingzi2020/CEE498_2020_G1@57ee4e9](https://github.com/Jingzi2020/CEE498_2020_G1/tree/57ee4e970e448045fcc656a510e76dd493ea56d8)
+from [Jingzi2020/CEE498_2020_G1@e8ed039](https://github.com/Jingzi2020/CEE498_2020_G1/tree/e8ed03966c06654b2fc31f44777bfa26e26c03d9)
 on December 6, 2020.
 </em></small>
 
@@ -279,7 +279,7 @@ Graph1 shows that:
 ![
 **An image too wide to fit within page at full size.**
 Loaded from a specific (hashed) version of the image on GitHub.
-](https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Multivariate%20Plots.JPG "Multivariate Plots"){#fig:wide-image}
+](https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Multivariate%20Plots.JPG "Multivariate Plots" width="200" height="200"){#fig:wide-image}
 
 
 - Graph1 shows the general plot of new bike counts over the hours of the day. 
