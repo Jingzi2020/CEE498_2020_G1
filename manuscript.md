@@ -70,11 +70,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/0c89b9d52f4c85b9f59eaf58f3e6b57de75b651f/" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/14a50fe6c74340cfb64f9d06f08363fdaed71b70/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/0c89b9d52f4c85b9f59eaf58f3e6b57de75b651f/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/14a50fe6c74340cfb64f9d06f08363fdaed71b70/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/0c89b9d52f4c85b9f59eaf58f3e6b57de75b651f/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/14a50fe6c74340cfb64f9d06f08363fdaed71b70/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -106,9 +106,9 @@ title: The Models of London Bike Sharing Prediction
 
 <small><em>
 This manuscript
-([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/0c89b9d52f4c85b9f59eaf58f3e6b57de75b651f/))
+([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/14a50fe6c74340cfb64f9d06f08363fdaed71b70/))
 was automatically generated
-from [Jingzi2020/CEE498_2020_G1@0c89b9d](https://github.com/Jingzi2020/CEE498_2020_G1/tree/0c89b9d52f4c85b9f59eaf58f3e6b57de75b651f)
+from [Jingzi2020/CEE498_2020_G1@14a50fe](https://github.com/Jingzi2020/CEE498_2020_G1/tree/14a50fe6c74340cfb64f9d06f08363fdaed71b70)
 on December 6, 2020.
 </em></small>
 
@@ -260,10 +260,7 @@ The observations above allow us to build hypthesis that can be explored further 
 
 **Boxplots**
 
-![
-**An image too wide to fit within page at full size.**
-Loaded from a specific (hashed) version of the image on GitHub.
-](https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Boxplots.JPG "Boxplots"){#fig:wide-image}
+<img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Boxplots.JPG" alt="drawing" width="600" height="300" />
 
 Graph1 shows that: 
 - 1- There seems to be a distribution of the median (middle line of the boxplot) and range (of the black line of each boxplot) of cnt with respect to month, it roughly follows a normal ditribution, peaking in July. 
@@ -276,11 +273,7 @@ Graph1 shows that:
 
 **Multi-variate Plots**
 
-![
-**An image too wide to fit within page at full size.**
-Loaded from a specific (hashed) version of the image on GitHub.
-](https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Multivariate%20Plots.JPG "Multivariate Plots"){#fig:wide-image}
-
+<img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Multivariate%20Plots.JPG" alt="drawing" width="600" height="600" />
 
 - Graph1 shows the general plot of new bike counts over the hours of the day. 
 - Graph2 provides interesting insight as it shows that the distribution of the counts during the day is different on a holiday is at peaks around 1 pm - 2pm, while during regular days, it has two peaks around 8 am and 5 pm, which follows the governing distribution and was shown in the boxplots as well. 
@@ -290,20 +283,13 @@ Loaded from a specific (hashed) version of the image on GitHub.
 
 **Statistical Values**
 
-![
-**An image too wide to fit within page at full size.**
-Loaded from a specific (hashed) version of the image on GitHub.
-](https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Statistical%20Values%20Table.JPG "Statistical Values"){#fig:wide-image}
+<img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Statistical%20Values%20Table.JPG" alt="drawing" width="1000" height="200" />
 
 This gives us general insight about the mean and range of each parameter but it's irrelevant for time parameters. The main outcomes is that the values of cnt in each hour over the two years of study, have a mean of 1138 and standard deviation of 1079, which is almost equivalent to the mean which means that there is significant difference between cnt values in certain hours than others. And this was indeed shown in the visualizations. We also notice that the maximum value is 7860, almost 7 times as big as the mean, which also means that there are very relatively few hours with such high values that they didn't affect the mean significantly. However this might be also affected by the fact that we the datapoints include records along the day including night time, were people are not using bikes or commuting at all. We notice the temperature values range between -1.5 and 34 degrees C, which might not be representative of others cities; same applies to teh humidity and wind speed. So it's important to highlight this factor when representing the predictive model at later stage. 
 
 ## Correlation Matrix 
-<img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Correlation%20Matrix.JPG" alt="drawing" width="200" height="200" />
 
-![
-**An image too wide to fit within page at full size.**
-Loaded from a specific (hashed) version of the image on GitHub.
-](https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Correlation%20Matrix.JPG "Correlation Matrix"){#fig:wide-image}
+<img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Correlation%20Matrix.JPG" alt="drawing" width="600" height="600" />
 
 We can follow the color map to find the variables of some correlation, which are the variables with correlation above roughly above 0.3, which are colored by red or lighter shade of color or less than -0.3, which are colored in black . As expected t1 and t2 have high correlation which means only variable might be included in the predictive model at most. 
 
