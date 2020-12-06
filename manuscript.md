@@ -70,11 +70,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/d3d6b3c71e427362779fa4da10bad0331526471f/" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/599310089b0e562d5e764f54eb9e52879992f418/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/d3d6b3c71e427362779fa4da10bad0331526471f/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/599310089b0e562d5e764f54eb9e52879992f418/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/d3d6b3c71e427362779fa4da10bad0331526471f/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/599310089b0e562d5e764f54eb9e52879992f418/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -106,9 +106,9 @@ title: The Models of London Bike Sharing Prediction
 
 <small><em>
 This manuscript
-([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/d3d6b3c71e427362779fa4da10bad0331526471f/))
+([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/599310089b0e562d5e764f54eb9e52879992f418/))
 was automatically generated
-from [Jingzi2020/CEE498_2020_G1@d3d6b3c](https://github.com/Jingzi2020/CEE498_2020_G1/tree/d3d6b3c71e427362779fa4da10bad0331526471f)
+from [Jingzi2020/CEE498_2020_G1@5993100](https://github.com/Jingzi2020/CEE498_2020_G1/tree/599310089b0e562d5e764f54eb9e52879992f418)
 on December 6, 2020.
 </em></small>
 
@@ -622,7 +622,7 @@ We used different features, epochs, hidden layers, units and learning rates in t
 
 The evaluation of the models’ performances are based on the root mean squared error(RMSE) between the test data and predictions. The equation of RMSE is shown in equation @eq:rmse .
 
-$$ RMSE = \sqrt{\frac{1}{n}\Sigma_{i=1}^{n}{\Big(\frac{d_i -f_i}{\sigma_i}\Big)^2}}$$ {#eq:rmse}
+$$ RMSE = \sqrt{\frac{1}{n}\Sigma_{i=1}^{n}{(observed_i - predicted_i)^2}}$$ {#eq:rmse}
 
 ### Sensitivity Analysis
 

@@ -4,14 +4,14 @@ aliquip
 amet
 anim
 Anyang
-anye
+Anye
 Anye’s
 APSO
 Ashqar
 ASPO
 aute
 boxplot
-Boxplots
+boxplots
 Champaign
 cillum
 Citi
@@ -81,7 +81,7 @@ quis
 Rakha
 rebalancing
 reprehenderit
-rmse
+RMSE
 scatterplots
 sed
 sint
