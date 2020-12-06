@@ -70,11 +70,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/4eab0aa92e99a5a5b4d9d2c193f7768f95cb6a7d/" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/9cdbea5d745c1434b9ea70ca4218fcf7b5e68673/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/4eab0aa92e99a5a5b4d9d2c193f7768f95cb6a7d/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/9cdbea5d745c1434b9ea70ca4218fcf7b5e68673/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/4eab0aa92e99a5a5b4d9d2c193f7768f95cb6a7d/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/9cdbea5d745c1434b9ea70ca4218fcf7b5e68673/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -106,9 +106,9 @@ title: The Models of London Bike Sharing Prediction
 
 <small><em>
 This manuscript
-([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/4eab0aa92e99a5a5b4d9d2c193f7768f95cb6a7d/))
+([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/9cdbea5d745c1434b9ea70ca4218fcf7b5e68673/))
 was automatically generated
-from [Jingzi2020/CEE498_2020_G1@4eab0aa](https://github.com/Jingzi2020/CEE498_2020_G1/tree/4eab0aa92e99a5a5b4d9d2c193f7768f95cb6a7d)
+from [Jingzi2020/CEE498_2020_G1@9cdbea5](https://github.com/Jingzi2020/CEE498_2020_G1/tree/9cdbea5d745c1434b9ea70ca4218fcf7b5e68673)
 on December 6, 2020.
 </em></small>
 
@@ -146,7 +146,12 @@ on December 6, 2020.
 
 
 ## Abstract {.page_break_before}
-The aim of this study is to create a predictive model for bike-sharing counts in an hour in the city of London in United Kingdom. The model makes use of regular neural networks. And the main features affecting the bike counts include weather conditions and time variables. The model's root mean square is 210, with a mean of 1124 counts in an hour for testing data compared to 1138 counts in an hour in the training data. The model provides enough accuracy for planning the number of docks at a new station and scheduling bike redistribution schedules between stations.
+Bike sharing system has appeared more and more on the street of the cities in order to meet the demand of public transportation in the last short distance to the destination.
+Also, Bike sharing system is so popular around all the world that most of major modern cities and campuses have been operated. Among researches for the bike system, predicting the
+demanding number of future bike shares is one of the most important and necessary tasks. During our project, the aim of this study is to create a predictive model for bike-sharing
+counts in an hour in the city of London in United Kingdom. The model makes use of regular neural networks. And the main features affecting the bike counts include weather
+conditions and time variables. The model's root mean square is 210, with a mean of 1124 counts in an hour for testing data compared to 1138 counts in an hour in the training data.
+The model provides enough accuracy for planning the number of docks at a new station and scheduling bike redistribution schedules between stations.
 
 
 ## Introduction
@@ -305,8 +310,8 @@ We can follow the color map to find the variables of some correlation, which are
   - day of the month doesn't show correlation to any other parameter
   - hour shows correlation to cnt and humidity
 
-## Discussion
-To summarize the results and analysis.The scatterplots showed that t1 and t2 are directly related, and possible relationship between wind speed and t2, t1 and humidity, humidity and bike counts, bike counts and wind speed, bike counts and temperature, weather code and bike counts. It also shows that bike counts are higher during weekdays and non-holidays and for better weather conditions. Also, it shows that highest counts occur for summer. And no pattern was shown between counts and day of month. The boxplots showed that there seems to be a distribution of counts based on month, and that the counts are mostly skewed to the right. Also, that the distribution of counts over the hours of the day have two peaks, and within the hour the distribution is mostly normal but for some hours it is skewed to the right. Multi-variable point plots show interesting insights about the change of the variation of counts over the day from bi-modal, for regular days and weekdays, to unimodal for holidays and weekends. And it also showed that although summer has highest counts and winter has the lowest, fall and spring seem to have similar values. And the correlations showed that new counts are mainly correlated to temperature, humidity and hour of the day with no significance correlation to other parameters. And some of the other parameters are correlated as well especially weather attributes (humidity, temperature, wind speed..).
+
+In a word, the scatterplots showed that t1 and t2 are directly related, and possible relationship between wind speed and t2, t1 and humidity, humidity and bike counts, bike counts and wind speed, bike counts and temperature, weather code and bike counts. It also shows that bike counts are higher during weekdays and non holidays and for better weather conditions. Also, it shows that highest counts occur for summer. And no pattern was shown between counts and day of month. The boxplots showed that there seems to be a distribution of counts based on month, and that the counts are mostly skewed to the right. Also, that the distribution of counts over the hours of the day have two peaks, and within the hour the distribution is mostly normal but for some hours it is skewed to the right. Multi-variable point plots show interesting insights about the change of the variation of counts over the day from bi-modal, for regular days and weekdays, to unimodal for holidays and weekends. And it also showed that although summer has highest counts and winter has the lowest, fall and spring seem to have similar values. And the correlations showed that new counts are mainly correlated to temperature, humidity and hour of the day with no significance correlation to other parameters. And some of the other parameters are correlated as well especially weather attributes (humidity, temperature, wind speed..).
 
 We can derive several conclusions from the results of the exploratory data analysis. We explored which factors have a direct relationship with the new bike counts registered each hour, and the results show that the main factors affecting the range of new bike counts in an hour are temperature, humidity, and hour of the day, with some effect shown in visualizations by the weekdays, weather description, month and season. 
 
