@@ -70,11 +70,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/b72e7dd865baa79587e7f2d515284d340171f861/" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/3cab708aac43ac4444d18c1ac1e1ea0215446db1/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/b72e7dd865baa79587e7f2d515284d340171f861/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/3cab708aac43ac4444d18c1ac1e1ea0215446db1/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/b72e7dd865baa79587e7f2d515284d340171f861/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/3cab708aac43ac4444d18c1ac1e1ea0215446db1/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -106,9 +106,9 @@ title: The Models of London Bike Sharing Prediction
 
 <small><em>
 This manuscript
-([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/b72e7dd865baa79587e7f2d515284d340171f861/))
+([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/3cab708aac43ac4444d18c1ac1e1ea0215446db1/))
 was automatically generated
-from [Jingzi2020/CEE498_2020_G1@b72e7dd](https://github.com/Jingzi2020/CEE498_2020_G1/tree/b72e7dd865baa79587e7f2d515284d340171f861)
+from [Jingzi2020/CEE498_2020_G1@3cab708](https://github.com/Jingzi2020/CEE498_2020_G1/tree/3cab708aac43ac4444d18c1ac1e1ea0215446db1)
 on December 6, 2020.
 </em></small>
 
@@ -1350,10 +1350,8 @@ useful for *warnings* - [manubot.org](https://manubot.org/)
 
 
 
-![
-**Plot of the actual and predicted bike counts with respect to month.**
-Loaded from the latest version of image on GitHub.
-](https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Act_Pred_month.png "Act_Pred_month")
+![**Plot of the actual and predicted bike counts with respect to month.**
+Loaded from the latest version of image on GitHub.](https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Act_Pred_month.png "Act_Pred_month")
 
 
 ## Conclusion
