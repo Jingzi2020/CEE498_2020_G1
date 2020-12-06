@@ -70,11 +70,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/8fa86ad3b695bf166340ce6c4bdb07082edd3653/" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/c201a99d269a62bd0f27d1c7a68de626990db4a8/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/8fa86ad3b695bf166340ce6c4bdb07082edd3653/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/c201a99d269a62bd0f27d1c7a68de626990db4a8/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/8fa86ad3b695bf166340ce6c4bdb07082edd3653/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/c201a99d269a62bd0f27d1c7a68de626990db4a8/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -106,9 +106,9 @@ title: The Models of London Bike Sharing Prediction
 
 <small><em>
 This manuscript
-([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/8fa86ad3b695bf166340ce6c4bdb07082edd3653/))
+([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/c201a99d269a62bd0f27d1c7a68de626990db4a8/))
 was automatically generated
-from [Jingzi2020/CEE498_2020_G1@8fa86ad](https://github.com/Jingzi2020/CEE498_2020_G1/tree/8fa86ad3b695bf166340ce6c4bdb07082edd3653)
+from [Jingzi2020/CEE498_2020_G1@c201a99](https://github.com/Jingzi2020/CEE498_2020_G1/tree/c201a99d269a62bd0f27d1c7a68de626990db4a8)
 on December 6, 2020.
 </em></small>
 
@@ -210,7 +210,7 @@ From this research, I learned that the factors should be transferred into reason
 
 
 
-## Exploratory Data Analysis
+# Exploratory Data Analysis
 ## Introduction
 Exploratory Data Analysis is vital and necessary before we start to create a training model because it helps us to realize and evaluate the both the features of data and their correlation with each other. There are five main tools were used to describe the dataset. 
 
@@ -260,7 +260,7 @@ The observations above allow us to build hypthesis that can be explored further 
 
 **Boxplots**
 
-<img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Boxplots.JPG" alt="drawing" width="800" height="800" />
+<img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Boxplots.JPG" alt="drawing" width="800" height="400" />
 
 Graph1 shows that: 
 - 1- There seems to be a distribution of the median (middle line of the boxplot) and range (of the black line of each boxplot) of cnt with respect to month, it roughly follows a normal ditribution, peaking in July. 
@@ -273,7 +273,7 @@ Graph1 shows that:
 
 **Multi-variate Plots**
 
-<img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Multivariate%20Plots.JPG" alt="drawing" width="1000" height="500" />
+<img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Multivariate%20Plots.JPG" alt="drawing" width="800" height="400" />
 
 - Graph1 shows the general plot of new bike counts over the hours of the day. 
 - Graph2 provides interesting insight as it shows that the distribution of the counts during the day is different on a holiday is at peaks around 1 pm - 2pm, while during regular days, it has two peaks around 8 am and 5 pm, which follows the governing distribution and was shown in the boxplots as well. 
@@ -309,7 +309,6 @@ We can follow the color map to find the variables of some correlation, which are
 To summarize the results and analysis.The scatterplots showed that t1 and t2 are directly related, and possible relationship between wind speed and t2, t1 and humidity, humidity and bike counts, bike counts and wind speed, bike counts and temperature, weather code and bike counts. It also shows that bike counts are higher during weekdays and non-holidays and for better weather conditions. Also, it shows that highest counts occur for summer. And no pattern was shown between counts and day of month. The boxplots showed that there seems to be a distribution of counts based on month, and that the counts are mostly skewed to the right. Also, that the distribution of counts over the hours of the day have two peaks, and within the hour the distribution is mostly normal but for some hours it is skewed to the right. Multi-variable point plots show interesting insights about the change of the variation of counts over the day from bi-modal, for regular days and weekdays, to unimodal for holidays and weekends. And it also showed that although summer has highest counts and winter has the lowest, fall and spring seem to have similar values. And the correlations showed that new counts are mainly correlated to temperature, humidity and hour of the day with no significance correlation to other parameters. And some of the other parameters are correlated as well especially weather attributes (humidity, temperature, wind speed..).
 
 We can derive several conclusions from the results of the exploratory data analysis. We explored which factors have a direct relationship with the new bike counts registered each hour, and the results show that the main factors affecting the range of new bike counts in an hour are temperature, humidity, and hour of the day, with some effect shown in visualizations by the weekdays, weather description, month and season. 
-
 
 
 ## The Models to Predict the Amount of Bike Sharing
