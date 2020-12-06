@@ -1,5 +1,5 @@
 activations
-Anye
+anye
 Anye’s
 APSO
 Ashqar
@@ -23,7 +23,7 @@ hyperplanes
 hypthesis
 interdependencies
 Jiang
-jingzi
+Jingzi
 Jingzi’s
 linearily
 literatures
@@ -33,12 +33,14 @@ multicollinearity
 NBRM
 OOB
 overfitting
+pred
 preprocessing
 PRM
 rebalancing
 relu
 RMSE
-Scatterplots
+Scatterplot
+scatterplots
 sigmoid
 skewness
 stepwise

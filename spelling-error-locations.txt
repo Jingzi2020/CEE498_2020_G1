@@ -186,6 +186,7 @@ content/07.Discussion.md:6:dataset
 content/07.Discussion.md:6:rebalancing
 content/07.Discussion.md:6:stochasticity
 content/07.Discussion.md:7:datapoints
+content/07.Discussion.md:14:Scatterplot
 content/07.Discussion.md:18:dataset
 content/07.Discussion.md:18:dataset
 content/07.Discussion.md:18:hyperparameter
