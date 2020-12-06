@@ -70,11 +70,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/2f19a12af15790343abd47cc69af83e05ee74bd1/" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/a5d8ed67634c7965f6d1b285187af3c8b5b69bfc/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/2f19a12af15790343abd47cc69af83e05ee74bd1/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/a5d8ed67634c7965f6d1b285187af3c8b5b69bfc/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/2f19a12af15790343abd47cc69af83e05ee74bd1/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/a5d8ed67634c7965f6d1b285187af3c8b5b69bfc/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -106,9 +106,9 @@ title: The Models of London Bike Sharing Prediction
 
 <small><em>
 This manuscript
-([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/2f19a12af15790343abd47cc69af83e05ee74bd1/))
+([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/a5d8ed67634c7965f6d1b285187af3c8b5b69bfc/))
 was automatically generated
-from [Jingzi2020/CEE498_2020_G1@2f19a12](https://github.com/Jingzi2020/CEE498_2020_G1/tree/2f19a12af15790343abd47cc69af83e05ee74bd1)
+from [Jingzi2020/CEE498_2020_G1@a5d8ed6](https://github.com/Jingzi2020/CEE498_2020_G1/tree/a5d8ed67634c7965f6d1b285187af3c8b5b69bfc)
 on December 6, 2020.
 </em></small>
 
@@ -260,7 +260,7 @@ The observations above allow us to build hypthesis that can be explored further 
 
 **Boxplots**
 
-<img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Boxplots.JPG" alt="drawing" width="800" height="400" />
+<img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Boxplots.JPG" alt="Boxplots" width="800" height="400" />
 
 Graph1 shows that: 
 - 1- There seems to be a distribution of the median (middle line of the boxplot) and range (of the black line of each boxplot) of cnt with respect to month, it roughly follows a normal ditribution, peaking in July. 
@@ -273,7 +273,7 @@ Graph1 shows that:
 
 **Multi-variate Plots**
 
-<img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Multivariate%20Plots.JPG" alt="drawing" width="800" height="400" />
+<img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Multivariate%20Plots.JPG" alt="Multi-variate Plots" width="800" height="400" />
 
 - Graph1 shows the general plot of new bike counts over the hours of the day. 
 - Graph2 provides interesting insight as it shows that the distribution of the counts during the day is different on a holiday is at peaks around 1 pm - 2pm, while during regular days, it has two peaks around 8 am and 5 pm, which follows the governing distribution and was shown in the boxplots as well. 
@@ -283,13 +283,13 @@ Graph1 shows that:
 
 **Statistical Values**
 
-<img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Statistical%20Values%20Table.JPG" alt="drawing" width="1000" height="200" />
+<img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Statistical%20Values%20Table.JPG" alt="Statistical Values" width="1000" height="200" />
 
 This gives us general insight about the mean and range of each parameter but it's irrelevant for time parameters. The main outcomes is that the values of cnt in each hour over the two years of study, have a mean of 1138 and standard deviation of 1079, which is almost equivalent to the mean which means that there is significant difference between cnt values in certain hours than others. And this was indeed shown in the visualizations. We also notice that the maximum value is 7860, almost 7 times as big as the mean, which also means that there are very relatively few hours with such high values that they didn't affect the mean significantly. However this might be also affected by the fact that we the datapoints include records along the day including night time, were people are not using bikes or commuting at all. We notice the temperature values range between -1.5 and 34 degrees C, which might not be representative of others cities; same applies to teh humidity and wind speed. So it's important to highlight this factor when representing the predictive model at later stage. 
 
 ## Correlation Matrix 
 
-<img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Correlation%20Matrix.JPG" alt="drawing" width="600" height="600" />
+<img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Correlation%20Matrix.JPG" alt="Correlation Matrix" width="600" height="600" />
 
 We can follow the color map to find the variables of some correlation, which are the variables with correlation above roughly above 0.3, which are colored by red or lighter shade of color or less than -0.3, which are colored in black . As expected t1 and t2 have high correlation which means only variable might be included in the predictive model at most. 
 
@@ -338,12 +338,14 @@ We used different features, epochs, hidden layers, units and learning rates in t
 
 ![The Architecture of Dana’s Model](images/Dana Model.png "Wide image"){#fig:dana-model}
 
-| Models | Features | Epochs | Hidden Layers | Units | Learning Rates |
+| **Models** | **Features** | **Epochs** | **Hidden Layers** | **Units** | **Learning Rates** |
 |:---------- |:---------:|:-------------:|:-------------:|:-------------:|:-------------:|
-| Jingzi | 11 | <150* | 210 | 105 |
-| Anye | 12 | 300 | 197 | 102 |
-| Dana | 7 | 800 | 238 | 134 |
-Table: The Overview of Our Models{#tbl:our-models}
+| Jingzi | 11 | <150 | 5 | 289 | Non-Constant |
+| Anye |  12 | 300 | 4 | 131 | Non-Constant |
+| Dana | 7 | 800 | 6 | 641 | Constant |
+|*Epochs in Jingzi’s model will be stopped when loss reached the minimum. <!-- $colspan="6" --> | | | | | |
+Table: The Overview of Our Models
+{#tbl:our-models}
 
 *Epochs in Jingzi’s model will be stopped when loss reached the minimum.
 
@@ -361,34 +363,38 @@ Units of Layers, Layers, Normalization and Learning Rates are analyzed. To avoid
 
 The architectures and main training methods of sensitivity analysis are shown in Table @tbl:units-setting , Table @tbl:layers-setting , Table @tbl:normalization-setting and Table @tbl:rates-setting .
 
-| Layer 1 | Layer 2 | Layer 3 | Layer 4 | Layer 5 | Learning Rate | Normalization |
+| **Layer 1** | **Layer 2** | **Layer 3** | **Layer 4** | **Layer 5** | **Learning Rate** | **Normalization** |
 |:--------- |:----------:|:---------:|:---------:|:---------:|:------------------:|:------------------:|
 | 32 | 16 | 128 | 64 | 1 | Same with Jingzi | At each layer |
 | 32 | 32 | 128 | 64 | 1 | Same with Jingzi | At each layer |
 | 32 | 64 | 128 | 64 | 1 | Same with Jingzi | At each layer |
 | 32 | 128 | 128 | 64 | 1 | Same with Jingzi | At each layer |
-Table: The Sensitivity of the Number of Units in Layer 2{#units-setting}
+Table: The Sensitivity of the Number of Units in Layer 2
+{#tbl:units-setting}
 
-| Layer 1 | Layer 2 | Layer 3 | Layer 4 | Layer 5 | Learning Rate | Normalization |
+| **Layer 1** | **Layer 2** | **Layer 3** | **Layer 4** | **Layer 5** | **Learning Rate** | **Normalization** |
 |:--------- |:----------:|:---------:|:---------:|:---------:|:------------------:|:------------------:|
 | 32 | 64 | 128 | 64 | 1 | Same with Jingzi | At each layer |
 | - | 64 | 128 | 64 | 1 | Same with Jingzi | At each layer |
 | - | - | 128 | 64 | 1 | Same with Jingzi | At each layer |
-Table: The Sensitivity of the Number of Layers{#layers-setting}
+Table: The Sensitivity of the Number of Layers
+{#tbl:layers-setting}
 
-| Layer 1 | Layer 2 | Layer 3 | Layer 4 | Layer 5 | Learning Rate | Normalization |
+| **Layer 1** | **Layer 2** | **Layer 3** | **Layer 4** | **Layer 5** | **Learning Rate** | **Normalization** |
 |:--------- |:----------:|:---------:|:---------:|:---------:|:------------------:|:------------------:|
 | 32 | 64 | 128 | 64 | 1 | Same with Jingzi | At each layer |
 | 32 | 64 | 128 | 64 | 1 | Same with Jingzi | - |
-Table: The Sensitivity of Normalization{#normalization-setting}
+Table: The Sensitivity of Normalization
+{#tbl:normalization-setting}
 
-| Layer 1 | Layer 2 | Layer 3 | Layer 4 | Layer 5 | Learning Rate | Normalization |
+| **Layer 1** | **Layer 2** | **Layer 3** | **Layer 4** | **Layer 5** | **Learning Rate** | **Normalization** |
 |:--------- |:----------:|:---------:|:---------:|:---------:|:------------------:|:------------------:|
 | 32 | 64 | 128 | 64 | 1 | Same with Jingzi | At each layer |
 | 32 | 64 | 128 | 64 | 1 | Same with Anye | At each layer |
 | 32 | 64 | 128 | 64 | 1 | 0.001 | At each layer |
 | 32 | 64 | 128 | 64 | 1 | 0.005 | At each layer |
-Table: The Sensitivity of Learning Rate{#rates-setting}
+Table: The Sensitivity of Learning Rate
+{#tbl:rates-setting}
 
 
 This manuscript is a template (aka "rootstock") for [Manubot](https://manubot.org/ "Manubot"), a tool for writing scholarly manuscripts.

@@ -4,14 +4,14 @@ aliquip
 amet
 anim
 Anyang
-anye
+Anye
 Anye’s
 APSO
 Ashqar
 ASPO
 aute
 boxplot
-boxplots
+Boxplots
 Champaign
 cillum
 Citi
@@ -48,7 +48,7 @@ interdependencies
 ipsum
 irure
 Jiang
-Jingzi
+jingzi
 Jingzi’s
 Kang
 labore

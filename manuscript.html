@@ -115,9 +115,9 @@
   <meta name="citation_fulltext_html_url" content="https://Jingzi2020.github.io/CEE498_2020_G1/" />
   <meta name="citation_pdf_url" content="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/2f19a12af15790343abd47cc69af83e05ee74bd1/" />
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/2f19a12af15790343abd47cc69af83e05ee74bd1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/2f19a12af15790343abd47cc69af83e05ee74bd1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/a5d8ed67634c7965f6d1b285187af3c8b5b69bfc/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/a5d8ed67634c7965f6d1b285187af3c8b5b69bfc/" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/a5d8ed67634c7965f6d1b285187af3c8b5b69bfc/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -138,9 +138,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://Jingzi2020.github.io/CEE498_2020_G1/v/2f19a12af15790343abd47cc69af83e05ee74bd1/">permalink</a>)
+(<a href="https://Jingzi2020.github.io/CEE498_2020_G1/v/a5d8ed67634c7965f6d1b285187af3c8b5b69bfc/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/Jingzi2020/CEE498_2020_G1/tree/2f19a12af15790343abd47cc69af83e05ee74bd1">Jingzi2020/CEE498_2020_G1@2f19a12</a>
+from <a href="https://github.com/Jingzi2020/CEE498_2020_G1/tree/a5d8ed67634c7965f6d1b285187af3c8b5b69bfc">Jingzi2020/CEE498_2020_G1@a5d8ed6</a>
 on December 6, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -242,7 +242,7 @@ Correlation values range between -1 and 1., positive values indicate positive co
 - 12- Cnt seems to have a relation depending on hour that can be explored further and it seems to be a multi-peak distribution</p>
 <p>The observations above allow us to build hypthesis that can be explored further using other EDA tools which will lay down the basis of our predictive model.</p>
 <p><strong>Boxplots</strong></p>
-<p><img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Boxplots.JPG" alt="drawing" width="800" height="400" /></p>
+<p><img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Boxplots.JPG" alt="Boxplots" width="800" height="400" /></p>
 <p>Graph1 shows that:
 - 1- There seems to be a distribution of the median (middle line of the boxplot) and range (of the black line of each boxplot) of cnt with respect to month, it roughly follows a normal ditribution, peaking in July.
 - 2- For each month the distributions tends to be skewed to the right.
@@ -252,7 +252,7 @@ Correlation values range between -1 and 1., positive values indicate positive co
 - 2- During some hours, the shape of the distribution of cnt tends to be normal, while it’s more skewed to the right for some other hours.
 - 3- As expected night hours have the lowest cnt.</p>
 <p><strong>Multi-variate Plots</strong></p>
-<p><img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Multivariate%20Plots.JPG" alt="drawing" width="800" height="400" /></p>
+<p><img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Multivariate%20Plots.JPG" alt="Multi-variate Plots" width="800" height="400" /></p>
 <ul>
 <li>Graph1 shows the general plot of new bike counts over the hours of the day.</li>
 <li>Graph2 provides interesting insight as it shows that the distribution of the counts during the day is different on a holiday is at peaks around 1 pm - 2pm, while during regular days, it has two peaks around 8 am and 5 pm, which follows the governing distribution and was shown in the boxplots as well.</li>
@@ -261,10 +261,10 @@ Correlation values range between -1 and 1., positive values indicate positive co
 <li>Graph 5 shows high effect of weather in general, which is significant for codes 10 and 26 (10 = rain with thunderstorm, 26 = snowfall), implying no counts occur in such extreme cold weathers.</li>
 </ul>
 <p><strong>Statistical Values</strong></p>
-<p><img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Statistical%20Values%20Table.JPG" alt="drawing" width="1000" height="200" /></p>
+<p><img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Statistical%20Values%20Table.JPG" alt="Statistical Values" width="1000" height="200" /></p>
 <p>This gives us general insight about the mean and range of each parameter but it’s irrelevant for time parameters. The main outcomes is that the values of cnt in each hour over the two years of study, have a mean of 1138 and standard deviation of 1079, which is almost equivalent to the mean which means that there is significant difference between cnt values in certain hours than others. And this was indeed shown in the visualizations. We also notice that the maximum value is 7860, almost 7 times as big as the mean, which also means that there are very relatively few hours with such high values that they didn’t affect the mean significantly. However this might be also affected by the fact that we the datapoints include records along the day including night time, were people are not using bikes or commuting at all. We notice the temperature values range between -1.5 and 34 degrees C, which might not be representative of others cities; same applies to teh humidity and wind speed. So it’s important to highlight this factor when representing the predictive model at later stage.</p>
 <h2 id="correlation-matrix">Correlation Matrix</h2>
-<p><img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Correlation%20Matrix.JPG" alt="drawing" width="600" height="600" /></p>
+<p><img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Correlation%20Matrix.JPG" alt="Correlation Matrix" width="600" height="600" /></p>
 <p>We can follow the color map to find the variables of some correlation, which are the variables with correlation above roughly above 0.3, which are colored by red or lighter shade of color or less than -0.3, which are colored in black . As expected t1 and t2 have high correlation which means only variable might be included in the predictive model at most.</p>
 <ul>
 <li>cnt shows correlation to t1 &amp; t2 &amp; humidity and hour of the day.</li>
@@ -299,7 +299,7 @@ Correlation values range between -1 and 1., positive values indicate positive co
 <li>Designing layers and parameters;</li>
 <li>Determining training methods.</li>
 </ul>
-<p>We used different features, epochs, hidden layers, units and learning rates in this project. The architectures of our models are shown in Figure <a href="#fig:jingzi-model">2</a> , <a href="#fig:anye-model">3</a> and <a href="#fig:dana-model">4</a> . The Main parameters of our models are shown in Table ??</p>
+<p>We used different features, epochs, hidden layers, units and learning rates in this project. The architectures of our models are shown in Figure <a href="#fig:jingzi-model">2</a> , <a href="#fig:anye-model">3</a> and <a href="#fig:dana-model">4</a> . The Main parameters of our models are shown in Table <a href="#tbl:our-models">1</a></p>
 <div id="fig:jingzi-model" class="fignos">
 <figure>
 <img src="images/Jingzi%20Model.png" alt="" /><figcaption><span>Figure 2:</span> The Architecture of Jingzi’s Model</figcaption>
@@ -315,45 +315,64 @@ Correlation values range between -1 and 1., positive values indicate positive co
 <img src="images/Dana%20Model.png" alt="" /><figcaption><span>Figure 4:</span> The Architecture of Dana’s Model</figcaption>
 </figure>
 </div>
+<div id="tbl:our-models" class="tablenos">
 <table>
-<caption>The Overview of Our Models{#tbl:our-models}</caption>
+<caption><span>Table 1:</span> The Overview of Our Models
+</caption>
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 13%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+</colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Models</th>
-<th style="text-align: center;">Features</th>
-<th style="text-align: center;">Epochs</th>
-<th style="text-align: center;">Hidden Layers</th>
-<th style="text-align: center;">Units</th>
-<th style="text-align: center;">Learning Rates</th>
+<th style="text-align: left;"><strong>Models</strong></th>
+<th style="text-align: center;"><strong>Features</strong></th>
+<th style="text-align: center;"><strong>Epochs</strong></th>
+<th style="text-align: center;"><strong>Hidden Layers</strong></th>
+<th style="text-align: center;"><strong>Units</strong></th>
+<th style="text-align: center;"><strong>Learning Rates</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">Jingzi</td>
 <td style="text-align: center;">11</td>
-<td style="text-align: center;">&lt;150*</td>
-<td style="text-align: center;">210</td>
-<td style="text-align: center;">105</td>
-<td style="text-align: center;"></td>
+<td style="text-align: center;">&lt;150</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">289</td>
+<td style="text-align: center;">Non-Constant</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Anye</td>
 <td style="text-align: center;">12</td>
 <td style="text-align: center;">300</td>
-<td style="text-align: center;">197</td>
-<td style="text-align: center;">102</td>
-<td style="text-align: center;"></td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">131</td>
+<td style="text-align: center;">Non-Constant</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Dana</td>
 <td style="text-align: center;">7</td>
 <td style="text-align: center;">800</td>
-<td style="text-align: center;">238</td>
-<td style="text-align: center;">134</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">641</td>
+<td style="text-align: center;">Constant</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">*Epochs in Jingzi’s model will be stopped when loss reached the minimum. <!-- $colspan="6" --></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 </tr>
 </tbody>
 </table>
+</div>
 <p>*Epochs in Jingzi’s model will be stopped when loss reached the minimum.</p>
 <p>The evaluation of the models’ performances are based on the root mean squared error(RMSE) between the test data and predictions. The equation of RMSE is shown in equation <a href="#eq:rmse">1</a> .</p>
 <p><span id="eq:rmse" class="eqnos"><span class="math display">\[ RMSE = \sqrt{\frac{1}{n}\Sigma_{i=1}^{n}{(observed_i - predicted_i)^2}}\]</span><span class="eqnos-number">(1)</span></span> </p>
@@ -361,18 +380,20 @@ Correlation values range between -1 and 1., positive values indicate positive co
 <h3 id="sensitivity-analysis">Sensitivity Analysis</h3>
 <p>To evaluate and optimize our models, we analyzed the sensitivity of different parameters.</p>
 <p>Units of Layers, Layers, Normalization and Learning Rates are analyzed. To avoid the influence of randomization, the evaluation of the performances is according to the average RMSE of 3 separate training with same initial parameters.</p>
-<p>The architectures and main training methods of sensitivity analysis are shown in Table ?? , Table ?? , Table ?? and Table ?? .</p>
+<p>The architectures and main training methods of sensitivity analysis are shown in Table <a href="#tbl:units-setting">2</a> , Table <a href="#tbl:layers-setting">3</a> , Table <a href="#tbl:normalization-setting">4</a> and Table <a href="#tbl:rates-setting">5</a> .</p>
+<div id="tbl:units-setting" class="tablenos">
 <table>
-<caption>The Sensitivity of the Number of Units in Layer 2{#units-setting}</caption>
+<caption><span>Table 2:</span> The Sensitivity of the Number of Units in Layer 2
+</caption>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Layer 1</th>
-<th style="text-align: center;">Layer 2</th>
-<th style="text-align: center;">Layer 3</th>
-<th style="text-align: center;">Layer 4</th>
-<th style="text-align: center;">Layer 5</th>
-<th style="text-align: center;">Learning Rate</th>
-<th style="text-align: center;">Normalization</th>
+<th style="text-align: left;"><strong>Layer 1</strong></th>
+<th style="text-align: center;"><strong>Layer 2</strong></th>
+<th style="text-align: center;"><strong>Layer 3</strong></th>
+<th style="text-align: center;"><strong>Layer 4</strong></th>
+<th style="text-align: center;"><strong>Layer 5</strong></th>
+<th style="text-align: center;"><strong>Learning Rate</strong></th>
+<th style="text-align: center;"><strong>Normalization</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -414,17 +435,20 @@ Correlation values range between -1 and 1., positive values indicate positive co
 </tr>
 </tbody>
 </table>
+</div>
+<div id="tbl:layers-setting" class="tablenos">
 <table>
-<caption>The Sensitivity of the Number of Layers{#layers-setting}</caption>
+<caption><span>Table 3:</span> The Sensitivity of the Number of Layers
+</caption>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Layer 1</th>
-<th style="text-align: center;">Layer 2</th>
-<th style="text-align: center;">Layer 3</th>
-<th style="text-align: center;">Layer 4</th>
-<th style="text-align: center;">Layer 5</th>
-<th style="text-align: center;">Learning Rate</th>
-<th style="text-align: center;">Normalization</th>
+<th style="text-align: left;"><strong>Layer 1</strong></th>
+<th style="text-align: center;"><strong>Layer 2</strong></th>
+<th style="text-align: center;"><strong>Layer 3</strong></th>
+<th style="text-align: center;"><strong>Layer 4</strong></th>
+<th style="text-align: center;"><strong>Layer 5</strong></th>
+<th style="text-align: center;"><strong>Learning Rate</strong></th>
+<th style="text-align: center;"><strong>Normalization</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -457,17 +481,20 @@ Correlation values range between -1 and 1., positive values indicate positive co
 </tr>
 </tbody>
 </table>
+</div>
+<div id="tbl:normalization-setting" class="tablenos">
 <table>
-<caption>The Sensitivity of Normalization{#normalization-setting}</caption>
+<caption><span>Table 4:</span> The Sensitivity of Normalization
+</caption>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Layer 1</th>
-<th style="text-align: center;">Layer 2</th>
-<th style="text-align: center;">Layer 3</th>
-<th style="text-align: center;">Layer 4</th>
-<th style="text-align: center;">Layer 5</th>
-<th style="text-align: center;">Learning Rate</th>
-<th style="text-align: center;">Normalization</th>
+<th style="text-align: left;"><strong>Layer 1</strong></th>
+<th style="text-align: center;"><strong>Layer 2</strong></th>
+<th style="text-align: center;"><strong>Layer 3</strong></th>
+<th style="text-align: center;"><strong>Layer 4</strong></th>
+<th style="text-align: center;"><strong>Layer 5</strong></th>
+<th style="text-align: center;"><strong>Learning Rate</strong></th>
+<th style="text-align: center;"><strong>Normalization</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -491,17 +518,20 @@ Correlation values range between -1 and 1., positive values indicate positive co
 </tr>
 </tbody>
 </table>
+</div>
+<div id="tbl:rates-setting" class="tablenos">
 <table>
-<caption>The Sensitivity of Learning Rate{#rates-setting}</caption>
+<caption><span>Table 5:</span> The Sensitivity of Learning Rate
+</caption>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Layer 1</th>
-<th style="text-align: center;">Layer 2</th>
-<th style="text-align: center;">Layer 3</th>
-<th style="text-align: center;">Layer 4</th>
-<th style="text-align: center;">Layer 5</th>
-<th style="text-align: center;">Learning Rate</th>
-<th style="text-align: center;">Normalization</th>
+<th style="text-align: left;"><strong>Layer 1</strong></th>
+<th style="text-align: center;"><strong>Layer 2</strong></th>
+<th style="text-align: center;"><strong>Layer 3</strong></th>
+<th style="text-align: center;"><strong>Layer 4</strong></th>
+<th style="text-align: center;"><strong>Layer 5</strong></th>
+<th style="text-align: center;"><strong>Learning Rate</strong></th>
+<th style="text-align: center;"><strong>Normalization</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -543,6 +573,7 @@ Correlation values range between -1 and 1., positive values indicate positive co
 </tr>
 </tbody>
 </table>
+</div>
 <p>This manuscript is a template (aka “rootstock”) for <a href="https://manubot.org/" title="Manubot">Manubot</a>, a tool for writing scholarly manuscripts.
 Use this template as a starting point for your manuscript.</p>
 <p>The rest of this document is a full list of formatting elements/features supported by Manubot.
@@ -618,7 +649,7 @@ Manubot plugins provide easier, more convenient visualization of and navigation 
 <p>Figure <a href="#fig:wide-image">6</a></p>
 <p>Figure <a href="#fig:tall-image">7</a></p>
 <p>Figure <a href="#fig:vector-image">8</a></p>
-<p>Table <a href="#tbl:bowling-scores">1</a></p>
+<p>Table <a href="#tbl:bowling-scores">6</a></p>
 <p>Equation <a href="#eq:regular-equation">4</a></p>
 <p>Equation <a href="#eq:long-equation">5</a></p>
 <h3 id="quotes-and-code">Quotes and code</h3>
@@ -672,7 +703,7 @@ White background specified to serve as a backdrop for transparent sections of th
 <h3 id="tables">Tables</h3>
 <div id="tbl:bowling-scores" class="tablenos">
 <table>
-<caption><span>Table 1:</span> A table with a top caption and specified relative column widths.
+<caption><span>Table 6:</span> A table with a top caption and specified relative column widths.
 </caption>
 <thead>
 <tr class="header">
@@ -710,7 +741,7 @@ White background specified to serve as a backdrop for transparent sections of th
 </div>
 <div id="tbl:constant-digits" class="tablenos">
 <table>
-<caption><span>Table 2:</span> A table too wide to fit within page.
+<caption><span>Table 7:</span> A table too wide to fit within page.
 </caption>
 <colgroup>
 <col style="width: 5%" />
@@ -746,9 +777,9 @@ White background specified to serve as a backdrop for transparent sections of th
 </tbody>
 </table>
 </div>
-<div id="tbl:dedb279f-7451-4d5f-9b33-538303e1484a" class="tablenos">
+<div id="tbl:9d2b2d49-bce1-46da-a1d6-f715139af4b1" class="tablenos">
 <table>
-<caption><span>Table 3:</span> A table with merged cells using the <code>attributes</code> plugin.
+<caption><span>Table 8:</span> A table with merged cells using the <code>attributes</code> plugin.
 </caption>
 <thead>
 <tr class="header">
@@ -850,7 +881,7 @@ Loaded from the latest version of image on GitHub.</figcaption>
 <p>Figure <a href="#fig:wide-image">6</a></p>
 <p>Figure <a href="#fig:tall-image">7</a></p>
 <p>Figure <a href="#fig:vector-image">8</a></p>
-<p>Table <a href="#tbl:bowling-scores">1</a></p>
+<p>Table <a href="#tbl:bowling-scores">6</a></p>
 <p>Equation <a href="#eq:regular-equation">4</a></p>
 <p>Equation <a href="#eq:long-equation">5</a></p>
 <h3 id="figures-1">Figures</h3>
