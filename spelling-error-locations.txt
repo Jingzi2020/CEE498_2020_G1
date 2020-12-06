@@ -1,8 +1,8 @@
 content/02.introduction.md:4:dataset
-content/02.introduction.md:5:dataset
 content/02.introduction.md:6:dataset
-content/02.introduction.md:7:dataset
-content/02.introduction.md:10:Cnt
+content/02.introduction.md:8:dataset
+content/02.introduction.md:10:dataset
+content/02.introduction.md:15:Cnt
 content/03.Literature Review.md:6:Citi
 content/03.Literature Review.md:6:RMSE
 content/03.Literature Review.md:8:literatures
@@ -129,66 +129,35 @@ content/06.Results of Modeling.md:15:RMSE
 content/06.Results of Modeling.md:18:Jingzi
 content/06.Results of Modeling.md:18:Jingzi’s
 content/06.Results of Modeling.md:18:RMSE
-content/06.Results of Modeling.md:22:RMSE
-content/06.Results of Modeling.md:24:Jingzi
-content/06.Results of Modeling.md:25:Jingzi
+content/06.Results of Modeling.md:24:RMSE
 content/06.Results of Modeling.md:26:Jingzi
 content/06.Results of Modeling.md:27:Jingzi
-content/06.Results of Modeling.md:31:dataset
-content/06.Results of Modeling.md:31:RMSE
-content/06.Results of Modeling.md:31:RMSE
-content/06.Results of Modeling.md:70:adipiscing
-content/06.Results of Modeling.md:70:aliqua
-content/06.Results of Modeling.md:70:amet
-content/06.Results of Modeling.md:70:consectetur
-content/06.Results of Modeling.md:70:dolore
-content/06.Results of Modeling.md:70:eiusmod
-content/06.Results of Modeling.md:70:elit
-content/06.Results of Modeling.md:70:incididunt
-content/06.Results of Modeling.md:70:ipsum
-content/06.Results of Modeling.md:70:labore
-content/06.Results of Modeling.md:70:Lorem
-content/06.Results of Modeling.md:70:magna
-content/06.Results of Modeling.md:70:sed
-content/06.Results of Modeling.md:70:tempor
-content/06.Results of Modeling.md:71:aliquip
-content/06.Results of Modeling.md:71:commodo
-content/06.Results of Modeling.md:71:consequat
-content/06.Results of Modeling.md:71:enim
-content/06.Results of Modeling.md:71:exercitation
-content/06.Results of Modeling.md:71:laboris
-content/06.Results of Modeling.md:71:nisi
-content/06.Results of Modeling.md:71:nostrud
-content/06.Results of Modeling.md:71:quis
-content/06.Results of Modeling.md:71:ullamco
-content/06.Results of Modeling.md:71:veniam
-content/06.Results of Modeling.md:72:aute
-content/06.Results of Modeling.md:72:cillum
-content/06.Results of Modeling.md:72:dolore
-content/06.Results of Modeling.md:72:Duis
-content/06.Results of Modeling.md:72:esse
-content/06.Results of Modeling.md:72:fugiat
-content/06.Results of Modeling.md:72:irure
-content/06.Results of Modeling.md:72:nulla
-content/06.Results of Modeling.md:72:pariatur
-content/06.Results of Modeling.md:72:reprehenderit
-content/06.Results of Modeling.md:72:velit
-content/06.Results of Modeling.md:72:voluptate
-content/06.Results of Modeling.md:73:anim
-content/06.Results of Modeling.md:73:culpa
-content/06.Results of Modeling.md:73:cupidatat
-content/06.Results of Modeling.md:73:deserunt
-content/06.Results of Modeling.md:73:Excepteur
-content/06.Results of Modeling.md:73:laborum
-content/06.Results of Modeling.md:73:mollit
-content/06.Results of Modeling.md:73:occaecat
-content/06.Results of Modeling.md:73:officia
-content/06.Results of Modeling.md:73:proident
-content/06.Results of Modeling.md:73:qui
-content/06.Results of Modeling.md:73:sint
-content/06.Results of Modeling.md:73:sunt
-content/06.Results of Modeling.md:253:Pandoc's
-content/06.Results of Modeling.md:263:Pandoc's
+content/06.Results of Modeling.md:28:Jingzi
+content/06.Results of Modeling.md:29:Jingzi
+content/06.Results of Modeling.md:33:dataset
+content/06.Results of Modeling.md:33:RMSE
+content/06.Results of Modeling.md:33:RMSE
+content/06.Results of Modeling.md:39:RMSE
+content/06.Results of Modeling.md:41:Jingzi
+content/06.Results of Modeling.md:42:Jingzi
+content/06.Results of Modeling.md:43:Jingzi
+content/06.Results of Modeling.md:47:dataset
+content/06.Results of Modeling.md:47:RMSE
+content/06.Results of Modeling.md:51:Jingzi
+content/06.Results of Modeling.md:51:Jingzi’s
+content/06.Results of Modeling.md:53:RMSE
+content/06.Results of Modeling.md:55:Jingzi
+content/06.Results of Modeling.md:56:Jingzi
+content/06.Results of Modeling.md:60:dataset
+content/06.Results of Modeling.md:64:Jingzi
+content/06.Results of Modeling.md:64:Jingzi’s
+content/06.Results of Modeling.md:68:Jingzi
+content/06.Results of Modeling.md:69:Anye
+content/06.Results of Modeling.md:75:Anye
+content/06.Results of Modeling.md:75:dataset
+content/06.Results of Modeling.md:75:dataset
+content/06.Results of Modeling.md:75:Jingzi
+content/06.Results of Modeling.md:75:RMSE
 content/07.Discussion.md:5:Ashqar
 content/07.Discussion.md:5:datapoints
 content/07.Discussion.md:5:dataset
