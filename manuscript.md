@@ -70,11 +70,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/92b50312b1b89beebd886a8d8a4d05bdddd5c94f/" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/840f94f3ef65ccb00ad1089412e0cb841a00c523/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/92b50312b1b89beebd886a8d8a4d05bdddd5c94f/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/840f94f3ef65ccb00ad1089412e0cb841a00c523/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/92b50312b1b89beebd886a8d8a4d05bdddd5c94f/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/840f94f3ef65ccb00ad1089412e0cb841a00c523/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -106,9 +106,9 @@ title: The Models of London Bike Sharing Prediction
 
 <small><em>
 This manuscript
-([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/92b50312b1b89beebd886a8d8a4d05bdddd5c94f/))
+([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/840f94f3ef65ccb00ad1089412e0cb841a00c523/))
 was automatically generated
-from [Jingzi2020/CEE498_2020_G1@92b5031](https://github.com/Jingzi2020/CEE498_2020_G1/tree/92b50312b1b89beebd886a8d8a4d05bdddd5c94f)
+from [Jingzi2020/CEE498_2020_G1@840f94f](https://github.com/Jingzi2020/CEE498_2020_G1/tree/840f94f3ef65ccb00ad1089412e0cb841a00c523)
 on December 6, 2020.
 </em></small>
 
@@ -282,6 +282,7 @@ Graph1 in Figure @fig:box-plot shows that:
 - 3- Months with lowest ranges are January, February, November and December. 
 
 Graph2 in Figure @fig:box-plot shows that:
+
 - 1- There is no clear distribution of median of cnt over the hours of the day, but the variation shows that cnt varies between different hours in the day, which seems to have two peaks, around 8 am then around 5 pm. 
 - 2- During some hours, the shape of the distribution of cnt tends to be normal, while it's more skewed to the right for some other hours. 
 - 3- As expected night hours have the lowest cnt. 
@@ -512,24 +513,6 @@ Moreover, the performance of the model may have less prediction powers for other
 ## Conclusion
 
 After interpreting the exploratory data analysis, a predictive model using regular neural networks through tensor flow package was created to predict range of bike counts in an hour. The features used in this model include: temperature, humidity, hour of the day, day of the month, month of the year, the year, weekend indicator, holiday indicator, weather code, season, & wind speed. In one of the models the final normalized root mean squared error of the model is 0.2058 and 0.25 for training data and validation data respectively, and in the best-fitting model the rmse for the training data was reduced to 0.1845. The model was later used to predict the bike counts in an hour for the test dataset. The mean of the predicted values is relatively similar to the mean of the training data with only 1.23% relative difference. Improvements to this model can be made by adding further features or performing additional hyperparameters tuning, however the predictive model obtained is satisfactory. This model can be used for scheduling redistribution shifts for bikes between stations in non-busy areas were demand is low and accuracy level is less critical given that the model predicts total number of bikes shared per hour in all London city, however for microscopic predictions, the model might not be as accurate given that demand per station might be modeled different and it can be influenced by different factors such the population distribution in the city and the land-use nearby stations. 
-
-<!-- an arbitrary comment. visible in input, but not visible in output. -->
-
-
-## References
-
- [1] Z. Kang, Y. Zuo, Z. Huang, F. Zhou and P. Chen, "Research on the Forecast of Shared Bicycle Rental Demand Based on Spark Machine Learning Framework," 2017 16th International Symposium on Distributed Computing and Applications to Business, Engineering and Science (DCABES), Anyang, 2017, pp. 219-222, doi: 10.1109/DCABES.2017.55. 
-
-[2] F. Lin, S. Wang, J. Jiang, W. Fan and Y. Sun, "Predicting public bicycle rental number using multi-source data," 2017 International Joint Conference on Neural Networks (IJCNN), Anchorage, AK, 2017, pp. 1502-1509, doi: 10.1109/IJCNN.2017.7966030. 
-
-[3] J. Huang, X. Wang and H. Sun, "Central Station Based Demand Prediction in a Bike Sharing System," 2019 20th IEEE International Conference on Mobile Data Management (MDM), Hong Kong, Hong Kong, 2019, pp. 346-348, doi: 10.1109/MDM.2019.00-38. 
-
-[4] https://www.kaggle.com/hmavrodiev/london-bike-sharing-dataset
-
-[5] Ashqar, H. I., Elhenawy, M., Rakha, H. A., Road, V. P., & Qld, K. G. "Case Studies on Transport Policy Modeling bike counts in a bike-sharing system considering the e ff ect of weather conditions," 2019. Case Studies on Transport Policy, 7(2), 261–268. https://doi.org/10.1016/j.cstp.2019.02.011
-
-[6] F. Lin, S. Wang, J. Jiang, W. Fan and Y. Sun, "Predicting public bicycle rental number using multi-source data," 2017 International Joint Conference on Neural Networks (IJCNN), Anchorage, AK, 2017, pp. 1502-1509, doi: 10.1109/IJCNN.2017.7966030.
-
 
 
 ## References {.page_break_before}

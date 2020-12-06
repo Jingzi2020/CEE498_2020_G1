@@ -4,13 +4,8 @@ content/02.introduction.md:8:dataset
 content/02.introduction.md:10:dataset
 content/02.introduction.md:15:Cnt
 content/03.Literature Review.md:6:Citi
-content/03.Literature Review.md:6:DCABES
 content/03.Literature Review.md:6:RMSE
-content/03.Literature Review.md:8:DCABES
-content/03.Literature Review.md:8:IJCNN
-content/03.Literature Review.md:8:IJCNN
 content/03.Literature Review.md:8:literatures
-content/03.Literature Review.md:8:MDM
 content/03.Literature Review.md:10:dataset
 content/03.Literature Review.md:13:rebalancing
 content/03.Literature Review.md:15:overfitting
@@ -28,7 +23,6 @@ content/03.Literature Review.md:21:PRM
 content/03.Literature Review.md:24:dataset
 content/03.Literature Review.md:29:APSO
 content/03.Literature Review.md:29:dataset
-content/03.Literature Review.md:29:IJCNN
 content/03.Literature Review.md:29:Jiang
 content/03.Literature Review.md:30:dataset
 content/03.Literature Review.md:31:dataset
@@ -74,22 +68,22 @@ content/04.Data Analysis.md:58:boxplot
 content/04.Data Analysis.md:58:boxplot
 content/04.Data Analysis.md:58:cnt
 content/04.Data Analysis.md:58:ditribution
-content/04.Data Analysis.md:63:cnt
-content/04.Data Analysis.md:63:cnt
+content/04.Data Analysis.md:64:cnt
 content/04.Data Analysis.md:64:cnt
 content/04.Data Analysis.md:65:cnt
-content/04.Data Analysis.md:73:boxplots
-content/04.Data Analysis.md:81:cnt
-content/04.Data Analysis.md:81:cnt
-content/04.Data Analysis.md:81:datapoints
-content/04.Data Analysis.md:81:teh
-content/04.Data Analysis.md:89:cnt
+content/04.Data Analysis.md:66:cnt
+content/04.Data Analysis.md:74:boxplots
+content/04.Data Analysis.md:82:cnt
+content/04.Data Analysis.md:82:cnt
+content/04.Data Analysis.md:82:datapoints
+content/04.Data Analysis.md:82:teh
 content/04.Data Analysis.md:90:cnt
 content/04.Data Analysis.md:91:cnt
-content/04.Data Analysis.md:99:cnt
-content/04.Data Analysis.md:102:boxplots
-content/04.Data Analysis.md:102:scatterplots
-content/04.Data Analysis.md:102:unimodal
+content/04.Data Analysis.md:92:cnt
+content/04.Data Analysis.md:100:cnt
+content/04.Data Analysis.md:103:boxplots
+content/04.Data Analysis.md:103:scatterplots
+content/04.Data Analysis.md:103:unimodal
 content/05.Model.md:16:preprocessing
 content/05.Model.md:20:anye
 content/05.Model.md:20:jingzi
@@ -190,23 +184,3 @@ content/07.Discussion.md:19:dataset
 content/07.Discussion.md:24:dataset
 content/07.Discussion.md:24:hyperparameters
 content/07.Discussion.md:24:rmse
-content/07.Discussion.md:31:Anyang
-content/07.Discussion.md:31:DCABES
-content/07.Discussion.md:31:DCABES
-content/07.Discussion.md:31:Kang
-content/07.Discussion.md:31:Zhou
-content/07.Discussion.md:31:Zuo
-content/07.Discussion.md:33:IJCNN
-content/07.Discussion.md:33:IJCNN
-content/07.Discussion.md:33:Jiang
-content/07.Discussion.md:35:MDM
-content/07.Discussion.md:35:MDM
-content/07.Discussion.md:37:dataset
-content/07.Discussion.md:39:Ashqar
-content/07.Discussion.md:39:ect
-content/07.Discussion.md:39:Elhenawy
-content/07.Discussion.md:39:Qld
-content/07.Discussion.md:39:Rakha
-content/07.Discussion.md:41:IJCNN
-content/07.Discussion.md:41:IJCNN
-content/07.Discussion.md:41:Jiang
