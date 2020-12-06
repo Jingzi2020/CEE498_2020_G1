@@ -21,11 +21,10 @@ authors:
     affiliations:
       - Grainger College of Engineering, University of Illinois at Urbana-Champaign, Civil Engineering - Construction Management
 
-  - github: janeroe
-    name: Jane Roe
-    initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
+  - github: Dana2021
+    name: Dana Monzer
+    initials: DM
+    orcid: +1 2178191851
+    email: dmonzer2@illinois.edu
     affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
+      - Grainger College of Engineering, University of Illinois at Urbana-Champaign, Civil Engineering - Transportation Systems
