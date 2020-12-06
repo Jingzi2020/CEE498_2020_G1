@@ -70,11 +70,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/7ef34dd75d69c2463d851efc1a63cb28ff98dcb6/" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/e484ded8c6a56241e8650df40155e47a31f14654/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/7ef34dd75d69c2463d851efc1a63cb28ff98dcb6/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/e484ded8c6a56241e8650df40155e47a31f14654/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/7ef34dd75d69c2463d851efc1a63cb28ff98dcb6/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/e484ded8c6a56241e8650df40155e47a31f14654/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -106,9 +106,9 @@ title: The Models of London Bike Sharing Prediction
 
 <small><em>
 This manuscript
-([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/7ef34dd75d69c2463d851efc1a63cb28ff98dcb6/))
+([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/e484ded8c6a56241e8650df40155e47a31f14654/))
 was automatically generated
-from [Jingzi2020/CEE498_2020_G1@7ef34dd](https://github.com/Jingzi2020/CEE498_2020_G1/tree/7ef34dd75d69c2463d851efc1a63cb28ff98dcb6)
+from [Jingzi2020/CEE498_2020_G1@e484ded](https://github.com/Jingzi2020/CEE498_2020_G1/tree/e484ded8c6a56241e8650df40155e47a31f14654)
 on December 6, 2020.
 </em></small>
 
@@ -149,12 +149,6 @@ on December 6, 2020.
 The aim of this study is to create a predictive model for bike-sharing counts in a n hour in the city of London in United Kingdom. The model makes use of regular neural network. And the main features affecting the bike counts include weather conditions and time. The model root mean square is 210, with a mean of 1124 counts in an hour compared to 1138 counts in an hour in the training data. The model provides enough accuracy for planning a new station and scheduling bike redistribution schedules. 
 
 
-
-This manuscript is a template (aka "rootstock") for [Manubot](https://manubot.org/ "Manubot"), a tool for writing scholarly manuscripts.
-Use this template as a starting point for your manuscript.
-
-The rest of this document is a full list of formatting elements/features supported by Manubot.
-Compare the input (`.md` files in the `/content` directory) to the output you see below.
 
 ## Introduction
 
@@ -1611,11 +1605,7 @@ useful for *warnings* - [manubot.org](https://manubot.org/)
 ]{.banner .lightred}
 
 
-This manuscript is a template (aka "rootstock") for [Manubot](https://manubot.org/ "Manubot"), a tool for writing scholarly manuscripts.
-Use this template as a starting point for your manuscript.
 
-The rest of this document is a full list of formatting elements/features supported by Manubot.
-Compare the input (`.md` files in the `/content` directory) to the output you see below.
 
 ## Experiments of the Prediction Models
 
