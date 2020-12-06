@@ -53,9 +53,9 @@
   <meta name="citation_fulltext_html_url" content="https://Jingzi2020.github.io/CEE498_2020_G1/" />
   <meta name="citation_pdf_url" content="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/03471afc69905f1800767797fe928fe176acf9a2/" />
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/03471afc69905f1800767797fe928fe176acf9a2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/03471afc69905f1800767797fe928fe176acf9a2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/ed6dab2a7e0ab9ed43b8f2d0e3aa541e574055d0/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/ed6dab2a7e0ab9ed43b8f2d0e3aa541e574055d0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/ed6dab2a7e0ab9ed43b8f2d0e3aa541e574055d0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -76,9 +76,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://Jingzi2020.github.io/CEE498_2020_G1/v/03471afc69905f1800767797fe928fe176acf9a2/">permalink</a>)
+(<a href="https://Jingzi2020.github.io/CEE498_2020_G1/v/ed6dab2a7e0ab9ed43b8f2d0e3aa541e574055d0/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/Jingzi2020/CEE498_2020_G1/tree/03471afc69905f1800767797fe928fe176acf9a2">Jingzi2020/CEE498_2020_G1@03471af</a>
+from <a href="https://github.com/Jingzi2020/CEE498_2020_G1/tree/ed6dab2a7e0ab9ed43b8f2d0e3aa541e574055d0">Jingzi2020/CEE498_2020_G1@ed6dab2</a>
 on December 6, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -191,21 +191,22 @@ Correlation values range between -1 and 1., positive values indicate positive co
 </ul>
 <p>The observations above allow us to build hypthesis that can be explored further using other EDA tools which will lay down the basis of our predictive model.</p>
 <p><strong>Boxplots</strong></p>
-<p><img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Boxplots.JPG" alt="Boxplots" width="800" height="400" /></p>
-<p>Graph1 shows that:</p>
+<p><img src="images/Boxplots.png" title="Wide image" id="fig:box-plot" alt="Boxplots of Data" />
+<img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Boxplots.JPG" alt="Boxplots" width="800" height="400" /></p>
+<p>Graph1 in Figure ?? shows that:</p>
 <ul>
 <li>1- There seems to be a distribution of the median (middle line of the boxplot) and range (of the black line of each boxplot) of cnt with respect to month, it roughly follows a normal ditribution, peaking in July.</li>
 <li>2- For each month the distributions tends to be skewed to the right.</li>
 <li>3- Months with lowest ranges are January, February, November and December.</li>
 </ul>
-<p>Graph2 shows that:
+<p>Graph2 in Figure ?? shows that:
 - 1- There is no clear distribution of median of cnt over the hours of the day, but the variation shows that cnt varies between different hours in the day, which seems to have two peaks, around 8 am then around 5 pm.
 - 2- During some hours, the shape of the distribution of cnt tends to be normal, while it’s more skewed to the right for some other hours.
 - 3- As expected night hours have the lowest cnt.</p>
 <p><strong>Multi-variate Plots</strong></p>
 <div id="fig:multi-plot" class="fignos">
 <figure>
-<img src="images/Multivariate%20Plots.JPG" alt="" /><figcaption><span>Figure 1:</span> <strong>Multi-variate Plots of Data</strong></figcaption>
+<img src="images/Multivariate-Plots.png" alt="" /><figcaption><span>Figure 1:</span> <strong>Multi-variate Plots of Data</strong></figcaption>
 </figure>
 </div>
 <p>Figure <a href="#fig:multi-plot">1</a> shows the plots of average bike counts at each hour of the day. The following trends are shown:</p>
@@ -217,14 +218,14 @@ Correlation values range between -1 and 1., positive values indicate positive co
 <p><strong>Statistical Values</strong></p>
 <div id="fig:stat-value" class="fignos">
 <figure>
-<img src="images/Statistical%20Values%20Table.JPG" alt="" /><figcaption><span>Figure 2:</span> <strong>The Statistical Values of Data</strong></figcaption>
+<img src="images/Statistical-Values-Table.png" alt="" /><figcaption><span>Figure 2:</span> <strong>The Statistical Values of Data</strong></figcaption>
 </figure>
 </div>
 <p>Figure <a href="#fig:stat-value">2</a> gives us general insight about the mean and range of each parameter but it’s irrelevant for time parameters. The main outcomes is that the values of cnt in each hour over the two years of study, have a mean of 1138 and standard deviation of 1079, which is almost equivalent to the mean which means that there is significant difference between cnt values in certain hours than others. And this was indeed shown in the visualizations. We also notice that the maximum value is 7860, almost 7 times as big as the mean, which also means that there are very relatively few hours with such high values that they didn’t affect the mean significantly. However this might be also affected by the fact that we the datapoints include records along the day including night time, were people are not using bikes or commuting at all. We notice the temperature values range between -1.5 and 34 degrees C, which might not be representative of others cities; same applies to teh humidity and wind speed. So it’s important to highlight this factor when representing the predictive model at later stage.</p>
 <p><strong>Correlation Matrix</strong></p>
 <div id="fig:corr-matrix" class="fignos">
 <figure>
-<img src="images/Correlation%20Matrix.JPG" alt="" /><figcaption><span>Figure 3:</span> <strong>The Correlation Matrix of Data</strong></figcaption>
+<img src="images/Correlation-Matrix.png" alt="" /><figcaption><span>Figure 3:</span> <strong>The Correlation Matrix of Data</strong></figcaption>
 </figure>
 </div>
 <p>We can follow the color map <a href="#fig:corr-matrix">3</a> to find the variables of some correlation, which are the variables with correlation above roughly above 0.3, which are colored by red or lighter shade of color or less than -0.3, which are colored in black . As expected t1 and t2 have high correlation which means only variable might be included in the predictive model at most.</p>
