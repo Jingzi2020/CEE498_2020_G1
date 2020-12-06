@@ -70,11 +70,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/d0098bcf2d022f75d5558b7c5291b2eb6ad297f4/" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/207d6e2cc6a6e2219db7b5daff341888d1d5b8da/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/d0098bcf2d022f75d5558b7c5291b2eb6ad297f4/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/207d6e2cc6a6e2219db7b5daff341888d1d5b8da/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/d0098bcf2d022f75d5558b7c5291b2eb6ad297f4/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/207d6e2cc6a6e2219db7b5daff341888d1d5b8da/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -106,9 +106,9 @@ title: The Models of London Bike Sharing Prediction
 
 <small><em>
 This manuscript
-([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/d0098bcf2d022f75d5558b7c5291b2eb6ad297f4/))
+([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/207d6e2cc6a6e2219db7b5daff341888d1d5b8da/))
 was automatically generated
-from [Jingzi2020/CEE498_2020_G1@d0098bc](https://github.com/Jingzi2020/CEE498_2020_G1/tree/d0098bcf2d022f75d5558b7c5291b2eb6ad297f4)
+from [Jingzi2020/CEE498_2020_G1@207d6e2](https://github.com/Jingzi2020/CEE498_2020_G1/tree/207d6e2cc6a6e2219db7b5daff341888d1d5b8da)
 on December 6, 2020.
 </em></small>
 
@@ -268,7 +268,17 @@ The observations above allow us to build hypthesis that can be explored further 
 >  - 2- During some hours, the shape of the distribution of cnt tends to be normal, while it's more skewed to the right for some other hours. 
 >  - 3- As expected night hours have the lowest cnt. 
 
+**Multi-variate Plots**
 
+- Graph1 shows the general plot of new bike counts over the hours of the day. 
+- Graph2 provides interesting insight as it shows that the distribution of the counts during the day is different on a holiday is at peaks around 1 pm - 2pm, while during regular days, it has two peaks around 8 am and 5 pm, which follows the governing distribution and was shown in the boxplots as well. 
+- Graph 3 shows similar results for weekends as holidays and for weekdays as non-holiday days
+- Graph 4 shows that the seasons order based on highest bike counts is summer, then fall and spring, and then winter, which validates more clearly previous results. 
+- Graph 5 shows high effect of weather in general, which is significant for codes 10 and 26 (10 = rain with thunderstorm, 26 = snowfall), implying no counts occur in such extreme cold weathers. 
+
+
+
+### delete later
 
 **Bold**
 

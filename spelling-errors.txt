@@ -15,7 +15,7 @@ Boxplots
 Champaign
 cillum
 Citi
-cnt
+Cnt
 commodo
 consectetur
 consequat
@@ -48,7 +48,7 @@ interdependencies
 ipsum
 irure
 Jiang
-jingzi
+Jingzi
 Jingzi’s
 Kang
 labore
