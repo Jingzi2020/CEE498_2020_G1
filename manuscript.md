@@ -70,11 +70,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/3cab708aac43ac4444d18c1ac1e1ea0215446db1/" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/db8cecadeac7df58a11dce221e183f95750f9601/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/3cab708aac43ac4444d18c1ac1e1ea0215446db1/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/db8cecadeac7df58a11dce221e183f95750f9601/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/3cab708aac43ac4444d18c1ac1e1ea0215446db1/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/db8cecadeac7df58a11dce221e183f95750f9601/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -106,9 +106,9 @@ title: The Models of London Bike Sharing Prediction
 
 <small><em>
 This manuscript
-([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/3cab708aac43ac4444d18c1ac1e1ea0215446db1/))
+([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/db8cecadeac7df58a11dce221e183f95750f9601/))
 was automatically generated
-from [Jingzi2020/CEE498_2020_G1@3cab708](https://github.com/Jingzi2020/CEE498_2020_G1/tree/3cab708aac43ac4444d18c1ac1e1ea0215446db1)
+from [Jingzi2020/CEE498_2020_G1@db8ceca](https://github.com/Jingzi2020/CEE498_2020_G1/tree/db8cecadeac7df58a11dce221e183f95750f9601)
 on December 6, 2020.
 </em></small>
 
@@ -1401,23 +1401,7 @@ Equation @eq:long-equation
 Loaded from the latest version of image on GitHub.
 ](https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/square.png "Square image"){#fig:square-image}
 
-![
-**An image too wide to fit within page at full size.**
-Loaded from a specific (hashed) version of the image on GitHub.
-](https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/wide.png "Wide image"){#fig:wide-image}
 
-![
-**A tall image with a specified height.**
-Loaded from a specific (hashed) version of the image on GitHub.
-](https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/tall.png "Tall image"){#fig:tall-image height=3in}
-
-![
-**A vector `.svg` image loaded from GitHub.**
-The parameter `sanitize=true` is necessary to properly load SVGs hosted via GitHub URLs.
-White background specified to serve as a backdrop for transparent sections of the image.
-](https://raw.githubusercontent.com/manubot/resources/master/test/vector.svg?sanitize=true "Vector image"){#fig:vector-image height=2.5in .white}
-
-) |
 
 ### Equations
 
