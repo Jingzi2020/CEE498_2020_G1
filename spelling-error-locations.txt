@@ -84,6 +84,10 @@ content/04.Data Analysis.md:100:cnt
 content/04.Data Analysis.md:103:boxplots
 content/04.Data Analysis.md:103:scatterplots
 content/04.Data Analysis.md:103:unimodal
+content/05.Model.md:9:Ashqar
+content/05.Model.md:9:convolutional
+content/05.Model.md:9:dataset
+content/05.Model.md:9:hyperparameters
 content/05.Model.md:16:preprocessing
 content/05.Model.md:20:anye
 content/05.Model.md:20:jingzi
@@ -99,27 +103,33 @@ content/05.Model.md:30:Jingzi
 content/05.Model.md:31:Anye
 content/05.Model.md:33:Jingzi
 content/05.Model.md:33:Jingzi’s
-content/05.Model.md:37:rmse
-content/05.Model.md:37:RMSE
-content/05.Model.md:37:RMSE
-content/05.Model.md:39:rmse
-content/05.Model.md:39:RMSE
-content/05.Model.md:41:cnt
-content/05.Model.md:41:cnt
+content/05.Model.md:37:relu
+content/05.Model.md:37:ReLU
+content/05.Model.md:37:ReLU
+content/05.Model.md:37:ReLU
+content/05.Model.md:37:sigmoid
+content/05.Model.md:39:relu
 content/05.Model.md:41:rmse
 content/05.Model.md:41:RMSE
-content/05.Model.md:47:RMSE
-content/05.Model.md:53:Jingzi
-content/05.Model.md:54:Jingzi
-content/05.Model.md:55:Jingzi
-content/05.Model.md:56:Jingzi
-content/05.Model.md:62:Jingzi
-content/05.Model.md:63:Jingzi
-content/05.Model.md:64:Jingzi
-content/05.Model.md:70:Jingzi
-content/05.Model.md:71:Jingzi
-content/05.Model.md:77:Jingzi
-content/05.Model.md:78:Anye
+content/05.Model.md:41:RMSE
+content/05.Model.md:43:rmse
+content/05.Model.md:43:RMSE
+content/05.Model.md:45:cnt
+content/05.Model.md:45:cnt
+content/05.Model.md:45:rmse
+content/05.Model.md:45:RMSE
+content/05.Model.md:51:RMSE
+content/05.Model.md:57:Jingzi
+content/05.Model.md:58:Jingzi
+content/05.Model.md:59:Jingzi
+content/05.Model.md:60:Jingzi
+content/05.Model.md:66:Jingzi
+content/05.Model.md:67:Jingzi
+content/05.Model.md:68:Jingzi
+content/05.Model.md:74:Jingzi
+content/05.Model.md:75:Jingzi
+content/05.Model.md:81:Jingzi
+content/05.Model.md:82:Anye
 content/06.Results of Modeling.md:7:Jingzi
 content/06.Results of Modeling.md:7:Jingzi’s
 content/06.Results of Modeling.md:7:RMSE

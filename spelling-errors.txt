@@ -1,4 +1,4 @@
-anye
+Anye
 Anye’s
 APSO
 Ashqar
@@ -7,7 +7,8 @@ boxplot
 boxplots
 Champaign
 Citi
-Cnt
+cnt
+convolutional
 covariance
 datapoints
 dataset
@@ -21,7 +22,7 @@ hyperplanes
 hypthesis
 interdependencies
 Jiang
-jingzi
+Jingzi
 Jingzi’s
 linearily
 literatures
@@ -34,8 +35,10 @@ overfitting
 preprocessing
 PRM
 rebalancing
+relu
 RMSE
 scatterplots
+sigmoid
 skewness
 stepwise
 stochasticity

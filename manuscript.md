@@ -70,11 +70,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/840f94f3ef65ccb00ad1089412e0cb841a00c523/" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/1ad4cbfb274863217cad92b3baa0adb762d9f8e5/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/840f94f3ef65ccb00ad1089412e0cb841a00c523/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/1ad4cbfb274863217cad92b3baa0adb762d9f8e5/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/840f94f3ef65ccb00ad1089412e0cb841a00c523/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/1ad4cbfb274863217cad92b3baa0adb762d9f8e5/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -106,9 +106,9 @@ title: The Models of London Bike Sharing Prediction
 
 <small><em>
 This manuscript
-([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/840f94f3ef65ccb00ad1089412e0cb841a00c523/))
+([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/1ad4cbfb274863217cad92b3baa0adb762d9f8e5/))
 was automatically generated
-from [Jingzi2020/CEE498_2020_G1@840f94f](https://github.com/Jingzi2020/CEE498_2020_G1/tree/840f94f3ef65ccb00ad1089412e0cb841a00c523)
+from [Jingzi2020/CEE498_2020_G1@1ad4cbf](https://github.com/Jingzi2020/CEE498_2020_G1/tree/1ad4cbfb274863217cad92b3baa0adb762d9f8e5)
 on December 6, 2020.
 </em></small>
 
@@ -336,7 +336,7 @@ Based on the exploratory data analysis, regular neural network is used to figure
 
 Neural network is a model that optimize the parameters through learning process to recognize hidden relationships between different data. 
 
-Because of the low correlation between given features, regular neural network probably is the most appropriate model to solve the project. The architecture of regular neural network is shown in Figure @fig:regular-neural-network .
+The algorithm used for this problem is regular neural networks. Because of the low correlation between given features, neural network probably is the most appropriate model to solve the project. This model is used for similar predictions to predict a dependent variables based on independent variables, where the model is unlikely to be a linear regression model, unlike convolutional neural networks that are used for image classification, or recurrent neural networks that are used for prediction of future outcomes that are dependent on past data, like predicting the left life span of equipment, which is irrelevant for this problem as the new bike counts are independent of past bike counts, unless available bikes in a station in the previous hour was provided as a feature as literature have shown it can affect bike counts, however this information is not available in the dataset. However, another algorithm that is applicable for this problem is Random Forest Model, however this algorithm wasn’t used either. The reason regular neural network was preferred is because random forest has a few limitations. The main limitation of random forest is that a large number of trees is required to produce accurate predictions, but on the other hand, the higher the number of trees used in the model the slower it is [@https://builtin.com/data-science/random-forest-algorithm]. Moreover, in reference to Ashqar et al. (2019)[@doi:10.1016/j.cstp.2019.02.011], feature engineering in random forest becomes even more critical which adds another difficulty in improving accuracy of the model besides hyperparameters tuning.The architecture of regular neural network is shown in Figure @fig:regular-neural-network .
 
 ![The Architecture of Regular Neural Network](images/Basic Model.png "Wide image"){#fig:regular-neural-network}
 
@@ -364,7 +364,11 @@ We used different features, epochs, hidden layers, units and learning rates in t
 Table: The Overview of Our Models
 {#tbl:our-models}
 
-The evaluation of the models’ performances are based on the root mean squared error(RMSE) between the test data and predictions. The equation of RMSE is shown in equation @eq:rmse .
+ReLU is used as activation function because ReLU often works a little better than a smooth function like the sigmoid, while also being significantly easier to compute [@https://developers.google.com/machine-learning/crash-course] . The expression of ReLU is shown in equation @eq:relu
+
+$$F(x)=max(0,x)$$ {#eq:relu}
+
+The loss function and evaluation of the models’ performances are based on the root mean squared error(RMSE) between the test data and predictions. The equation of RMSE is shown in equation @eq:rmse .
 
 $$ RMSE = \sqrt{\frac{1}{n}\Sigma_{i=1}^{n}{(observed_i - predicted_i)^2}}$$ {#eq:rmse}
 
