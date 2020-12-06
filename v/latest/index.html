@@ -115,9 +115,9 @@
   <meta name="citation_fulltext_html_url" content="https://Jingzi2020.github.io/CEE498_2020_G1/" />
   <meta name="citation_pdf_url" content="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/207d6e2cc6a6e2219db7b5daff341888d1d5b8da/" />
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/207d6e2cc6a6e2219db7b5daff341888d1d5b8da/" />
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/207d6e2cc6a6e2219db7b5daff341888d1d5b8da/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/a43e0f4fdaa1bae1bc73b53965cb10e0df4e0a7e/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/a43e0f4fdaa1bae1bc73b53965cb10e0df4e0a7e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/a43e0f4fdaa1bae1bc73b53965cb10e0df4e0a7e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -138,9 +138,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://Jingzi2020.github.io/CEE498_2020_G1/v/207d6e2cc6a6e2219db7b5daff341888d1d5b8da/">permalink</a>)
+(<a href="https://Jingzi2020.github.io/CEE498_2020_G1/v/a43e0f4fdaa1bae1bc73b53965cb10e0df4e0a7e/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/Jingzi2020/CEE498_2020_G1/tree/207d6e2cc6a6e2219db7b5daff341888d1d5b8da">Jingzi2020/CEE498_2020_G1@207d6e2</a>
+from <a href="https://github.com/Jingzi2020/CEE498_2020_G1/tree/a43e0f4fdaa1bae1bc73b53965cb10e0df4e0a7e">Jingzi2020/CEE498_2020_G1@a43e0f4</a>
 on December 6, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -216,8 +216,8 @@ From this research, I learned that the factors should be transferred into reason
 <p><strong>Boxplots</strong></p>
 <p>The reason for using box plots is to provide a visual summary of the data enabling us to visualize the median and range values, the dispersion of the data set, and any signs of skewness. So we can compare dispersion of new bike counts with respect to different values of a parameter. This tool will be used to explore certain relationships further than scatterplots, and not for all pairs of parameters.
 A box plot includes five values: the minimum value, the 25th percentile (Q1), the median, the 75th percentile (Q3), and the maximum value.</p>
-<p><strong>Multi-variable Point Plots</strong></p>
-<p>The reason multi-variable point plots are used is to shows us the effect of certain variables on the distribution of the new bike counts during the day. So we can obtain different plots depending on the other variable, so we can explore two variables interrelations. And we choose categorical variables to find how their different categories affect the change in new bike counts along a day.</p>
+<p><strong>Multivariate Point Plots</strong></p>
+<p>The reason multivariate point plots are used is to shows us the effect of certain variables on the distribution of the new bike counts during the day. So we can obtain different plots depending on the other variable, so we can explore two variables interrelations. And we choose categorical variables to find how their different categories affect the change in new bike counts along a day.</p>
 <p><strong>Statistical Values</strong></p>
 <p>The reason for finding statistical values is get an insight about the mean, range and maximum and minimum values of different parameters especially new bike counts, and make a connection with the visualizations created. If the dataset included more than 2 years, a good approach would have been to also find covariance between datapoints in different years to identify any change in pattern resulting from certain events associated with a certain year, but this is not needed in our case.</p>
 <p><strong>Correlation Matrix</strong></p>
@@ -225,6 +225,7 @@ A box plot includes five values: the minimum value, the 25th percentile (Q1), th
 Correlation values range between -1 and 1., positive values indicate positive correlation and negative values indicate negative correlation. Absolute Values above 0.7 generally indicate high positive correlation, between 0.5 and 0.7 is moderate and between 0.3 and 0.5 is low, while under 0.3 is negligible correlation.</p>
 <h3 id="interpretation-of-eda">Interpretation of EDA</h3>
 <p><strong>Scatterplots</strong></p>
+<!-- I don't know if you wanna add plots here -->
 <p>By looking at the plots we observe the following:
 - 1- t1 and t2 are linearily dependent, which is expected because temperature feel directly depends on temperature.
 - 2- Wind_speed and t2 seem to have some kind of relationship, which needs to be explored further
@@ -240,17 +241,27 @@ Correlation values range between -1 and 1., positive values indicate positive co
 - 12- Cnt seems to have a relation depending on hour that can be explored further and it seems to be a multi-peak distribution</p>
 <p>The observations above allow us to build hypthesis that can be explored further using other EDA tools which will lay down the basis of our predictive model.</p>
 <p><strong>Boxplots</strong></p>
-<ul>
-<li>Graph1 shows that:
-&gt; - 1- There seems to be a distribution of the median (middle line of the boxplot) and range (of the black line of each boxplot) of cnt with respect to month, it roughly follows a normal ditribution, peaking in July.
-&gt; - 2- For each month the distributions tends to be skewed to the right.
-&gt; - 3- Months with lowest ranges are January, February, November and December.</li>
-<li>Graph2 shows that:
-&gt; - 1- There is no clear distribution of median of cnt over the hours of the day, but the variation shows that cnt varies between different hours in the day, which seems to have two peaks, around 8 am then around 5 pm.
-&gt; - 2- During some hours, the shape of the distribution of cnt tends to be normal, while it’s more skewed to the right for some other hours.
-&gt; - 3- As expected night hours have the lowest cnt.</li>
-</ul>
+<div id="fig:wide-image" class="fignos">
+<figure>
+<img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Boxplots.JPG" alt="" /><figcaption><span>Figure 1:</span> <strong>An image too wide to fit within page at full size.</strong>
+Loaded from a specific (hashed) version of the image on GitHub.</figcaption>
+</figure>
+</div>
+<p>Graph1 shows that:
+- 1- There seems to be a distribution of the median (middle line of the boxplot) and range (of the black line of each boxplot) of cnt with respect to month, it roughly follows a normal ditribution, peaking in July.
+- 2- For each month the distributions tends to be skewed to the right.
+- 3- Months with lowest ranges are January, February, November and December.
+- Graph2 shows that:
+- 1- There is no clear distribution of median of cnt over the hours of the day, but the variation shows that cnt varies between different hours in the day, which seems to have two peaks, around 8 am then around 5 pm.
+- 2- During some hours, the shape of the distribution of cnt tends to be normal, while it’s more skewed to the right for some other hours.
+- 3- As expected night hours have the lowest cnt.</p>
 <p><strong>Multi-variate Plots</strong></p>
+<div id="fig:wide-image" class="fignos">
+<figure>
+<img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Multivariate%20Plots.JPG" alt="" /><figcaption><span>Figure 2:</span> <strong>An image too wide to fit within page at full size.</strong>
+Loaded from a specific (hashed) version of the image on GitHub.</figcaption>
+</figure>
+</div>
 <ul>
 <li>Graph1 shows the general plot of new bike counts over the hours of the day.</li>
 <li>Graph2 provides interesting insight as it shows that the distribution of the counts during the day is different on a holiday is at peaks around 1 pm - 2pm, while during regular days, it has two peaks around 8 am and 5 pm, which follows the governing distribution and was shown in the boxplots as well.</li>
@@ -258,6 +269,37 @@ Correlation values range between -1 and 1., positive values indicate positive co
 <li>Graph 4 shows that the seasons order based on highest bike counts is summer, then fall and spring, and then winter, which validates more clearly previous results.</li>
 <li>Graph 5 shows high effect of weather in general, which is significant for codes 10 and 26 (10 = rain with thunderstorm, 26 = snowfall), implying no counts occur in such extreme cold weathers.</li>
 </ul>
+<p><strong>Statistical Values</strong></p>
+<div id="fig:wide-image" class="fignos">
+<figure>
+<img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Statistical%20Values%20Table.JPG" alt="" /><figcaption><span>Figure 3:</span> <strong>An image too wide to fit within page at full size.</strong>
+Loaded from a specific (hashed) version of the image on GitHub.</figcaption>
+</figure>
+</div>
+<p>This gives us general insight about the mean and range of each parameter but it’s irrelevant for time parameters. The main outcomes is that the values of cnt in each hour over the two years of study, have a mean of 1138 and standard deviation of 1079, which is almost equivalent to the mean which means that there is significant difference between cnt values in certain hours than others. And this was indeed shown in the visualizations. We also notice that the maximum value is 7860, almost 7 times as big as the mean, which also means that there are very relatively few hours with such high values that they didn’t affect the mean significantly. However this might be also affected by the fact that we the datapoints include records along the day including night time, were people are not using bikes or commuting at all. We notice the temperature values range between -1.5 and 34 degrees C, which might not be representative of others cities; same applies to teh humidity and wind speed. So it’s important to highlight this factor when representing the predictive model at later stage.</p>
+<p><strong>Correlation Matrix</strong></p>
+<div id="fig:wide-image" class="fignos">
+<figure>
+<img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Correlation%20Matrix.JPG" alt="" /><figcaption><span>Figure 4:</span> <strong>An image too wide to fit within page at full size.</strong>
+Loaded from a specific (hashed) version of the image on GitHub.</figcaption>
+</figure>
+</div>
+<p>We can follow the color map to find the variables of some correlation, which are the variables with correlation above roughly above 0.3, which are colored by red or lighter shade of color or less than -0.3, which are colored in black . As expected t1 and t2 have high correlation which means only variable might be included in the predictive model at most.</p>
+<ul>
+<li>cnt shows correlation to t1 &amp; t2 &amp; humidity and hour of the day.</li>
+<li>t1 and t2 show correlation to cnt, humidity, and month of the year.</li>
+<li>humidity shows correlation to cnt, t1 &amp; t2, and weather code</li>
+<li>wind speed shows correlation to slightly to humidity</li>
+<li>weather code shows correlation to humidity</li>
+<li>holidays binary doesn’t show correlation to any other parameter</li>
+<li>weekend binary doesn’t show correlation to any other parameter</li>
+<li>season shows correlation to t1 &amp; t2, humidity</li>
+<li>month shows correlation to t1 &amp; t2</li>
+<li>day of the month doesn’t show correlation to any other parameter</li>
+<li>hour shows correlation to cnt and humidity</li>
+</ul>
+<p>To summarize the results and analysis.The scatterplots showed that t1 and t2 are directly related, and possible relationship between wind speed and t2, t1 and humidity, humidity and bike counts, bike counts and wind speed, bike counts and temperature, weather code and bike counts. It also shows that bike counts are higher during weekdays and non-holidays and for better weather conditions. Also, it shows that highest counts occur for summer. And no pattern was shown between counts and day of month. The boxplots showed that there seems to be a distribution of counts based on month, and that the counts are mostly skewed to the right. Also, that the distribution of counts over the hours of the day have two peaks, and within the hour the distribution is mostly normal but for some hours it is skewed to the right. Multi-variable point plots show interesting insights about the change of the variation of counts over the day from bi-modal, for regular days and weekdays, to unimodal for holidays and weekends. And it also showed that although summer has highest counts and winter has the lowest, fall and spring seem to have similar values. And the correlations showed that new counts are mainly correlated to temperature, humidity and hour of the day with no significance correlation to other parameters. And some of the other parameters are correlated as well especially weather attributes (humidity, temperature, wind speed..).</p>
+<p>We can derive several conclusions from the results of the exploratory data analysis. We explored which factors have a direct relationship with the new bike counts registered each hour, and the results show that the main factors affecting the range of new bike counts in an hour are temperature, humidity, and hour of the day, with some effect shown in visualizations by the weekdays, weather description, month and season.</p>
 <h3 id="delete-later">delete later</h3>
 <p><strong>Bold</strong></p>
 <p><span class="semibold">Semi-bold text</span></p>
@@ -325,13 +367,13 @@ two spaces at end of line.</p>
 Manubot plugins provide easier, more convenient visualization of and navigation between citations <span class="citation" data-cites="YuJbg3zO 126Wi5Us4 mSMVRkoc PZMP42Ak">[<a href="#ref-mSMVRkoc" role="doc-biblioref">2</a>,<a href="#ref-126Wi5Us4" role="doc-biblioref">3</a>,<a href="#ref-PZMP42Ak" role="doc-biblioref">7</a>,<a href="#ref-YuJbg3zO" role="doc-biblioref">8</a>]</span>.</p>
 <p>Citation tags (i.e. aliases) can be defined in their own paragraphs using Markdown’s reference link syntax:</p>
 <h3 id="referencing-figures-tables-equations">Referencing figures, tables, equations</h3>
-<p>Figure <a href="#fig:square-image">17</a></p>
-<p>Figure <a href="#fig:wide-image">14</a></p>
-<p>Figure <a href="#fig:tall-image">15</a></p>
-<p>Figure <a href="#fig:vector-image">16</a></p>
+<p>Figure <a href="#fig:square-image">21</a></p>
+<p>Figure <a href="#fig:wide-image">18</a></p>
+<p>Figure <a href="#fig:tall-image">19</a></p>
+<p>Figure <a href="#fig:vector-image">20</a></p>
 <p>Table <a href="#tbl:bowling-scores">7</a></p>
-<p>Equation <a href="#eq:regular-equation">7</a></p>
-<p>Equation <a href="#eq:long-equation">8</a></p>
+<p>Equation <a href="#eq:regular-equation">8</a></p>
+<p>Equation <a href="#eq:long-equation">9</a></p>
 <h3 id="quotes-and-code">Quotes and code</h3>
 <blockquote>
 <p>Quoted text</p>
@@ -357,25 +399,25 @@ Exporting PDF manuscript</code></pre>
 <h3 id="figures">Figures</h3>
 <div id="fig:square-image" class="fignos">
 <figure>
-<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/square.png" alt="" /><figcaption><span>Figure 1:</span> <strong>A square image at actual size and with a bottom caption.</strong>
+<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/square.png" alt="" /><figcaption><span>Figure 5:</span> <strong>A square image at actual size and with a bottom caption.</strong>
 Loaded from the latest version of image on GitHub.</figcaption>
 </figure>
 </div>
 <div id="fig:wide-image" class="fignos">
 <figure>
-<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/wide.png" alt="" /><figcaption><span>Figure 2:</span> <strong>An image too wide to fit within page at full size.</strong>
+<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/wide.png" alt="" /><figcaption><span>Figure 6:</span> <strong>An image too wide to fit within page at full size.</strong>
 Loaded from a specific (hashed) version of the image on GitHub.</figcaption>
 </figure>
 </div>
 <div id="fig:tall-image" class="fignos">
 <figure>
-<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/tall.png" style="height:3in" alt="" /><figcaption><span>Figure 3:</span> <strong>A tall image with a specified height.</strong>
+<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/tall.png" style="height:3in" alt="" /><figcaption><span>Figure 7:</span> <strong>A tall image with a specified height.</strong>
 Loaded from a specific (hashed) version of the image on GitHub.</figcaption>
 </figure>
 </div>
 <div id="fig:vector-image" class="fignos">
 <figure>
-<img src="https://raw.githubusercontent.com/manubot/resources/master/test/vector.svg?sanitize=true" class="white" style="height:2.5in" alt="" /><figcaption><span>Figure 4:</span> <strong>A vector <code>.svg</code> image loaded from GitHub.</strong>
+<img src="https://raw.githubusercontent.com/manubot/resources/master/test/vector.svg?sanitize=true" class="white" style="height:2.5in" alt="" /><figcaption><span>Figure 8:</span> <strong>A vector <code>.svg</code> image loaded from GitHub.</strong>
 The parameter <code>sanitize=true</code> is necessary to properly load SVGs hosted via GitHub URLs.
 White background specified to serve as a backdrop for transparent sections of the image.</figcaption>
 </figure>
@@ -457,7 +499,7 @@ White background specified to serve as a backdrop for transparent sections of th
 </tbody>
 </table>
 </div>
-<div id="tbl:60e4e666-99bf-4ecf-b018-4d0691be1b35" class="tablenos">
+<div id="tbl:02c16b5e-7634-4c5d-8ee1-bd3cbef66aae" class="tablenos">
 <table>
 <caption><span>Table 3:</span> A table with merged cells using the <code>attributes</code> plugin.
 </caption>
@@ -542,10 +584,10 @@ useful for <em>warnings</em> - <a href="https://manubot.org/">manubot.org</a></s
 <h3 id="regular-neural-network">Regular Neural Network</h3>
 <p>Based on the exploratory data analysis, regular neural network is used to figure out the project.</p>
 <p>Neural network is a model that optimize the parameters through learning process to recognize hidden relationships between different data.</p>
-<p>Because of the low correlation between given features, regular neural network probably is the most appropriate model to solve the project. The architecture of regular neural network is shown in Figure <a href="#fig:regular-neural-network">5</a>.</p>
+<p>Because of the low correlation between given features, regular neural network probably is the most appropriate model to solve the project. The architecture of regular neural network is shown in Figure <a href="#fig:regular-neural-network">9</a>.</p>
 <div id="fig:regular-neural-network" class="fignos">
 <figure>
-<img src="images/Basic%20Model.png" alt="" /><figcaption><span>Figure 5:</span> The Architecture of Regular Neural Network</figcaption>
+<img src="images/Basic%20Model.png" alt="" /><figcaption><span>Figure 9:</span> The Architecture of Regular Neural Network</figcaption>
 </figure>
 </div>
 <p>There are 4 steps to build and train neural network, including:</p>
@@ -555,22 +597,24 @@ useful for <em>warnings</em> - <a href="https://manubot.org/">manubot.org</a></s
 <li>Designing layers and parameters;</li>
 <li>Determining training methods.</li>
 </ul>
-<p>We used different features, epochs, hidden layers, units and learning rates in this project. The evaluation of the models’ performances are based on the root mean squared error(RMSE) between the test data and predictions. The architectures of our models are shown in Figure <a href="#fig:jingzi-model">6</a>, <a href="#fig:anye-model">7</a> and <a href="#fig:dana-model">8</a>.</p>
+<p>We used different features, epochs, hidden layers, units and learning rates in this project. The architectures of our models are shown in Figure <a href="#fig:jingzi-model">10</a>, <a href="#fig:anye-model">11</a> and <a href="#fig:dana-model">12</a>.</p>
 <div id="fig:jingzi-model" class="fignos">
 <figure>
-<img src="images/Jingzi%20Model.png" alt="" /><figcaption><span>Figure 6:</span> The Architecture of Jingzi’s Model</figcaption>
+<img src="images/Jingzi%20Model.png" alt="" /><figcaption><span>Figure 10:</span> The Architecture of Jingzi’s Model</figcaption>
 </figure>
 </div>
 <div id="fig:anye-model" class="fignos">
 <figure>
-<img src="images/Anye%20Model.png" alt="" /><figcaption><span>Figure 7:</span> The Architecture of Anye’s Model</figcaption>
+<img src="images/Anye%20Model.png" alt="" /><figcaption><span>Figure 11:</span> The Architecture of Anye’s Model</figcaption>
 </figure>
 </div>
 <div id="fig:dana-model" class="fignos">
 <figure>
-<img src="images/Dana%20Model.png" alt="" /><figcaption><span>Figure 8:</span> The Architecture of Dana’s Model</figcaption>
+<img src="images/Dana%20Model.png" alt="" /><figcaption><span>Figure 12:</span> The Architecture of Dana’s Model</figcaption>
 </figure>
 </div>
+<p>The evaluation of the models’ performances are based on the root mean squared error(RMSE) between the test data and predictions. The equation of RMSE is shown in equation <a href="#eq:rmse">3</a> .</p>
+<p><span id="eq:rmse" class="eqnos"><span class="math display">\[ RMSE = \sqrt{\frac{1}{n}\Sigma_{i=1}^{n}{\Big(\frac{d_i -f_i}{\sigma_i}\Big)^2}}\]</span><span class="eqnos-number">(3)</span></span> </p>
 <h3 id="sensitivity-analysis">Sensitivity Analysis</h3>
 <p>To evaluate and optimize our models, we analyzed the sensitivity of different parameters.</p>
 <p>Units of Layers, Layers, Normalization and Learning Rates are analyzed. To avoid the influence of randomization, the evaluation of the performances is according to the average RMSE of 3 separate training with same initial parameters.</p>
@@ -640,13 +684,13 @@ two spaces at end of line.</p>
 Manubot plugins provide easier, more convenient visualization of and navigation between citations <span class="citation" data-cites="YuJbg3zO 126Wi5Us4 mSMVRkoc PZMP42Ak">[<a href="#ref-mSMVRkoc" role="doc-biblioref">2</a>,<a href="#ref-126Wi5Us4" role="doc-biblioref">3</a>,<a href="#ref-PZMP42Ak" role="doc-biblioref">7</a>,<a href="#ref-YuJbg3zO" role="doc-biblioref">8</a>]</span>.</p>
 <p>Citation tags (i.e. aliases) can be defined in their own paragraphs using Markdown’s reference link syntax:</p>
 <h3 id="referencing-figures-tables-equations-1">Referencing figures, tables, equations</h3>
-<p>Figure <a href="#fig:square-image">17</a></p>
-<p>Figure <a href="#fig:wide-image">14</a></p>
-<p>Figure <a href="#fig:tall-image">15</a></p>
-<p>Figure <a href="#fig:vector-image">16</a></p>
+<p>Figure <a href="#fig:square-image">21</a></p>
+<p>Figure <a href="#fig:wide-image">18</a></p>
+<p>Figure <a href="#fig:tall-image">19</a></p>
+<p>Figure <a href="#fig:vector-image">20</a></p>
 <p>Table <a href="#tbl:bowling-scores">7</a></p>
-<p>Equation <a href="#eq:regular-equation">7</a></p>
-<p>Equation <a href="#eq:long-equation">8</a></p>
+<p>Equation <a href="#eq:regular-equation">8</a></p>
+<p>Equation <a href="#eq:long-equation">9</a></p>
 <h3 id="quotes-and-code-1">Quotes and code</h3>
 <blockquote>
 <p>Quoted text</p>
@@ -672,25 +716,25 @@ Exporting PDF manuscript</code></pre>
 <h3 id="figures-1">Figures</h3>
 <div id="fig:square-image" class="fignos">
 <figure>
-<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/square.png" alt="" /><figcaption><span>Figure 9:</span> <strong>A square image at actual size and with a bottom caption.</strong>
+<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/square.png" alt="" /><figcaption><span>Figure 13:</span> <strong>A square image at actual size and with a bottom caption.</strong>
 Loaded from the latest version of image on GitHub.</figcaption>
 </figure>
 </div>
 <div id="fig:wide-image" class="fignos">
 <figure>
-<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/wide.png" alt="" /><figcaption><span>Figure 10:</span> <strong>An image too wide to fit within page at full size.</strong>
+<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/wide.png" alt="" /><figcaption><span>Figure 14:</span> <strong>An image too wide to fit within page at full size.</strong>
 Loaded from a specific (hashed) version of the image on GitHub.</figcaption>
 </figure>
 </div>
 <div id="fig:tall-image" class="fignos">
 <figure>
-<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/tall.png" style="height:3in" alt="" /><figcaption><span>Figure 11:</span> <strong>A tall image with a specified height.</strong>
+<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/tall.png" style="height:3in" alt="" /><figcaption><span>Figure 15:</span> <strong>A tall image with a specified height.</strong>
 Loaded from a specific (hashed) version of the image on GitHub.</figcaption>
 </figure>
 </div>
 <div id="fig:vector-image" class="fignos">
 <figure>
-<img src="https://raw.githubusercontent.com/manubot/resources/master/test/vector.svg?sanitize=true" class="white" style="height:2.5in" alt="" /><figcaption><span>Figure 12:</span> <strong>A vector <code>.svg</code> image loaded from GitHub.</strong>
+<img src="https://raw.githubusercontent.com/manubot/resources/master/test/vector.svg?sanitize=true" class="white" style="height:2.5in" alt="" /><figcaption><span>Figure 16:</span> <strong>A vector <code>.svg</code> image loaded from GitHub.</strong>
 The parameter <code>sanitize=true</code> is necessary to properly load SVGs hosted via GitHub URLs.
 White background specified to serve as a backdrop for transparent sections of the image.</figcaption>
 </figure>
@@ -772,7 +816,7 @@ White background specified to serve as a backdrop for transparent sections of th
 </tbody>
 </table>
 </div>
-<div id="tbl:c3ad7bcb-82a2-4870-b7a7-ef6822d21292" class="tablenos">
+<div id="tbl:189a7c76-c244-4a6b-82ba-bb2bee1bdc22" class="tablenos">
 <table>
 <caption><span>Table 6:</span> A table with merged cells using the <code>attributes</code> plugin.
 </caption>
@@ -804,9 +848,9 @@ White background specified to serve as a backdrop for transparent sections of th
 </div>
 <h3 id="equations-1">Equations</h3>
 <p>A LaTeX equation:</p>
-<p><span id="eq:regular-equation" class="eqnos"><span class="math display">\[\int_0^\infty e^{-x^2} dx=\frac{\sqrt{\pi}}{2}\]</span><span class="eqnos-number">(3)</span></span> </p>
+<p><span id="eq:regular-equation" class="eqnos"><span class="math display">\[\int_0^\infty e^{-x^2} dx=\frac{\sqrt{\pi}}{2}\]</span><span class="eqnos-number">(4)</span></span> </p>
 <p>An equation too long to fit within page:</p>
-<p><span id="eq:long-equation" class="eqnos"><span class="math display">\[x = a + b + c + d + e + f + g + h + i + j + k + l + m + n + o + p + q + r + s + t + u + v + w + x + y + z + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9\]</span><span class="eqnos-number">(4)</span></span> </p>
+<p><span id="eq:long-equation" class="eqnos"><span class="math display">\[x = a + b + c + d + e + f + g + h + i + j + k + l + m + n + o + p + q + r + s + t + u + v + w + x + y + z + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9\]</span><span class="eqnos-number">(5)</span></span> </p>
 <h3 id="special-1">Special</h3>
 <p><i class="fas fa-exclamation-triangle"></i> <span class="semibold">WARNING</span> <em>The following features are only supported and intended for <code>.html</code> and <code>.pdf</code> exports.</em>
 <em>Journals are not likely to support them, and they may not display correctly when converted to other formats such as <code>.docx</code>.</em></p>
@@ -924,13 +968,13 @@ two spaces at end of line.</p>
 Manubot plugins provide easier, more convenient visualization of and navigation between citations <span class="citation" data-cites="YuJbg3zO 126Wi5Us4 mSMVRkoc PZMP42Ak">[<a href="#ref-mSMVRkoc" role="doc-biblioref">2</a>,<a href="#ref-126Wi5Us4" role="doc-biblioref">3</a>,<a href="#ref-PZMP42Ak" role="doc-biblioref">7</a>,<a href="#ref-YuJbg3zO" role="doc-biblioref">8</a>]</span>.</p>
 <p>Citation tags (i.e. aliases) can be defined in their own paragraphs using Markdown’s reference link syntax:</p>
 <h3 id="referencing-figures-tables-equations-2">Referencing figures, tables, equations</h3>
-<p>Figure <a href="#fig:square-image">17</a></p>
-<p>Figure <a href="#fig:wide-image">14</a></p>
-<p>Figure <a href="#fig:tall-image">15</a></p>
-<p>Figure <a href="#fig:vector-image">16</a></p>
+<p>Figure <a href="#fig:square-image">21</a></p>
+<p>Figure <a href="#fig:wide-image">18</a></p>
+<p>Figure <a href="#fig:tall-image">19</a></p>
+<p>Figure <a href="#fig:vector-image">20</a></p>
 <p>Table <a href="#tbl:bowling-scores">7</a></p>
-<p>Equation <a href="#eq:regular-equation">7</a></p>
-<p>Equation <a href="#eq:long-equation">8</a></p>
+<p>Equation <a href="#eq:regular-equation">8</a></p>
+<p>Equation <a href="#eq:long-equation">9</a></p>
 <h3 id="quotes-and-code-2">Quotes and code</h3>
 <blockquote>
 <p>Quoted text</p>
@@ -956,25 +1000,25 @@ Exporting PDF manuscript</code></pre>
 <h3 id="figures-2">Figures</h3>
 <div id="fig:square-image" class="fignos">
 <figure>
-<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/square.png" alt="" /><figcaption><span>Figure 13:</span> <strong>A square image at actual size and with a bottom caption.</strong>
+<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/square.png" alt="" /><figcaption><span>Figure 17:</span> <strong>A square image at actual size and with a bottom caption.</strong>
 Loaded from the latest version of image on GitHub.</figcaption>
 </figure>
 </div>
 <div id="fig:wide-image" class="fignos">
 <figure>
-<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/wide.png" alt="" /><figcaption><span>Figure 14:</span> <strong>An image too wide to fit within page at full size.</strong>
+<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/wide.png" alt="" /><figcaption><span>Figure 18:</span> <strong>An image too wide to fit within page at full size.</strong>
 Loaded from a specific (hashed) version of the image on GitHub.</figcaption>
 </figure>
 </div>
 <div id="fig:tall-image" class="fignos">
 <figure>
-<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/tall.png" style="height:3in" alt="" /><figcaption><span>Figure 15:</span> <strong>A tall image with a specified height.</strong>
+<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/tall.png" style="height:3in" alt="" /><figcaption><span>Figure 19:</span> <strong>A tall image with a specified height.</strong>
 Loaded from a specific (hashed) version of the image on GitHub.</figcaption>
 </figure>
 </div>
 <div id="fig:vector-image" class="fignos">
 <figure>
-<img src="https://raw.githubusercontent.com/manubot/resources/master/test/vector.svg?sanitize=true" class="white" style="height:2.5in" alt="" /><figcaption><span>Figure 16:</span> <strong>A vector <code>.svg</code> image loaded from GitHub.</strong>
+<img src="https://raw.githubusercontent.com/manubot/resources/master/test/vector.svg?sanitize=true" class="white" style="height:2.5in" alt="" /><figcaption><span>Figure 20:</span> <strong>A vector <code>.svg</code> image loaded from GitHub.</strong>
 The parameter <code>sanitize=true</code> is necessary to properly load SVGs hosted via GitHub URLs.
 White background specified to serve as a backdrop for transparent sections of the image.</figcaption>
 </figure>
@@ -1056,7 +1100,7 @@ White background specified to serve as a backdrop for transparent sections of th
 </tbody>
 </table>
 </div>
-<div id="tbl:9563262a-6865-46bb-8150-55dbf4679954" class="tablenos">
+<div id="tbl:8c417fb6-3c8f-48f3-a114-96f32dd5aaae" class="tablenos">
 <table>
 <caption><span>Table 9:</span> A table with merged cells using the <code>attributes</code> plugin.
 </caption>
@@ -1088,9 +1132,9 @@ White background specified to serve as a backdrop for transparent sections of th
 </div>
 <h3 id="equations-2">Equations</h3>
 <p>A LaTeX equation:</p>
-<p><span id="eq:regular-equation" class="eqnos"><span class="math display">\[\int_0^\infty e^{-x^2} dx=\frac{\sqrt{\pi}}{2}\]</span><span class="eqnos-number">(5)</span></span> </p>
+<p><span id="eq:regular-equation" class="eqnos"><span class="math display">\[\int_0^\infty e^{-x^2} dx=\frac{\sqrt{\pi}}{2}\]</span><span class="eqnos-number">(6)</span></span> </p>
 <p>An equation too long to fit within page:</p>
-<p><span id="eq:long-equation" class="eqnos"><span class="math display">\[x = a + b + c + d + e + f + g + h + i + j + k + l + m + n + o + p + q + r + s + t + u + v + w + x + y + z + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9\]</span><span class="eqnos-number">(6)</span></span> </p>
+<p><span id="eq:long-equation" class="eqnos"><span class="math display">\[x = a + b + c + d + e + f + g + h + i + j + k + l + m + n + o + p + q + r + s + t + u + v + w + x + y + z + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9\]</span><span class="eqnos-number">(7)</span></span> </p>
 <h3 id="special-2">Special</h3>
 <p><i class="fas fa-exclamation-triangle"></i> <span class="semibold">WARNING</span> <em>The following features are only supported and intended for <code>.html</code> and <code>.pdf</code> exports.</em>
 <em>Journals are not likely to support them, and they may not display correctly when converted to other formats such as <code>.docx</code>.</em></p>
@@ -1156,25 +1200,25 @@ Loaded from the latest version of image on GitHub.</figcaption>
 <p>[5] Ashqar, H. I., Elhenawy, M., Rakha, H. A., Road, V. P., &amp; Qld, K. G. “Case Studies on Transport Policy Modeling bike counts in a bike-sharing system considering the e ff ect of weather conditions,” 2019. Case Studies on Transport Policy, 7(2), 261–268. https://doi.org/10.1016/j.cstp.2019.02.011</p>
 <p>[6] F. Lin, S. Wang, J. Jiang, W. Fan and Y. Sun, “Predicting public bicycle rental number using multi-source data,” 2017 International Joint Conference on Neural Networks (IJCNN), Anchorage, AK, 2017, pp. 1502-1509, doi: 10.1109/IJCNN.2017.7966030.</p>
 <h3 id="referencing-figures-tables-equations-3">Referencing figures, tables, equations</h3>
-<p>Figure <a href="#fig:square-image">17</a></p>
-<p>Figure <a href="#fig:wide-image">14</a></p>
-<p>Figure <a href="#fig:tall-image">15</a></p>
-<p>Figure <a href="#fig:vector-image">16</a></p>
+<p>Figure <a href="#fig:square-image">21</a></p>
+<p>Figure <a href="#fig:wide-image">18</a></p>
+<p>Figure <a href="#fig:tall-image">19</a></p>
+<p>Figure <a href="#fig:vector-image">20</a></p>
 <p>Table <a href="#tbl:bowling-scores">7</a></p>
-<p>Equation <a href="#eq:regular-equation">7</a></p>
-<p>Equation <a href="#eq:long-equation">8</a></p>
+<p>Equation <a href="#eq:regular-equation">8</a></p>
+<p>Equation <a href="#eq:long-equation">9</a></p>
 <h3 id="figures-3">Figures</h3>
 <div id="fig:square-image" class="fignos">
 <figure>
-<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/square.png" alt="" /><figcaption><span>Figure 17:</span> <strong>A square image at actual size and with a bottom caption.</strong>
+<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/square.png" alt="" /><figcaption><span>Figure 21:</span> <strong>A square image at actual size and with a bottom caption.</strong>
 Loaded from the latest version of image on GitHub.</figcaption>
 </figure>
 </div>
 <h3 id="equations-3">Equations</h3>
 <p>A LaTeX equation:</p>
-<p><span id="eq:regular-equation" class="eqnos"><span class="math display">\[\int_0^\infty e^{-x^2} dx=\frac{\sqrt{\pi}}{2}\]</span><span class="eqnos-number">(7)</span></span> </p>
+<p><span id="eq:regular-equation" class="eqnos"><span class="math display">\[\int_0^\infty e^{-x^2} dx=\frac{\sqrt{\pi}}{2}\]</span><span class="eqnos-number">(8)</span></span> </p>
 <p>An equation too long to fit within page:</p>
-<p><span id="eq:long-equation" class="eqnos"><span class="math display">\[x = a + b + c + d + e + f + g + h + i + j + k + l + m + n + o + p + q + r + s + t + u + v + w + x + y + z + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9\]</span><span class="eqnos-number">(8)</span></span> </p>
+<p><span id="eq:long-equation" class="eqnos"><span class="math display">\[x = a + b + c + d + e + f + g + h + i + j + k + l + m + n + o + p + q + r + s + t + u + v + w + x + y + z + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9\]</span><span class="eqnos-number">(9)</span></span> </p>
 <h2 class="page_break_before" id="references-1">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" class="references hanging-indent" role="doc-bibliography">
