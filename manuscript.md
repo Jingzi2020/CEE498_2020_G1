@@ -5,7 +5,7 @@ author-meta:
 - Jane Roe
 bibliography:
 - content/manual-references.json
-date-meta: '2020-12-05'
+date-meta: '2020-12-06'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -24,9 +24,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="The Models of London Bike Sharing Prediction" />
 
-  <meta name="dc.date" content="2020-12-05" />
+  <meta name="dc.date" content="2020-12-06" />
 
-  <meta name="citation_publication_date" content="2020-12-05" />
+  <meta name="citation_publication_date" content="2020-12-06" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -72,11 +72,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/8de665112585ddf33372e670f8157dbf68427415/" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/14d5fc6e10bf9a717b56ec2a584b634c1bef8a8a/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/8de665112585ddf33372e670f8157dbf68427415/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/14d5fc6e10bf9a717b56ec2a584b634c1bef8a8a/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/8de665112585ddf33372e670f8157dbf68427415/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/14d5fc6e10bf9a717b56ec2a584b634c1bef8a8a/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -108,10 +108,10 @@ title: The Models of London Bike Sharing Prediction
 
 <small><em>
 This manuscript
-([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/8de665112585ddf33372e670f8157dbf68427415/))
+([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/14d5fc6e10bf9a717b56ec2a584b634c1bef8a8a/))
 was automatically generated
-from [Jingzi2020/CEE498_2020_G1@8de6651](https://github.com/Jingzi2020/CEE498_2020_G1/tree/8de665112585ddf33372e670f8157dbf68427415)
-on December 5, 2020.
+from [Jingzi2020/CEE498_2020_G1@14d5fc6](https://github.com/Jingzi2020/CEE498_2020_G1/tree/14d5fc6e10bf9a717b56ec2a584b634c1bef8a8a)
+on December 6, 2020.
 </em></small>
 
 ## Authors
@@ -1021,6 +1021,21 @@ The rest of this document is a full list of formatting elements/features support
 Compare the input (`.md` files in the `/content` directory) to the output you see below.
 
 ## The Models to Predict the Amount of Bike Sharing
+
+Based on the exploratory data analysis, regular neural network is used to figure out the project.
+
+Neural network is a model that optimize the parameters through learning process to recognize hidden relationships between different data. 
+
+Because of the low correlation between given factors and previous related studies of other researchers, regular neural network probably is the most appropriate model to solve the project. There are 4 steps to build and train neural network, including selecting features, data preprocessing, designing layers and parameters, determining training methods. Dana’s code is an example for implementing this algorithms in python.
+
+The architectures and training methods are shown in this slide. We used different features, epochs, hidden layers, units and learning rates in this project. The evaluation of the models’ performances are based on the root mean squared error(RMSE) between the test data and predictions.
+
+To evaluate and optimize our models, we analyzed the sensitivity of different parameters.
+
+Units of Layers, Layers, Normalization and Learning Rates are analyzed. To avoid the influence of randomization, the evaluation of the performances is according to the average RMSE of 3 separate training with same initial parameters.
+
+The architectures of neural network and main parameters in training methods of sensitivity analysis are shown in fig.X.
+
 
 **Bold** __text__
 
