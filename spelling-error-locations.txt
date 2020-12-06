@@ -116,78 +116,121 @@ content/05.Model.md:70:Jingzi
 content/05.Model.md:71:Jingzi
 content/05.Model.md:77:Jingzi
 content/05.Model.md:78:Anye
-content/06.Results of Modeling.md:44:adipiscing
-content/06.Results of Modeling.md:44:aliqua
-content/06.Results of Modeling.md:44:amet
-content/06.Results of Modeling.md:44:consectetur
-content/06.Results of Modeling.md:44:dolore
-content/06.Results of Modeling.md:44:eiusmod
-content/06.Results of Modeling.md:44:elit
-content/06.Results of Modeling.md:44:incididunt
-content/06.Results of Modeling.md:44:ipsum
-content/06.Results of Modeling.md:44:labore
-content/06.Results of Modeling.md:44:Lorem
-content/06.Results of Modeling.md:44:magna
-content/06.Results of Modeling.md:44:sed
-content/06.Results of Modeling.md:44:tempor
-content/06.Results of Modeling.md:45:aliquip
-content/06.Results of Modeling.md:45:commodo
-content/06.Results of Modeling.md:45:consequat
-content/06.Results of Modeling.md:45:enim
-content/06.Results of Modeling.md:45:exercitation
-content/06.Results of Modeling.md:45:laboris
-content/06.Results of Modeling.md:45:nisi
-content/06.Results of Modeling.md:45:nostrud
-content/06.Results of Modeling.md:45:quis
-content/06.Results of Modeling.md:45:ullamco
-content/06.Results of Modeling.md:45:veniam
-content/06.Results of Modeling.md:46:aute
-content/06.Results of Modeling.md:46:cillum
-content/06.Results of Modeling.md:46:dolore
-content/06.Results of Modeling.md:46:Duis
-content/06.Results of Modeling.md:46:esse
-content/06.Results of Modeling.md:46:fugiat
-content/06.Results of Modeling.md:46:irure
-content/06.Results of Modeling.md:46:nulla
-content/06.Results of Modeling.md:46:pariatur
-content/06.Results of Modeling.md:46:reprehenderit
-content/06.Results of Modeling.md:46:velit
-content/06.Results of Modeling.md:46:voluptate
-content/06.Results of Modeling.md:47:anim
-content/06.Results of Modeling.md:47:culpa
-content/06.Results of Modeling.md:47:cupidatat
-content/06.Results of Modeling.md:47:deserunt
-content/06.Results of Modeling.md:47:Excepteur
-content/06.Results of Modeling.md:47:laborum
-content/06.Results of Modeling.md:47:mollit
-content/06.Results of Modeling.md:47:occaecat
-content/06.Results of Modeling.md:47:officia
-content/06.Results of Modeling.md:47:proident
-content/06.Results of Modeling.md:47:qui
-content/06.Results of Modeling.md:47:sint
-content/06.Results of Modeling.md:47:sunt
-content/06.Results of Modeling.md:227:Pandoc's
-content/06.Results of Modeling.md:237:Pandoc's
-content/07.Discussion.md:25:Anyang
-content/07.Discussion.md:25:DCABES
-content/07.Discussion.md:25:DCABES
-content/07.Discussion.md:25:Kang
-content/07.Discussion.md:25:Zhou
-content/07.Discussion.md:25:Zuo
-content/07.Discussion.md:27:IJCNN
-content/07.Discussion.md:27:IJCNN
-content/07.Discussion.md:27:Jiang
-content/07.Discussion.md:29:MDM
-content/07.Discussion.md:29:MDM
-content/07.Discussion.md:31:dataset
-content/07.Discussion.md:33:Ashqar
-content/07.Discussion.md:33:ect
-content/07.Discussion.md:33:Elhenawy
-content/07.Discussion.md:33:Qld
-content/07.Discussion.md:33:Rakha
-content/07.Discussion.md:35:IJCNN
-content/07.Discussion.md:35:IJCNN
-content/07.Discussion.md:35:Jiang
+content/06.Results of Modeling.md:7:Jingzi
+content/06.Results of Modeling.md:7:Jingzi’s
+content/06.Results of Modeling.md:7:RMSE
+content/06.Results of Modeling.md:7:RMSE
+content/06.Results of Modeling.md:9:RMSE
+content/06.Results of Modeling.md:11:Jingzi
+content/06.Results of Modeling.md:12:Anye
+content/06.Results of Modeling.md:14:Jingzi
+content/06.Results of Modeling.md:14:Jingzi’s
+content/06.Results of Modeling.md:15:RMSE
+content/06.Results of Modeling.md:18:Jingzi
+content/06.Results of Modeling.md:18:Jingzi’s
+content/06.Results of Modeling.md:18:RMSE
+content/06.Results of Modeling.md:22:RMSE
+content/06.Results of Modeling.md:24:Jingzi
+content/06.Results of Modeling.md:25:Jingzi
+content/06.Results of Modeling.md:26:Jingzi
+content/06.Results of Modeling.md:27:Jingzi
+content/06.Results of Modeling.md:31:dataset
+content/06.Results of Modeling.md:31:RMSE
+content/06.Results of Modeling.md:31:RMSE
+content/06.Results of Modeling.md:70:adipiscing
+content/06.Results of Modeling.md:70:aliqua
+content/06.Results of Modeling.md:70:amet
+content/06.Results of Modeling.md:70:consectetur
+content/06.Results of Modeling.md:70:dolore
+content/06.Results of Modeling.md:70:eiusmod
+content/06.Results of Modeling.md:70:elit
+content/06.Results of Modeling.md:70:incididunt
+content/06.Results of Modeling.md:70:ipsum
+content/06.Results of Modeling.md:70:labore
+content/06.Results of Modeling.md:70:Lorem
+content/06.Results of Modeling.md:70:magna
+content/06.Results of Modeling.md:70:sed
+content/06.Results of Modeling.md:70:tempor
+content/06.Results of Modeling.md:71:aliquip
+content/06.Results of Modeling.md:71:commodo
+content/06.Results of Modeling.md:71:consequat
+content/06.Results of Modeling.md:71:enim
+content/06.Results of Modeling.md:71:exercitation
+content/06.Results of Modeling.md:71:laboris
+content/06.Results of Modeling.md:71:nisi
+content/06.Results of Modeling.md:71:nostrud
+content/06.Results of Modeling.md:71:quis
+content/06.Results of Modeling.md:71:ullamco
+content/06.Results of Modeling.md:71:veniam
+content/06.Results of Modeling.md:72:aute
+content/06.Results of Modeling.md:72:cillum
+content/06.Results of Modeling.md:72:dolore
+content/06.Results of Modeling.md:72:Duis
+content/06.Results of Modeling.md:72:esse
+content/06.Results of Modeling.md:72:fugiat
+content/06.Results of Modeling.md:72:irure
+content/06.Results of Modeling.md:72:nulla
+content/06.Results of Modeling.md:72:pariatur
+content/06.Results of Modeling.md:72:reprehenderit
+content/06.Results of Modeling.md:72:velit
+content/06.Results of Modeling.md:72:voluptate
+content/06.Results of Modeling.md:73:anim
+content/06.Results of Modeling.md:73:culpa
+content/06.Results of Modeling.md:73:cupidatat
+content/06.Results of Modeling.md:73:deserunt
+content/06.Results of Modeling.md:73:Excepteur
+content/06.Results of Modeling.md:73:laborum
+content/06.Results of Modeling.md:73:mollit
+content/06.Results of Modeling.md:73:occaecat
+content/06.Results of Modeling.md:73:officia
+content/06.Results of Modeling.md:73:proident
+content/06.Results of Modeling.md:73:qui
+content/06.Results of Modeling.md:73:sint
+content/06.Results of Modeling.md:73:sunt
+content/06.Results of Modeling.md:253:Pandoc's
+content/06.Results of Modeling.md:263:Pandoc's
+content/07.Discussion.md:5:Ashqar
+content/07.Discussion.md:5:datapoints
+content/07.Discussion.md:5:dataset
+content/07.Discussion.md:5:denormalized
+content/07.Discussion.md:5:MPE
+content/07.Discussion.md:5:MPE
+content/07.Discussion.md:5:RMSE
+content/07.Discussion.md:5:RMSE
+content/07.Discussion.md:5:RMSE
+content/07.Discussion.md:6:dataset
+content/07.Discussion.md:6:rebalancing
+content/07.Discussion.md:6:stochasticity
+content/07.Discussion.md:7:datapoints
+content/07.Discussion.md:18:dataset
+content/07.Discussion.md:18:dataset
+content/07.Discussion.md:18:hyperparameter
+content/07.Discussion.md:18:hyperparameter
+content/07.Discussion.md:19:dataset
+content/07.Discussion.md:19:dataset
+content/07.Discussion.md:24:dataset
+content/07.Discussion.md:24:hyperparameters
+content/07.Discussion.md:24:rmse
+content/07.Discussion.md:31:Anyang
+content/07.Discussion.md:31:DCABES
+content/07.Discussion.md:31:DCABES
+content/07.Discussion.md:31:Kang
+content/07.Discussion.md:31:Zhou
+content/07.Discussion.md:31:Zuo
+content/07.Discussion.md:33:IJCNN
+content/07.Discussion.md:33:IJCNN
+content/07.Discussion.md:33:Jiang
+content/07.Discussion.md:35:MDM
+content/07.Discussion.md:35:MDM
+content/07.Discussion.md:37:dataset
+content/07.Discussion.md:39:Ashqar
+content/07.Discussion.md:39:ect
+content/07.Discussion.md:39:Elhenawy
+content/07.Discussion.md:39:Qld
+content/07.Discussion.md:39:Rakha
+content/07.Discussion.md:41:IJCNN
+content/07.Discussion.md:41:IJCNN
+content/07.Discussion.md:41:Jiang
 content/90.back-matter.md:10:Anyang
 content/90.back-matter.md:10:DCABES
 content/90.back-matter.md:10:DCABES

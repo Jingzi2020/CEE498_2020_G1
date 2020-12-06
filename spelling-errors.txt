@@ -4,14 +4,14 @@ aliquip
 amet
 anim
 Anyang
-Anye
+anye
 Anye’s
 APSO
 Ashqar
 ASPO
 aute
 boxplot
-boxplots
+Boxplots
 Champaign
 cillum
 Citi
@@ -25,6 +25,7 @@ cupidatat
 datapoints
 dataset
 DCABES
+denormalized
 deserunt
 ditribution
 dolore
@@ -40,6 +41,8 @@ Excepteur
 exercitation
 fugiat
 Grainger
+hyperparameter
+hyperparameters
 hyperplanes
 hypthesis
 IJCNN
@@ -48,7 +51,7 @@ interdependencies
 ipsum
 irure
 Jiang
-jingzi
+Jingzi
 Jingzi’s
 Kang
 labore
@@ -61,6 +64,7 @@ magna
 MDM
 mollit
 Monzer
+MPE
 multicollinearity
 NBRM
 nisi
@@ -81,12 +85,13 @@ quis
 Rakha
 rebalancing
 reprehenderit
-RMSE
+rmse
 scatterplots
 sed
 sint
 skewness
 stepwise
+stochasticity
 sunt
 teh
 tempor
