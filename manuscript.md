@@ -70,11 +70,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/6c494e74a273c6f8a16328235e4aeb4c3e6b7d52/" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/2a67cbaad3341e7279860ff46243725add467e54/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/6c494e74a273c6f8a16328235e4aeb4c3e6b7d52/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/2a67cbaad3341e7279860ff46243725add467e54/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/6c494e74a273c6f8a16328235e4aeb4c3e6b7d52/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/2a67cbaad3341e7279860ff46243725add467e54/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -106,9 +106,9 @@ title: The Models of London Bike Sharing Prediction
 
 <small><em>
 This manuscript
-([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/6c494e74a273c6f8a16328235e4aeb4c3e6b7d52/))
+([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/2a67cbaad3341e7279860ff46243725add467e54/))
 was automatically generated
-from [Jingzi2020/CEE498_2020_G1@6c494e7](https://github.com/Jingzi2020/CEE498_2020_G1/tree/6c494e74a273c6f8a16328235e4aeb4c3e6b7d52)
+from [Jingzi2020/CEE498_2020_G1@2a67cba](https://github.com/Jingzi2020/CEE498_2020_G1/tree/2a67cbaad3341e7279860ff46243725add467e54)
 on December 6, 2020.
 </em></small>
 
