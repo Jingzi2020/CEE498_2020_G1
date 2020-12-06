@@ -2,7 +2,7 @@
 author-meta:
 - Jingzi Chen
 - Anye Wang
-- Jane Roe
+- Dana Monzer
 bibliography:
 - content/manual-references.json
 date-meta: '2020-12-06'
@@ -52,13 +52,11 @@ header-includes: '<!--
 
   <meta name="citation_author_orcid" content="15409980880" />
 
-  <meta name="citation_author" content="Jane Roe" />
+  <meta name="citation_author" content="Dana Monzer" />
 
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
+  <meta name="citation_author_institution" content="Grainger College of Engineering, University of Illinois at Urbana-Champaign, Civil Engineering - Transportation Systems" />
 
-  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
-
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author_orcid" content="+1 2178191851" />
 
   <link rel="canonical" href="https://Jingzi2020.github.io/CEE498_2020_G1/" />
 
@@ -72,11 +70,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/d212824127d7ec67377fb500ed767f66bebeb0d6/" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/534e89ee7b0ec47fa4c8fb0cb27b05c5261bec31/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/d212824127d7ec67377fb500ed767f66bebeb0d6/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/534e89ee7b0ec47fa4c8fb0cb27b05c5261bec31/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/d212824127d7ec67377fb500ed767f66bebeb0d6/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/534e89ee7b0ec47fa4c8fb0cb27b05c5261bec31/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -108,9 +106,9 @@ title: The Models of London Bike Sharing Prediction
 
 <small><em>
 This manuscript
-([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/d212824127d7ec67377fb500ed767f66bebeb0d6/))
+([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/534e89ee7b0ec47fa4c8fb0cb27b05c5261bec31/))
 was automatically generated
-from [Jingzi2020/CEE498_2020_G1@d212824](https://github.com/Jingzi2020/CEE498_2020_G1/tree/d212824127d7ec67377fb500ed767f66bebeb0d6)
+from [Jingzi2020/CEE498_2020_G1@534e89e](https://github.com/Jingzi2020/CEE498_2020_G1/tree/534e89ee7b0ec47fa4c8fb0cb27b05c5261bec31)
 on December 6, 2020.
 </em></small>
 
@@ -136,13 +134,13 @@ on December 6, 2020.
      Grainger College of Engineering, University of Illinois at Urbana-Champaign, Civil Engineering - Construction Management
   </small>
 
-+ **Jane Roe**<br>
++ **Dana Monzer**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    [+1 2178191851](https://orcid.org/+1 2178191851)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [janeroe](https://github.com/janeroe)<br>
+    [Dana2021](https://github.com/Dana2021)<br>
   <small>
-     Department of Something, University of Whatever; Department of Whatever, University of Something
+     Grainger College of Engineering, University of Illinois at Urbana-Champaign, Civil Engineering - Transportation Systems
   </small>
 
 

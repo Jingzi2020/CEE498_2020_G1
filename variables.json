@@ -11,9 +11,9 @@
     "author-meta": [
       "Jingzi Chen",
       "Anye Wang",
-      "Jane Roe"
+      "Dana Monzer"
     ],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"The Models of London Bike Sharing Prediction\" />\n<meta name=\"citation_title\" content=\"The Models of London Bike Sharing Prediction\" />\n<meta property=\"og:title\" content=\"The Models of London Bike Sharing Prediction\" />\n<meta property=\"twitter:title\" content=\"The Models of London Bike Sharing Prediction\" />\n<meta name=\"dc.date\" content=\"2020-12-06\" />\n<meta name=\"citation_publication_date\" content=\"2020-12-06\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Jingzi Chen\" />\n<meta name=\"citation_author_institution\" content=\"Grainger College of Engineering, University of Illinois at Urbana-Champaign\" />\n<meta name=\"citation_author_orcid\" content=\"86-13522264917\" />\n<meta name=\"citation_author\" content=\"Anye Wang\" />\n<meta name=\"citation_author_institution\" content=\"Grainger College of Engineering, University of Illinois at Urbana-Champaign, Civil Engineering - Construction Management\" />\n<meta name=\"citation_author_orcid\" content=\"15409980880\" />\n<meta name=\"citation_author\" content=\"Jane Roe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_institution\" content=\"Department of Whatever, University of Something\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<link rel=\"canonical\" href=\"https://Jingzi2020.github.io/CEE498_2020_G1/\" />\n<meta property=\"og:url\" content=\"https://Jingzi2020.github.io/CEE498_2020_G1/\" />\n<meta property=\"twitter:url\" content=\"https://Jingzi2020.github.io/CEE498_2020_G1/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://Jingzi2020.github.io/CEE498_2020_G1/\" />\n<meta name=\"citation_pdf_url\" content=\"https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://Jingzi2020.github.io/CEE498_2020_G1/v/d212824127d7ec67377fb500ed767f66bebeb0d6/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://Jingzi2020.github.io/CEE498_2020_G1/v/d212824127d7ec67377fb500ed767f66bebeb0d6/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://Jingzi2020.github.io/CEE498_2020_G1/v/d212824127d7ec67377fb500ed767f66bebeb0d6/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"The Models of London Bike Sharing Prediction\" />\n<meta name=\"citation_title\" content=\"The Models of London Bike Sharing Prediction\" />\n<meta property=\"og:title\" content=\"The Models of London Bike Sharing Prediction\" />\n<meta property=\"twitter:title\" content=\"The Models of London Bike Sharing Prediction\" />\n<meta name=\"dc.date\" content=\"2020-12-06\" />\n<meta name=\"citation_publication_date\" content=\"2020-12-06\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Jingzi Chen\" />\n<meta name=\"citation_author_institution\" content=\"Grainger College of Engineering, University of Illinois at Urbana-Champaign\" />\n<meta name=\"citation_author_orcid\" content=\"86-13522264917\" />\n<meta name=\"citation_author\" content=\"Anye Wang\" />\n<meta name=\"citation_author_institution\" content=\"Grainger College of Engineering, University of Illinois at Urbana-Champaign, Civil Engineering - Construction Management\" />\n<meta name=\"citation_author_orcid\" content=\"15409980880\" />\n<meta name=\"citation_author\" content=\"Dana Monzer\" />\n<meta name=\"citation_author_institution\" content=\"Grainger College of Engineering, University of Illinois at Urbana-Champaign, Civil Engineering - Transportation Systems\" />\n<meta name=\"citation_author_orcid\" content=\"+1 2178191851\" />\n<link rel=\"canonical\" href=\"https://Jingzi2020.github.io/CEE498_2020_G1/\" />\n<meta property=\"og:url\" content=\"https://Jingzi2020.github.io/CEE498_2020_G1/\" />\n<meta property=\"twitter:url\" content=\"https://Jingzi2020.github.io/CEE498_2020_G1/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://Jingzi2020.github.io/CEE498_2020_G1/\" />\n<meta name=\"citation_pdf_url\" content=\"https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://Jingzi2020.github.io/CEE498_2020_G1/v/534e89ee7b0ec47fa4c8fb0cb27b05c5261bec31/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://Jingzi2020.github.io/CEE498_2020_G1/v/534e89ee7b0ec47fa4c8fb0cb27b05c5261bec31/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://Jingzi2020.github.io/CEE498_2020_G1/v/534e89ee7b0ec47fa4c8fb0cb27b05c5261bec31/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
     "bibliography": [
       "content/manual-references.json"
     ],
@@ -52,18 +52,16 @@
         ]
       },
       {
-        "github": "janeroe",
-        "name": "Jane Roe",
-        "initials": "JR",
-        "orcid": "XXXX-XXXX-XXXX-XXXX",
-        "email": "jane.roe@whatever.edu",
+        "github": "Dana2021",
+        "name": "Dana Monzer",
+        "initials": "DM",
+        "orcid": "+1 2178191851",
+        "email": "dmonzer2@illinois.edu",
         "affiliations": [
-          "Department of Something, University of Whatever",
-          "Department of Whatever, University of Something"
+          "Grainger College of Engineering, University of Illinois at Urbana-Champaign, Civil Engineering - Transportation Systems"
         ],
         "affiliation_numbers": [
-          3,
-          4
+          3
         ]
       }
     ],
@@ -77,12 +75,8 @@
         "affiliation_number": 2
       },
       {
-        "affiliation": "Department of Something, University of Whatever",
+        "affiliation": "Grainger College of Engineering, University of Illinois at Urbana-Champaign, Civil Engineering - Transportation Systems",
         "affiliation_number": 3
-      },
-      {
-        "affiliation": "Department of Whatever, University of Something",
-        "affiliation_number": 4
       }
     ],
     "ci_source": {
@@ -90,15 +84,15 @@
       "repo_slug": "Jingzi2020/CEE498_2020_G1",
       "repo_owner": "Jingzi2020",
       "repo_name": "CEE498_2020_G1",
-      "commit": "d212824127d7ec67377fb500ed767f66bebeb0d6",
-      "triggering_commit": "d212824127d7ec67377fb500ed767f66bebeb0d6",
-      "build_url": "https://github.com/Jingzi2020/CEE498_2020_G1/commit/d212824127d7ec67377fb500ed767f66bebeb0d6/checks",
+      "commit": "534e89ee7b0ec47fa4c8fb0cb27b05c5261bec31",
+      "triggering_commit": "534e89ee7b0ec47fa4c8fb0cb27b05c5261bec31",
+      "build_url": "https://github.com/Jingzi2020/CEE498_2020_G1/commit/534e89ee7b0ec47fa4c8fb0cb27b05c5261bec31/checks",
       "job_url": "https://github.com/Jingzi2020/CEE498_2020_G1/runs/run3"
     },
     "html_url": "https://Jingzi2020.github.io/CEE498_2020_G1/",
     "pdf_url": "https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf",
-    "html_url_versioned": "https://Jingzi2020.github.io/CEE498_2020_G1/v/d212824127d7ec67377fb500ed767f66bebeb0d6/",
-    "pdf_url_versioned": "https://Jingzi2020.github.io/CEE498_2020_G1/v/d212824127d7ec67377fb500ed767f66bebeb0d6/manuscript.pdf",
+    "html_url_versioned": "https://Jingzi2020.github.io/CEE498_2020_G1/v/534e89ee7b0ec47fa4c8fb0cb27b05c5261bec31/",
+    "pdf_url_versioned": "https://Jingzi2020.github.io/CEE498_2020_G1/v/534e89ee7b0ec47fa4c8fb0cb27b05c5261bec31/manuscript.pdf",
     "manubot_version": "0.4.1",
     "rootstock_commit": "97b294802ffcd39071b6e5b8ab59f60faf4be118",
     "manuscript_stats": {
