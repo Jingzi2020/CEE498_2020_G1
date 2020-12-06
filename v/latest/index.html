@@ -115,9 +115,9 @@
   <meta name="citation_fulltext_html_url" content="https://Jingzi2020.github.io/CEE498_2020_G1/" />
   <meta name="citation_pdf_url" content="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/425956e5f35de90a73fda2b6a7f184c11860ea3d/" />
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/425956e5f35de90a73fda2b6a7f184c11860ea3d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/425956e5f35de90a73fda2b6a7f184c11860ea3d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/4eab0aa92e99a5a5b4d9d2c193f7768f95cb6a7d/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/4eab0aa92e99a5a5b4d9d2c193f7768f95cb6a7d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/4eab0aa92e99a5a5b4d9d2c193f7768f95cb6a7d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -138,9 +138,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://Jingzi2020.github.io/CEE498_2020_G1/v/425956e5f35de90a73fda2b6a7f184c11860ea3d/">permalink</a>)
+(<a href="https://Jingzi2020.github.io/CEE498_2020_G1/v/4eab0aa92e99a5a5b4d9d2c193f7768f95cb6a7d/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/Jingzi2020/CEE498_2020_G1/tree/425956e5f35de90a73fda2b6a7f184c11860ea3d">Jingzi2020/CEE498_2020_G1@425956e</a>
+from <a href="https://github.com/Jingzi2020/CEE498_2020_G1/tree/4eab0aa92e99a5a5b4d9d2c193f7768f95cb6a7d">Jingzi2020/CEE498_2020_G1@4eab0aa</a>
 on December 6, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -573,11 +573,147 @@ Correlation values range between -1 and 1., positive values indicate positive co
 </tbody>
 </table>
 </div>
-<p>This manuscript is a template (aka “rootstock”) for <a href="https://manubot.org/" title="Manubot">Manubot</a>, a tool for writing scholarly manuscripts.
-Use this template as a starting point for your manuscript.</p>
-<p>The rest of this document is a full list of formatting elements/features supported by Manubot.
-Compare the input (<code>.md</code> files in the <code>/content</code> directory) to the output you see below.</p>
 <h2 id="results-of-modeling">Results of Modeling</h2>
+<h3 id="performances-of-different-approaches">Performances of Different Approaches</h3>
+<p>Using the above methods, we get the following results.</p>
+<p>RMSE represents the differences between the predictions and real data. Thus, smaller RMSE indicates that the performance of corresponding model is better. The results in Table <a href="#tbl:our-results">6</a> indicate that Jingzi’s model has the best performance in prediction.</p>
+<div id="tbl:our-results" class="tablenos">
+<table>
+<caption><span>Table 6:</span> The Average RMSE of Each Models
+</caption>
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 15%" />
+<col style="width: 15%" />
+<col style="width: 15%" />
+<col style="width: 18%" />
+<col style="width: 10%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Models</strong></th>
+<th style="text-align: center;"><strong>Features</strong></th>
+<th style="text-align: center;"><strong>Epochs</strong></th>
+<th style="text-align: center;"><strong>Hidden Layers</strong></th>
+<th style="text-align: center;"><strong>Units</strong></th>
+<th style="text-align: center;"><strong>Learning Rates</strong></th>
+<th style="text-align: center;"><strong>RMSE</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Jingzi</td>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">&lt;150*</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">289</td>
+<td style="text-align: center;">Non-Constant</td>
+<td style="text-align: center;">227.702</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Anye</td>
+<td style="text-align: center;">12</td>
+<td style="text-align: center;">300</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">131</td>
+<td style="text-align: center;">Non-Constant</td>
+<td style="text-align: center;">314.257</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Dana</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">800</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">641</td>
+<td style="text-align: center;">Constant</td>
+<td style="text-align: center;">248.733</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">*Epochs in Jingzi’s model will be stopped when loss reached the minimum. <!-- $colspan="7" --></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Thus, the sensitivity analysis are based on Jingzi’s model because of its performance in RMSE.</p>
+<p>In the sensitivity analysis, the number of units in Layer 2 are changed. The performance of models with different number of units in Layer 2 are shown in Table <a href="#tbl:units-results">7</a></p>
+<div id="tbl:units-results" class="tablenos">
+<table>
+<caption><span>Table 7:</span> The Performance of Models with Different Number of Units in Layer 2
+</caption>
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 13%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Layer 1</strong></th>
+<th style="text-align: center;"><strong>Layer 2</strong></th>
+<th style="text-align: center;"><strong>Layer 3</strong></th>
+<th style="text-align: center;"><strong>Layer 4</strong></th>
+<th style="text-align: center;"><strong>Layer 5</strong></th>
+<th style="text-align: center;"><strong>Learning Rate</strong></th>
+<th style="text-align: center;"><strong>Normalization</strong></th>
+<th style="text-align: center;"><strong>Average RMSE</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">32</td>
+<td style="text-align: center;">16</td>
+<td style="text-align: center;">128</td>
+<td style="text-align: center;">64</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">Same with Jingzi</td>
+<td style="text-align: center;">At each layer</td>
+<td style="text-align: center;">246.594</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">32</td>
+<td style="text-align: center;">32</td>
+<td style="text-align: center;">128</td>
+<td style="text-align: center;">64</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">Same with Jingzi</td>
+<td style="text-align: center;">At each layer</td>
+<td style="text-align: center;">241.033</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">32</td>
+<td style="text-align: center;">64</td>
+<td style="text-align: center;">128</td>
+<td style="text-align: center;">64</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">Same with Jingzi</td>
+<td style="text-align: center;">At each layer</td>
+<td style="text-align: center;">232.210</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">32</td>
+<td style="text-align: center;">128</td>
+<td style="text-align: center;">128</td>
+<td style="text-align: center;">64</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">Same with Jingzi</td>
+<td style="text-align: center;">At each layer</td>
+<td style="text-align: center;">243.432</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Comparing models with different units, the model which has 64 units in Layer 2 had the lowest average RMSE. The results indicate that setting more units in Layer 2 can improve the performance of model in this test dataset. However, the RMSE increase when units in Layer 2 are more than 64.</p>
 <p><strong>Bold</strong> <strong>text</strong></p>
 <p><span class="semibold">Semi-bold text</span></p>
 <p><span class="center">Centered text</span></p>
@@ -644,13 +780,13 @@ two spaces at end of line.</p>
 Manubot plugins provide easier, more convenient visualization of and navigation between citations <span class="citation" data-cites="YuJbg3zO 126Wi5Us4 mSMVRkoc PZMP42Ak">[<a href="#ref-mSMVRkoc" role="doc-biblioref">2</a>,<a href="#ref-126Wi5Us4" role="doc-biblioref">3</a>,<a href="#ref-PZMP42Ak" role="doc-biblioref">7</a>,<a href="#ref-YuJbg3zO" role="doc-biblioref">8</a>]</span>.</p>
 <p>Citation tags (i.e. aliases) can be defined in their own paragraphs using Markdown’s reference link syntax:</p>
 <h3 id="referencing-figures-tables-equations">Referencing figures, tables, equations</h3>
-<p>Figure <a href="#fig:square-image">9</a></p>
+<p>Figure <a href="#fig:square-image">5</a></p>
 <p>Figure <a href="#fig:wide-image">6</a></p>
 <p>Figure <a href="#fig:tall-image">7</a></p>
 <p>Figure <a href="#fig:vector-image">8</a></p>
-<p>Table <a href="#tbl:bowling-scores">6</a></p>
-<p>Equation <a href="#eq:regular-equation">4</a></p>
-<p>Equation <a href="#eq:long-equation">5</a></p>
+<p>Table <a href="#tbl:bowling-scores">8</a></p>
+<p>Equation <a href="#eq:regular-equation">2</a></p>
+<p>Equation <a href="#eq:long-equation">3</a></p>
 <h3 id="quotes-and-code">Quotes and code</h3>
 <blockquote>
 <p>Quoted text</p>
@@ -702,7 +838,7 @@ White background specified to serve as a backdrop for transparent sections of th
 <h3 id="tables">Tables</h3>
 <div id="tbl:bowling-scores" class="tablenos">
 <table>
-<caption><span>Table 6:</span> A table with a top caption and specified relative column widths.
+<caption><span>Table 8:</span> A table with a top caption and specified relative column widths.
 </caption>
 <thead>
 <tr class="header">
@@ -740,7 +876,7 @@ White background specified to serve as a backdrop for transparent sections of th
 </div>
 <div id="tbl:constant-digits" class="tablenos">
 <table>
-<caption><span>Table 7:</span> A table too wide to fit within page.
+<caption><span>Table 9:</span> A table too wide to fit within page.
 </caption>
 <colgroup>
 <col style="width: 5%" />
@@ -776,9 +912,9 @@ White background specified to serve as a backdrop for transparent sections of th
 </tbody>
 </table>
 </div>
-<div id="tbl:7cf5e0e4-1579-4ad4-be7d-51137521ce2a" class="tablenos">
+<div id="tbl:8b2a4132-4d2e-4c2a-8529-fc045a71b387" class="tablenos">
 <table>
-<caption><span>Table 8:</span> A table with merged cells using the <code>attributes</code> plugin.
+<caption><span>Table 10:</span> A table with merged cells using the <code>attributes</code> plugin.
 </caption>
 <thead>
 <tr class="header">
@@ -858,6 +994,9 @@ useful for <em>important information</em> - <a href="https://manubot.org/">manub
 <p><span class="banner lightred"><i class="fas fa-ban fa-lg"></i> <strong>Light Red Banner</strong><br>
 useful for <em>warnings</em> - <a href="https://manubot.org/">manubot.org</a></span></p>
 <h2 id="discussion-1">Discussion</h2>
+<p>The three models obtained by the group members were compared and assessed. And the best-fitting model was used to predict bike counts in an hour for the test data and it resulted in the lowest denormalized RMSE equivalent to 210, however the other models had close RMSE as well. The selected model includes the following features: temperature, humidity, hour of the day, day of the month, month of the year, the year, weekend indicator, holiday indicator, weather code, season, &amp; wind speed. To asses if the RMSE value is acceptable, we look at the scale of the bike-sharing system in London. Transport for London website shows that there are more than 11,500 bikes at over 750 docking stations across London. So 210 bikes error in estimation for all stations is equivalent to an overestimation of underestimation of bike rentals by 0.28 per station, which corresponds to 28% chance than 1 bike more or less will be used per station, assuming demand over stations is uniform since the dataset didn’t include information about where the bike counts where recorded in the city and in which station. In the paper by Ashqar et al. (2019) [5] the mean prediction error (MPE) which is equivalent to the sum of the difference between predictions and actual values divided by total number of datapoints, varies between -1 and 2.2 per station, and in this case the MPE value we obtained is 0.28 per station, which means that the model has high prediction power.
+The purpose of this model is to predict the future bike share of London bike-sharing system. Since the demand is stochastic, regardless of how well the model performs there is always a level of uncertainty, so a range of the bike new counts is the objective for this problem. We observe that the mean of the training data is 1138 and the testing data led to a mean of 1124, which shows a good level of accuracy, with only 1.23% underestimation of the mean of bike counts. In another model the mean of the bike counts for the testing data was equivalent to 1167 which is equivalent to 2.54% overestimation of the mean. In some cases, overestimating the demand is preferred rather than underestimating the demand, thus both models can yield satisfactory predictions. Besides that the coefficient of determination (R-squared) has a value of 0.975 which is another validation that the model’s performance is satisfactory. The model can be used to predict number of bikes in a station per hour, which can be used to schedule bike rebalancing between stations or to design a new station and estimate the number of bikes required, however for this task additional dataset that includes distribution of the demand over stations is required. The level of accuracy achieved in this model, is appropriate to set shifts scheduling such that demand is met by ensuring a certain number of bikes is available at each station at a certain period during the day. Given the safety margin added in such operations to account for stochasticity of the demand, the model performance can be extremely efficient for such applications. However, it is not ideal to use this model for scheduling tight shifts in busy areas where the demand can shift drastically and the bike count per hour is the highest and more accuracy is needed given that this model assumes uniform demand over all stations.
+The actual bike counts of the testing data are not provided, so to compare the actual bike counts with the predicted bike counts, we use the validation data which constitutes about 30-40% of the training data chosen at random, and we predict the corresponding bike counts. Two plots are created using the actual bike and predicted bike counts with respect to the month, which shows that the average actual bike counts and predicted bike counts don’t vary significantly with respect to each month, same applies for the second plot that plots the counts per timestamp which includes all the datapoints for all the hours in the validation data, and similarly we can see that the predictions have high accuracy.</p>
 <figure>
 <img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Act_Pred_month.png" alt="" /><figcaption><strong>Plot of the actual and predicted bike counts with respect to month.</strong>
 Loaded from the latest version of image on GitHub.</figcaption>
@@ -866,7 +1005,10 @@ Loaded from the latest version of image on GitHub.</figcaption>
 <img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Act_Pred_timestamp.png" alt="" /><figcaption><strong>Plot of the actual and predicted bike counts with respect to month.</strong>
 Loaded from the latest version of image on GitHub.</figcaption>
 </figure>
+<p>Some of the limitations of the model lie in the data processing and hyperparameter tuning that can be even more improved with even bigger dataset. Using a dataset for a duration exceeding two years can even improve the model. Further hyperparameter tuning, adding more features such as stations locations, or using a different algorithm like random forest model or other types of neural networks.
+Moreover, the performance of the model may have less prediction powers for other cities than London, where weather conditions have different effect and other weather features are needed to represent the weather such as thickness of snow in extreme cases where the threshold between acceptable weather conditions and extreme ones vary. In addition to that some other features that can be important for other locations might not be accounted for in this dataset and model, like holidays that differ between countries. Moreover the number of docks in station can also have an impact which influences the maximum number of bikes available in a station, and in paper [5], it was shown that the bike counts per hour is affected by the available bikes in stations in the previous hour, which is a good application of recurrent neural networks. Besides that, the testing data count is around 50% of the training data set, which suggests that bigger training data should be better for better accuracy, in addition to that more analysis to outliers of the test data can provide interesting insights about hidden features not accounted for in this dataset but that’s outside of the scope of this project.</p>
 <h2 id="conclusion">Conclusion</h2>
+<p>After interpreting the exploratory data analysis, a predictive model using regular neural networks through tensor flow package was created to predict range of bike counts in an hour. The features used in this model include: temperature, humidity, hour of the day, day of the month, month of the year, the year, weekend indicator, holiday indicator, weather code, season, &amp; wind speed. In one of the models the final normalized root mean squared error of the model is 0.2058 and 0.25 for training data and validation data respectively, and in the best-fitting model the rmse for the training data was reduced to 0.1845. The model was later used to predict the bike counts in an hour for the test dataset. The mean of the predicted values is relatively similar to the mean of the training data with only 1.23% relative difference. Improvements to this model can be made by adding further features or performing additional hyperparameters tuning, however the predictive model obtained is satisfactory. This model can be used for scheduling redistribution shifts for bikes between stations in non-busy areas were demand is low and accuracy level is less critical given that the model predicts total number of bikes shared per hour in all London city, however for microscopic predictions, the model might not be as accurate given that demand per station might be modeled different and it can be influenced by different factors such the population distribution in the city and the land-use nearby stations.</p>
 <!-- an arbitrary comment. visible in input, but not visible in output. -->
 <h2 id="references">References</h2>
 <p>[1] Z. Kang, Y. Zuo, Z. Huang, F. Zhou and P. Chen, “Research on the Forecast of Shared Bicycle Rental Demand Based on Spark Machine Learning Framework,” 2017 16th International Symposium on Distributed Computing and Applications to Business, Engineering and Science (DCABES), Anyang, 2017, pp. 219-222, doi: 10.1109/DCABES.2017.55.</p>
@@ -875,26 +1017,6 @@ Loaded from the latest version of image on GitHub.</figcaption>
 <p>[4] https://www.kaggle.com/hmavrodiev/london-bike-sharing-dataset</p>
 <p>[5] Ashqar, H. I., Elhenawy, M., Rakha, H. A., Road, V. P., &amp; Qld, K. G. “Case Studies on Transport Policy Modeling bike counts in a bike-sharing system considering the e ff ect of weather conditions,” 2019. Case Studies on Transport Policy, 7(2), 261–268. https://doi.org/10.1016/j.cstp.2019.02.011</p>
 <p>[6] F. Lin, S. Wang, J. Jiang, W. Fan and Y. Sun, “Predicting public bicycle rental number using multi-source data,” 2017 International Joint Conference on Neural Networks (IJCNN), Anchorage, AK, 2017, pp. 1502-1509, doi: 10.1109/IJCNN.2017.7966030.</p>
-<h3 id="referencing-figures-tables-equations-1">Referencing figures, tables, equations</h3>
-<p>Figure <a href="#fig:square-image">9</a></p>
-<p>Figure <a href="#fig:wide-image">6</a></p>
-<p>Figure <a href="#fig:tall-image">7</a></p>
-<p>Figure <a href="#fig:vector-image">8</a></p>
-<p>Table <a href="#tbl:bowling-scores">6</a></p>
-<p>Equation <a href="#eq:regular-equation">4</a></p>
-<p>Equation <a href="#eq:long-equation">5</a></p>
-<h3 id="figures-1">Figures</h3>
-<div id="fig:square-image" class="fignos">
-<figure>
-<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/square.png" alt="" /><figcaption><span>Figure 9:</span> <strong>A square image at actual size and with a bottom caption.</strong>
-Loaded from the latest version of image on GitHub.</figcaption>
-</figure>
-</div>
-<h3 id="equations-1">Equations</h3>
-<p>A LaTeX equation:</p>
-<p><span id="eq:regular-equation" class="eqnos"><span class="math display">\[\int_0^\infty e^{-x^2} dx=\frac{\sqrt{\pi}}{2}\]</span><span class="eqnos-number">(4)</span></span> </p>
-<p>An equation too long to fit within page:</p>
-<p><span id="eq:long-equation" class="eqnos"><span class="math display">\[x = a + b + c + d + e + f + g + h + i + j + k + l + m + n + o + p + q + r + s + t + u + v + w + x + y + z + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9\]</span><span class="eqnos-number">(5)</span></span> </p>
 <h2 class="page_break_before" id="references-1">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" class="references hanging-indent" role="doc-bibliography">
