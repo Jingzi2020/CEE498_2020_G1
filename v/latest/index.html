@@ -53,9 +53,9 @@
   <meta name="citation_fulltext_html_url" content="https://Jingzi2020.github.io/CEE498_2020_G1/" />
   <meta name="citation_pdf_url" content="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/48a9341a71c74675ee2933af7ed00cd5bb2caec1/" />
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/48a9341a71c74675ee2933af7ed00cd5bb2caec1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/48a9341a71c74675ee2933af7ed00cd5bb2caec1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/450e7a14dc12536ab9f2eea6ff76c4ecde81422c/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/450e7a14dc12536ab9f2eea6ff76c4ecde81422c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/450e7a14dc12536ab9f2eea6ff76c4ecde81422c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -76,9 +76,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://Jingzi2020.github.io/CEE498_2020_G1/v/48a9341a71c74675ee2933af7ed00cd5bb2caec1/">permalink</a>)
+(<a href="https://Jingzi2020.github.io/CEE498_2020_G1/v/450e7a14dc12536ab9f2eea6ff76c4ecde81422c/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/Jingzi2020/CEE498_2020_G1/tree/48a9341a71c74675ee2933af7ed00cd5bb2caec1">Jingzi2020/CEE498_2020_G1@48a9341</a>
+from <a href="https://github.com/Jingzi2020/CEE498_2020_G1/tree/450e7a14dc12536ab9f2eea6ff76c4ecde81422c">Jingzi2020/CEE498_2020_G1@450e7a1</a>
 on December 6, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -138,19 +138,19 @@ The model provides enough accuracy for planning the number of docks at a new sta
 <p>The sections below include literature review, description of methods, results, discussion and conclusion.</p>
 <h2 id="literature-review">Literature Review</h2>
 <p>Bike sharing system has appeared more and more on the street of the cities in order to meet the demand of public transportation in the last short distance to the destination. Also, Bike sharing system is so popular around all the world that most of major modern cities and campuses have been operated. Among researches for the bike system, predicting the demand of future bike shares is one of the most important and necessary tasks to ensure a satisfactory level of service of the system.</p>
-<p>Many recent studies have focused on the problem of predicting demand of shared bikes in the system. In order to complete prediction, the bike sharing system is supposed to satisfy the real-time and high accuracy requirements. Some researchers utilized Spark Machine Learning framework to predict the number of rental bikes to optimize the accuracy of model [1]. Firstly, the author collected three types of data including Citi Bike, Weather and Holiday, which the data have been SQL and outlier processed. Then, three predicative models including multiple linear regression, decision tree and random forests are constructed to analyze and train the processed data. During the experiment, applying to machine learning Spark ecosystem, the author used 70 % data as training data while 30% as the test data. In the result, after testing, random forests model has the lowest root mean error (RMSE). At last, the researcher optimized the result further by applying logarithmic optimization to the model.</p>
-<p>Throughout the literatures, there is consistent evidence that forecast number of shared bikes are influenced not by holiday, weather, and temperature [2] in general, but by user information such as gender, birth year and user type [1]. The strengths of the literature are that the author consider more factors like user information and process useful and reasonable row data. Moreover, the optimization improves the accuracy the result. While there has been much research on algorithm optimization, few researchers have taken the influence of different factors and the real-time data into consideration [2]. The weakness of the literature is that the author ignored the timeliness of data and station selection. Furthermore, the mythology is limited to predict the number in the new area where lack of the existing shared bike number. Usually, station clustering and demand prediction in every station should be evaluated and analyzed as an integration [3].</p>
-<p>In general, it is challenging to collect the external factors in the future study because there are too many factors affecting users whether to use shared bike. However, we should consider multiple factors as much as possible to improve the accuracy. Comparing with our project’s database, more factors are taken into consideration including time, number of new bike shares grouped by hour, temperature, humidity, wind speed, types of the weather, holiday, weekend, season [4]. In our project, we will employ historical usage of bikes with some necessary factors to predict the number, which are very similar with the literature because it is easier to collect data and the predicted numbers are closer to the real.</p>
-<p>The second paper studied is “Case Studies on Transport Policy Modeling bike counts in a bike-sharing system considering the effect of weather conditions” [5]. This paper identifies a method to quantify the effect of weather conditions on bike sharing counts in San Francisco Bay area with the aim of improving bike sharing systems given their wide benefits such as decreasing transportation pollution and increasing mobility efficiency in cities, to name a few. The benefit of this model specifically will be to decrease the environmental costs and time consumption and other complications associated with the rebalancing operation of bikes between stations; which is important to ensure that each station has enough number of bikes to satisfy the demand, especially given the limited number of docks at station.</p>
+<p>Many recent studies have focused on the problem of predicting demand of shared bikes in the system. In order to complete prediction, the bike sharing system is supposed to satisfy the real-time and high accuracy requirements. Some researchers utilized Spark Machine Learning framework to predict the number of rental bikes to optimize the accuracy of model <span class="citation" data-cites="Vv7kACVp">[<a href="#ref-Vv7kACVp" role="doc-biblioref">1</a>]</span>. Firstly, the author collected three types of data including Citi Bike, Weather and Holiday, which the data have been SQL and outlier processed. Then, three predicative models including multiple linear regression, decision tree and random forests are constructed to analyze and train the processed data. During the experiment, applying to machine learning Spark ecosystem, the author used 70 % data as training data while 30% as the test data. In the result, after testing, random forests model has the lowest root mean error (RMSE). At last, the researcher optimized the result further by applying logarithmic optimization to the model.</p>
+<p>Throughout the literatures, there is consistent evidence that forecast number of shared bikes are influenced not by holiday, weather, and temperature <span class="citation" data-cites="1HLgGSDUB">[<a href="#ref-1HLgGSDUB" role="doc-biblioref">2</a>]</span> in general, but by user information such as gender, birth year and user type <span class="citation" data-cites="Vv7kACVp">[<a href="#ref-Vv7kACVp" role="doc-biblioref">1</a>]</span>. The strengths of the literature are that the author consider more factors like user information and process useful and reasonable row data. Moreover, the optimization improves the accuracy the result. While there has been much research on algorithm optimization, few researchers have taken the influence of different factors and the real-time data into consideration <span class="citation" data-cites="1HLgGSDUB">[<a href="#ref-1HLgGSDUB" role="doc-biblioref">2</a>]</span>. The weakness of the literature is that the author ignored the timeliness of data and station selection. Furthermore, the mythology is limited to predict the number in the new area where lack of the existing shared bike number. Usually, station clustering and demand prediction in every station should be evaluated and analyzed as an integration <span class="citation" data-cites="gC2MdiBl">[<a href="#ref-gC2MdiBl" role="doc-biblioref">3</a>]</span>.</p>
+<p>In general, it is challenging to collect the external factors in the future study because there are too many factors affecting users whether to use shared bike. However, we should consider multiple factors as much as possible to improve the accuracy. Comparing with our project’s database, more factors are taken into consideration including time, number of new bike shares grouped by hour, temperature, humidity, wind speed, types of the weather, holiday, weekend, season <span class="citation" data-cites="FhImuEB0">[<a href="#ref-FhImuEB0" role="doc-biblioref">4</a>]</span>. In our project, we will employ historical usage of bikes with some necessary factors to predict the number, which are very similar with the literature because it is easier to collect data and the predicted numbers are closer to the real.</p>
+<p>The second paper studied is “Case Studies on Transport Policy Modeling bike counts in a bike-sharing system considering the effect of weather conditions” <span class="citation" data-cites="kk8U5Ihm">[<a href="#ref-kk8U5Ihm" role="doc-biblioref">5</a>]</span>. This paper identifies a method to quantify the effect of weather conditions on bike sharing counts in San Francisco Bay area with the aim of improving bike sharing systems given their wide benefits such as decreasing transportation pollution and increasing mobility efficiency in cities, to name a few. The benefit of this model specifically will be to decrease the environmental costs and time consumption and other complications associated with the rebalancing operation of bikes between stations; which is important to ensure that each station has enough number of bikes to satisfy the demand, especially given the limited number of docks at station.</p>
 <p>The methodology used to create the bike count model includes several steps. First the effect of various variables is quantified (month of the year, day of the week, time of the day and different weather conditions), then these predictors were ranked by Random Forest technique and were used to predict a regression model using a guided forwarded step-wise regression. More than one model was created then the Bayesian information criterion was used to evaluate the models. In the first step, the count models employed generalized linear models, specifically two models were used Poisson, which condition to apply is that the mean and variance must be equal, and negative binomial regression, which uses same condition as Poisson except that another parameter is involved that loosens the initial condition and adjusts the variance independently, so it is considered to accommodate more dispersion. The second step after that is to apply machine learning to avoid overfitting of predictors, using Random Forrest method. The RF method randomly constructs a group of trees, where each tree is a subset of features, so trees are not correlated, then the ranking of features is obtained based on majority of votes from all trees, after that forward step-wise regression is applied, and finally a model is selected BIC after computing the log-likelihood of each model, and the model of the lowest BIC is to be selected.</p>
-<p>This methodology [5] was applied on a dataset of bike-sharing for San Francisco Bay Area between August 2013 to August 2015, where incidents were documented every minute for 70 stations in the area, which led to a large dataset, and another dataset was used which included weather conditions during these 2 years, and it included the following attributes: “date (in month/day/year format), ZIP code, temperature, humidity, dew level, sea level pressure, visibility, wind speed and direction, precipitation, cloud cover, and weather description for that day (i.e., rainy, foggy or sunny).”</p>
+<p>This methodology <span class="citation" data-cites="kk8U5Ihm">[<a href="#ref-kk8U5Ihm" role="doc-biblioref">5</a>]</span> was applied on a dataset of bike-sharing for San Francisco Bay Area between August 2013 to August 2015, where incidents were documented every minute for 70 stations in the area, which led to a large dataset, and another dataset was used which included weather conditions during these 2 years, and it included the following attributes: “date (in month/day/year format), ZIP code, temperature, humidity, dew level, sea level pressure, visibility, wind speed and direction, precipitation, cloud cover, and weather description for that day (i.e., rainy, foggy or sunny).”</p>
 <p>For the first step, the histogram of new counts frequency for all stations showed dispersion, which gave a hint on better fitness of NBRM. However, both PRM and NBRM were applied at first to generate a full model of all available predictors. Then RF was used to rank the predictors in the full model based on the OOB error. Forward stepwise regression was then used to fit several models that were constructed by RF, then BIC was applied to select the best subset of predictors to construct this model.
 At first it was assumed that there is no interaction between the 70 stations, to quantify effects fast and effectively and in an attempt to create one model for all variables rather than a model for each station, and this approach was described to satisfy the level of accuracy needed. And the results showed a logarithmic mean of bike counts at each station following parallel hyperplanes, which shows no interaction between stations. And in order to construct one model instead of 70 models, one for each station: 69 indicators were used with one reference, a similar approach was used for months of year with 11 indicators and January as a reference, and 6 indicators for the days of the week, and so on for all data attributes. If there was no significant difference between each pair of parameters, for example between 2 stations, it was assumed bike count was the same for the two stations to an acceptable level of accuracy.
 The results showed that different stations, month-of-the-year, day-of-the-week, and time-of-the-day were all shown to influence the model. And the following weather attributes were selected for additional exploration: mean temperature, mean humidity, mean visibility, mean wind speed, precipitation, and weather description. And for the second time, RF and forward step-wise regression were employed and the resulting models were compared by BIC. And the model with the trade-off between the minimum BIC value and the consideration of the effective parameters was selected. And as was shown because of dispersion, indeed NBRM was shown to be better than PRM, and it was selected for the rest of the modeling steps.
 Among 111 models created, the results showed that bike counts are significantly influenced by the month-of-the-year, day-of-the-week, time-of-the-day, and some weather variables, mainly temperature and humidity level, which is also dependent on geographic location. And the most significant variables affecting bike counts are available number of bikes at time t-1 and the time-of-the-day.</p>
 <p>This paper holds many strengths in meeting our project, first the factors used in this paper match our dataset, and the paper justifies the use of these factors among others used in other studies. And this paper was the first to study the effect of humidity which was shown to have a significant effect on the model. The methodology and tools used match our set of expertise, which is to be developed through this course, and the tools and methods used were all explained and justified. This paper can be used as a reference for us to build our model and compare the results given different factors, especially difference in geographic location, while also contributing to this research with the insights we obtain.</p>
 <p>However, a few weaknesses of this paper were detected. First, the paper targets only docked bike-sharing model and it’s applicable to only certain geographic areas with certain weather conditions, as for another location, different parameters might be additionally considered. The final stages of refining the model and detecting possible errors was merely systematic and rather relied on observations and experts opinions, so in addition to the scientific and sequenced steps, there was some subjectivity in the methodology when it comes to certain decisions like the number of trees in RF and the selected factors for each tree and their number which wasn’t discussed and explained enough, so it might be hard for us to follow the same methodology at these stages. The paper only used Poisson and negative binomial models at the first stage and didn’t attempt more complex distributions. And the paper chose the final model prioritizing simplicity, designated by a smaller number of predictors, among the last two proposed models, without explicitly comparing their levels of accuracy. And some standard values of comparisons for example minimum log-likelihood and typical BIC measures weren’t shared in the paper.</p>
-<p>Another study published by Lin, Wang, Jiang, Fan and Sun (2017) [6], tried to figure out sharing bike demand’s prediction based on the Bayesian classifier and APSO-BP neural network models. In this article, the researchers collected weather data and historic public bicycle sharing record to build the dataset. Then, the model categorize bicycle rental mode through Bayesian classifier and used the specific neural network fitted to the mode. The evaluation of this model was based on its accuracy and the result was that the model showed higher accuracy than other algorithms.
+<p>Another study published by Lin, Wang, Jiang, Fan and Sun (2017) <span class="citation" data-cites="1HLgGSDUB">[<a href="#ref-1HLgGSDUB" role="doc-biblioref">2</a>]</span>, tried to figure out sharing bike demand’s prediction based on the Bayesian classifier and APSO-BP neural network models. In this article, the researchers collected weather data and historic public bicycle sharing record to build the dataset. Then, the model categorize bicycle rental mode through Bayesian classifier and used the specific neural network fitted to the mode. The evaluation of this model was based on its accuracy and the result was that the model showed higher accuracy than other algorithms.
 To find the valuable factors of bike rental prediction, the article discussed the influence of holiday, weather and temperature and decided to build the dataset with these significant factors. The article set “di” as 1, 2 and 3 representing weekday, the first half of holiday and the second half of holiday, “wi” as 1, 2 and 3 as different weather and “ti” as different ranges of temperature.
 To classify different situation of bike rental, the authors used cluster analysis to analyze the modes of bike rental record in training dataset. Through K-means cluster analysis, the bike rental behaviors were divided into 4 modes. Then, the researchers built the classifier using training dataset through Bayes classification method.
 Then, the article designed an APSO-BP neural network model to forecast the bike rental demand. APSO-BP used single hidden layer neural network model. APSO algorithm generated several particles which are feasible answers randomly at first. The algorithm used the squared error to evaluate fitness. The researchers trained separated ASPO-BP neural network for each mode.
@@ -173,7 +173,11 @@ A box plot includes five values: the minimum value, the 25th percentile (Q1), th
 Correlation values range between -1 and 1., positive values indicate positive correlation and negative values indicate negative correlation. Absolute Values above 0.7 generally indicate high positive correlation, between 0.5 and 0.7 is moderate and between 0.3 and 0.5 is low, while under 0.3 is negligible correlation.</p>
 <h3 id="data-visualization">Data Visualization</h3>
 <p><strong>Scatterplots</strong></p>
-<!-- I don't know if you wanna add plots here -->
+<div id="fig:scatterplots" class="fignos">
+<figure>
+<img src="images/scatterplots.png" alt="" /><figcaption><span>Figure 1:</span> <strong>Scatterplots</strong></figcaption>
+</figure>
+</div>
 <p>By looking at the plots we observe the following:</p>
 <ul>
 <li>1- t1 and t2 are linearily dependent, which is expected because temperature feel directly depends on temperature.</li>
@@ -193,26 +197,26 @@ Correlation values range between -1 and 1., positive values indicate positive co
 <p><strong>Boxplots</strong></p>
 <div id="fig:box-plot" class="fignos">
 <figure>
-<img src="images/Boxplots.png" alt="" /><figcaption><span>Figure 1:</span> <strong>Boxplots of Data</strong></figcaption>
+<img src="images/Boxplots.png" alt="" /><figcaption><span>Figure 2:</span> <strong>Boxplots of Data</strong></figcaption>
 </figure>
 </div>
-<p>Graph1 in Figure <a href="#fig:box-plot">1</a> shows that:</p>
+<p>Graph1 in Figure <a href="#fig:box-plot">2</a> shows that:</p>
 <ul>
 <li>1- There seems to be a distribution of the median (middle line of the boxplot) and range (of the black line of each boxplot) of cnt with respect to month, it roughly follows a normal ditribution, peaking in July.</li>
 <li>2- For each month the distributions tends to be skewed to the right.</li>
 <li>3- Months with lowest ranges are January, February, November and December.</li>
 </ul>
-<p>Graph2 in Figure <a href="#fig:box-plot">1</a> shows that:
+<p>Graph2 in Figure <a href="#fig:box-plot">2</a> shows that:
 - 1- There is no clear distribution of median of cnt over the hours of the day, but the variation shows that cnt varies between different hours in the day, which seems to have two peaks, around 8 am then around 5 pm.
 - 2- During some hours, the shape of the distribution of cnt tends to be normal, while it’s more skewed to the right for some other hours.
 - 3- As expected night hours have the lowest cnt.</p>
 <p><strong>Multi-variate Plots</strong></p>
 <div id="fig:multi-plot" class="fignos">
 <figure>
-<img src="images/Multivariate-Plots.png" alt="" /><figcaption><span>Figure 2:</span> <strong>Multi-variate Plots of Data</strong></figcaption>
+<img src="images/Multivariate-Plots.png" alt="" /><figcaption><span>Figure 3:</span> <strong>Multi-variate Plots of Data</strong></figcaption>
 </figure>
 </div>
-<p>Figure <a href="#fig:multi-plot">2</a> shows the plots of average bike counts at each hour of the day. The following trends are shown:</p>
+<p>Figure <a href="#fig:multi-plot">3</a> shows the plots of average bike counts at each hour of the day. The following trends are shown:</p>
 <ul>
 <li>The distribution of the counts during the day is different on a holiday is at peaks around 1 pm - 2pm, while during regular days, it has two peaks around 8 am and 5 pm, which follows the governing distribution and was shown in the boxplots as well.</li>
 <li>There are similar trends for weekends as holidays and for weekdays as non-holiday days</li>
@@ -221,17 +225,17 @@ Correlation values range between -1 and 1., positive values indicate positive co
 <p><strong>Statistical Values</strong></p>
 <div id="fig:stat-value" class="fignos">
 <figure>
-<img src="images/Statistical-Values-Table.png" alt="" /><figcaption><span>Figure 3:</span> <strong>The Statistical Values of Data</strong></figcaption>
+<img src="images/Statistical-Values-Table.png" alt="" /><figcaption><span>Figure 4:</span> <strong>The Statistical Values of Data</strong></figcaption>
 </figure>
 </div>
-<p>Figure <a href="#fig:stat-value">3</a> gives us general insight about the mean and range of each parameter but it’s irrelevant for time parameters. The main outcomes is that the values of cnt in each hour over the two years of study, have a mean of 1138 and standard deviation of 1079, which is almost equivalent to the mean which means that there is significant difference between cnt values in certain hours than others. And this was indeed shown in the visualizations. We also notice that the maximum value is 7860, almost 7 times as big as the mean, which also means that there are very relatively few hours with such high values that they didn’t affect the mean significantly. However this might be also affected by the fact that we the datapoints include records along the day including night time, were people are not using bikes or commuting at all. We notice the temperature values range between -1.5 and 34 degrees C, which might not be representative of others cities; same applies to teh humidity and wind speed. So it’s important to highlight this factor when representing the predictive model at later stage.</p>
+<p>Figure <a href="#fig:stat-value">4</a> gives us general insight about the mean and range of each parameter but it’s irrelevant for time parameters. The main outcomes is that the values of cnt in each hour over the two years of study, have a mean of 1138 and standard deviation of 1079, which is almost equivalent to the mean which means that there is significant difference between cnt values in certain hours than others. And this was indeed shown in the visualizations. We also notice that the maximum value is 7860, almost 7 times as big as the mean, which also means that there are very relatively few hours with such high values that they didn’t affect the mean significantly. However this might be also affected by the fact that we the datapoints include records along the day including night time, were people are not using bikes or commuting at all. We notice the temperature values range between -1.5 and 34 degrees C, which might not be representative of others cities; same applies to teh humidity and wind speed. So it’s important to highlight this factor when representing the predictive model at later stage.</p>
 <p><strong>Correlation Matrix</strong></p>
 <div id="fig:corr-matrix" class="fignos">
 <figure>
-<img src="images/Correlation-Matrix.png" alt="" /><figcaption><span>Figure 4:</span> <strong>The Correlation Matrix of Data</strong></figcaption>
+<img src="images/Correlation-Matrix.png" alt="" /><figcaption><span>Figure 5:</span> <strong>The Correlation Matrix of Data</strong></figcaption>
 </figure>
 </div>
-<p>We can follow the color map <a href="#fig:corr-matrix">4</a> to find the variables of some correlation, which are the variables with correlation above roughly above 0.3, which are colored by red or lighter shade of color or less than -0.3, which are colored in black . As expected t1 and t2 have high correlation which means only variable might be included in the predictive model at most.</p>
+<p>We can follow the color map <a href="#fig:corr-matrix">5</a> to find the variables of some correlation, which are the variables with correlation above roughly above 0.3, which are colored by red or lighter shade of color or less than -0.3, which are colored in black . As expected t1 and t2 have high correlation which means only variable might be included in the predictive model at most.</p>
 <ul>
 <li>cnt shows correlation to t1 &amp; t2 &amp; humidity and hour of the day.</li>
 <li>t1 and t2 show correlation to cnt, humidity, and month of the year.</li>
@@ -247,39 +251,14 @@ Correlation values range between -1 and 1., positive values indicate positive co
 </ul>
 <p>In a word, the scatterplots showed that t1 and t2 are directly related, and possible relationship between wind speed and t2, t1 and humidity, humidity and bike counts, bike counts and wind speed, bike counts and temperature, weather code and bike counts. It also shows that bike counts are higher during weekdays and non holidays and for better weather conditions. Also, it shows that highest counts occur for summer. And no pattern was shown between counts and day of month. The boxplots showed that there seems to be a distribution of counts based on month, and that the counts are mostly skewed to the right. Also, that the distribution of counts over the hours of the day have two peaks, and within the hour the distribution is mostly normal but for some hours it is skewed to the right. Multi-variable point plots show interesting insights about the change of the variation of counts over the day from bi-modal, for regular days and weekdays, to unimodal for holidays and weekends. And it also showed that although summer has highest counts and winter has the lowest, fall and spring seem to have similar values. And the correlations showed that new counts are mainly correlated to temperature, humidity and hour of the day with no significance correlation to other parameters. And some of the other parameters are correlated as well especially weather attributes (humidity, temperature, wind speed..).</p>
 <p>We can derive several conclusions from the results of the exploratory data analysis. We explored which factors have a direct relationship with the new bike counts registered each hour, and the results show that the main factors affecting the range of new bike counts in an hour are temperature, humidity, and hour of the day, with some effect shown in visualizations by the weekdays, weather description, month and season.</p>
-<div id="fig:square-image" class="fignos">
-<figure>
-<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/square.png" alt="" /><figcaption><span>Figure 5:</span> <strong>A square image at actual size and with a bottom caption.</strong>
-Loaded from the latest version of image on GitHub.</figcaption>
-</figure>
-</div>
-<div id="fig:wide-image" class="fignos">
-<figure>
-<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/wide.png" alt="" /><figcaption><span>Figure 6:</span> <strong>An image too wide to fit within page at full size.</strong>
-Loaded from a specific (hashed) version of the image on GitHub.</figcaption>
-</figure>
-</div>
-<div id="fig:tall-image" class="fignos">
-<figure>
-<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/tall.png" style="height:3in" alt="" /><figcaption><span>Figure 7:</span> <strong>A tall image with a specified height.</strong>
-Loaded from a specific (hashed) version of the image on GitHub.</figcaption>
-</figure>
-</div>
-<div id="fig:vector-image" class="fignos">
-<figure>
-<img src="https://raw.githubusercontent.com/manubot/resources/master/test/vector.svg?sanitize=true" class="white" style="height:2.5in" alt="" /><figcaption><span>Figure 8:</span> <strong>A vector <code>.svg</code> image loaded from GitHub.</strong>
-The parameter <code>sanitize=true</code> is necessary to properly load SVGs hosted via GitHub URLs.
-White background specified to serve as a backdrop for transparent sections of the image.</figcaption>
-</figure>
-</div>
 <h2 id="the-models-to-predict-the-amount-of-bike-sharing">The Models to Predict the Amount of Bike Sharing</h2>
 <h3 id="regular-neural-network">Regular Neural Network</h3>
 <p>Based on the exploratory data analysis, regular neural network is used to figure out the project.</p>
 <p>Neural network is a model that optimize the parameters through learning process to recognize hidden relationships between different data.</p>
-<p>Because of the low correlation between given features, regular neural network probably is the most appropriate model to solve the project. The architecture of regular neural network is shown in Figure <a href="#fig:regular-neural-network">9</a> .</p>
+<p>Because of the low correlation between given features, regular neural network probably is the most appropriate model to solve the project. The architecture of regular neural network is shown in Figure <a href="#fig:regular-neural-network">6</a> .</p>
 <div id="fig:regular-neural-network" class="fignos">
 <figure>
-<img src="images/Basic%20Model.png" alt="" /><figcaption><span>Figure 9:</span> The Architecture of Regular Neural Network</figcaption>
+<img src="images/Basic%20Model.png" alt="" /><figcaption><span>Figure 6:</span> The Architecture of Regular Neural Network</figcaption>
 </figure>
 </div>
 <p>There are 4 steps to build and train neural network, including:</p>
@@ -289,20 +268,20 @@ White background specified to serve as a backdrop for transparent sections of th
 <li>Designing layers and parameters;</li>
 <li>Determining training methods.</li>
 </ul>
-<p>We used different features, epochs, hidden layers, units and learning rates in this project. The architectures of our models are shown in Figure <a href="#fig:jingzi-model">10</a> , <a href="#fig:anye-model">11</a> and <a href="#fig:dana-model">12</a> . The main parameters of our models are shown in Table <a href="#tbl:our-models">1</a></p>
+<p>We used different features, epochs, hidden layers, units and learning rates in this project. The architectures of our models are shown in Figure <a href="#fig:jingzi-model">7</a> , <a href="#fig:anye-model">8</a> and <a href="#fig:dana-model">9</a> . The main parameters of our models are shown in Table <a href="#tbl:our-models">1</a></p>
 <div id="fig:jingzi-model" class="fignos">
 <figure>
-<img src="images/Jingzi%20Model.png" alt="" /><figcaption><span>Figure 10:</span> The Architecture of Jingzi’s Model</figcaption>
+<img src="images/Jingzi%20Model.png" alt="" /><figcaption><span>Figure 7:</span> The Architecture of Jingzi’s Model</figcaption>
 </figure>
 </div>
 <div id="fig:anye-model" class="fignos">
 <figure>
-<img src="images/Anye%20Model.png" alt="" /><figcaption><span>Figure 11:</span> The Architecture of Anye’s Model</figcaption>
+<img src="images/Anye%20Model.png" alt="" /><figcaption><span>Figure 8:</span> The Architecture of Anye’s Model</figcaption>
 </figure>
 </div>
 <div id="fig:dana-model" class="fignos">
 <figure>
-<img src="images/Dana%20Model.png" alt="" /><figcaption><span>Figure 12:</span> The Architecture of Dana’s Model</figcaption>
+<img src="images/Dana%20Model.png" alt="" /><figcaption><span>Figure 9:</span> The Architecture of Dana’s Model</figcaption>
 </figure>
 </div>
 <div id="tbl:our-models" class="tablenos">
