@@ -4,7 +4,7 @@ aliquip
 amet
 anim
 Anyang
-Anye
+anye
 Anye’s
 APSO
 Ashqar
@@ -15,7 +15,7 @@ boxplots
 Champaign
 cillum
 Citi
-Cnt
+cnt
 commodo
 consectetur
 consequat
