@@ -70,11 +70,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/2a67cbaad3341e7279860ff46243725add467e54/" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/d0098bcf2d022f75d5558b7c5291b2eb6ad297f4/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/2a67cbaad3341e7279860ff46243725add467e54/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/d0098bcf2d022f75d5558b7c5291b2eb6ad297f4/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/2a67cbaad3341e7279860ff46243725add467e54/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/d0098bcf2d022f75d5558b7c5291b2eb6ad297f4/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -106,9 +106,9 @@ title: The Models of London Bike Sharing Prediction
 
 <small><em>
 This manuscript
-([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/2a67cbaad3341e7279860ff46243725add467e54/))
+([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/d0098bcf2d022f75d5558b7c5291b2eb6ad297f4/))
 was automatically generated
-from [Jingzi2020/CEE498_2020_G1@2a67cba](https://github.com/Jingzi2020/CEE498_2020_G1/tree/2a67cbaad3341e7279860ff46243725add467e54)
+from [Jingzi2020/CEE498_2020_G1@d0098bc](https://github.com/Jingzi2020/CEE498_2020_G1/tree/d0098bcf2d022f75d5558b7c5291b2eb6ad297f4)
 on December 6, 2020.
 </em></small>
 
@@ -158,16 +158,16 @@ The aim of this report is to create a predictive model using machine learning to
 The dataset provided was acquired from three sources, to include the new bike counts in each hour, the weather conditions, and the holidays. 
 The data from cycling dataset is grouped by "start time", and it represents the count of new bike shares grouped by hour. The long duration shares are not taken in the count.”
 The data sample analyzed in this project is collected between January 1st, 2015 to January 1st, 2017 in London, UK and it includes the following parameters:
--	Timestamp (year, month, day, hour)
--	Cnt:  the count of a new bike shares
--	T1: temperature measure taken in degree Celsius
--	T2: temperature feels 
--	Hum: humidity percentage
--	Wind_speed: in Km/hr 	
+> -	Timestamp (year, month, day, hour)
+> -	Cnt:  the count of a new bike shares
+> -	T1: temperature measure taken in degree Celsius
+> -	T2: temperature feels 
+> -	Hum: humidity percentage
+> -	Wind_speed: in Km/hr 	
 -	Weather_code: 1 = Clear ; mostly clear but have some values with haze/fog/patches of fog/ fog in vicinity 2 = scattered clouds / few clouds 3 = Broken clouds 4 = Cloudy 7 = Rain/ light Rain shower/ Light rain 10 = rain with thunderstorm 26 = snowfall 94 = Freezing Fog
--	Is_holiday: 1 if it is a holiday, 0 if it is not. 
--	Is_weekend: 1 if it is a weekend, 0 if it is not. 	
--	Season: 0: Spring, 1: Summer, 2: Fall, 3: Winter
+> -	Is_holiday: 1 if it is a holiday, 0 if it is not. 
+> -	Is_weekend: 1 if it is a weekend, 0 if it is not. 	
+> -	Season: 0: Spring, 1: Summer, 2: Fall, 3: Winter
 The sections below include literature review, description of methods, results, discussion and conclusion. 
 
 
@@ -210,15 +210,67 @@ From this research, I learned that the factors should be transferred into reason
 
 
 
-This manuscript is a template (aka "rootstock") for [Manubot](https://manubot.org/ "Manubot"), a tool for writing scholarly manuscripts.
-Use this template as a starting point for your manuscript.
 
-The rest of this document is a full list of formatting elements/features supported by Manubot.
-Compare the input (`.md` files in the `/content` directory) to the output you see below.
+## Exploratory Data Analysis
 
-## Data Analysis
+Five main tools were used to describe the dataset. 
 
-**Bold** __text__
+**Scatterplots**
+
+The reason for using scatter plots is to observe relationships between each pair of variables. Each dot in a scatter plot reports the values of individual data point, all the datapoints when plotted can help us identify a pattern that can show whether a relationship can be derived between two variables. This tool will help us decide which pairs of variables to explore further through other tools. Each pair of variables will have two plots. 
+
+**Boxplots**
+
+The reason for using box plots is to provide a visual summary of the data enabling us to visualize the median and range values, the dispersion of the data set, and any signs of skewness. So we can compare dispersion of new bike counts with respect to different values of a parameter. This tool will be used to explore certain relationships further than scatterplots, and not for all pairs of parameters. 
+A box plot includes five values: the minimum value, the 25th percentile (Q1), the median, the 75th percentile (Q3), and the maximum value. 
+
+**Multi-variable Point Plots** 
+
+The reason multi-variable point plots are used is to shows us the effect of certain variables on the distribution of the new bike counts during the day. So we can obtain different plots depending on the other variable, so we can explore two variables interrelations. And we choose categorical variables to find how their different categories affect the change in new bike counts along a day. 
+
+**Statistical Values**
+
+The reason for finding statistical values is get an insight about the mean, range and maximum and minimum values of different parameters especially new bike counts, and make a connection with the visualizations created. If the dataset included more than 2 years, a good approach would have been to also find covariance between datapoints in different years to identify any change in pattern resulting from certain events associated with a certain year, but this is not needed in our case. 
+
+**Correlation Matrix**
+
+The reason for using correlation matrix is to identify correlation between all parameters in the dataset and the ones affecting new bike counts only. This is important for the predictive model, so we understand and interdependencies between predictors and to avoid multicollinearity. 
+Correlation values range between -1 and 1., positive values indicate positive correlation and negative values indicate negative correlation.  Absolute Values above 0.7 generally indicate high positive correlation, between 0.5 and 0.7 is moderate and between 0.3 and 0.5 is low, while under 0.3 is negligible correlation. 
+
+### Interpretation of EDA
+
+**Scatterplots** 
+
+By looking at the plots we observe the following:
+- 1- t1 and t2 are linearily dependent, which is expected because temperature feel directly depends on temperature.
+- 2- Wind_speed and t2 seem to have some kind of relationship, which needs to be explored further
+- 3- t1 and t2 have some kind of relationship with humidity, which needs to be explored further.
+- 4- t1, t2, humidity and wind speed have some kind of relationship with cnt, which needs to be - explored further.
+- 5 - Weather code and cnt have some kind of relationship.
+- 6- Cnt seems higher when is_holiday is 0 (so when it is not a holiday)
+- 7- Cnt seems higher when is_weekend is 0 (so during weekdays)
+- 8- Cnt seems higher for weather codes (0-9)
+- 9- Cnt seems higher for season 1 (summer), then similar for seasons 0 and 2 and lowest for season 3 (winter). 
+- 10- Cnt seems highest for month 7,9,8,5 (expected based on observation 9)
+- 11- It doesn't seem a certain pattern can be derived for effect of day on cnt. 
+- 12- Cnt seems to have a relation depending on hour that can be explored further and it seems to be a multi-peak distribution
+
+The observations above allow us to build hypthesis that can be explored further using other EDA tools which will lay down the basis of our predictive model.
+
+**Boxplots**
+
+- Graph1 shows that: 
+>  - 1- There seems to be a distribution of the median (middle line of the boxplot) and range (of the black line of each boxplot) of cnt with respect to month, it roughly follows a normal ditribution, peaking in July. 
+>  - 2- For each month the distributions tends to be skewed to the right.
+>  - 3- Months with lowest ranges are January, February, November and December. 
+- Graph2 shows that:
+>  - 1- There is no clear distribution of median of cnt over the hours of the day, but the variation shows that cnt varies between different hours in the day, which seems to have two peaks, around 8 am then around 5 pm. 
+>  - 2- During some hours, the shape of the distribution of cnt tends to be normal, while it's more skewed to the right for some other hours. 
+>  - 3- As expected night hours have the lowest cnt. 
+
+
+
+**Bold**
 
 [Semi-bold text]{.semibold}
 
