@@ -5,7 +5,7 @@ APSO
 Ashqar
 ASPO
 boxplot
-Boxplots
+boxplots
 Champaign
 Citi
 cnt
@@ -44,7 +44,7 @@ Qld
 Rakha
 rebalancing
 RMSE
-scatterplots
+Scatterplots
 skewness
 stepwise
 stochasticity
