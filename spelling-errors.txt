@@ -1,11 +1,11 @@
 Anyang
-anye
+Anye
 Anye’s
 APSO
 Ashqar
 ASPO
 boxplot
-Boxplots
+boxplots
 Champaign
 Citi
 Cnt
@@ -26,7 +26,7 @@ hypthesis
 IJCNN
 interdependencies
 Jiang
-jingzi
+Jingzi
 Jingzi’s
 Kang
 linearily

@@ -70,11 +70,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/5c4d5f44651bc74095b82c490d3dda4acd471bb5/" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/b0d1117b40b5501ee65a01e9cc844bab35a23285/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/5c4d5f44651bc74095b82c490d3dda4acd471bb5/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/b0d1117b40b5501ee65a01e9cc844bab35a23285/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/5c4d5f44651bc74095b82c490d3dda4acd471bb5/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/b0d1117b40b5501ee65a01e9cc844bab35a23285/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -106,9 +106,9 @@ title: The Models of London Bike Sharing Prediction
 
 <small><em>
 This manuscript
-([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/5c4d5f44651bc74095b82c490d3dda4acd471bb5/))
+([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/b0d1117b40b5501ee65a01e9cc844bab35a23285/))
 was automatically generated
-from [Jingzi2020/CEE498_2020_G1@5c4d5f4](https://github.com/Jingzi2020/CEE498_2020_G1/tree/5c4d5f44651bc74095b82c490d3dda4acd471bb5)
+from [Jingzi2020/CEE498_2020_G1@b0d1117](https://github.com/Jingzi2020/CEE498_2020_G1/tree/b0d1117b40b5501ee65a01e9cc844bab35a23285)
 on December 6, 2020.
 </em></small>
 
@@ -274,7 +274,6 @@ The observations above allow us to build hypthesis that can be explored further 
 **Boxplots**
 
 ![**Boxplots of Data**](images/Boxplots.png "Wide image"){#fig:box-plot}
-<img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Boxplots.JPG" alt="Boxplots" width="800" height="400" />
 
 Graph1 in Figure @fig:box-plot shows that: 
 
