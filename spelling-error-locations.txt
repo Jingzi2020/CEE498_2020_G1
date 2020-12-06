@@ -103,6 +103,7 @@ content/05.Model.md:30:Jingzi
 content/05.Model.md:31:Anye
 content/05.Model.md:33:Jingzi
 content/05.Model.md:33:Jingzi’s
+content/05.Model.md:37:activations
 content/05.Model.md:37:relu
 content/05.Model.md:37:ReLU
 content/05.Model.md:37:ReLU

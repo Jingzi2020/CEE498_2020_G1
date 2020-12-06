@@ -1,10 +1,11 @@
+activations
 Anye
 Anye’s
 APSO
 Ashqar
 ASPO
 boxplot
-boxplots
+Boxplots
 Champaign
 Citi
 cnt
@@ -22,7 +23,7 @@ hyperplanes
 hypthesis
 interdependencies
 Jiang
-Jingzi
+jingzi
 Jingzi’s
 linearily
 literatures
@@ -37,7 +38,7 @@ PRM
 rebalancing
 relu
 RMSE
-scatterplots
+Scatterplots
 sigmoid
 skewness
 stepwise

@@ -70,11 +70,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/1ad4cbfb274863217cad92b3baa0adb762d9f8e5/" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/ce4e6e62a635055b141ad2c8363bdff81474145c/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/1ad4cbfb274863217cad92b3baa0adb762d9f8e5/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/ce4e6e62a635055b141ad2c8363bdff81474145c/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/1ad4cbfb274863217cad92b3baa0adb762d9f8e5/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/ce4e6e62a635055b141ad2c8363bdff81474145c/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -106,9 +106,9 @@ title: The Models of London Bike Sharing Prediction
 
 <small><em>
 This manuscript
-([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/1ad4cbfb274863217cad92b3baa0adb762d9f8e5/))
+([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/ce4e6e62a635055b141ad2c8363bdff81474145c/))
 was automatically generated
-from [Jingzi2020/CEE498_2020_G1@1ad4cbf](https://github.com/Jingzi2020/CEE498_2020_G1/tree/1ad4cbfb274863217cad92b3baa0adb762d9f8e5)
+from [Jingzi2020/CEE498_2020_G1@ce4e6e6](https://github.com/Jingzi2020/CEE498_2020_G1/tree/ce4e6e62a635055b141ad2c8363bdff81474145c)
 on December 6, 2020.
 </em></small>
 
@@ -364,7 +364,7 @@ We used different features, epochs, hidden layers, units and learning rates in t
 Table: The Overview of Our Models
 {#tbl:our-models}
 
-ReLU is used as activation function because ReLU often works a little better than a smooth function like the sigmoid, while also being significantly easier to compute [@https://developers.google.com/machine-learning/crash-course] . The expression of ReLU is shown in equation @eq:relu
+ReLU is used as activation function because ReLU is not only usually better than other activations like the sigmoid, but also easier to compute [@https://developers.google.com/machine-learning/crash-course] . The equation of ReLU is shown in equation @eq:relu
 
 $$F(x)=max(0,x)$$ {#eq:relu}
 
