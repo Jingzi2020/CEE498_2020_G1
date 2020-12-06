@@ -70,11 +70,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/450e7a14dc12536ab9f2eea6ff76c4ecde81422c/" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/d8025fbfc7638ece0a6dfb0e77669eeff8ce86ea/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/450e7a14dc12536ab9f2eea6ff76c4ecde81422c/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/d8025fbfc7638ece0a6dfb0e77669eeff8ce86ea/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/450e7a14dc12536ab9f2eea6ff76c4ecde81422c/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/d8025fbfc7638ece0a6dfb0e77669eeff8ce86ea/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -106,9 +106,9 @@ title: The Models of London Bike Sharing Prediction
 
 <small><em>
 This manuscript
-([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/450e7a14dc12536ab9f2eea6ff76c4ecde81422c/))
+([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/d8025fbfc7638ece0a6dfb0e77669eeff8ce86ea/))
 was automatically generated
-from [Jingzi2020/CEE498_2020_G1@450e7a1](https://github.com/Jingzi2020/CEE498_2020_G1/tree/450e7a14dc12536ab9f2eea6ff76c4ecde81422c)
+from [Jingzi2020/CEE498_2020_G1@d8025fb](https://github.com/Jingzi2020/CEE498_2020_G1/tree/d8025fbfc7638ece0a6dfb0e77669eeff8ce86ea)
 on December 6, 2020.
 </em></small>
 
@@ -533,34 +533,4 @@ After interpreting the exploratory data analysis, a predictive model using regul
 
 
 ## References {.page_break_before}
-
-<!-- Explicitly insert bibliography here -->
 <div id="refs"></div>
-
-### Citations
-
-
-<!--
- [1] Z. Kang, Y. Zuo, Z. Huang, F. Zhou and P. Chen, "Research on the Forecast of Shared Bicycle Rental Demand Based on Spark Machine Learning Framework," 2017 16th International Symposium on Distributed Computing and Applications to Business, Engineering and Science (DCABES), Anyang, 2017, pp. 219-222, doi: 10.1109/DCABES.2017.55. 
-
-[2] F. Lin, S. Wang, J. Jiang, W. Fan and Y. Sun, "Predicting public bicycle rental number using multi-source data," 2017 International Joint Conference on Neural Networks (IJCNN), Anchorage, AK, 2017, pp. 1502-1509, doi: 10.1109/IJCNN.2017.7966030. 
-
-[3] J. Huang, X. Wang and H. Sun, "Central Station Based Demand Prediction in a Bike Sharing System," 2019 20th IEEE International Conference on Mobile Data Management (MDM), Hong Kong, Hong Kong, 2019, pp. 346-348, doi: 10.1109/MDM.2019.00-38. 
-
-[4] https://www.kaggle.com/hmavrodiev/london-bike-sharing-dataset
-
-[5] Ashqar, H. I., Elhenawy, M., Rakha, H. A., Road, V. P., & Qld, K. G. "Case Studies on Transport Policy Modeling bike counts in a bike-sharing system considering the e ff ect of weather conditions," 2019. Case Studies on Transport Policy, 7(2), 261–268. https://doi.org/10.1016/j.cstp.2019.02.011
-
-[6] F. Lin, S. Wang, J. Jiang, W. Fan and Y. Sun, "Predicting public bicycle rental number using multi-source data," 2017 International Joint Conference on Neural Networks (IJCNN), Anchorage, AK, 2017, pp. 1502-1509, doi: 10.1109/IJCNN.2017.7966030.
- -->
-
-Citation by DOI [@doi:10.1109/DCABES.2017.55].
-Citation by DOI [@doi:10.1109/IJCNN.2017.7966030].
-Citation by DOI [@doi:10.1109/MDM.2019.00-38].
-Citation by URL [@https://kaggle.com/hmavrodiev/london-bike-sharing-dataset/].
-Citation by DOI [@doi:10.1016/j.cstp.2019.02.011].
-Citation by DOI [@doi:10.1109/IJCNN.2017.7966030].
-
-
-
-

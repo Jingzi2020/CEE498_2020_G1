@@ -1,5 +1,5 @@
 Anyang
-anye
+Anye
 Anye’s
 APSO
 Ashqar
@@ -8,7 +8,7 @@ boxplot
 boxplots
 Champaign
 Citi
-cnt
+Cnt
 covariance
 datapoints
 dataset
@@ -44,7 +44,7 @@ Qld
 Rakha
 rebalancing
 RMSE
-Scatterplots
+scatterplots
 skewness
 stepwise
 stochasticity
