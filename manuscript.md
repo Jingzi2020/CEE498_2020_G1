@@ -70,11 +70,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/a43e0f4fdaa1bae1bc73b53965cb10e0df4e0a7e/" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/4a865db5f84b26beddb54b5419e13d43268d3a49/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/a43e0f4fdaa1bae1bc73b53965cb10e0df4e0a7e/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/4a865db5f84b26beddb54b5419e13d43268d3a49/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/a43e0f4fdaa1bae1bc73b53965cb10e0df4e0a7e/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/4a865db5f84b26beddb54b5419e13d43268d3a49/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -106,9 +106,9 @@ title: The Models of London Bike Sharing Prediction
 
 <small><em>
 This manuscript
-([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/a43e0f4fdaa1bae1bc73b53965cb10e0df4e0a7e/))
+([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/4a865db5f84b26beddb54b5419e13d43268d3a49/))
 was automatically generated
-from [Jingzi2020/CEE498_2020_G1@a43e0f4](https://github.com/Jingzi2020/CEE498_2020_G1/tree/a43e0f4fdaa1bae1bc73b53965cb10e0df4e0a7e)
+from [Jingzi2020/CEE498_2020_G1@4a865db](https://github.com/Jingzi2020/CEE498_2020_G1/tree/4a865db5f84b26beddb54b5419e13d43268d3a49)
 on December 6, 2020.
 </em></small>
 
@@ -146,7 +146,7 @@ on December 6, 2020.
 
 
 ## Abstract {.page_break_before}
-The aim of this study is to create a predictive model for bike-sharing counts in a n hour in the city of London in United Kingdom. The model makes use of regular neural network. And the main features affecting the bike counts include weather conditions and time. The model root mean square is 210, with a mean of 1124 counts in an hour compared to 1138 counts in an hour in the training data. The model provides enough accuracy for planning a new station and scheduling bike redistribution schedules. 
+The aim of this study is to create a predictive model for bike-sharing counts in an hour in the city of London in United Kingdom. The model makes use of regular neural networks. And the main features affecting the bike counts include weather conditions and time variables. The model's root mean square is 210, with a mean of 1124 counts in an hour for testing data compared to 1138 counts in an hour in the training data. The model provides enough accuracy for planning the number of docks at a new station and scheduling bike redistribution schedules between stations.
 
 
 
@@ -158,16 +158,16 @@ The aim of this report is to create a predictive model using machine learning to
 The dataset provided was acquired from three sources, to include the new bike counts in each hour, the weather conditions, and the holidays. 
 The data from cycling dataset is grouped by "start time", and it represents the count of new bike shares grouped by hour. The long duration shares are not taken in the count.”
 The data sample analyzed in this project is collected between January 1st, 2015 to January 1st, 2017 in London, UK and it includes the following parameters:
-> -	Timestamp (year, month, day, hour)
-> -	Cnt:  the count of a new bike shares
-> -	T1: temperature measure taken in degree Celsius
-> -	T2: temperature feels 
-> -	Hum: humidity percentage
-> -	Wind_speed: in Km/hr 	
+-	Timestamp (year, month, day, hour)
+-	Cnt:  the count of a new bike shares
+-	T1: temperature measure taken in degree Celsius
+-	T2: temperature feels 
+-	Hum: humidity percentage
+-	Wind_speed: in Km/hr 	
 -	Weather_code: 1 = Clear ; mostly clear but have some values with haze/fog/patches of fog/ fog in vicinity 2 = scattered clouds / few clouds 3 = Broken clouds 4 = Cloudy 7 = Rain/ light Rain shower/ Light rain 10 = rain with thunderstorm 26 = snowfall 94 = Freezing Fog
-> -	Is_holiday: 1 if it is a holiday, 0 if it is not. 
-> -	Is_weekend: 1 if it is a weekend, 0 if it is not. 	
-> -	Season: 0: Spring, 1: Summer, 2: Fall, 3: Winter
+-	Is_holiday: 1 if it is a holiday, 0 if it is not. 
+-	Is_weekend: 1 if it is a weekend, 0 if it is not. 	
+-	Season: 0: Spring, 1: Summer, 2: Fall, 3: Winter
 The sections below include literature review, description of methods, results, discussion and conclusion. 
 
 
@@ -928,7 +928,7 @@ Use this template as a starting point for your manuscript.
 The rest of this document is a full list of formatting elements/features supported by Manubot.
 Compare the input (`.md` files in the `/content` directory) to the output you see below.
 
-## Experiments of the Prediction Models
+## Results of Modeling
 
 **Bold** __text__
 

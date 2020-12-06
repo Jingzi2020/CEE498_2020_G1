@@ -115,9 +115,9 @@
   <meta name="citation_fulltext_html_url" content="https://Jingzi2020.github.io/CEE498_2020_G1/" />
   <meta name="citation_pdf_url" content="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/a43e0f4fdaa1bae1bc73b53965cb10e0df4e0a7e/" />
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/a43e0f4fdaa1bae1bc73b53965cb10e0df4e0a7e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/a43e0f4fdaa1bae1bc73b53965cb10e0df4e0a7e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/4a865db5f84b26beddb54b5419e13d43268d3a49/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/4a865db5f84b26beddb54b5419e13d43268d3a49/" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/4a865db5f84b26beddb54b5419e13d43268d3a49/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -138,9 +138,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://Jingzi2020.github.io/CEE498_2020_G1/v/a43e0f4fdaa1bae1bc73b53965cb10e0df4e0a7e/">permalink</a>)
+(<a href="https://Jingzi2020.github.io/CEE498_2020_G1/v/4a865db5f84b26beddb54b5419e13d43268d3a49/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/Jingzi2020/CEE498_2020_G1/tree/a43e0f4fdaa1bae1bc73b53965cb10e0df4e0a7e">Jingzi2020/CEE498_2020_G1@a43e0f4</a>
+from <a href="https://github.com/Jingzi2020/CEE498_2020_G1/tree/4a865db5f84b26beddb54b5419e13d43268d3a49">Jingzi2020/CEE498_2020_G1@4a865db</a>
 on December 6, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -171,23 +171,23 @@ Grainger College of Engineering, University of Illinois at Urbana-Champaign, Civ
 </small></p></li>
 </ul>
 <h2 class="page_break_before" id="abstract">Abstract</h2>
-<p>The aim of this study is to create a predictive model for bike-sharing counts in a n hour in the city of London in United Kingdom. The model makes use of regular neural network. And the main features affecting the bike counts include weather conditions and time. The model root mean square is 210, with a mean of 1124 counts in an hour compared to 1138 counts in an hour in the training data. The model provides enough accuracy for planning a new station and scheduling bike redistribution schedules.</p>
+<p>The aim of this study is to create a predictive model for bike-sharing counts in an hour in the city of London in United Kingdom. The model makes use of regular neural networks. And the main features affecting the bike counts include weather conditions and time variables. The model’s root mean square is 210, with a mean of 1124 counts in an hour for testing data compared to 1138 counts in an hour in the training data. The model provides enough accuracy for planning the number of docks at a new station and scheduling bike redistribution schedules between stations.</p>
 <h2 id="introduction">Introduction</h2>
 <p>Bike-sharing system is an important mode in sustainable transportation modes. Great attention is put to improve such systems to increase their demand and maximize their environmental benefits along with other societal benefits. To study the demand of this system, London Bike-sharing system sis explored. The purpose of this study is to predict ranges of new bike counts each hour based on certain factors provided in the dataset.
 The aim of this report is to create a predictive model using machine learning to predict bike counts in a given hour in London city which is useful for planning and operation forecasting of bike-sharing system. The exploratory data analysis using graphical and statistical tools in Python were used to derive preliminary conclusions about the dataset by analyzing the results of the tools used.
 The dataset provided was acquired from three sources, to include the new bike counts in each hour, the weather conditions, and the holidays.
 The data from cycling dataset is grouped by “start time”, and it represents the count of new bike shares grouped by hour. The long duration shares are not taken in the count.”
 The data sample analyzed in this project is collected between January 1st, 2015 to January 1st, 2017 in London, UK and it includes the following parameters:
-&gt; - Timestamp (year, month, day, hour)
-&gt; - Cnt: the count of a new bike shares
-&gt; - T1: temperature measure taken in degree Celsius
-&gt; - T2: temperature feels
-&gt; - Hum: humidity percentage
-&gt; - Wind_speed: in Km/hr<br />
+- Timestamp (year, month, day, hour)
+- Cnt: the count of a new bike shares
+- T1: temperature measure taken in degree Celsius
+- T2: temperature feels
+- Hum: humidity percentage
+- Wind_speed: in Km/hr<br />
 - Weather_code: 1 = Clear ; mostly clear but have some values with haze/fog/patches of fog/ fog in vicinity 2 = scattered clouds / few clouds 3 = Broken clouds 4 = Cloudy 7 = Rain/ light Rain shower/ Light rain 10 = rain with thunderstorm 26 = snowfall 94 = Freezing Fog
-&gt; - Is_holiday: 1 if it is a holiday, 0 if it is not.
-&gt; - Is_weekend: 1 if it is a weekend, 0 if it is not.<br />
-&gt; - Season: 0: Spring, 1: Summer, 2: Fall, 3: Winter
+- Is_holiday: 1 if it is a holiday, 0 if it is not.
+- Is_weekend: 1 if it is a weekend, 0 if it is not.<br />
+- Season: 0: Spring, 1: Summer, 2: Fall, 3: Winter
 The sections below include literature review, description of methods, results, discussion and conclusion.</p>
 <h2 id="literature-review">Literature Review</h2>
 <p>Bike sharing system has appeared more and more on the street of the cities in order to meet the demand of public transportation in the last short distance to the destination. Also, Bike sharing system is so popular around all the world that most of major modern cities and campuses have been operated. Among researches for the bike system, predicting the demand of future bike shares is one of the most important and necessary tasks to ensure a satisfactory level of service of the system.</p>
@@ -499,7 +499,7 @@ White background specified to serve as a backdrop for transparent sections of th
 </tbody>
 </table>
 </div>
-<div id="tbl:02c16b5e-7634-4c5d-8ee1-bd3cbef66aae" class="tablenos">
+<div id="tbl:c9bc83e1-7508-4e4b-be4d-1a1bd15831f5" class="tablenos">
 <table>
 <caption><span>Table 3:</span> A table with merged cells using the <code>attributes</code> plugin.
 </caption>
@@ -816,7 +816,7 @@ White background specified to serve as a backdrop for transparent sections of th
 </tbody>
 </table>
 </div>
-<div id="tbl:189a7c76-c244-4a6b-82ba-bb2bee1bdc22" class="tablenos">
+<div id="tbl:5e3ecb6b-9001-4c22-937d-99d15f41a3aa" class="tablenos">
 <table>
 <caption><span>Table 6:</span> A table with merged cells using the <code>attributes</code> plugin.
 </caption>
@@ -901,7 +901,7 @@ useful for <em>warnings</em> - <a href="https://manubot.org/">manubot.org</a></s
 Use this template as a starting point for your manuscript.</p>
 <p>The rest of this document is a full list of formatting elements/features supported by Manubot.
 Compare the input (<code>.md</code> files in the <code>/content</code> directory) to the output you see below.</p>
-<h2 id="experiments-of-the-prediction-models">Experiments of the Prediction Models</h2>
+<h2 id="results-of-modeling">Results of Modeling</h2>
 <p><strong>Bold</strong> <strong>text</strong></p>
 <p><span class="semibold">Semi-bold text</span></p>
 <p><span class="center">Centered text</span></p>
@@ -1100,7 +1100,7 @@ White background specified to serve as a backdrop for transparent sections of th
 </tbody>
 </table>
 </div>
-<div id="tbl:8c417fb6-3c8f-48f3-a114-96f32dd5aaae" class="tablenos">
+<div id="tbl:3f39bf45-de3a-4a73-bbc1-0136ff1f1ba5" class="tablenos">
 <table>
 <caption><span>Table 9:</span> A table with merged cells using the <code>attributes</code> plugin.
 </caption>

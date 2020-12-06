@@ -11,7 +11,7 @@ Ashqar
 ASPO
 aute
 boxplot
-Boxplots
+boxplots
 Champaign
 cillum
 Citi
@@ -48,7 +48,7 @@ interdependencies
 ipsum
 irure
 Jiang
-jingzi
+Jingzi
 Jingzi’s
 Kang
 labore
@@ -81,8 +81,8 @@ quis
 Rakha
 rebalancing
 reprehenderit
-RMSE
-scatterplots
+rmse
+Scatterplots
 sed
 sint
 skewness
