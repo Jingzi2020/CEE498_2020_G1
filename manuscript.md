@@ -70,11 +70,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/e8ed03966c06654b2fc31f44777bfa26e26c03d9/" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/0c89b9d52f4c85b9f59eaf58f3e6b57de75b651f/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/e8ed03966c06654b2fc31f44777bfa26e26c03d9/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/0c89b9d52f4c85b9f59eaf58f3e6b57de75b651f/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/e8ed03966c06654b2fc31f44777bfa26e26c03d9/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/0c89b9d52f4c85b9f59eaf58f3e6b57de75b651f/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -106,9 +106,9 @@ title: The Models of London Bike Sharing Prediction
 
 <small><em>
 This manuscript
-([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/e8ed03966c06654b2fc31f44777bfa26e26c03d9/))
+([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/0c89b9d52f4c85b9f59eaf58f3e6b57de75b651f/))
 was automatically generated
-from [Jingzi2020/CEE498_2020_G1@e8ed039](https://github.com/Jingzi2020/CEE498_2020_G1/tree/e8ed03966c06654b2fc31f44777bfa26e26c03d9)
+from [Jingzi2020/CEE498_2020_G1@0c89b9d](https://github.com/Jingzi2020/CEE498_2020_G1/tree/0c89b9d52f4c85b9f59eaf58f3e6b57de75b651f)
 on December 6, 2020.
 </em></small>
 
@@ -279,7 +279,7 @@ Graph1 shows that:
 ![
 **An image too wide to fit within page at full size.**
 Loaded from a specific (hashed) version of the image on GitHub.
-](https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Multivariate%20Plots.JPG "Multivariate Plots" width="200" height="200"){#fig:wide-image}
+](https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Multivariate%20Plots.JPG "Multivariate Plots"){#fig:wide-image}
 
 
 - Graph1 shows the general plot of new bike counts over the hours of the day. 
@@ -298,6 +298,7 @@ Loaded from a specific (hashed) version of the image on GitHub.
 This gives us general insight about the mean and range of each parameter but it's irrelevant for time parameters. The main outcomes is that the values of cnt in each hour over the two years of study, have a mean of 1138 and standard deviation of 1079, which is almost equivalent to the mean which means that there is significant difference between cnt values in certain hours than others. And this was indeed shown in the visualizations. We also notice that the maximum value is 7860, almost 7 times as big as the mean, which also means that there are very relatively few hours with such high values that they didn't affect the mean significantly. However this might be also affected by the fact that we the datapoints include records along the day including night time, were people are not using bikes or commuting at all. We notice the temperature values range between -1.5 and 34 degrees C, which might not be representative of others cities; same applies to teh humidity and wind speed. So it's important to highlight this factor when representing the predictive model at later stage. 
 
 ## Correlation Matrix 
+<img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Correlation%20Matrix.JPG" alt="drawing" width="200" height="200" />
 
 ![
 **An image too wide to fit within page at full size.**

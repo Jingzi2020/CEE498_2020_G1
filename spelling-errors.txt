@@ -15,7 +15,7 @@ boxplots
 Champaign
 cillum
 Citi
-cnt
+Cnt
 commodo
 consectetur
 consequat
@@ -81,7 +81,7 @@ quis
 Rakha
 rebalancing
 reprehenderit
-RMSE
+rmse
 scatterplots
 sed
 sint

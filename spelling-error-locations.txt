@@ -73,13 +73,13 @@ content/04.Data Analysis.md:87:cnt
 content/04.Data Analysis.md:87:cnt
 content/04.Data Analysis.md:87:datapoints
 content/04.Data Analysis.md:87:teh
-content/04.Data Analysis.md:98:cnt
 content/04.Data Analysis.md:99:cnt
 content/04.Data Analysis.md:100:cnt
-content/04.Data Analysis.md:108:cnt
-content/04.Data Analysis.md:111:boxplots
-content/04.Data Analysis.md:111:scatterplots
-content/04.Data Analysis.md:111:unimodal
+content/04.Data Analysis.md:101:cnt
+content/04.Data Analysis.md:109:cnt
+content/04.Data Analysis.md:112:boxplots
+content/04.Data Analysis.md:112:scatterplots
+content/04.Data Analysis.md:112:unimodal
 content/05.Model.md:16:preprocessing
 content/05.Model.md:20:anye
 content/05.Model.md:20:jingzi
