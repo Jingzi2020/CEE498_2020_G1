@@ -70,11 +70,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/9cdbea5d745c1434b9ea70ca4218fcf7b5e68673/" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/05bdd721d8fae7ad463bb5dc168061af25f7a6d3/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/9cdbea5d745c1434b9ea70ca4218fcf7b5e68673/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/05bdd721d8fae7ad463bb5dc168061af25f7a6d3/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/9cdbea5d745c1434b9ea70ca4218fcf7b5e68673/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/05bdd721d8fae7ad463bb5dc168061af25f7a6d3/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -106,9 +106,9 @@ title: The Models of London Bike Sharing Prediction
 
 <small><em>
 This manuscript
-([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/9cdbea5d745c1434b9ea70ca4218fcf7b5e68673/))
+([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/05bdd721d8fae7ad463bb5dc168061af25f7a6d3/))
 was automatically generated
-from [Jingzi2020/CEE498_2020_G1@9cdbea5](https://github.com/Jingzi2020/CEE498_2020_G1/tree/9cdbea5d745c1434b9ea70ca4218fcf7b5e68673)
+from [Jingzi2020/CEE498_2020_G1@05bdd72](https://github.com/Jingzi2020/CEE498_2020_G1/tree/05bdd721d8fae7ad463bb5dc168061af25f7a6d3)
 on December 6, 2020.
 </em></small>
 
@@ -294,7 +294,10 @@ This gives us general insight about the mean and range of each parameter but it'
 
 ## Correlation Matrix 
 
-<img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Correlation%20Matrix.JPG" alt="Correlation Matrix" width="600" height="600" />
+![
+**A square image at actual size and with a bottom caption.**
+Loaded from the latest version of image on GitHub.
+](https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Correlation%20Matrix.JPG "Square image")
 
 We can follow the color map to find the variables of some correlation, which are the variables with correlation above roughly above 0.3, which are colored by red or lighter shade of color or less than -0.3, which are colored in black . As expected t1 and t2 have high correlation which means only variable might be included in the predictive model at most. 
 
@@ -314,6 +317,28 @@ We can follow the color map to find the variables of some correlation, which are
 In a word, the scatterplots showed that t1 and t2 are directly related, and possible relationship between wind speed and t2, t1 and humidity, humidity and bike counts, bike counts and wind speed, bike counts and temperature, weather code and bike counts. It also shows that bike counts are higher during weekdays and non holidays and for better weather conditions. Also, it shows that highest counts occur for summer. And no pattern was shown between counts and day of month. The boxplots showed that there seems to be a distribution of counts based on month, and that the counts are mostly skewed to the right. Also, that the distribution of counts over the hours of the day have two peaks, and within the hour the distribution is mostly normal but for some hours it is skewed to the right. Multi-variable point plots show interesting insights about the change of the variation of counts over the day from bi-modal, for regular days and weekdays, to unimodal for holidays and weekends. And it also showed that although summer has highest counts and winter has the lowest, fall and spring seem to have similar values. And the correlations showed that new counts are mainly correlated to temperature, humidity and hour of the day with no significance correlation to other parameters. And some of the other parameters are correlated as well especially weather attributes (humidity, temperature, wind speed..).
 
 We can derive several conclusions from the results of the exploratory data analysis. We explored which factors have a direct relationship with the new bike counts registered each hour, and the results show that the main factors affecting the range of new bike counts in an hour are temperature, humidity, and hour of the day, with some effect shown in visualizations by the weekdays, weather description, month and season. 
+
+
+![
+**A square image at actual size and with a bottom caption.**
+Loaded from the latest version of image on GitHub.
+](https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/square.png "Square image"){#fig:square-image}
+
+![
+**An image too wide to fit within page at full size.**
+Loaded from a specific (hashed) version of the image on GitHub.
+](https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/wide.png "Wide image"){#fig:wide-image}
+
+![
+**A tall image with a specified height.**
+Loaded from a specific (hashed) version of the image on GitHub.
+](https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/tall.png "Tall image"){#fig:tall-image height=3in}
+
+![
+**A vector `.svg` image loaded from GitHub.**
+The parameter `sanitize=true` is necessary to properly load SVGs hosted via GitHub URLs.
+White background specified to serve as a backdrop for transparent sections of the image.
+](https://raw.githubusercontent.com/manubot/resources/master/test/vector.svg?sanitize=true "Vector image"){#fig:vector-image height=2.5in .white}
 
 
 ## The Models to Predict the Amount of Bike Sharing

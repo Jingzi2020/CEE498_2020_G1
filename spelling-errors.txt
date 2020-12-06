@@ -4,7 +4,7 @@ aliquip
 amet
 anim
 Anyang
-anye
+Anye
 Anye’s
 APSO
 Ashqar
@@ -15,7 +15,7 @@ boxplots
 Champaign
 cillum
 Citi
-cnt
+Cnt
 commodo
 consectetur
 consequat
@@ -51,7 +51,7 @@ interdependencies
 ipsum
 irure
 Jiang
-jingzi
+Jingzi
 Jingzi’s
 Kang
 labore
