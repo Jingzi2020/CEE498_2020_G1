@@ -53,9 +53,9 @@
   <meta name="citation_fulltext_html_url" content="https://Jingzi2020.github.io/CEE498_2020_G1/" />
   <meta name="citation_pdf_url" content="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/92b50312b1b89beebd886a8d8a4d05bdddd5c94f/" />
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/92b50312b1b89beebd886a8d8a4d05bdddd5c94f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/92b50312b1b89beebd886a8d8a4d05bdddd5c94f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/840f94f3ef65ccb00ad1089412e0cb841a00c523/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/840f94f3ef65ccb00ad1089412e0cb841a00c523/" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/840f94f3ef65ccb00ad1089412e0cb841a00c523/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -76,9 +76,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://Jingzi2020.github.io/CEE498_2020_G1/v/92b50312b1b89beebd886a8d8a4d05bdddd5c94f/">permalink</a>)
+(<a href="https://Jingzi2020.github.io/CEE498_2020_G1/v/840f94f3ef65ccb00ad1089412e0cb841a00c523/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/Jingzi2020/CEE498_2020_G1/tree/92b50312b1b89beebd886a8d8a4d05bdddd5c94f">Jingzi2020/CEE498_2020_G1@92b5031</a>
+from <a href="https://github.com/Jingzi2020/CEE498_2020_G1/tree/840f94f3ef65ccb00ad1089412e0cb841a00c523">Jingzi2020/CEE498_2020_G1@840f94f</a>
 on December 6, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -206,10 +206,12 @@ Correlation values range between -1 and 1., positive values indicate positive co
 <li>2- For each month the distributions tends to be skewed to the right.</li>
 <li>3- Months with lowest ranges are January, February, November and December.</li>
 </ul>
-<p>Graph2 in Figure <a href="#fig:box-plot">2</a> shows that:
-- 1- There is no clear distribution of median of cnt over the hours of the day, but the variation shows that cnt varies between different hours in the day, which seems to have two peaks, around 8 am then around 5 pm.
-- 2- During some hours, the shape of the distribution of cnt tends to be normal, while it’s more skewed to the right for some other hours.
-- 3- As expected night hours have the lowest cnt.</p>
+<p>Graph2 in Figure <a href="#fig:box-plot">2</a> shows that:</p>
+<ul>
+<li>1- There is no clear distribution of median of cnt over the hours of the day, but the variation shows that cnt varies between different hours in the day, which seems to have two peaks, around 8 am then around 5 pm.</li>
+<li>2- During some hours, the shape of the distribution of cnt tends to be normal, while it’s more skewed to the right for some other hours.</li>
+<li>3- As expected night hours have the lowest cnt.</li>
+</ul>
 <p><strong>Multi-variate Plots</strong></p>
 <div id="fig:multi-plot" class="fignos">
 <figure>
@@ -874,15 +876,7 @@ Loaded from the latest version of image on GitHub.</figcaption>
 Moreover, the performance of the model may have less prediction powers for other cities than London, where weather conditions have different effect and other weather features are needed to represent the weather such as thickness of snow in extreme cases where the threshold between acceptable weather conditions and extreme ones vary. In addition to that some other features that can be important for other locations might not be accounted for in this dataset and model, like holidays that differ between countries. Moreover the number of docks in station can also have an impact which influences the maximum number of bikes available in a station, and in paper [5], it was shown that the bike counts per hour is affected by the available bikes in stations in the previous hour, which is a good application of recurrent neural networks. Besides that, the testing data count is around 50% of the training data set, which suggests that bigger training data should be better for better accuracy, in addition to that more analysis to outliers of the test data can provide interesting insights about hidden features not accounted for in this dataset but that’s outside of the scope of this project.</p>
 <h2 id="conclusion">Conclusion</h2>
 <p>After interpreting the exploratory data analysis, a predictive model using regular neural networks through tensor flow package was created to predict range of bike counts in an hour. The features used in this model include: temperature, humidity, hour of the day, day of the month, month of the year, the year, weekend indicator, holiday indicator, weather code, season, &amp; wind speed. In one of the models the final normalized root mean squared error of the model is 0.2058 and 0.25 for training data and validation data respectively, and in the best-fitting model the rmse for the training data was reduced to 0.1845. The model was later used to predict the bike counts in an hour for the test dataset. The mean of the predicted values is relatively similar to the mean of the training data with only 1.23% relative difference. Improvements to this model can be made by adding further features or performing additional hyperparameters tuning, however the predictive model obtained is satisfactory. This model can be used for scheduling redistribution shifts for bikes between stations in non-busy areas were demand is low and accuracy level is less critical given that the model predicts total number of bikes shared per hour in all London city, however for microscopic predictions, the model might not be as accurate given that demand per station might be modeled different and it can be influenced by different factors such the population distribution in the city and the land-use nearby stations.</p>
-<!-- an arbitrary comment. visible in input, but not visible in output. -->
-<h2 id="references">References</h2>
-<p>[1] Z. Kang, Y. Zuo, Z. Huang, F. Zhou and P. Chen, “Research on the Forecast of Shared Bicycle Rental Demand Based on Spark Machine Learning Framework,” 2017 16th International Symposium on Distributed Computing and Applications to Business, Engineering and Science (DCABES), Anyang, 2017, pp. 219-222, doi: 10.1109/DCABES.2017.55.</p>
-<p>[2] F. Lin, S. Wang, J. Jiang, W. Fan and Y. Sun, “Predicting public bicycle rental number using multi-source data,” 2017 International Joint Conference on Neural Networks (IJCNN), Anchorage, AK, 2017, pp. 1502-1509, doi: 10.1109/IJCNN.2017.7966030.</p>
-<p>[3] J. Huang, X. Wang and H. Sun, “Central Station Based Demand Prediction in a Bike Sharing System,” 2019 20th IEEE International Conference on Mobile Data Management (MDM), Hong Kong, Hong Kong, 2019, pp. 346-348, doi: 10.1109/MDM.2019.00-38.</p>
-<p>[4] https://www.kaggle.com/hmavrodiev/london-bike-sharing-dataset</p>
-<p>[5] Ashqar, H. I., Elhenawy, M., Rakha, H. A., Road, V. P., &amp; Qld, K. G. “Case Studies on Transport Policy Modeling bike counts in a bike-sharing system considering the e ff ect of weather conditions,” 2019. Case Studies on Transport Policy, 7(2), 261–268. https://doi.org/10.1016/j.cstp.2019.02.011</p>
-<p>[6] F. Lin, S. Wang, J. Jiang, W. Fan and Y. Sun, “Predicting public bicycle rental number using multi-source data,” 2017 International Joint Conference on Neural Networks (IJCNN), Anchorage, AK, 2017, pp. 1502-1509, doi: 10.1109/IJCNN.2017.7966030.</p>
-<h2 class="page_break_before" id="references-1">References</h2>
+<h2 class="page_break_before" id="references">References</h2>
 <div id="refs" class="references hanging-indent" role="doc-bibliography">
 <div id="ref-Vv7kACVp">
 <p>1. <strong>Research on the Forecast of Shared Bicycle Rental Demand Based on Spark Machine Learning Framework</strong> <br />
