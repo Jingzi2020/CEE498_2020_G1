@@ -8,7 +8,7 @@ boxplot
 boxplots
 Champaign
 Citi
-cnt
+Cnt
 covariance
 datapoints
 dataset

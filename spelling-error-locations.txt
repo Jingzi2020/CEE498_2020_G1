@@ -64,22 +64,22 @@ content/04.Data Analysis.md:58:boxplot
 content/04.Data Analysis.md:58:boxplot
 content/04.Data Analysis.md:58:cnt
 content/04.Data Analysis.md:58:ditribution
-content/04.Data Analysis.md:62:cnt
-content/04.Data Analysis.md:62:cnt
+content/04.Data Analysis.md:63:cnt
 content/04.Data Analysis.md:63:cnt
 content/04.Data Analysis.md:64:cnt
-content/04.Data Analysis.md:71:boxplots
-content/04.Data Analysis.md:80:cnt
-content/04.Data Analysis.md:80:cnt
-content/04.Data Analysis.md:80:datapoints
-content/04.Data Analysis.md:80:teh
-content/04.Data Analysis.md:88:cnt
+content/04.Data Analysis.md:65:cnt
+content/04.Data Analysis.md:73:boxplots
+content/04.Data Analysis.md:81:cnt
+content/04.Data Analysis.md:81:cnt
+content/04.Data Analysis.md:81:datapoints
+content/04.Data Analysis.md:81:teh
 content/04.Data Analysis.md:89:cnt
 content/04.Data Analysis.md:90:cnt
-content/04.Data Analysis.md:98:cnt
-content/04.Data Analysis.md:101:boxplots
-content/04.Data Analysis.md:101:scatterplots
-content/04.Data Analysis.md:101:unimodal
+content/04.Data Analysis.md:91:cnt
+content/04.Data Analysis.md:99:cnt
+content/04.Data Analysis.md:102:boxplots
+content/04.Data Analysis.md:102:scatterplots
+content/04.Data Analysis.md:102:unimodal
 content/05.Model.md:16:preprocessing
 content/05.Model.md:20:anye
 content/05.Model.md:20:jingzi

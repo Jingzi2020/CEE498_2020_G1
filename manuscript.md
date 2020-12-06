@@ -70,11 +70,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/3cbb8afefe91f1295d5d2807853e6e4d4aa10868/" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/0d35b9310ac6327f9b8d6c81e5f6b02c0dd23793/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/3cbb8afefe91f1295d5d2807853e6e4d4aa10868/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/0d35b9310ac6327f9b8d6c81e5f6b02c0dd23793/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/3cbb8afefe91f1295d5d2807853e6e4d4aa10868/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/0d35b9310ac6327f9b8d6c81e5f6b02c0dd23793/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -106,9 +106,9 @@ title: The Models of London Bike Sharing Prediction
 
 <small><em>
 This manuscript
-([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/3cbb8afefe91f1295d5d2807853e6e4d4aa10868/))
+([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/0d35b9310ac6327f9b8d6c81e5f6b02c0dd23793/))
 was automatically generated
-from [Jingzi2020/CEE498_2020_G1@3cbb8af](https://github.com/Jingzi2020/CEE498_2020_G1/tree/3cbb8afefe91f1295d5d2807853e6e4d4aa10868)
+from [Jingzi2020/CEE498_2020_G1@0d35b93](https://github.com/Jingzi2020/CEE498_2020_G1/tree/0d35b9310ac6327f9b8d6c81e5f6b02c0dd23793)
 on December 6, 2020.
 </em></small>
 
@@ -280,20 +280,21 @@ Graph1 shows that:
 - 1- There seems to be a distribution of the median (middle line of the boxplot) and range (of the black line of each boxplot) of cnt with respect to month, it roughly follows a normal ditribution, peaking in July. 
 - 2- For each month the distributions tends to be skewed to the right.
 - 3- Months with lowest ranges are January, February, November and December. 
-- Graph2 shows that:
+
+Graph2 shows that:
 - 1- There is no clear distribution of median of cnt over the hours of the day, but the variation shows that cnt varies between different hours in the day, which seems to have two peaks, around 8 am then around 5 pm. 
 - 2- During some hours, the shape of the distribution of cnt tends to be normal, while it's more skewed to the right for some other hours. 
 - 3- As expected night hours have the lowest cnt. 
 
 **Multi-variate Plots**
 
-<img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Multivariate%20Plots.JPG" alt="Multi-variate Plots" width="800" height="400" />
+![**Multi-variate Plots of Data**](images/Multivariate Plots.jpg "Wide image"){#fig:multi-plot}
 
-- Graph1 shows the general plot of new bike counts over the hours of the day. 
-- Graph2 provides interesting insight as it shows that the distribution of the counts during the day is different on a holiday is at peaks around 1 pm - 2pm, while during regular days, it has two peaks around 8 am and 5 pm, which follows the governing distribution and was shown in the boxplots as well. 
-- Graph 3 shows similar results for weekends as holidays and for weekdays as non-holiday days
-- Graph 4 shows that the seasons order based on highest bike counts is summer, then fall and spring, and then winter, which validates more clearly previous results. 
-- Graph 5 shows high effect of weather in general, which is significant for codes 10 and 26 (10 = rain with thunderstorm, 26 = snowfall), implying no counts occur in such extreme cold weathers. 
+Figure @fig:multi-plot shows the plots of average bike counts at each hour of the day. The following trends are shown:
+
+- The distribution of the counts during the day is different on a holiday is at peaks around 1 pm - 2pm, while during regular days, it has two peaks around 8 am and 5 pm, which follows the governing distribution and was shown in the boxplots as well. 
+- There are similar trends for weekends as holidays and for weekdays as non-holiday days
+- The seasons order based on highest bike counts is summer, then fall and spring, and then winter, which validates more clearly previous results. 
 
 **Statistical Values**
 
@@ -301,7 +302,7 @@ Graph1 shows that:
 
 Figure @fig:stat-value gives us general insight about the mean and range of each parameter but it's irrelevant for time parameters. The main outcomes is that the values of cnt in each hour over the two years of study, have a mean of 1138 and standard deviation of 1079, which is almost equivalent to the mean which means that there is significant difference between cnt values in certain hours than others. And this was indeed shown in the visualizations. We also notice that the maximum value is 7860, almost 7 times as big as the mean, which also means that there are very relatively few hours with such high values that they didn't affect the mean significantly. However this might be also affected by the fact that we the datapoints include records along the day including night time, were people are not using bikes or commuting at all. We notice the temperature values range between -1.5 and 34 degrees C, which might not be representative of others cities; same applies to teh humidity and wind speed. So it's important to highlight this factor when representing the predictive model at later stage. 
 
-## Correlation Matrix 
+**Correlation Matrix** 
 
 ![**The Correlation Matrix of Data**](images/Correlation Matrix.jpg "Wide image"){#fig:corr-matrix}
 
