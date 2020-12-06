@@ -70,11 +70,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/4a865db5f84b26beddb54b5419e13d43268d3a49/" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/d3d6b3c71e427362779fa4da10bad0331526471f/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/4a865db5f84b26beddb54b5419e13d43268d3a49/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/d3d6b3c71e427362779fa4da10bad0331526471f/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/4a865db5f84b26beddb54b5419e13d43268d3a49/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/d3d6b3c71e427362779fa4da10bad0331526471f/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -106,9 +106,9 @@ title: The Models of London Bike Sharing Prediction
 
 <small><em>
 This manuscript
-([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/4a865db5f84b26beddb54b5419e13d43268d3a49/))
+([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/d3d6b3c71e427362779fa4da10bad0331526471f/))
 was automatically generated
-from [Jingzi2020/CEE498_2020_G1@4a865db](https://github.com/Jingzi2020/CEE498_2020_G1/tree/4a865db5f84b26beddb54b5419e13d43268d3a49)
+from [Jingzi2020/CEE498_2020_G1@d3d6b3c](https://github.com/Jingzi2020/CEE498_2020_G1/tree/d3d6b3c71e427362779fa4da10bad0331526471f)
 on December 6, 2020.
 </em></small>
 
@@ -407,21 +407,8 @@ Bare URL link: <https://manubot.org>
 
 [Manubot Homepage]: https://manubot.org
 
-### Citations
 
-Citation by DOI [@doi:10.7554/eLife.32822].
 
-Citation by PubMed Central ID [@pmc:PMC6103790].
-
-Citation by PubMed ID [@pubmed:30718888].
-
-Citation by Wikidata ID [@wikidata:Q56458321].
-
-Citation by ISBN [@isbn:9780262517638].
-
-Citation by URL [@https://greenelab.github.io/meta-review/].
-
-Citation by alias [@deep-review].
 
 Multiple citations can be put inside the same set of brackets [@doi:10.7554/eLife.32822; @deep-review; @isbn:9780262517638].
 Manubot plugins provide easier, more convenient visualization of and navigation between citations [@doi:10.1371/journal.pcbi.1007128; @pubmed:30718888; @pmc:PMC6103790; @deep-review].
@@ -1290,3 +1277,31 @@ $$x = a + b + c + d + e + f + g + h + i + j + k + l + m + n + o + p + q + r + s 
 
 <!-- Explicitly insert bibliography here -->
 <div id="refs"></div>
+
+### Citations
+
+
+<!--
+ [1] Z. Kang, Y. Zuo, Z. Huang, F. Zhou and P. Chen, "Research on the Forecast of Shared Bicycle Rental Demand Based on Spark Machine Learning Framework," 2017 16th International Symposium on Distributed Computing and Applications to Business, Engineering and Science (DCABES), Anyang, 2017, pp. 219-222, doi: 10.1109/DCABES.2017.55. 
+
+[2] F. Lin, S. Wang, J. Jiang, W. Fan and Y. Sun, "Predicting public bicycle rental number using multi-source data," 2017 International Joint Conference on Neural Networks (IJCNN), Anchorage, AK, 2017, pp. 1502-1509, doi: 10.1109/IJCNN.2017.7966030. 
+
+[3] J. Huang, X. Wang and H. Sun, "Central Station Based Demand Prediction in a Bike Sharing System," 2019 20th IEEE International Conference on Mobile Data Management (MDM), Hong Kong, Hong Kong, 2019, pp. 346-348, doi: 10.1109/MDM.2019.00-38. 
+
+[4] https://www.kaggle.com/hmavrodiev/london-bike-sharing-dataset
+
+[5] Ashqar, H. I., Elhenawy, M., Rakha, H. A., Road, V. P., & Qld, K. G. "Case Studies on Transport Policy Modeling bike counts in a bike-sharing system considering the e ff ect of weather conditions," 2019. Case Studies on Transport Policy, 7(2), 261–268. https://doi.org/10.1016/j.cstp.2019.02.011
+
+[6] F. Lin, S. Wang, J. Jiang, W. Fan and Y. Sun, "Predicting public bicycle rental number using multi-source data," 2017 International Joint Conference on Neural Networks (IJCNN), Anchorage, AK, 2017, pp. 1502-1509, doi: 10.1109/IJCNN.2017.7966030.
+ -->
+
+Citation by DOI [@doi:10.1109/DCABES.2017.55].
+Citation by DOI [@doi:10.1109/IJCNN.2017.7966030].
+Citation by DOI [@doi:10.1109/MDM.2019.00-38].
+Citation by URL [@https://kaggle.com/hmavrodiev/london-bike-sharing-dataset/].
+Citation by DOI [@doi:10.1016/j.cstp.2019.02.011].
+Citation by DOI [@doi:10.1109/IJCNN.2017.7966030].
+
+
+
+
