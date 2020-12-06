@@ -70,11 +70,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/14a50fe6c74340cfb64f9d06f08363fdaed71b70/" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/8fa86ad3b695bf166340ce6c4bdb07082edd3653/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/14a50fe6c74340cfb64f9d06f08363fdaed71b70/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/8fa86ad3b695bf166340ce6c4bdb07082edd3653/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/14a50fe6c74340cfb64f9d06f08363fdaed71b70/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/8fa86ad3b695bf166340ce6c4bdb07082edd3653/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -106,9 +106,9 @@ title: The Models of London Bike Sharing Prediction
 
 <small><em>
 This manuscript
-([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/14a50fe6c74340cfb64f9d06f08363fdaed71b70/))
+([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/8fa86ad3b695bf166340ce6c4bdb07082edd3653/))
 was automatically generated
-from [Jingzi2020/CEE498_2020_G1@14a50fe](https://github.com/Jingzi2020/CEE498_2020_G1/tree/14a50fe6c74340cfb64f9d06f08363fdaed71b70)
+from [Jingzi2020/CEE498_2020_G1@8fa86ad](https://github.com/Jingzi2020/CEE498_2020_G1/tree/8fa86ad3b695bf166340ce6c4bdb07082edd3653)
 on December 6, 2020.
 </em></small>
 
@@ -260,7 +260,7 @@ The observations above allow us to build hypthesis that can be explored further 
 
 **Boxplots**
 
-<img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Boxplots.JPG" alt="drawing" width="600" height="300" />
+<img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Boxplots.JPG" alt="drawing" width="800" height="800" />
 
 Graph1 shows that: 
 - 1- There seems to be a distribution of the median (middle line of the boxplot) and range (of the black line of each boxplot) of cnt with respect to month, it roughly follows a normal ditribution, peaking in July. 
@@ -273,7 +273,7 @@ Graph1 shows that:
 
 **Multi-variate Plots**
 
-<img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Multivariate%20Plots.JPG" alt="drawing" width="600" height="600" />
+<img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Multivariate%20Plots.JPG" alt="drawing" width="1000" height="500" />
 
 - Graph1 shows the general plot of new bike counts over the hours of the day. 
 - Graph2 provides interesting insight as it shows that the distribution of the counts during the day is different on a holiday is at peaks around 1 pm - 2pm, while during regular days, it has two peaks around 8 am and 5 pm, which follows the governing distribution and was shown in the boxplots as well. 
