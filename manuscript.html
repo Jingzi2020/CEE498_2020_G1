@@ -115,9 +115,9 @@
   <meta name="citation_fulltext_html_url" content="https://Jingzi2020.github.io/CEE498_2020_G1/" />
   <meta name="citation_pdf_url" content="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/db8cecadeac7df58a11dce221e183f95750f9601/" />
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/db8cecadeac7df58a11dce221e183f95750f9601/" />
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/db8cecadeac7df58a11dce221e183f95750f9601/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/6c494e74a273c6f8a16328235e4aeb4c3e6b7d52/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/6c494e74a273c6f8a16328235e4aeb4c3e6b7d52/" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/6c494e74a273c6f8a16328235e4aeb4c3e6b7d52/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -138,9 +138,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://Jingzi2020.github.io/CEE498_2020_G1/v/db8cecadeac7df58a11dce221e183f95750f9601/">permalink</a>)
+(<a href="https://Jingzi2020.github.io/CEE498_2020_G1/v/6c494e74a273c6f8a16328235e4aeb4c3e6b7d52/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/Jingzi2020/CEE498_2020_G1/tree/db8cecadeac7df58a11dce221e183f95750f9601">Jingzi2020/CEE498_2020_G1@db8ceca</a>
+from <a href="https://github.com/Jingzi2020/CEE498_2020_G1/tree/6c494e74a273c6f8a16328235e4aeb4c3e6b7d52">Jingzi2020/CEE498_2020_G1@6c494e7</a>
 on December 6, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -189,11 +189,31 @@ The data sample analyzed in this project is collected between January 1st, 2015 
 - Is_weekend: 1 if it is a weekend, 0 if it is not.<br />
 - Season: 0: Spring, 1: Summer, 2: Fall, 3: Winter
 The sections below include literature review, description of methods, results, discussion and conclusion.</p>
+<h2 id="literature-review">Literature Review</h2>
+<p>Bike sharing system has appeared more and more on the street of the cities in order to meet the demand of public transportation in the last short distance to the destination. Also, Bike sharing system is so popular around all the world that most of major modern cities and campuses have been operated. Among researches for the bike system, predicting the demand of future bike shares is one of the most important and necessary tasks to ensure a satisfactory level of service of the system.</p>
+<p>Many recent studies have focused on the problem of predicting demand of shared bikes in the system. In order to complete prediction, the bike sharing system is supposed to satisfy the real-time and high accuracy requirements. Some researchers utilized Spark Machine Learning framework to predict the number of rental bikes to optimize the accuracy of model [1]. Firstly, the author collected three types of data including Citi Bike, Weather and Holiday, which the data have been SQL and outlier processed. Then, three predicative models including multiple linear regression, decision tree and random forests are constructed to analyze and train the processed data. During the experiment, applying to machine learning Spark ecosystem, the author used 70 % data as training data while 30% as the test data. In the result, after testing, random forests model has the lowest root mean error (RMSE). At last, the researcher optimized the result further by applying logarithmic optimization to the model.</p>
+<p>Throughout the literatures, there is consistent evidence that forecast number of shared bikes are influenced not by holiday, weather, and temperature [2] in general, but by user information such as gender, birth year and user type [1]. The strengths of the literature are that the author consider more factors like user information and process useful and reasonable row data. Moreover, the optimization improves the accuracy the result. While there has been much research on algorithm optimization, few researchers have taken the influence of different factors and the real-time data into consideration [2]. The weakness of the literature is that the author ignored the timeliness of data and station selection. Furthermore, the mythology is limited to predict the number in the new area where lack of the existing shared bike number. Usually, station clustering and demand prediction in every station should be evaluated and analyzed as an integration [3].</p>
+<p>In general, it is challenging to collect the external factors in the future study because there are too many factors affecting users whether to use shared bike. However, we should consider multiple factors as much as possible to improve the accuracy. Comparing with our project’s database, more factors are taken into consideration including time, number of new bike shares grouped by hour, temperature, humidity, wind speed, types of the weather, holiday, weekend, season [4]. In our project, we will employ historical usage of bikes with some necessary factors to predict the number, which are very similar with the literature because it is easier to collect data and the predicted numbers are closer to the real.</p>
+<p>The second paper studied is “Case Studies on Transport Policy Modeling bike counts in a bike-sharing system considering the effect of weather conditions” [5]. This paper identifies a method to quantify the effect of weather conditions on bike sharing counts in San Francisco Bay area with the aim of improving bike sharing systems given their wide benefits such as decreasing transportation pollution and increasing mobility efficiency in cities, to name a few. The benefit of this model specifically will be to decrease the environmental costs and time consumption and other complications associated with the rebalancing operation of bikes between stations; which is important to ensure that each station has enough number of bikes to satisfy the demand, especially given the limited number of docks at station.</p>
+<p>The methodology used to create the bike count model includes several steps. First the effect of various variables is quantified (month of the year, day of the week, time of the day and different weather conditions), then these predictors were ranked by Random Forest technique and were used to predict a regression model using a guided forwarded step-wise regression. More than one model was created then the Bayesian information criterion was used to evaluate the models. In the first step, the count models employed generalized linear models, specifically two models were used Poisson, which condition to apply is that the mean and variance must be equal, and negative binomial regression, which uses same condition as Poisson except that another parameter is involved that loosens the initial condition and adjusts the variance independently, so it is considered to accommodate more dispersion. The second step after that is to apply machine learning to avoid overfitting of predictors, using Random Forrest method. The RF method randomly constructs a group of trees, where each tree is a subset of features, so trees are not correlated, then the ranking of features is obtained based on majority of votes from all trees, after that forward step-wise regression is applied, and finally a model is selected BIC after computing the log-likelihood of each model, and the model of the lowest BIC is to be selected.</p>
+<p>This methodology [5] was applied on a dataset of bike-sharing for San Francisco Bay Area between August 2013 to August 2015, where incidents were documented every minute for 70 stations in the area, which led to a large dataset, and another dataset was used which included weather conditions during these 2 years, and it included the following attributes: “date (in month/day/year format), ZIP code, temperature, humidity, dew level, sea level pressure, visibility, wind speed and direction, precipitation, cloud cover, and weather description for that day (i.e., rainy, foggy or sunny).”</p>
+<p>For the first step, the histogram of new counts frequency for all stations showed dispersion, which gave a hint on better fitness of NBRM. However, both PRM and NBRM were applied at first to generate a full model of all available predictors. Then RF was used to rank the predictors in the full model based on the OOB error. Forward stepwise regression was then used to fit several models that were constructed by RF, then BIC was applied to select the best subset of predictors to construct this model.
+At first it was assumed that there is no interaction between the 70 stations, to quantify effects fast and effectively and in an attempt to create one model for all variables rather than a model for each station, and this approach was described to satisfy the level of accuracy needed. And the results showed a logarithmic mean of bike counts at each station following parallel hyperplanes, which shows no interaction between stations. And in order to construct one model instead of 70 models, one for each station: 69 indicators were used with one reference, a similar approach was used for months of year with 11 indicators and January as a reference, and 6 indicators for the days of the week, and so on for all data attributes. If there was no significant difference between each pair of parameters, for example between 2 stations, it was assumed bike count was the same for the two stations to an acceptable level of accuracy.
+The results showed that different stations, month-of-the-year, day-of-the-week, and time-of-the-day were all shown to influence the model. And the following weather attributes were selected for additional exploration: mean temperature, mean humidity, mean visibility, mean wind speed, precipitation, and weather description. And for the second time, RF and forward step-wise regression were employed and the resulting models were compared by BIC. And the model with the trade-off between the minimum BIC value and the consideration of the effective parameters was selected. And as was shown because of dispersion, indeed NBRM was shown to be better than PRM, and it was selected for the rest of the modeling steps.
+Among 111 models created, the results showed that bike counts are significantly influenced by the month-of-the-year, day-of-the-week, time-of-the-day, and some weather variables, mainly temperature and humidity level, which is also dependent on geographic location. And the most significant variables affecting bike counts are available number of bikes at time t-1 and the time-of-the-day.</p>
+<p>This paper holds many strengths in meeting our project, first the factors used in this paper match our dataset, and the paper justifies the use of these factors among others used in other studies. And this paper was the first to study the effect of humidity which was shown to have a significant effect on the model. The methodology and tools used match our set of expertise, which is to be developed through this course, and the tools and methods used were all explained and justified. This paper can be used as a reference for us to build our model and compare the results given different factors, especially difference in geographic location, while also contributing to this research with the insights we obtain.</p>
+<p>However, a few weaknesses of this paper were detected. First, the paper targets only docked bike-sharing model and it’s applicable to only certain geographic areas with certain weather conditions, as for another location, different parameters might be additionally considered. The final stages of refining the model and detecting possible errors was merely systematic and rather relied on observations and experts opinions, so in addition to the scientific and sequenced steps, there was some subjectivity in the methodology when it comes to certain decisions like the number of trees in RF and the selected factors for each tree and their number which wasn’t discussed and explained enough, so it might be hard for us to follow the same methodology at these stages. The paper only used Poisson and negative binomial models at the first stage and didn’t attempt more complex distributions. And the paper chose the final model prioritizing simplicity, designated by a smaller number of predictors, among the last two proposed models, without explicitly comparing their levels of accuracy. And some standard values of comparisons for example minimum log-likelihood and typical BIC measures weren’t shared in the paper.</p>
+<p>Another study published by Lin, Wang, Jiang, Fan and Sun (2017) [6], tried to figure out sharing bike demand’s prediction based on the Bayesian classifier and APSO-BP neural network models. In this article, the researchers collected weather data and historic public bicycle sharing record to build the dataset. Then, the model categorize bicycle rental mode through Bayesian classifier and used the specific neural network fitted to the mode. The evaluation of this model was based on its accuracy and the result was that the model showed higher accuracy than other algorithms.
+To find the valuable factors of bike rental prediction, the article discussed the influence of holiday, weather and temperature and decided to build the dataset with these significant factors. The article set “di” as 1, 2 and 3 representing weekday, the first half of holiday and the second half of holiday, “wi” as 1, 2 and 3 as different weather and “ti” as different ranges of temperature.
+To classify different situation of bike rental, the authors used cluster analysis to analyze the modes of bike rental record in training dataset. Through K-means cluster analysis, the bike rental behaviors were divided into 4 modes. Then, the researchers built the classifier using training dataset through Bayes classification method.
+Then, the article designed an APSO-BP neural network model to forecast the bike rental demand. APSO-BP used single hidden layer neural network model. APSO algorithm generated several particles which are feasible answers randomly at first. The algorithm used the squared error to evaluate fitness. The researchers trained separated ASPO-BP neural network for each mode.
+The experiment of this research was based on the bike rental record and the weather data in Hangzhou from March 18 to June 15 in 2016. 5 minutes were chosen as the time range. The researchers categorize the training dataset into 4 modes through K-means cluster analysis and then trained ASPO-BP neural network for each mode. The result showed that the accuracy of the demand predicted by this method was influenced by the accuracy of classification and the accuracy of this method in predicting rental demand was higher than other common methods.
+From this research, I learned that the factors should be transferred into reasonable values firstly and the method of transferring the data are diverse. Besides, the simple neural network models sometimes cannot solve the problem accurately. The combination of different algorithm are needed. Moreover, there are many optimized methods thus researchers should choose the most suitable optimized method to improve the accuracy. These tips can be useful for our project.</p>
 <p>This manuscript is a template (aka “rootstock”) for <a href="https://manubot.org/" title="Manubot">Manubot</a>, a tool for writing scholarly manuscripts.
 Use this template as a starting point for your manuscript.</p>
 <p>The rest of this document is a full list of formatting elements/features supported by Manubot.
 Compare the input (<code>.md</code> files in the <code>/content</code> directory) to the output you see below.</p>
-<h2 id="literature-review">Literature Review</h2>
+<h2 id="data-analysis">Data Analysis</h2>
 <p><strong>Bold</strong> <strong>text</strong></p>
 <p><span class="semibold">Semi-bold text</span></p>
 <p><span class="center">Centered text</span></p>
@@ -260,13 +280,13 @@ two spaces at end of line.</p>
 Manubot plugins provide easier, more convenient visualization of and navigation between citations <span class="citation" data-cites="YuJbg3zO 126Wi5Us4 mSMVRkoc PZMP42Ak">[<a href="#ref-mSMVRkoc" role="doc-biblioref">2</a>,<a href="#ref-126Wi5Us4" role="doc-biblioref">3</a>,<a href="#ref-PZMP42Ak" role="doc-biblioref">7</a>,<a href="#ref-YuJbg3zO" role="doc-biblioref">8</a>]</span>.</p>
 <p>Citation tags (i.e. aliases) can be defined in their own paragraphs using Markdown’s reference link syntax:</p>
 <h3 id="referencing-figures-tables-equations">Referencing figures, tables, equations</h3>
-<p>Figure <a href="#fig:square-image">21</a></p>
-<p>Figure <a href="#fig:wide-image">18</a></p>
-<p>Figure <a href="#fig:tall-image">19</a></p>
-<p>Figure <a href="#fig:vector-image">20</a></p>
-<p>Table <a href="#tbl:bowling-scores">10</a></p>
-<p>Equation <a href="#eq:regular-equation">9</a></p>
-<p>Equation <a href="#eq:long-equation">10</a></p>
+<p>Figure <a href="#fig:square-image">17</a></p>
+<p>Figure <a href="#fig:wide-image">14</a></p>
+<p>Figure <a href="#fig:tall-image">15</a></p>
+<p>Figure <a href="#fig:vector-image">16</a></p>
+<p>Table <a href="#tbl:bowling-scores">7</a></p>
+<p>Equation <a href="#eq:regular-equation">7</a></p>
+<p>Equation <a href="#eq:long-equation">8</a></p>
 <h3 id="quotes-and-code">Quotes and code</h3>
 <blockquote>
 <p>Quoted text</p>
@@ -392,7 +412,7 @@ White background specified to serve as a backdrop for transparent sections of th
 </tbody>
 </table>
 </div>
-<div id="tbl:a9af5b68-3c4b-498e-a82a-c4e0c1348620" class="tablenos">
+<div id="tbl:f1684845-2a95-4322-8e10-89b161a9e1b2" class="tablenos">
 <table>
 <caption><span>Table 3:</span> A table with merged cells using the <code>attributes</code> plugin.
 </caption>
@@ -473,11 +493,42 @@ useful for <em>general information</em> - <a href="https://manubot.org/">manubot
 useful for <em>important information</em> - <a href="https://manubot.org/">manubot.org</a></span></p>
 <p><span class="banner lightred"><i class="fas fa-ban fa-lg"></i> <strong>Light Red Banner</strong><br>
 useful for <em>warnings</em> - <a href="https://manubot.org/">manubot.org</a></span></p>
-<p>This manuscript is a template (aka “rootstock”) for <a href="https://manubot.org/" title="Manubot">Manubot</a>, a tool for writing scholarly manuscripts.
-Use this template as a starting point for your manuscript.</p>
-<p>The rest of this document is a full list of formatting elements/features supported by Manubot.
-Compare the input (<code>.md</code> files in the <code>/content</code> directory) to the output you see below.</p>
-<h2 id="data-analysis">Data Analysis</h2>
+<h2 id="the-models-to-predict-the-amount-of-bike-sharing">The Models to Predict the Amount of Bike Sharing</h2>
+<h3 id="regular-neural-network">Regular Neural Network</h3>
+<p>Based on the exploratory data analysis, regular neural network is used to figure out the project.</p>
+<p>Neural network is a model that optimize the parameters through learning process to recognize hidden relationships between different data.</p>
+<p>Because of the low correlation between given features, regular neural network probably is the most appropriate model to solve the project. The architecture of regular neural network is shown in Figure <a href="#fig:regular-neural-network">5</a>.</p>
+<div id="fig:regular-neural-network" class="fignos">
+<figure>
+<img src="images/Basic%20Model.png" alt="" /><figcaption><span>Figure 5:</span> The Architecture of Regular Neural Network</figcaption>
+</figure>
+</div>
+<p>There are 4 steps to build and train neural network, including:</p>
+<ul>
+<li>Selecting features;</li>
+<li>Data preprocessing;</li>
+<li>Designing layers and parameters;</li>
+<li>Determining training methods.</li>
+</ul>
+<p>We used different features, epochs, hidden layers, units and learning rates in this project. The evaluation of the models’ performances are based on the root mean squared error(RMSE) between the test data and predictions. The architectures of our models are shown in Figure <a href="#fig:jingzi-model">6</a>, <a href="#fig:anye-model">7</a> and <a href="#fig:dana-model">8</a>.</p>
+<div id="fig:jingzi-model" class="fignos">
+<figure>
+<img src="images/Jingzi%20Model.png" alt="" /><figcaption><span>Figure 6:</span> The Architecture of Jingzi’s Model</figcaption>
+</figure>
+</div>
+<div id="fig:anye-model" class="fignos">
+<figure>
+<img src="images/Anye%20Model.png" alt="" /><figcaption><span>Figure 7:</span> The Architecture of Anye’s Model</figcaption>
+</figure>
+</div>
+<div id="fig:dana-model" class="fignos">
+<figure>
+<img src="images/Dana%20Model.png" alt="" /><figcaption><span>Figure 8:</span> The Architecture of Dana’s Model</figcaption>
+</figure>
+</div>
+<h3 id="sensitivity-analysis">Sensitivity Analysis</h3>
+<p>To evaluate and optimize our models, we analyzed the sensitivity of different parameters.</p>
+<p>Units of Layers, Layers, Normalization and Learning Rates are analyzed. To avoid the influence of randomization, the evaluation of the performances is according to the average RMSE of 3 separate training with same initial parameters.</p>
 <p><strong>Bold</strong> <strong>text</strong></p>
 <p><span class="semibold">Semi-bold text</span></p>
 <p><span class="center">Centered text</span></p>
@@ -544,13 +595,13 @@ two spaces at end of line.</p>
 Manubot plugins provide easier, more convenient visualization of and navigation between citations <span class="citation" data-cites="YuJbg3zO 126Wi5Us4 mSMVRkoc PZMP42Ak">[<a href="#ref-mSMVRkoc" role="doc-biblioref">2</a>,<a href="#ref-126Wi5Us4" role="doc-biblioref">3</a>,<a href="#ref-PZMP42Ak" role="doc-biblioref">7</a>,<a href="#ref-YuJbg3zO" role="doc-biblioref">8</a>]</span>.</p>
 <p>Citation tags (i.e. aliases) can be defined in their own paragraphs using Markdown’s reference link syntax:</p>
 <h3 id="referencing-figures-tables-equations-1">Referencing figures, tables, equations</h3>
-<p>Figure <a href="#fig:square-image">21</a></p>
-<p>Figure <a href="#fig:wide-image">18</a></p>
-<p>Figure <a href="#fig:tall-image">19</a></p>
-<p>Figure <a href="#fig:vector-image">20</a></p>
-<p>Table <a href="#tbl:bowling-scores">10</a></p>
-<p>Equation <a href="#eq:regular-equation">9</a></p>
-<p>Equation <a href="#eq:long-equation">10</a></p>
+<p>Figure <a href="#fig:square-image">17</a></p>
+<p>Figure <a href="#fig:wide-image">14</a></p>
+<p>Figure <a href="#fig:tall-image">15</a></p>
+<p>Figure <a href="#fig:vector-image">16</a></p>
+<p>Table <a href="#tbl:bowling-scores">7</a></p>
+<p>Equation <a href="#eq:regular-equation">7</a></p>
+<p>Equation <a href="#eq:long-equation">8</a></p>
 <h3 id="quotes-and-code-1">Quotes and code</h3>
 <blockquote>
 <p>Quoted text</p>
@@ -576,25 +627,25 @@ Exporting PDF manuscript</code></pre>
 <h3 id="figures-1">Figures</h3>
 <div id="fig:square-image" class="fignos">
 <figure>
-<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/square.png" alt="" /><figcaption><span>Figure 5:</span> <strong>A square image at actual size and with a bottom caption.</strong>
+<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/square.png" alt="" /><figcaption><span>Figure 9:</span> <strong>A square image at actual size and with a bottom caption.</strong>
 Loaded from the latest version of image on GitHub.</figcaption>
 </figure>
 </div>
 <div id="fig:wide-image" class="fignos">
 <figure>
-<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/wide.png" alt="" /><figcaption><span>Figure 6:</span> <strong>An image too wide to fit within page at full size.</strong>
+<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/wide.png" alt="" /><figcaption><span>Figure 10:</span> <strong>An image too wide to fit within page at full size.</strong>
 Loaded from a specific (hashed) version of the image on GitHub.</figcaption>
 </figure>
 </div>
 <div id="fig:tall-image" class="fignos">
 <figure>
-<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/tall.png" style="height:3in" alt="" /><figcaption><span>Figure 7:</span> <strong>A tall image with a specified height.</strong>
+<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/tall.png" style="height:3in" alt="" /><figcaption><span>Figure 11:</span> <strong>A tall image with a specified height.</strong>
 Loaded from a specific (hashed) version of the image on GitHub.</figcaption>
 </figure>
 </div>
 <div id="fig:vector-image" class="fignos">
 <figure>
-<img src="https://raw.githubusercontent.com/manubot/resources/master/test/vector.svg?sanitize=true" class="white" style="height:2.5in" alt="" /><figcaption><span>Figure 8:</span> <strong>A vector <code>.svg</code> image loaded from GitHub.</strong>
+<img src="https://raw.githubusercontent.com/manubot/resources/master/test/vector.svg?sanitize=true" class="white" style="height:2.5in" alt="" /><figcaption><span>Figure 12:</span> <strong>A vector <code>.svg</code> image loaded from GitHub.</strong>
 The parameter <code>sanitize=true</code> is necessary to properly load SVGs hosted via GitHub URLs.
 White background specified to serve as a backdrop for transparent sections of the image.</figcaption>
 </figure>
@@ -676,7 +727,7 @@ White background specified to serve as a backdrop for transparent sections of th
 </tbody>
 </table>
 </div>
-<div id="tbl:d784dc8d-5825-4bdb-ac1d-61e121719a92" class="tablenos">
+<div id="tbl:75700a21-7680-4c3c-9f4b-ac66a209691a" class="tablenos">
 <table>
 <caption><span>Table 6:</span> A table with merged cells using the <code>attributes</code> plugin.
 </caption>
@@ -757,42 +808,11 @@ useful for <em>general information</em> - <a href="https://manubot.org/">manubot
 useful for <em>important information</em> - <a href="https://manubot.org/">manubot.org</a></span></p>
 <p><span class="banner lightred"><i class="fas fa-ban fa-lg"></i> <strong>Light Red Banner</strong><br>
 useful for <em>warnings</em> - <a href="https://manubot.org/">manubot.org</a></span></p>
-<h2 id="the-models-to-predict-the-amount-of-bike-sharing">The Models to Predict the Amount of Bike Sharing</h2>
-<h3 id="regular-neural-network">Regular Neural Network</h3>
-<p>Based on the exploratory data analysis, regular neural network is used to figure out the project.</p>
-<p>Neural network is a model that optimize the parameters through learning process to recognize hidden relationships between different data.</p>
-<p>Because of the low correlation between given features, regular neural network probably is the most appropriate model to solve the project. The architecture of regular neural network is shown in Figure <a href="#fig:regular-neural-network">9</a>.</p>
-<div id="fig:regular-neural-network" class="fignos">
-<figure>
-<img src="images/Basic%20Model.png" alt="" /><figcaption><span>Figure 9:</span> The Architecture of Regular Neural Network</figcaption>
-</figure>
-</div>
-<p>There are 4 steps to build and train neural network, including:</p>
-<ul>
-<li>Selecting features;</li>
-<li>Data preprocessing;</li>
-<li>Designing layers and parameters;</li>
-<li>Determining training methods.</li>
-</ul>
-<p>We used different features, epochs, hidden layers, units and learning rates in this project. The evaluation of the models’ performances are based on the root mean squared error(RMSE) between the test data and predictions. The architectures of our models are shown in Figure <a href="#fig:jingzi-model">10</a>, <a href="#fig:anye-model">11</a> and <a href="#fig:dana-model">12</a>.</p>
-<div id="fig:jingzi-model" class="fignos">
-<figure>
-<img src="images/Jingzi%20Model.png" alt="" /><figcaption><span>Figure 10:</span> The Architecture of Jingzi’s Model</figcaption>
-</figure>
-</div>
-<div id="fig:anye-model" class="fignos">
-<figure>
-<img src="images/Anye%20Model.png" alt="" /><figcaption><span>Figure 11:</span> The Architecture of Anye’s Model</figcaption>
-</figure>
-</div>
-<div id="fig:dana-model" class="fignos">
-<figure>
-<img src="images/Dana%20Model.png" alt="" /><figcaption><span>Figure 12:</span> The Architecture of Dana’s Model</figcaption>
-</figure>
-</div>
-<h3 id="sensitivity-analysis">Sensitivity Analysis</h3>
-<p>To evaluate and optimize our models, we analyzed the sensitivity of different parameters.</p>
-<p>Units of Layers, Layers, Normalization and Learning Rates are analyzed. To avoid the influence of randomization, the evaluation of the performances is according to the average RMSE of 3 separate training with same initial parameters.</p>
+<p>This manuscript is a template (aka “rootstock”) for <a href="https://manubot.org/" title="Manubot">Manubot</a>, a tool for writing scholarly manuscripts.
+Use this template as a starting point for your manuscript.</p>
+<p>The rest of this document is a full list of formatting elements/features supported by Manubot.
+Compare the input (<code>.md</code> files in the <code>/content</code> directory) to the output you see below.</p>
+<h2 id="experiments-of-the-prediction-models">Experiments of the Prediction Models</h2>
 <p><strong>Bold</strong> <strong>text</strong></p>
 <p><span class="semibold">Semi-bold text</span></p>
 <p><span class="center">Centered text</span></p>
@@ -859,13 +879,13 @@ two spaces at end of line.</p>
 Manubot plugins provide easier, more convenient visualization of and navigation between citations <span class="citation" data-cites="YuJbg3zO 126Wi5Us4 mSMVRkoc PZMP42Ak">[<a href="#ref-mSMVRkoc" role="doc-biblioref">2</a>,<a href="#ref-126Wi5Us4" role="doc-biblioref">3</a>,<a href="#ref-PZMP42Ak" role="doc-biblioref">7</a>,<a href="#ref-YuJbg3zO" role="doc-biblioref">8</a>]</span>.</p>
 <p>Citation tags (i.e. aliases) can be defined in their own paragraphs using Markdown’s reference link syntax:</p>
 <h3 id="referencing-figures-tables-equations-2">Referencing figures, tables, equations</h3>
-<p>Figure <a href="#fig:square-image">21</a></p>
-<p>Figure <a href="#fig:wide-image">18</a></p>
-<p>Figure <a href="#fig:tall-image">19</a></p>
-<p>Figure <a href="#fig:vector-image">20</a></p>
-<p>Table <a href="#tbl:bowling-scores">10</a></p>
-<p>Equation <a href="#eq:regular-equation">9</a></p>
-<p>Equation <a href="#eq:long-equation">10</a></p>
+<p>Figure <a href="#fig:square-image">17</a></p>
+<p>Figure <a href="#fig:wide-image">14</a></p>
+<p>Figure <a href="#fig:tall-image">15</a></p>
+<p>Figure <a href="#fig:vector-image">16</a></p>
+<p>Table <a href="#tbl:bowling-scores">7</a></p>
+<p>Equation <a href="#eq:regular-equation">7</a></p>
+<p>Equation <a href="#eq:long-equation">8</a></p>
 <h3 id="quotes-and-code-2">Quotes and code</h3>
 <blockquote>
 <p>Quoted text</p>
@@ -991,7 +1011,7 @@ White background specified to serve as a backdrop for transparent sections of th
 </tbody>
 </table>
 </div>
-<div id="tbl:df573d73-1c18-4ffe-b8f5-5f4ddce7d61a" class="tablenos">
+<div id="tbl:5a909cd2-fe99-419f-8a8b-bc502c5fc4de" class="tablenos">
 <table>
 <caption><span>Table 9:</span> A table with merged cells using the <code>attributes</code> plugin.
 </caption>
@@ -1072,293 +1092,13 @@ useful for <em>general information</em> - <a href="https://manubot.org/">manubot
 useful for <em>important information</em> - <a href="https://manubot.org/">manubot.org</a></span></p>
 <p><span class="banner lightred"><i class="fas fa-ban fa-lg"></i> <strong>Light Red Banner</strong><br>
 useful for <em>warnings</em> - <a href="https://manubot.org/">manubot.org</a></span></p>
-<p>This manuscript is a template (aka “rootstock”) for <a href="https://manubot.org/" title="Manubot">Manubot</a>, a tool for writing scholarly manuscripts.
-Use this template as a starting point for your manuscript.</p>
-<p>The rest of this document is a full list of formatting elements/features supported by Manubot.
-Compare the input (<code>.md</code> files in the <code>/content</code> directory) to the output you see below.</p>
-<h2 id="experiments-of-the-prediction-models">Experiments of the Prediction Models</h2>
-<p><strong>Bold</strong> <strong>text</strong></p>
-<p><span class="semibold">Semi-bold text</span></p>
-<p><span class="center">Centered text</span></p>
-<p><span class="right">Right-aligned text</span></p>
-<p><em>Italic</em> <em>text</em></p>
-<p>Combined <em>italics and <strong>bold</strong></em></p>
-<p><del>Strikethrough</del></p>
-<ol type="1">
-<li>Ordered list item</li>
-<li>Ordered list item
-<ol type="a">
-<li>Sub-item</li>
-<li>Sub-item
-<ol type="i">
-<li>Sub-sub-item</li>
-</ol></li>
-</ol></li>
-<li>Ordered list item
-<ol type="a">
-<li>Sub-item</li>
-</ol></li>
-</ol>
-<ul>
-<li>List item</li>
-<li>List item</li>
-<li>List item</li>
-</ul>
-<p>subscript: H<sub>2</sub>O is a liquid</p>
-<p>superscript: 2<sup>10</sup> is 1024.</p>
-<p><a href="https://www.google.com/search?q=superscript+generator">unicode superscripts</a>⁰¹²³⁴⁵⁶⁷⁸⁹</p>
-<p><a href="https://www.google.com/search?q=superscript+generator">unicode subscripts</a>₀₁₂₃₄₅₆₇₈₉</p>
-<p>A long paragraph of text.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<p>Putting each sentence on its own line has numerous benefits with regard to <a href="https://asciidoctor.org/docs/asciidoc-recommended-practices/#one-sentence-per-line">editing</a> and <a href="https://rhodesmill.org/brandon/2012/one-sentence-per-line/">version control</a>.</p>
-<p>Line break without starting a new paragraph by putting<br />
-two spaces at end of line.</p>
-<h3 id="heading-3-3">Heading 3</h3>
-<h4 id="heading-4-3">Heading 4</h4>
-<h5 id="heading-5-3">Heading 5</h5>
-<h6 id="heading-6-3">Heading 6</h6>
-<h3 class="center page_center" id="a-heading-centered-on-its-own-printed-page-3">A heading centered on its own printed page</h3>
-<!-- an arbitrary comment. visible in input, but not visible in output. -->
-<p>Horizontal rule:</p>
-<hr />
-<p><code>Heading 3</code>’s and <code>Heading 4</code>’s are recommended for sub-sections.</p>
-<h3 id="links-3">Links</h3>
-<p>Bare URL link: <a href="https://manubot.org" class="uri">https://manubot.org</a></p>
-<p><a href="https://manubot.org">Long link with lots of words and stuff and junk and bleep and blah and stuff and other stuff and more stuff yeah</a></p>
-<p><a href="https://manubot.org">Link with text</a></p>
-<p><a href="https://manubot.org" title="Manubot Homepage">Link with hover text</a></p>
-<p><a href="https://manubot.org">Link by reference</a></p>
-<h3 id="citations-3">Citations</h3>
-<p>Citation by DOI <span class="citation" data-cites="IhliSZDo">[<a href="#ref-IhliSZDo" role="doc-biblioref">1</a>]</span>.</p>
-<p>Citation by PubMed Central ID <span class="citation" data-cites="mSMVRkoc">[<a href="#ref-mSMVRkoc" role="doc-biblioref">2</a>]</span>.</p>
-<p>Citation by PubMed ID <span class="citation" data-cites="126Wi5Us4">[<a href="#ref-126Wi5Us4" role="doc-biblioref">3</a>]</span>.</p>
-<p>Citation by Wikidata ID <span class="citation" data-cites="QhC8yJ7V">[<a href="#ref-QhC8yJ7V" role="doc-biblioref">4</a>]</span>.</p>
-<p>Citation by ISBN <span class="citation" data-cites="zBPP9YKu">[<a href="#ref-zBPP9YKu" role="doc-biblioref">5</a>]</span>.</p>
-<p>Citation by URL <span class="citation" data-cites="6acIRW4q">[<a href="#ref-6acIRW4q" role="doc-biblioref">6</a>]</span>.</p>
-<p>Citation by alias <span class="citation" data-cites="PZMP42Ak">[<a href="#ref-PZMP42Ak" role="doc-biblioref">7</a>]</span>.</p>
-<p>Multiple citations can be put inside the same set of brackets <span class="citation" data-cites="IhliSZDo PZMP42Ak zBPP9YKu">[<a href="#ref-IhliSZDo" role="doc-biblioref">1</a>,<a href="#ref-zBPP9YKu" role="doc-biblioref">5</a>,<a href="#ref-PZMP42Ak" role="doc-biblioref">7</a>]</span>.
-Manubot plugins provide easier, more convenient visualization of and navigation between citations <span class="citation" data-cites="YuJbg3zO 126Wi5Us4 mSMVRkoc PZMP42Ak">[<a href="#ref-mSMVRkoc" role="doc-biblioref">2</a>,<a href="#ref-126Wi5Us4" role="doc-biblioref">3</a>,<a href="#ref-PZMP42Ak" role="doc-biblioref">7</a>,<a href="#ref-YuJbg3zO" role="doc-biblioref">8</a>]</span>.</p>
-<p>Citation tags (i.e. aliases) can be defined in their own paragraphs using Markdown’s reference link syntax:</p>
-<h3 id="referencing-figures-tables-equations-3">Referencing figures, tables, equations</h3>
-<p>Figure <a href="#fig:square-image">21</a></p>
-<p>Figure <a href="#fig:wide-image">18</a></p>
-<p>Figure <a href="#fig:tall-image">19</a></p>
-<p>Figure <a href="#fig:vector-image">20</a></p>
-<p>Table <a href="#tbl:bowling-scores">10</a></p>
-<p>Equation <a href="#eq:regular-equation">9</a></p>
-<p>Equation <a href="#eq:long-equation">10</a></p>
-<h3 id="quotes-and-code-3">Quotes and code</h3>
-<blockquote>
-<p>Quoted text</p>
-</blockquote>
-<blockquote>
-<p>Quoted block of text</p>
-<p>Two roads diverged in a wood, and I—<br />
-I took the one less traveled by,<br />
-And that has made all the difference.</p>
-</blockquote>
-<p>Code <code>in the middle</code> of normal text, aka <code>inline code</code>.</p>
-<p>Code block with Python syntax highlighting:</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1"></a><span class="im">from</span> manubot.cite.doi <span class="im">import</span> expand_short_doi</span>
-<span id="cb7-2"><a href="#cb7-2"></a></span>
-<span id="cb7-3"><a href="#cb7-3"></a><span class="kw">def</span> test_expand_short_doi():</span>
-<span id="cb7-4"><a href="#cb7-4"></a>    doi <span class="op">=</span> expand_short_doi(<span class="st">&quot;10/c3bp&quot;</span>)</span>
-<span id="cb7-5"><a href="#cb7-5"></a>    <span class="co"># a string too long to fit within page:</span></span>
-<span id="cb7-6"><a href="#cb7-6"></a>    <span class="cf">assert</span> doi <span class="op">==</span> <span class="st">&quot;10.25313/2524-2695-2018-3-vliyanie-enhansera-copia-i-insulyatora-gypsy-na-sintez-ernk-modifikatsii-hromatina-i-svyazyvanie-insulyatornyh-belkov-vtransfetsirovannyh-geneticheskih-konstruktsiyah&quot;</span></span></code></pre></div>
-<p>Code block with no syntax highlighting:</p>
-<pre><code>Exporting HTML manuscript
-Exporting DOCX manuscript
-Exporting PDF manuscript</code></pre>
-<h3 id="figures-3">Figures</h3>
-<div id="fig:square-image" class="fignos">
-<figure>
-<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/square.png" alt="" /><figcaption><span>Figure 17:</span> <strong>A square image at actual size and with a bottom caption.</strong>
-Loaded from the latest version of image on GitHub.</figcaption>
-</figure>
-</div>
-<div id="fig:wide-image" class="fignos">
-<figure>
-<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/wide.png" alt="" /><figcaption><span>Figure 18:</span> <strong>An image too wide to fit within page at full size.</strong>
-Loaded from a specific (hashed) version of the image on GitHub.</figcaption>
-</figure>
-</div>
-<div id="fig:tall-image" class="fignos">
-<figure>
-<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/tall.png" style="height:3in" alt="" /><figcaption><span>Figure 19:</span> <strong>A tall image with a specified height.</strong>
-Loaded from a specific (hashed) version of the image on GitHub.</figcaption>
-</figure>
-</div>
-<div id="fig:vector-image" class="fignos">
-<figure>
-<img src="https://raw.githubusercontent.com/manubot/resources/master/test/vector.svg?sanitize=true" class="white" style="height:2.5in" alt="" /><figcaption><span>Figure 20:</span> <strong>A vector <code>.svg</code> image loaded from GitHub.</strong>
-The parameter <code>sanitize=true</code> is necessary to properly load SVGs hosted via GitHub URLs.
-White background specified to serve as a backdrop for transparent sections of the image.</figcaption>
-</figure>
-</div>
-<h3 id="tables-3">Tables</h3>
-<div id="tbl:bowling-scores" class="tablenos">
-<table>
-<caption><span>Table 10:</span> A table with a top caption and specified relative column widths.
-</caption>
-<thead>
-<tr class="header">
-<th style="text-align: left;"><em>Bowling Scores</em></th>
-<th style="text-align: center;">Jane</th>
-<th style="text-align: center;">John</th>
-<th style="text-align: center;">Alice</th>
-<th style="text-align: center;">Bob</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Game 1</td>
-<td style="text-align: center;">150</td>
-<td style="text-align: center;">187</td>
-<td style="text-align: center;">210</td>
-<td style="text-align: center;">105</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Game 2</td>
-<td style="text-align: center;">98</td>
-<td style="text-align: center;">202</td>
-<td style="text-align: center;">197</td>
-<td style="text-align: center;">102</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Game 3</td>
-<td style="text-align: center;">123</td>
-<td style="text-align: center;">180</td>
-<td style="text-align: center;">238</td>
-<td style="text-align: center;">134</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div id="tbl:constant-digits" class="tablenos">
-<table>
-<caption><span>Table 11:</span> A table too wide to fit within page.
-</caption>
-<colgroup>
-<col style="width: 5%" />
-<col style="width: 20%" />
-<col style="width: 19%" />
-<col style="width: 19%" />
-<col style="width: 34%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;"></th>
-<th style="text-align: left;">Digits 1-33</th>
-<th style="text-align: left;">Digits 34-66</th>
-<th style="text-align: left;">Digits 67-99</th>
-<th style="text-align: left;">Ref.</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">pi</td>
-<td style="text-align: left;">3.14159265358979323846264338327950</td>
-<td style="text-align: left;">288419716939937510582097494459230</td>
-<td style="text-align: left;">781640628620899862803482534211706</td>
-<td style="text-align: left;"><a href="https://www.piday.org/million/"><code>piday.org</code></a></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">e</td>
-<td style="text-align: left;">2.71828182845904523536028747135266</td>
-<td style="text-align: left;">249775724709369995957496696762772</td>
-<td style="text-align: left;">407663035354759457138217852516642</td>
-<td style="text-align: left;"><a href="https://apod.nasa.gov/htmltest/gifcity/e.2mil"><code>nasa.gov</code></a></td>
-</tr>
-</tbody>
-</table>
-</div>
-<div id="tbl:3c6d2f72-e3a3-440b-abb2-033f3fa43e95" class="tablenos">
-<table>
-<caption><span>Table 12:</span> A table with merged cells using the <code>attributes</code> plugin.
-</caption>
-<thead>
-<tr class="header">
-<th style="text-align: center;"></th>
-<th style="text-align: center;"><strong>Colors</strong> <!-- $colspan="2" --></th>
-<th style="text-align: center;"></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;"><strong>Size</strong></td>
-<td style="text-align: center;"><strong>Text Color</strong></td>
-<td style="text-align: center;"><strong>Background Color</strong></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">big</td>
-<td style="text-align: center;">blue</td>
-<td style="text-align: center;">orange</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">small</td>
-<td style="text-align: center;">black</td>
-<td style="text-align: center;">white</td>
-</tr>
-</tbody>
-</table>
-</div>
-<h3 id="equations-3">Equations</h3>
-<p>A LaTeX equation:</p>
-<p><span id="eq:regular-equation" class="eqnos"><span class="math display">\[\int_0^\infty e^{-x^2} dx=\frac{\sqrt{\pi}}{2}\]</span><span class="eqnos-number">(7)</span></span> </p>
-<p>An equation too long to fit within page:</p>
-<p><span id="eq:long-equation" class="eqnos"><span class="math display">\[x = a + b + c + d + e + f + g + h + i + j + k + l + m + n + o + p + q + r + s + t + u + v + w + x + y + z + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9\]</span><span class="eqnos-number">(8)</span></span> </p>
-<h3 id="special-3">Special</h3>
-<p><i class="fas fa-exclamation-triangle"></i> <span class="semibold">WARNING</span> <em>The following features are only supported and intended for <code>.html</code> and <code>.pdf</code> exports.</em>
-<em>Journals are not likely to support them, and they may not display correctly when converted to other formats such as <code>.docx</code>.</em></p>
-<p><a href="https://manubot.org" class="button" title="Manubot Homepage">Link styled as a button</a></p>
-<p>Adding arbitrary HTML attributes to an element using Pandoc’s attribute syntax:</p>
-<div id="some_id_1" class="some_class" style="background: #ad1457; color: white; margin-left: 40px;" title="a paragraph of text" data-color="white" disabled="true">
-<p>Manubot Manubot Manubot Manubot Manubot.
-Manubot Manubot Manubot Manubot.
-Manubot Manubot Manubot.
-Manubot Manubot.
-Manubot.</p>
-</div>
-<p>Adding arbitrary HTML attributes to an element with the Manubot <code>attributes</code> plugin (more flexible than Pandoc’s method in terms of which elements you can add attributes to):</p>
-<p>Manubot Manubot Manubot Manubot Manubot.
-Manubot Manubot Manubot Manubot.
-Manubot Manubot Manubot.
-Manubot Manubot.
-Manubot.
-<!-- $id="element_id" class="some_class" $style="color: #ad1457; margin-left: 40px;" $disabled="true" $title="a paragraph of text" $data-color="red" --></p>
-<p>Available background colors for text, images, code, banners, etc:</p>
-<p><code class="white">white</code>
-<code class="lightgrey">lightgrey</code>
-<code class="grey">grey</code>
-<code class="darkgrey">darkgrey</code>
-<code class="black">black</code>
-<code class="lightred">lightred</code>
-<code class="lightyellow">lightyellow</code>
-<code class="lightgreen">lightgreen</code>
-<code class="lightblue">lightblue</code>
-<code class="lightpurple">lightpurple</code>
-<code class="red">red</code>
-<code class="orange">orange</code>
-<code class="yellow">yellow</code>
-<code class="green">green</code>
-<code class="blue">blue</code>
-<code class="purple">purple</code></p>
-<p>Using the <a href="https://fontawesome.com/">Font Awesome</a> icon set:</p>
-<!-- include the Font Awesome library, per: https://fontawesome.com/start -->
-<p><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"></p>
-<p><i class="fas fa-check"></i> <i class="fas fa-question"></i> <i class="fas fa-star"></i> <i class="fas fa-bell"></i> <i class="fas fa-times-circle"></i> <i class="fas fa-ellipsis-h"></i></p>
-<p><span class="banner lightgrey"><i class="fas fa-scroll fa-lg"></i> <strong>Light Grey Banner</strong><br>
-useful for <em>general information</em> - <a href="https://manubot.org/">manubot.org</a></span></p>
-<p><span class="banner lightblue"><i class="fas fa-info-circle fa-lg"></i> <strong>Blue Banner</strong><br>
-useful for <em>important information</em> - <a href="https://manubot.org/">manubot.org</a></span></p>
-<p><span class="banner lightred"><i class="fas fa-ban fa-lg"></i> <strong>Light Red Banner</strong><br>
-useful for <em>warnings</em> - <a href="https://manubot.org/">manubot.org</a></span></p>
 <h2 id="discussion">Discussion</h2>
 <figure>
 <img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Act_Pred_month.png" alt="" /><figcaption><strong>Plot of the actual and predicted bike counts with respect to month.</strong>
+Loaded from the latest version of image on GitHub.</figcaption>
+</figure>
+<figure>
+<img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Act_Pred_timestamp.png" alt="" /><figcaption><strong>Plot of the actual and predicted bike counts with respect to month.</strong>
 Loaded from the latest version of image on GitHub.</figcaption>
 </figure>
 <h2 id="conclusion">Conclusion</h2>
@@ -1370,26 +1110,26 @@ Loaded from the latest version of image on GitHub.</figcaption>
 <p>[4] https://www.kaggle.com/hmavrodiev/london-bike-sharing-dataset</p>
 <p>[5] Ashqar, H. I., Elhenawy, M., Rakha, H. A., Road, V. P., &amp; Qld, K. G. “Case Studies on Transport Policy Modeling bike counts in a bike-sharing system considering the e ff ect of weather conditions,” 2019. Case Studies on Transport Policy, 7(2), 261–268. https://doi.org/10.1016/j.cstp.2019.02.011</p>
 <p>[6] F. Lin, S. Wang, J. Jiang, W. Fan and Y. Sun, “Predicting public bicycle rental number using multi-source data,” 2017 International Joint Conference on Neural Networks (IJCNN), Anchorage, AK, 2017, pp. 1502-1509, doi: 10.1109/IJCNN.2017.7966030.</p>
-<h3 id="referencing-figures-tables-equations-4">Referencing figures, tables, equations</h3>
-<p>Figure <a href="#fig:square-image">21</a></p>
-<p>Figure <a href="#fig:wide-image">18</a></p>
-<p>Figure <a href="#fig:tall-image">19</a></p>
-<p>Figure <a href="#fig:vector-image">20</a></p>
-<p>Table <a href="#tbl:bowling-scores">10</a></p>
-<p>Equation <a href="#eq:regular-equation">9</a></p>
-<p>Equation <a href="#eq:long-equation">10</a></p>
-<h3 id="figures-4">Figures</h3>
+<h3 id="referencing-figures-tables-equations-3">Referencing figures, tables, equations</h3>
+<p>Figure <a href="#fig:square-image">17</a></p>
+<p>Figure <a href="#fig:wide-image">14</a></p>
+<p>Figure <a href="#fig:tall-image">15</a></p>
+<p>Figure <a href="#fig:vector-image">16</a></p>
+<p>Table <a href="#tbl:bowling-scores">7</a></p>
+<p>Equation <a href="#eq:regular-equation">7</a></p>
+<p>Equation <a href="#eq:long-equation">8</a></p>
+<h3 id="figures-3">Figures</h3>
 <div id="fig:square-image" class="fignos">
 <figure>
-<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/square.png" alt="" /><figcaption><span>Figure 21:</span> <strong>A square image at actual size and with a bottom caption.</strong>
+<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/square.png" alt="" /><figcaption><span>Figure 17:</span> <strong>A square image at actual size and with a bottom caption.</strong>
 Loaded from the latest version of image on GitHub.</figcaption>
 </figure>
 </div>
-<h3 id="equations-4">Equations</h3>
+<h3 id="equations-3">Equations</h3>
 <p>A LaTeX equation:</p>
-<p><span id="eq:regular-equation" class="eqnos"><span class="math display">\[\int_0^\infty e^{-x^2} dx=\frac{\sqrt{\pi}}{2}\]</span><span class="eqnos-number">(9)</span></span> </p>
+<p><span id="eq:regular-equation" class="eqnos"><span class="math display">\[\int_0^\infty e^{-x^2} dx=\frac{\sqrt{\pi}}{2}\]</span><span class="eqnos-number">(7)</span></span> </p>
 <p>An equation too long to fit within page:</p>
-<p><span id="eq:long-equation" class="eqnos"><span class="math display">\[x = a + b + c + d + e + f + g + h + i + j + k + l + m + n + o + p + q + r + s + t + u + v + w + x + y + z + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9\]</span><span class="eqnos-number">(10)</span></span> </p>
+<p><span id="eq:long-equation" class="eqnos"><span class="math display">\[x = a + b + c + d + e + f + g + h + i + j + k + l + m + n + o + p + q + r + s + t + u + v + w + x + y + z + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9\]</span><span class="eqnos-number">(8)</span></span> </p>
 <h2 class="page_break_before" id="references-1">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" class="references hanging-indent" role="doc-bibliography">
