@@ -1,14 +1,14 @@
 Anyang
-Anye
+anye
 Anye’s
 APSO
 Ashqar
 ASPO
 boxplot
-boxplots
+Boxplots
 Champaign
 Citi
-Cnt
+cnt
 covariance
 datapoints
 dataset
