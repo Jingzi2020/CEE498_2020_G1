@@ -70,11 +70,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/6780e684c1dbec056d702cc6c3f4d5a1f58db2d6/" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/3cbb8afefe91f1295d5d2807853e6e4d4aa10868/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/6780e684c1dbec056d702cc6c3f4d5a1f58db2d6/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/3cbb8afefe91f1295d5d2807853e6e4d4aa10868/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/6780e684c1dbec056d702cc6c3f4d5a1f58db2d6/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/3cbb8afefe91f1295d5d2807853e6e4d4aa10868/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -106,9 +106,9 @@ title: The Models of London Bike Sharing Prediction
 
 <small><em>
 This manuscript
-([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/6780e684c1dbec056d702cc6c3f4d5a1f58db2d6/))
+([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/3cbb8afefe91f1295d5d2807853e6e4d4aa10868/))
 was automatically generated
-from [Jingzi2020/CEE498_2020_G1@6780e68](https://github.com/Jingzi2020/CEE498_2020_G1/tree/6780e684c1dbec056d702cc6c3f4d5a1f58db2d6)
+from [Jingzi2020/CEE498_2020_G1@3cbb8af](https://github.com/Jingzi2020/CEE498_2020_G1/tree/3cbb8afefe91f1295d5d2807853e6e4d4aa10868)
 on December 6, 2020.
 </em></small>
 
@@ -220,9 +220,10 @@ From this research, I learned that the factors should be transferred into reason
 
 
 
+## Exploratory Data Analysis
 
-# Exploratory Data Analysis
-## Introduction
+### Introduction
+
 Exploratory Data Analysis is vital and necessary before we start to create a training model because it helps us to realize and evaluate the both the features of data and their correlation with each other. There are five main tools were used to describe the dataset. 
 
 **Scatterplots**
@@ -247,13 +248,14 @@ The reason for finding statistical values is get an insight about the mean, rang
 The reason for using correlation matrix is to identify correlation between all parameters in the dataset and the ones affecting new bike counts only. This is important for the predictive model, so we understand and interdependencies between predictors and to avoid multicollinearity. 
 Correlation values range between -1 and 1., positive values indicate positive correlation and negative values indicate negative correlation.  Absolute Values above 0.7 generally indicate high positive correlation, between 0.5 and 0.7 is moderate and between 0.3 and 0.5 is low, while under 0.3 is negligible correlation. 
 
-## Data Visualization
+### Data Visualization
 
 **Scatterplots** 
 
 <!-- I don't know if you wanna add plots here -->
 
 By looking at the plots we observe the following:
+
 - 1- t1 and t2 are linearily dependent, which is expected because temperature feel directly depends on temperature.
 - 2- Wind_speed and t2 seem to have some kind of relationship, which needs to be explored further
 - 3- t1 and t2 have some kind of relationship with humidity, which needs to be explored further.
@@ -274,6 +276,7 @@ The observations above allow us to build hypthesis that can be explored further 
 <img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Boxplots.JPG" alt="Boxplots" width="800" height="400" />
 
 Graph1 shows that: 
+
 - 1- There seems to be a distribution of the median (middle line of the boxplot) and range (of the black line of each boxplot) of cnt with respect to month, it roughly follows a normal ditribution, peaking in July. 
 - 2- For each month the distributions tends to be skewed to the right.
 - 3- Months with lowest ranges are January, February, November and December. 
@@ -294,18 +297,15 @@ Graph1 shows that:
 
 **Statistical Values**
 
-<img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Statistical%20Values%20Table.JPG" alt="Statistical Values" width="1000" height="200" />
+![**The Statistical Values of Data**](images/Statistical Values Table.jpg "Wide image"){#fig:stat-value}
 
-This gives us general insight about the mean and range of each parameter but it's irrelevant for time parameters. The main outcomes is that the values of cnt in each hour over the two years of study, have a mean of 1138 and standard deviation of 1079, which is almost equivalent to the mean which means that there is significant difference between cnt values in certain hours than others. And this was indeed shown in the visualizations. We also notice that the maximum value is 7860, almost 7 times as big as the mean, which also means that there are very relatively few hours with such high values that they didn't affect the mean significantly. However this might be also affected by the fact that we the datapoints include records along the day including night time, were people are not using bikes or commuting at all. We notice the temperature values range between -1.5 and 34 degrees C, which might not be representative of others cities; same applies to teh humidity and wind speed. So it's important to highlight this factor when representing the predictive model at later stage. 
+Figure @fig:stat-value gives us general insight about the mean and range of each parameter but it's irrelevant for time parameters. The main outcomes is that the values of cnt in each hour over the two years of study, have a mean of 1138 and standard deviation of 1079, which is almost equivalent to the mean which means that there is significant difference between cnt values in certain hours than others. And this was indeed shown in the visualizations. We also notice that the maximum value is 7860, almost 7 times as big as the mean, which also means that there are very relatively few hours with such high values that they didn't affect the mean significantly. However this might be also affected by the fact that we the datapoints include records along the day including night time, were people are not using bikes or commuting at all. We notice the temperature values range between -1.5 and 34 degrees C, which might not be representative of others cities; same applies to teh humidity and wind speed. So it's important to highlight this factor when representing the predictive model at later stage. 
 
 ## Correlation Matrix 
 
-![
-**A square image at actual size and with a bottom caption.**
-Loaded from the latest version of image on GitHub.
-](https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Correlation%20Matrix.JPG "Square image")
+![**The Correlation Matrix of Data**](images/Correlation Matrix.jpg "Wide image"){#fig:corr-matrix}
 
-We can follow the color map to find the variables of some correlation, which are the variables with correlation above roughly above 0.3, which are colored by red or lighter shade of color or less than -0.3, which are colored in black . As expected t1 and t2 have high correlation which means only variable might be included in the predictive model at most. 
+We can follow the color map @fig:corr-matrix to find the variables of some correlation, which are the variables with correlation above roughly above 0.3, which are colored by red or lighter shade of color or less than -0.3, which are colored in black . As expected t1 and t2 have high correlation which means only variable might be included in the predictive model at most. 
 
   - cnt shows correlation to t1 & t2 & humidity and hour of the day. 
   - t1 and t2 show correlation to cnt, humidity, and month of the year. 
