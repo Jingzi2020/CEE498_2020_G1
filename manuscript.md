@@ -72,11 +72,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/0a83d9f726ed226088523741a9541e58ebdfe268/" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/ef8d61d6629f86062c07ee79008f41edfba86e8b/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/0a83d9f726ed226088523741a9541e58ebdfe268/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/ef8d61d6629f86062c07ee79008f41edfba86e8b/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/0a83d9f726ed226088523741a9541e58ebdfe268/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/ef8d61d6629f86062c07ee79008f41edfba86e8b/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -108,9 +108,9 @@ title: The Models of London Bike Sharing Prediction
 
 <small><em>
 This manuscript
-([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/0a83d9f726ed226088523741a9541e58ebdfe268/))
+([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/ef8d61d6629f86062c07ee79008f41edfba86e8b/))
 was automatically generated
-from [Jingzi2020/CEE498_2020_G1@0a83d9f](https://github.com/Jingzi2020/CEE498_2020_G1/tree/0a83d9f726ed226088523741a9541e58ebdfe268)
+from [Jingzi2020/CEE498_2020_G1@ef8d61d](https://github.com/Jingzi2020/CEE498_2020_G1/tree/ef8d61d6629f86062c07ee79008f41edfba86e8b)
 on December 6, 2020.
 </em></small>
 
@@ -148,7 +148,7 @@ on December 6, 2020.
 
 
 ## Abstract {.page_break_before}
-
+The aim of this study is to create a predictive model for bike-sharing counts in a n hour in the city of London in United Kingdom. The model makes use of regular neural network. And the main features affecting the bike counts include weather conditions and time. The model root mean square is 210, with a mean of 1124 counts in an hour compared to 1138 counts in an hour in the training data. The model provides enough accuracy for planning a new station and scheduling bike redistribution schedules. 
 
 
 
@@ -1022,7 +1022,7 @@ Compare the input (`.md` files in the `/content` directory) to the output you se
 
 ## The Models to Predict the Amount of Bike Sharing
 
-###Regular Neural Network
+### Regular Neural Network
 
 Based on the exploratory data analysis, regular neural network is used to figure out the project.
 
