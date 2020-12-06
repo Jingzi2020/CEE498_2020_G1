@@ -53,9 +53,9 @@
   <meta name="citation_fulltext_html_url" content="https://Jingzi2020.github.io/CEE498_2020_G1/" />
   <meta name="citation_pdf_url" content="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/6780e684c1dbec056d702cc6c3f4d5a1f58db2d6/" />
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/6780e684c1dbec056d702cc6c3f4d5a1f58db2d6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/6780e684c1dbec056d702cc6c3f4d5a1f58db2d6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/3cbb8afefe91f1295d5d2807853e6e4d4aa10868/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/3cbb8afefe91f1295d5d2807853e6e4d4aa10868/" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/3cbb8afefe91f1295d5d2807853e6e4d4aa10868/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -76,9 +76,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://Jingzi2020.github.io/CEE498_2020_G1/v/6780e684c1dbec056d702cc6c3f4d5a1f58db2d6/">permalink</a>)
+(<a href="https://Jingzi2020.github.io/CEE498_2020_G1/v/3cbb8afefe91f1295d5d2807853e6e4d4aa10868/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/Jingzi2020/CEE498_2020_G1/tree/6780e684c1dbec056d702cc6c3f4d5a1f58db2d6">Jingzi2020/CEE498_2020_G1@6780e68</a>
+from <a href="https://github.com/Jingzi2020/CEE498_2020_G1/tree/3cbb8afefe91f1295d5d2807853e6e4d4aa10868">Jingzi2020/CEE498_2020_G1@3cbb8af</a>
 on December 6, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -156,8 +156,8 @@ To classify different situation of bike rental, the authors used cluster analysi
 Then, the article designed an APSO-BP neural network model to forecast the bike rental demand. APSO-BP used single hidden layer neural network model. APSO algorithm generated several particles which are feasible answers randomly at first. The algorithm used the squared error to evaluate fitness. The researchers trained separated ASPO-BP neural network for each mode.
 The experiment of this research was based on the bike rental record and the weather data in Hangzhou from March 18 to June 15 in 2016. 5 minutes were chosen as the time range. The researchers categorize the training dataset into 4 modes through K-means cluster analysis and then trained ASPO-BP neural network for each mode. The result showed that the accuracy of the demand predicted by this method was influenced by the accuracy of classification and the accuracy of this method in predicting rental demand was higher than other common methods.
 From this research, I learned that the factors should be transferred into reasonable values firstly and the method of transferring the data are diverse. Besides, the simple neural network models sometimes cannot solve the problem accurately. The combination of different algorithm are needed. Moreover, there are many optimized methods thus researchers should choose the most suitable optimized method to improve the accuracy. These tips can be useful for our project.</p>
-<h1 id="exploratory-data-analysis">Exploratory Data Analysis</h1>
-<h2 id="introduction-1">Introduction</h2>
+<h2 id="exploratory-data-analysis">Exploratory Data Analysis</h2>
+<h3 id="introduction-1">Introduction</h3>
 <p>Exploratory Data Analysis is vital and necessary before we start to create a training model because it helps us to realize and evaluate the both the features of data and their correlation with each other. There are five main tools were used to describe the dataset.</p>
 <p><strong>Scatterplots</strong></p>
 <p>The reason for using scatter plots is to observe relationships between each pair of variables. Each dot in a scatter plot reports the values of individual data point, all the datapoints when plotted can help us identify a pattern that can show whether a relationship can be derived between two variables. This tool will help us decide which pairs of variables to explore further through other tools. Each pair of variables will have two plots.</p>
@@ -171,33 +171,37 @@ A box plot includes five values: the minimum value, the 25th percentile (Q1), th
 <p><strong>Correlation Matrix</strong></p>
 <p>The reason for using correlation matrix is to identify correlation between all parameters in the dataset and the ones affecting new bike counts only. This is important for the predictive model, so we understand and interdependencies between predictors and to avoid multicollinearity.
 Correlation values range between -1 and 1., positive values indicate positive correlation and negative values indicate negative correlation. Absolute Values above 0.7 generally indicate high positive correlation, between 0.5 and 0.7 is moderate and between 0.3 and 0.5 is low, while under 0.3 is negligible correlation.</p>
-<h2 id="data-visualization">Data Visualization</h2>
+<h3 id="data-visualization">Data Visualization</h3>
 <p><strong>Scatterplots</strong></p>
 <!-- I don't know if you wanna add plots here -->
-<p>By looking at the plots we observe the following:
-- 1- t1 and t2 are linearily dependent, which is expected because temperature feel directly depends on temperature.
-- 2- Wind_speed and t2 seem to have some kind of relationship, which needs to be explored further
-- 3- t1 and t2 have some kind of relationship with humidity, which needs to be explored further.
-- 4- t1, t2, humidity and wind speed have some kind of relationship with cnt, which needs to be - explored further.
-- 5 - Weather code and cnt have some kind of relationship.
-- 6- Cnt seems higher when is_holiday is 0 (so when it is not a holiday)
-- 7- Cnt seems higher when is_weekend is 0 (so during weekdays)
-- 8- Cnt seems higher for weather codes (0-9)
-- 9- Cnt seems higher for season 1 (summer), then similar for seasons 0 and 2 and lowest for season 3 (winter).
-- 10- Cnt seems highest for month 7,9,8,5 (expected based on observation 9)
-- 11- It doesn’t seem a certain pattern can be derived for effect of day on cnt.
-- 12- Cnt seems to have a relation depending on hour that can be explored further and it seems to be a multi-peak distribution</p>
+<p>By looking at the plots we observe the following:</p>
+<ul>
+<li>1- t1 and t2 are linearily dependent, which is expected because temperature feel directly depends on temperature.</li>
+<li>2- Wind_speed and t2 seem to have some kind of relationship, which needs to be explored further</li>
+<li>3- t1 and t2 have some kind of relationship with humidity, which needs to be explored further.</li>
+<li>4- t1, t2, humidity and wind speed have some kind of relationship with cnt, which needs to be - explored further.</li>
+<li>5 - Weather code and cnt have some kind of relationship.</li>
+<li>6- Cnt seems higher when is_holiday is 0 (so when it is not a holiday)</li>
+<li>7- Cnt seems higher when is_weekend is 0 (so during weekdays)</li>
+<li>8- Cnt seems higher for weather codes (0-9)</li>
+<li>9- Cnt seems higher for season 1 (summer), then similar for seasons 0 and 2 and lowest for season 3 (winter).</li>
+<li>10- Cnt seems highest for month 7,9,8,5 (expected based on observation 9)</li>
+<li>11- It doesn’t seem a certain pattern can be derived for effect of day on cnt.</li>
+<li>12- Cnt seems to have a relation depending on hour that can be explored further and it seems to be a multi-peak distribution</li>
+</ul>
 <p>The observations above allow us to build hypthesis that can be explored further using other EDA tools which will lay down the basis of our predictive model.</p>
 <p><strong>Boxplots</strong></p>
 <p><img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Boxplots.JPG" alt="Boxplots" width="800" height="400" /></p>
-<p>Graph1 shows that:
-- 1- There seems to be a distribution of the median (middle line of the boxplot) and range (of the black line of each boxplot) of cnt with respect to month, it roughly follows a normal ditribution, peaking in July.
-- 2- For each month the distributions tends to be skewed to the right.
-- 3- Months with lowest ranges are January, February, November and December.
-- Graph2 shows that:
-- 1- There is no clear distribution of median of cnt over the hours of the day, but the variation shows that cnt varies between different hours in the day, which seems to have two peaks, around 8 am then around 5 pm.
-- 2- During some hours, the shape of the distribution of cnt tends to be normal, while it’s more skewed to the right for some other hours.
-- 3- As expected night hours have the lowest cnt.</p>
+<p>Graph1 shows that:</p>
+<ul>
+<li>1- There seems to be a distribution of the median (middle line of the boxplot) and range (of the black line of each boxplot) of cnt with respect to month, it roughly follows a normal ditribution, peaking in July.</li>
+<li>2- For each month the distributions tends to be skewed to the right.</li>
+<li>3- Months with lowest ranges are January, February, November and December.</li>
+<li>Graph2 shows that:</li>
+<li>1- There is no clear distribution of median of cnt over the hours of the day, but the variation shows that cnt varies between different hours in the day, which seems to have two peaks, around 8 am then around 5 pm.</li>
+<li>2- During some hours, the shape of the distribution of cnt tends to be normal, while it’s more skewed to the right for some other hours.</li>
+<li>3- As expected night hours have the lowest cnt.</li>
+</ul>
 <p><strong>Multi-variate Plots</strong></p>
 <p><img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Multivariate%20Plots.JPG" alt="Multi-variate Plots" width="800" height="400" /></p>
 <ul>
@@ -208,14 +212,19 @@ Correlation values range between -1 and 1., positive values indicate positive co
 <li>Graph 5 shows high effect of weather in general, which is significant for codes 10 and 26 (10 = rain with thunderstorm, 26 = snowfall), implying no counts occur in such extreme cold weathers.</li>
 </ul>
 <p><strong>Statistical Values</strong></p>
-<p><img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Statistical%20Values%20Table.JPG" alt="Statistical Values" width="1000" height="200" /></p>
-<p>This gives us general insight about the mean and range of each parameter but it’s irrelevant for time parameters. The main outcomes is that the values of cnt in each hour over the two years of study, have a mean of 1138 and standard deviation of 1079, which is almost equivalent to the mean which means that there is significant difference between cnt values in certain hours than others. And this was indeed shown in the visualizations. We also notice that the maximum value is 7860, almost 7 times as big as the mean, which also means that there are very relatively few hours with such high values that they didn’t affect the mean significantly. However this might be also affected by the fact that we the datapoints include records along the day including night time, were people are not using bikes or commuting at all. We notice the temperature values range between -1.5 and 34 degrees C, which might not be representative of others cities; same applies to teh humidity and wind speed. So it’s important to highlight this factor when representing the predictive model at later stage.</p>
-<h2 id="correlation-matrix">Correlation Matrix</h2>
+<div id="fig:stat-value" class="fignos">
 <figure>
-<img src="https://github.com/Jingzi2020/CEE498_2020_G1/blob/master/content/images/Correlation%20Matrix.JPG" alt="" /><figcaption><strong>A square image at actual size and with a bottom caption.</strong>
-Loaded from the latest version of image on GitHub.</figcaption>
+<img src="images/Statistical%20Values%20Table.jpg" alt="" /><figcaption><span>Figure 1:</span> <strong>The Statistical Values of Data</strong></figcaption>
 </figure>
-<p>We can follow the color map to find the variables of some correlation, which are the variables with correlation above roughly above 0.3, which are colored by red or lighter shade of color or less than -0.3, which are colored in black . As expected t1 and t2 have high correlation which means only variable might be included in the predictive model at most.</p>
+</div>
+<p>Figure <a href="#fig:stat-value">1</a> gives us general insight about the mean and range of each parameter but it’s irrelevant for time parameters. The main outcomes is that the values of cnt in each hour over the two years of study, have a mean of 1138 and standard deviation of 1079, which is almost equivalent to the mean which means that there is significant difference between cnt values in certain hours than others. And this was indeed shown in the visualizations. We also notice that the maximum value is 7860, almost 7 times as big as the mean, which also means that there are very relatively few hours with such high values that they didn’t affect the mean significantly. However this might be also affected by the fact that we the datapoints include records along the day including night time, were people are not using bikes or commuting at all. We notice the temperature values range between -1.5 and 34 degrees C, which might not be representative of others cities; same applies to teh humidity and wind speed. So it’s important to highlight this factor when representing the predictive model at later stage.</p>
+<h2 id="correlation-matrix">Correlation Matrix</h2>
+<div id="fig:corr-matrix" class="fignos">
+<figure>
+<img src="images/Correlation%20Matrix.jpg" alt="" /><figcaption><span>Figure 2:</span> <strong>The Correlation Matrix of Data</strong></figcaption>
+</figure>
+</div>
+<p>We can follow the color map <a href="#fig:corr-matrix">2</a> to find the variables of some correlation, which are the variables with correlation above roughly above 0.3, which are colored by red or lighter shade of color or less than -0.3, which are colored in black . As expected t1 and t2 have high correlation which means only variable might be included in the predictive model at most.</p>
 <ul>
 <li>cnt shows correlation to t1 &amp; t2 &amp; humidity and hour of the day.</li>
 <li>t1 and t2 show correlation to cnt, humidity, and month of the year.</li>
@@ -233,25 +242,25 @@ Loaded from the latest version of image on GitHub.</figcaption>
 <p>We can derive several conclusions from the results of the exploratory data analysis. We explored which factors have a direct relationship with the new bike counts registered each hour, and the results show that the main factors affecting the range of new bike counts in an hour are temperature, humidity, and hour of the day, with some effect shown in visualizations by the weekdays, weather description, month and season.</p>
 <div id="fig:square-image" class="fignos">
 <figure>
-<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/square.png" alt="" /><figcaption><span>Figure 1:</span> <strong>A square image at actual size and with a bottom caption.</strong>
+<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/square.png" alt="" /><figcaption><span>Figure 3:</span> <strong>A square image at actual size and with a bottom caption.</strong>
 Loaded from the latest version of image on GitHub.</figcaption>
 </figure>
 </div>
 <div id="fig:wide-image" class="fignos">
 <figure>
-<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/wide.png" alt="" /><figcaption><span>Figure 2:</span> <strong>An image too wide to fit within page at full size.</strong>
+<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/wide.png" alt="" /><figcaption><span>Figure 4:</span> <strong>An image too wide to fit within page at full size.</strong>
 Loaded from a specific (hashed) version of the image on GitHub.</figcaption>
 </figure>
 </div>
 <div id="fig:tall-image" class="fignos">
 <figure>
-<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/tall.png" style="height:3in" alt="" /><figcaption><span>Figure 3:</span> <strong>A tall image with a specified height.</strong>
+<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/tall.png" style="height:3in" alt="" /><figcaption><span>Figure 5:</span> <strong>A tall image with a specified height.</strong>
 Loaded from a specific (hashed) version of the image on GitHub.</figcaption>
 </figure>
 </div>
 <div id="fig:vector-image" class="fignos">
 <figure>
-<img src="https://raw.githubusercontent.com/manubot/resources/master/test/vector.svg?sanitize=true" class="white" style="height:2.5in" alt="" /><figcaption><span>Figure 4:</span> <strong>A vector <code>.svg</code> image loaded from GitHub.</strong>
+<img src="https://raw.githubusercontent.com/manubot/resources/master/test/vector.svg?sanitize=true" class="white" style="height:2.5in" alt="" /><figcaption><span>Figure 6:</span> <strong>A vector <code>.svg</code> image loaded from GitHub.</strong>
 The parameter <code>sanitize=true</code> is necessary to properly load SVGs hosted via GitHub URLs.
 White background specified to serve as a backdrop for transparent sections of the image.</figcaption>
 </figure>
@@ -260,10 +269,10 @@ White background specified to serve as a backdrop for transparent sections of th
 <h3 id="regular-neural-network">Regular Neural Network</h3>
 <p>Based on the exploratory data analysis, regular neural network is used to figure out the project.</p>
 <p>Neural network is a model that optimize the parameters through learning process to recognize hidden relationships between different data.</p>
-<p>Because of the low correlation between given features, regular neural network probably is the most appropriate model to solve the project. The architecture of regular neural network is shown in Figure <a href="#fig:regular-neural-network">5</a> .</p>
+<p>Because of the low correlation between given features, regular neural network probably is the most appropriate model to solve the project. The architecture of regular neural network is shown in Figure <a href="#fig:regular-neural-network">7</a> .</p>
 <div id="fig:regular-neural-network" class="fignos">
 <figure>
-<img src="images/Basic%20Model.png" alt="" /><figcaption><span>Figure 5:</span> The Architecture of Regular Neural Network</figcaption>
+<img src="images/Basic%20Model.png" alt="" /><figcaption><span>Figure 7:</span> The Architecture of Regular Neural Network</figcaption>
 </figure>
 </div>
 <p>There are 4 steps to build and train neural network, including:</p>
@@ -273,20 +282,20 @@ White background specified to serve as a backdrop for transparent sections of th
 <li>Designing layers and parameters;</li>
 <li>Determining training methods.</li>
 </ul>
-<p>We used different features, epochs, hidden layers, units and learning rates in this project. The architectures of our models are shown in Figure <a href="#fig:jingzi-model">6</a> , <a href="#fig:anye-model">7</a> and <a href="#fig:dana-model">8</a> . The main parameters of our models are shown in Table <a href="#tbl:our-models">1</a></p>
+<p>We used different features, epochs, hidden layers, units and learning rates in this project. The architectures of our models are shown in Figure <a href="#fig:jingzi-model">8</a> , <a href="#fig:anye-model">9</a> and <a href="#fig:dana-model">10</a> . The main parameters of our models are shown in Table <a href="#tbl:our-models">1</a></p>
 <div id="fig:jingzi-model" class="fignos">
 <figure>
-<img src="images/Jingzi%20Model.png" alt="" /><figcaption><span>Figure 6:</span> The Architecture of Jingzi’s Model</figcaption>
+<img src="images/Jingzi%20Model.png" alt="" /><figcaption><span>Figure 8:</span> The Architecture of Jingzi’s Model</figcaption>
 </figure>
 </div>
 <div id="fig:anye-model" class="fignos">
 <figure>
-<img src="images/Anye%20Model.png" alt="" /><figcaption><span>Figure 7:</span> The Architecture of Anye’s Model</figcaption>
+<img src="images/Anye%20Model.png" alt="" /><figcaption><span>Figure 9:</span> The Architecture of Anye’s Model</figcaption>
 </figure>
 </div>
 <div id="fig:dana-model" class="fignos">
 <figure>
-<img src="images/Dana%20Model.png" alt="" /><figcaption><span>Figure 8:</span> The Architecture of Dana’s Model</figcaption>
+<img src="images/Dana%20Model.png" alt="" /><figcaption><span>Figure 10:</span> The Architecture of Dana’s Model</figcaption>
 </figure>
 </div>
 <div id="tbl:our-models" class="tablenos">
