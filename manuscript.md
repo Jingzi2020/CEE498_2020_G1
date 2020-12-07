@@ -70,11 +70,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/5444598a7e30140fa61a2f958ea6804692c70b06/" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/040195a2087f6c155418685f56270e201aa8bbed/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/5444598a7e30140fa61a2f958ea6804692c70b06/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/040195a2087f6c155418685f56270e201aa8bbed/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/5444598a7e30140fa61a2f958ea6804692c70b06/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/040195a2087f6c155418685f56270e201aa8bbed/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -106,9 +106,9 @@ title: The Models of London Bike Sharing Prediction
 
 <small><em>
 This manuscript
-([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/5444598a7e30140fa61a2f958ea6804692c70b06/))
+([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/040195a2087f6c155418685f56270e201aa8bbed/))
 was automatically generated
-from [Jingzi2020/CEE498_2020_G1@5444598](https://github.com/Jingzi2020/CEE498_2020_G1/tree/5444598a7e30140fa61a2f958ea6804692c70b06)
+from [Jingzi2020/CEE498_2020_G1@040195a](https://github.com/Jingzi2020/CEE498_2020_G1/tree/040195a2087f6c155418685f56270e201aa8bbed)
 on December 7, 2020.
 </em></small>
 
@@ -469,7 +469,7 @@ Comparing models with different number of layers, the model which has 5 layers h
 Besides, the influence of normalization are analyzed. Normalization in Jingzi’s model was removed. The performance of models with and without normalization are shown in Table @tbl:normalization-results .
 
 | **Layer 1** | **Layer 2** | **Layer 3** | **Layer 4** | **Layer 5** | **Learning Rate** | **Normalization** | **Average RMSE** |
-|:--------- |:----------:|:---------:|:---------:|:---------:|:-------------:|:-------------:|:-------------:|:-------------:|
+|:---------:|:----------:|:---------:|:---------:|:---------:|:-------------:|:-------------:|:-------------:|
 | 32 | 64 | 128 | 64 | 1 | Same with Jingzi | At each layer | 232.210 |
 | 32 | 64 | 128 | 64 | 1 | Same with Jingzi | - | 251.478 |
 Table: Performances of Models with or without Normalization
@@ -482,7 +482,7 @@ Comparing models with or without normalization, the model which include normaliz
 Last but not least, learning rates of Jingzi’s training method are changed. The performance of models with different learning rates are shown in Table @tbl:rates-results .
 
 | **Layer 1** | **Layer 2** | **Layer 3** | **Layer 4** | **Layer 5** | **Learning Rate** | **Normalization** | **Average RMSE** | **Epochs** |
-|:--------- |:----------:|:---------:|:---------:|:---------:|:------------------:|:------------------:|:------------------:|
+|:--------- |:----------:|:---------:|:---------:|:---------:|:------------------:|:------------------:|:------------------:|:-------------:|
 | 32 | 64 | 128 | 64 | 1 | Same with Jingzi | At each layer | 232.210 | 119 |
 | 32 | 64 | 128 | 64 | 1 | Same with Anye | At each layer | 222.960 | 150 |
 | 32 | 64 | 128 | 64 | 1 | 0.001 | At each layer | 223.531 | 150 |
