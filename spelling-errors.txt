@@ -5,7 +5,7 @@ APSO
 Ashqar
 ASPO
 boxplot
-Boxplots
+boxplots
 Champaign
 Citi
 cnt
@@ -37,7 +37,7 @@ pred
 preprocessing
 PRM
 rebalancing
-ReLU
+relu
 rmse
 Scatterplot
 scatterplots
