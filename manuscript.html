@@ -53,9 +53,9 @@
   <meta name="citation_fulltext_html_url" content="https://Jingzi2020.github.io/CEE498_2020_G1/" />
   <meta name="citation_pdf_url" content="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/040195a2087f6c155418685f56270e201aa8bbed/" />
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/040195a2087f6c155418685f56270e201aa8bbed/" />
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/040195a2087f6c155418685f56270e201aa8bbed/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/194a10ffb7e2e9076b7f401c41083f1667063bb9/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/194a10ffb7e2e9076b7f401c41083f1667063bb9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/194a10ffb7e2e9076b7f401c41083f1667063bb9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -76,9 +76,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://Jingzi2020.github.io/CEE498_2020_G1/v/040195a2087f6c155418685f56270e201aa8bbed/">permalink</a>)
+(<a href="https://Jingzi2020.github.io/CEE498_2020_G1/v/194a10ffb7e2e9076b7f401c41083f1667063bb9/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/Jingzi2020/CEE498_2020_G1/tree/040195a2087f6c155418685f56270e201aa8bbed">Jingzi2020/CEE498_2020_G1@040195a</a>
+from <a href="https://github.com/Jingzi2020/CEE498_2020_G1/tree/194a10ffb7e2e9076b7f401c41083f1667063bb9">Jingzi2020/CEE498_2020_G1@194a10f</a>
 on December 7, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -256,8 +256,7 @@ Correlation values range between -1 and 1., positive values indicate positive co
 <h2 id="the-models-to-predict-the-amount-of-bike-sharing">The Models to Predict the Amount of Bike Sharing</h2>
 <h3 id="regular-neural-network">Regular Neural Network</h3>
 <p>Based on the exploratory data analysis, regular neural network is used to figure out the project.</p>
-<p>Neural network is a model that optimize the parameters through learning process to recognize hidden relationships between different data.</p>
-<p>The algorithm used for this problem is regular neural networks. Because of the low correlation between given features, neural network probably is the most appropriate model to solve the project. This model is used for similar predictions to predict a dependent variables based on independent variables, where the model is unlikely to be a linear regression model, unlike convolutional neural networks that are used for image classification, or recurrent neural networks that are used for prediction of future outcomes that are dependent on past data, like predicting the left life span of equipment, which is irrelevant for this problem as the new bike counts are independent of past bike counts, unless available bikes in a station in the previous hour was provided as a feature as literature have shown it can affect bike counts, however this information is not available in the dataset. However, another algorithm that is applicable for this problem is Random Forest Model, however this algorithm wasn’t used either. The reason regular neural network was preferred is because random forest has a few limitations. The main limitation of random forest is that a large number of trees is required to produce accurate predictions, but on the other hand, the higher the number of trees used in the model the slower it is <span class="citation" data-cites="b6GIzHsY">[<a href="#ref-b6GIzHsY" role="doc-biblioref">6</a>]</span>. Moreover, in reference to Ashqar et al. (2019)<span class="citation" data-cites="kk8U5Ihm">[<a href="#ref-kk8U5Ihm" role="doc-biblioref">5</a>]</span>, feature engineering in random forest becomes even more critical which adds another difficulty in improving accuracy of the model besides hyperparameters tuning.The architecture of regular neural network is shown in Figure <a href="#fig:regular-neural-network">6</a> .</p>
+<p>The algorithm used for this problem is regular neural networks. Because of the low correlation between given features, neural network probably is the most appropriate model to solve the project. Neural network is a model that optimize the parameters through learning process to recognize hidden relationships between different data. Specific to this project, regular neural network is used. This model is used for similar predictions to predict a dependent variables based on independent variables, where the model is unlikely to be a linear regression model, unlike convolutional neural networks that are used for image classification, or recurrent neural networks that are used for prediction of future outcomes that are dependent on past data, like predicting the left life span of equipment, which is irrelevant for this problem as the new bike counts are independent of past bike counts, unless available bikes in a station in the previous hour was provided as a feature as literature have shown it can affect bike counts, however this information is not available in the dataset. However, another algorithm that is applicable for this problem is Random Forest Model, however this algorithm wasn’t used either. The reason regular neural network was preferred is because random forest has a few limitations. The main limitation of random forest is that a large number of trees is required to produce accurate predictions, but on the other hand, the higher the number of trees used in the model the slower it is <span class="citation" data-cites="b6GIzHsY">[<a href="#ref-b6GIzHsY" role="doc-biblioref">6</a>]</span>. Moreover, in reference to Ashqar et al. (2019)<span class="citation" data-cites="kk8U5Ihm">[<a href="#ref-kk8U5Ihm" role="doc-biblioref">5</a>]</span>, feature engineering in random forest becomes even more critical which adds another difficulty in improving accuracy of the model besides hyperparameters tuning.The architecture of regular neural network is shown in Figure <a href="#fig:regular-neural-network">6</a> .</p>
 <div id="fig:regular-neural-network" class="fignos">
 <figure>
 <img src="images/Basic%20Model.png" alt="" /><figcaption><span>Figure 6:</span> The Architecture of Regular Neural Network</figcaption>

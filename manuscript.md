@@ -70,11 +70,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/040195a2087f6c155418685f56270e201aa8bbed/" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/194a10ffb7e2e9076b7f401c41083f1667063bb9/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/040195a2087f6c155418685f56270e201aa8bbed/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/194a10ffb7e2e9076b7f401c41083f1667063bb9/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/040195a2087f6c155418685f56270e201aa8bbed/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/194a10ffb7e2e9076b7f401c41083f1667063bb9/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -106,9 +106,9 @@ title: The Models of London Bike Sharing Prediction
 
 <small><em>
 This manuscript
-([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/040195a2087f6c155418685f56270e201aa8bbed/))
+([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/194a10ffb7e2e9076b7f401c41083f1667063bb9/))
 was automatically generated
-from [Jingzi2020/CEE498_2020_G1@040195a](https://github.com/Jingzi2020/CEE498_2020_G1/tree/040195a2087f6c155418685f56270e201aa8bbed)
+from [Jingzi2020/CEE498_2020_G1@194a10f](https://github.com/Jingzi2020/CEE498_2020_G1/tree/194a10ffb7e2e9076b7f401c41083f1667063bb9)
 on December 7, 2020.
 </em></small>
 
@@ -334,9 +334,7 @@ We can derive several conclusions from the results of the exploratory data analy
 
 Based on the exploratory data analysis, regular neural network is used to figure out the project.
 
-Neural network is a model that optimize the parameters through learning process to recognize hidden relationships between different data. 
-
-The algorithm used for this problem is regular neural networks. Because of the low correlation between given features, neural network probably is the most appropriate model to solve the project. This model is used for similar predictions to predict a dependent variables based on independent variables, where the model is unlikely to be a linear regression model, unlike convolutional neural networks that are used for image classification, or recurrent neural networks that are used for prediction of future outcomes that are dependent on past data, like predicting the left life span of equipment, which is irrelevant for this problem as the new bike counts are independent of past bike counts, unless available bikes in a station in the previous hour was provided as a feature as literature have shown it can affect bike counts, however this information is not available in the dataset. However, another algorithm that is applicable for this problem is Random Forest Model, however this algorithm wasn’t used either. The reason regular neural network was preferred is because random forest has a few limitations. The main limitation of random forest is that a large number of trees is required to produce accurate predictions, but on the other hand, the higher the number of trees used in the model the slower it is [@https://builtin.com/data-science/random-forest-algorithm]. Moreover, in reference to Ashqar et al. (2019)[@doi:10.1016/j.cstp.2019.02.011], feature engineering in random forest becomes even more critical which adds another difficulty in improving accuracy of the model besides hyperparameters tuning.The architecture of regular neural network is shown in Figure @fig:regular-neural-network .
+The algorithm used for this problem is regular neural networks. Because of the low correlation between given features, neural network probably is the most appropriate model to solve the project. Neural network is a model that optimize the parameters through learning process to recognize hidden relationships between different data. Specific to this project, regular neural network is used. This model is used for similar predictions to predict a dependent variables based on independent variables, where the model is unlikely to be a linear regression model, unlike convolutional neural networks that are used for image classification, or recurrent neural networks that are used for prediction of future outcomes that are dependent on past data, like predicting the left life span of equipment, which is irrelevant for this problem as the new bike counts are independent of past bike counts, unless available bikes in a station in the previous hour was provided as a feature as literature have shown it can affect bike counts, however this information is not available in the dataset. However, another algorithm that is applicable for this problem is Random Forest Model, however this algorithm wasn’t used either. The reason regular neural network was preferred is because random forest has a few limitations. The main limitation of random forest is that a large number of trees is required to produce accurate predictions, but on the other hand, the higher the number of trees used in the model the slower it is [@https://builtin.com/data-science/random-forest-algorithm]. Moreover, in reference to Ashqar et al. (2019)[@doi:10.1016/j.cstp.2019.02.011], feature engineering in random forest becomes even more critical which adds another difficulty in improving accuracy of the model besides hyperparameters tuning.The architecture of regular neural network is shown in Figure @fig:regular-neural-network .
 
 ![The Architecture of Regular Neural Network](images/Basic Model.png "Wide image"){#fig:regular-neural-network}
 
