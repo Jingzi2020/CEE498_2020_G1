@@ -70,11 +70,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/c418975517c4cee53a8f63552f1b84cd80750d55/" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/18a71fb401bbb26468a210fbe94c623b74df5bb2/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/c418975517c4cee53a8f63552f1b84cd80750d55/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/18a71fb401bbb26468a210fbe94c623b74df5bb2/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/c418975517c4cee53a8f63552f1b84cd80750d55/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/18a71fb401bbb26468a210fbe94c623b74df5bb2/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -106,9 +106,9 @@ title: The Models of London Bike Sharing Prediction
 
 <small><em>
 This manuscript
-([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/c418975517c4cee53a8f63552f1b84cd80750d55/))
+([permalink](https://Jingzi2020.github.io/CEE498_2020_G1/v/18a71fb401bbb26468a210fbe94c623b74df5bb2/))
 was automatically generated
-from [Jingzi2020/CEE498_2020_G1@c418975](https://github.com/Jingzi2020/CEE498_2020_G1/tree/c418975517c4cee53a8f63552f1b84cd80750d55)
+from [Jingzi2020/CEE498_2020_G1@18a71fb](https://github.com/Jingzi2020/CEE498_2020_G1/tree/18a71fb401bbb26468a210fbe94c623b74df5bb2)
 on December 7, 2020.
 </em></small>
 
@@ -469,7 +469,7 @@ Comparing models with different number of layers, the model which has 5 layers h
 Besides, the influence of normalization are analyzed. Normalization in Jingzi’s model was removed. The performance of models with and without normalization are shown in Table @tbl:normalization-results .
 
 | **Layer 1** | **Layer 2** | **Layer 3** | **Layer 4** | **Layer 5** | **Learning Rate** | **Normalization** | **Average RMSE** |
-|:--------- |:----------:|:---------:|:---------:|:---------:|:-------------:|:-------------:|:-------------:|
+|:--------- |:----------:|:---------:|:---------:|:---------:|:-------------:|:-------------:|:-------------:|:-------------:|
 | 32 | 64 | 128 | 64 | 1 | Same with Jingzi | At each layer | 232.210 |
 | 32 | 64 | 128 | 64 | 1 | Same with Jingzi | - | 251.478 |
 Table: Performances of Models with or without Normalization

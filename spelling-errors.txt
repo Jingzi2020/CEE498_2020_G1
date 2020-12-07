@@ -1,14 +1,14 @@
 activations
-anye
+Anye
 Anye’s
 APSO
 Ashqar
 ASPO
 boxplot
-boxplots
+Boxplots
 Champaign
 Citi
-Cnt
+cnt
 convolutional
 covariance
 datapoints
@@ -23,7 +23,7 @@ hyperplanes
 hypthesis
 interdependencies
 Jiang
-jingzi
+Jingzi
 Jingzi’s
 linearily
 literatures
@@ -37,7 +37,7 @@ pred
 preprocessing
 PRM
 rebalancing
-relu
+ReLU
 rmse
 Scatterplot
 scatterplots
