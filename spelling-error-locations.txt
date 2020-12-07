@@ -166,12 +166,15 @@ content/06.Results of Modeling.md:56:Jingzi
 content/06.Results of Modeling.md:60:dataset
 content/06.Results of Modeling.md:64:Jingzi
 content/06.Results of Modeling.md:64:Jingzi’s
+content/06.Results of Modeling.md:66:RMSE
 content/06.Results of Modeling.md:68:Jingzi
 content/06.Results of Modeling.md:69:Anye
 content/06.Results of Modeling.md:75:Anye
 content/06.Results of Modeling.md:75:dataset
 content/06.Results of Modeling.md:75:dataset
 content/06.Results of Modeling.md:75:Jingzi
+content/06.Results of Modeling.md:75:RMSE
+content/06.Results of Modeling.md:75:RMSE
 content/06.Results of Modeling.md:75:RMSE
 content/07.Discussion.md:5:Ashqar
 content/07.Discussion.md:5:datapoints

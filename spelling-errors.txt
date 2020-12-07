@@ -5,10 +5,10 @@ APSO
 Ashqar
 ASPO
 boxplot
-Boxplots
+boxplots
 Champaign
 Citi
-cnt
+Cnt
 convolutional
 covariance
 datapoints
@@ -23,7 +23,7 @@ hyperplanes
 hypthesis
 interdependencies
 Jiang
-Jingzi
+jingzi
 Jingzi’s
 linearily
 literatures
@@ -38,7 +38,7 @@ preprocessing
 PRM
 rebalancing
 relu
-RMSE
+rmse
 Scatterplot
 scatterplots
 sigmoid
