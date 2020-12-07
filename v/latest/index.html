@@ -7,7 +7,7 @@
   <meta name="author" content="Jingzi Chen" />
   <meta name="author" content="Anye Wang" />
   <meta name="author" content="Dana Monzer" />
-  <meta name="dcterms.date" content="2020-12-06" />
+  <meta name="dcterms.date" content="2020-12-07" />
   <meta name="keywords" content="Neural Network, Transportation, Bike Sharing" />
   <title>The Models of London Bike Sharing Prediction</title>
   <style>
@@ -30,8 +30,8 @@
   <meta name="citation_title" content="The Models of London Bike Sharing Prediction" />
   <meta property="og:title" content="The Models of London Bike Sharing Prediction" />
   <meta property="twitter:title" content="The Models of London Bike Sharing Prediction" />
-  <meta name="dc.date" content="2020-12-06" />
-  <meta name="citation_publication_date" content="2020-12-06" />
+  <meta name="dc.date" content="2020-12-07" />
+  <meta name="citation_publication_date" content="2020-12-07" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -53,9 +53,9 @@
   <meta name="citation_fulltext_html_url" content="https://Jingzi2020.github.io/CEE498_2020_G1/" />
   <meta name="citation_pdf_url" content="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://Jingzi2020.github.io/CEE498_2020_G1/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/0593e98024fe0a7e55a113c6e1aa96a883e4f1f1/" />
-  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/0593e98024fe0a7e55a113c6e1aa96a883e4f1f1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/0593e98024fe0a7e55a113c6e1aa96a883e4f1f1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://Jingzi2020.github.io/CEE498_2020_G1/v/c418975517c4cee53a8f63552f1b84cd80750d55/" />
+  <meta name="manubot_html_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/c418975517c4cee53a8f63552f1b84cd80750d55/" />
+  <meta name="manubot_pdf_url_versioned" content="https://Jingzi2020.github.io/CEE498_2020_G1/v/c418975517c4cee53a8f63552f1b84cd80750d55/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -76,10 +76,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://Jingzi2020.github.io/CEE498_2020_G1/v/0593e98024fe0a7e55a113c6e1aa96a883e4f1f1/">permalink</a>)
+(<a href="https://Jingzi2020.github.io/CEE498_2020_G1/v/c418975517c4cee53a8f63552f1b84cd80750d55/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/Jingzi2020/CEE498_2020_G1/tree/0593e98024fe0a7e55a113c6e1aa96a883e4f1f1">Jingzi2020/CEE498_2020_G1@0593e98</a>
-on December 6, 2020.
+from <a href="https://github.com/Jingzi2020/CEE498_2020_G1/tree/c418975517c4cee53a8f63552f1b84cd80750d55">Jingzi2020/CEE498_2020_G1@c418975</a>
+on December 7, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -810,6 +810,16 @@ Correlation values range between -1 and 1., positive values indicate positive co
 <table>
 <caption><span>Table 10:</span> Performances of Models with Different Learning Rates
 </caption>
+<colgroup>
+<col style="width: 8%" />
+<col style="width: 10%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;"><strong>Layer 1</strong></th>
@@ -819,6 +829,7 @@ Correlation values range between -1 and 1., positive values indicate positive co
 <th style="text-align: center;"><strong>Layer 5</strong></th>
 <th style="text-align: center;"><strong>Learning Rate</strong></th>
 <th style="text-align: center;"><strong>Normalization</strong></th>
+<th style="text-align: center;"><strong>Average RMSE</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -830,6 +841,7 @@ Correlation values range between -1 and 1., positive values indicate positive co
 <td style="text-align: center;">1</td>
 <td style="text-align: center;">Same with Jingzi</td>
 <td style="text-align: center;">At each layer</td>
+<td style="text-align: center;">232.210</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">32</td>
@@ -839,6 +851,7 @@ Correlation values range between -1 and 1., positive values indicate positive co
 <td style="text-align: center;">1</td>
 <td style="text-align: center;">Same with Anye</td>
 <td style="text-align: center;">At each layer</td>
+<td style="text-align: center;">222.960</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">32</td>
@@ -848,6 +861,7 @@ Correlation values range between -1 and 1., positive values indicate positive co
 <td style="text-align: center;">1</td>
 <td style="text-align: center;">0.001</td>
 <td style="text-align: center;">At each layer</td>
+<td style="text-align: center;">223.531</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">32</td>
@@ -857,13 +871,14 @@ Correlation values range between -1 and 1., positive values indicate positive co
 <td style="text-align: center;">1</td>
 <td style="text-align: center;">0.005</td>
 <td style="text-align: center;">At each layer</td>
+<td style="text-align: center;">231.112</td>
 </tr>
 </tbody>
 </table>
 </div>
-<p>Comparing models trained in different learning rates, the methods setting 0.001 as learning rate and setting learning rate scheduler of Anye perform better in RMSE. The methods setting 0.005 as learning rate and setting learning rate scheduler of Jingzi require less epochs. The results indicate that learning rates can influence the performance of model in this test dataset. Moreover, non-constant learning rates or bigger learning rates can shorten the training time in this training dataset.</p>
+<p>Comparing models trained in different learning rates, the methods setting 0.001 as learning rate and setting learning rate scheduler of Anye perform better in RMSE. The methods setting 0.005 as learning rate and setting learning rate scheduler of Jingzi require less epochs. The results indicate that learning rates can influence the performance of model in this test dataset. Moreover, non-constant learning rates or bigger learning rates can shorten the training time in this training dataset. To optimize the initial model, the learning rate scheduler can be changed. The improved smallest RMSE is 210.657 and its average RMSE is 222.960.</p>
 <h2 id="discussion">Discussion</h2>
-<p>The three models obtained by the group members were compared and assessed. And the best-fitting model was used to predict bike counts in an hour for the test data and it resulted in the lowest denormalized RMSE equivalent to 210, however the other models had close RMSE as well. The selected model includes the following features: temperature, humidity, hour of the day, day of the month, month of the year, the year, weekend indicator, holiday indicator, weather code, season, &amp; wind speed. To asses if the RMSE value is acceptable, we look at the scale of the bike-sharing system in London. Transport for London website shows that there are more than 11,500 bikes at over 750 docking stations across London. So 210 bikes error in estimation for all stations is equivalent to an overestimation of underestimation of bike rentals by 0.28 per station, which corresponds to 28% chance than 1 bike more or less will be used per station, assuming demand over stations is uniform since the dataset didn’t include information about where the bike counts where recorded in the city and in which station. In the paper by Ashqar et al. (2019) [5] the mean prediction error (MPE) which is equivalent to the sum of the difference between predictions and actual values divided by total number of datapoints, varies between -1 and 2.2 per station, and in this case the MPE value we obtained is 0.28 per station, which means that the model has high prediction power.
+<p>The three models obtained by the group members were compared and assessed. And the best-fitting model was used to predict bike counts in an hour for the test data and it resulted in the lowest denormalized RMSE equivalent to 210, however the other models had close RMSE as well. The selected model includes the following features: temperature, humidity, hour of the day, day of the month, month of the year, the year, weekend indicator, holiday indicator, weather code, season, &amp; wind speed. To asses if the RMSE value is acceptable, we look at the scale of the bike-sharing system in London. Transport for London website shows that there are more than 11,500 bikes at over 750 docking stations across London. So 210 bikes error in estimation for all stations is equivalent to an overestimation of underestimation of bike rentals by 0.28 per station, which corresponds to 28% chance than 1 bike more or less will be used per station, assuming demand over stations is uniform since the dataset didn’t include information about where the bike counts where recorded in the city and in which station. In the paper by Ashqar et al. (2019) <span class="citation" data-cites="kk8U5Ihm">[<a href="#ref-kk8U5Ihm" role="doc-biblioref">5</a>]</span>. the mean prediction error (MPE) which is equivalent to the sum of the difference between predictions and actual values divided by total number of datapoints, varies between -1 and 2.2 per station, and in this case the MPE value we obtained is 0.28 per station, which means that the model has high prediction power.
 The purpose of this model is to predict the future bike share of London bike-sharing system. Since the demand is stochastic, regardless of how well the model performs there is always a level of uncertainty, so a range of the bike new counts is the objective for this problem. We observe that the mean of the training data is 1138 and the testing data led to a mean of 1124, which shows a good level of accuracy, with only 1.23% underestimation of the mean of bike counts. In another model the mean of the bike counts for the testing data was equivalent to 1167 which is equivalent to 2.54% overestimation of the mean. In some cases, overestimating the demand is preferred rather than underestimating the demand, thus both models can yield satisfactory predictions. Besides that the coefficient of determination (R-squared) has a value of 0.975 which is another validation that the model’s performance is satisfactory. The model can be used to predict number of bikes in a station per hour, which can be used to schedule bike rebalancing between stations or to design a new station and estimate the number of bikes required, however for this task additional dataset that includes distribution of the demand over stations is required. The level of accuracy achieved in this model, is appropriate to set shifts scheduling such that demand is met by ensuring a certain number of bikes is available at each station at a certain period during the day. Given the safety margin added in such operations to account for stochasticity of the demand, the model performance can be extremely efficient for such applications. However, it is not ideal to use this model for scheduling tight shifts in busy areas where the demand can shift drastically and the bike count per hour is the highest and more accuracy is needed given that this model assumes uniform demand over all stations.
 The actual bike counts of the testing data are not provided, so to compare the actual bike counts with the predicted bike counts, we use the validation data which constitutes about 30-40% of the training data chosen at random, and we predict the corresponding bike counts. Two plots are created using the actual bike and predicted bike counts with respect to the month Figure <a href="#fig:act_pred_mon">10</a>, which shows that the average actual bike counts and predicted bike counts don’t vary significantly with respect to each month, same applies for the second plot Figure <a href="#fig:act_pred_time">11</a> that plots the counts per timestamp which includes all the datapoints for all the hours in the validation data, and similarly we can see that the predictions have high accuracy.</p>
 <div id="fig:act_pred_mon" class="fignos">
@@ -877,7 +892,7 @@ The actual bike counts of the testing data are not provided, so to compare the a
 </figure>
 </div>
 <p>Some of the limitations of the model lie in the data processing and hyperparameter tuning that can be even more improved with even bigger dataset. Using a dataset for a duration exceeding two years can even improve the model. Further hyperparameter tuning, adding more features such as stations locations, or using a different algorithm like random forest model or other types of neural networks.
-Moreover, the performance of the model may have less prediction powers for other cities than London, where weather conditions have different effect and other weather features are needed to represent the weather such as thickness of snow in extreme cases where the threshold between acceptable weather conditions and extreme ones vary. In addition to that some other features that can be important for other locations might not be accounted for in this dataset and model, like holidays that differ between countries. Moreover the number of docks in station can also have an impact which influences the maximum number of bikes available in a station, and in paper [5], it was shown that the bike counts per hour is affected by the available bikes in stations in the previous hour, which is a good application of recurrent neural networks. Besides that, the testing data count is around 50% of the training data set, which suggests that bigger training data should be better for better accuracy, in addition to that more analysis to outliers of the test data can provide interesting insights about hidden features not accounted for in this dataset but that’s outside of the scope of this project.</p>
+Moreover, the performance of the model may have less prediction powers for other cities than London, where weather conditions have different effect and other weather features are needed to represent the weather such as thickness of snow in extreme cases where the threshold between acceptable weather conditions and extreme ones vary. In addition to that some other features that can be important for other locations might not be accounted for in this dataset and model, like holidays that differ between countries. Moreover the number of docks in station can also have an impact which influences the maximum number of bikes available in a station, and in paper <span class="citation" data-cites="kk8U5Ihm">[<a href="#ref-kk8U5Ihm" role="doc-biblioref">5</a>]</span>, it was shown that the bike counts per hour is affected by the available bikes in stations in the previous hour, which is a good application of recurrent neural networks. Besides that, the testing data count is around 50% of the training data set, which suggests that bigger training data should be better for better accuracy, in addition to that more analysis to outliers of the test data can provide interesting insights about hidden features not accounted for in this dataset but that’s outside of the scope of this project.</p>
 <h2 id="conclusion">Conclusion</h2>
 <p>After interpreting the exploratory data analysis, a predictive model using regular neural networks through tensor flow package was created to predict range of bike counts in an hour. The features used in this model include: temperature, humidity, hour of the day, day of the month, month of the year, the year, weekend indicator, holiday indicator, weather code, season, &amp; wind speed. In one of the models the final normalized root mean squared error of the model is 0.2058 and 0.25 for training data and validation data respectively, and in the best-fitting model the rmse for the training data was reduced to 0.1845. The model was later used to predict the bike counts in an hour for the test dataset. The mean of the predicted values is relatively similar to the mean of the training data with only 1.23% relative difference. Improvements to this model can be made by adding further features or performing additional hyperparameters tuning, however the predictive model obtained is satisfactory. This model can be used for scheduling redistribution shifts for bikes between stations in non-busy areas were demand is low and accuracy level is less critical given that the model predicts total number of bikes shared per hour in all London city, however for microscopic predictions, the model might not be as accurate given that demand per station might be modeled different and it can be influenced by different factors such the population distribution in the city and the land-use nearby stations.</p>
 <h2 class="page_break_before" id="references">References</h2>
